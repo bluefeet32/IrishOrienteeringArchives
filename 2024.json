@@ -1,0 +1,701 @@
+{
+  "sprint":{
+    "area":"Maynooth University",
+    "results_url":"https://www.orienteering.ie/result2/?oaction=moreResult&id=22954",
+    "map_url":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=969",
+    "m21":{
+      "distance":"3.7 k",
+      "climb":"0 m",
+      "controls":"26",
+      "course_image":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=969",
+      "results":[
+        {
+          "name":"Paul Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"14:55"
+        },
+        {
+          "name":"Cillin Corbett",
+          "eligible":true,
+          "club":"Cork",
+          "time":"14:56"
+        },
+        {
+          "name":"Colm Moran",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"15:00"
+        },
+        {
+          "name":"Kevin O'Boyle",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"15:07"
+        },
+        {
+          "name":"Adam Methven",
+          "eligible":false,
+          "club":"BKO",
+          "time":"15:10"
+        },
+        {
+          "name":"Josh O'Sullivan-Hourihan ",
+          "eligible":true,
+          "club":"Cork",
+          "time":"15:13"
+        },
+        {
+          "name":"Laurence Quinn",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"15:31"
+        },
+        {
+          "name":"Ruairi Short",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"15:58"
+        },
+        {
+          "name":"Shane Lynch",
+          "eligible":true,
+          "club":"Cork",
+          "time":"16:03"
+        },
+        {
+          "name":"Liam Cotter",
+          "eligible":true,
+          "club":"University College Cork",
+          "time":"16:30"
+        },
+        {
+          "name":"Graeme Rennie",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"16:49"
+        },
+        {
+          "name":"Tim Norwood",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"17:02"
+        },
+        {
+          "name":"Aidan McCullough",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"17:17"
+        },
+        {
+          "name":"Mark Stephens",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"17:32"
+        },
+        {
+          "name":"Kieran Beausang",
+          "eligible":true,
+          "club":"Cork",
+          "time":"18:18"
+        },
+        {
+          "name":"Sean Kearns",
+          "eligible":true,
+          "club":"Fingal",
+          "time":"19:05"
+        },
+        {
+          "name":"Ciaran Kearns",
+          "eligible":true,
+          "club":"Fingal",
+          "time":"19:12"
+        },
+        {
+          "name":"Jack Hanafin",
+          "eligible":true,
+          "club":"SEVO",
+          "time":"20:14"
+        },
+        {
+          "name":"Chris Colwell",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"20:15"
+        },
+        {
+          "name":"Donal Kearns",
+          "eligible":true,
+          "club":"Fingal",
+          "time":"21:38"
+        },
+        {
+          "name":"Doruk Balkan",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"21:46"
+        },
+        {
+          "name":"Eoghan Whelan",
+          "eligible":true,
+          "club":"SEVO",
+          "time":"DNF"
+        }
+      ]
+    },
+    "w21":{
+      "distance":"4.6 k",
+      "climb":"25 m",
+      "controls":"15",
+      "course_image":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=969",
+      "results":[
+        {
+          "name":"Niamh O'Boyle",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"16:12"
+        },
+        {
+          "name":"Aoife McCavana",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"16:32"
+        },
+        {
+          "name":"Eadaoin McCavana",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"17:06"
+        },
+        {
+          "name":"Helen Ockenden",
+          "eligible":false,
+          "club":"DRONGO",
+          "time":"18:26"
+        },
+        {
+          "name":"Roisin Long",
+          "eligible":true,
+          "club":"Ajax",
+          "time":"18:56"
+        },
+        {
+          "name":"Jaana Haapala",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"20:32"
+        },
+        {
+          "name":"Olivia Baxter",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"20:37"
+        },
+        {
+          "name":"Marie-Christine Happacher",
+          "eligible":false,
+          "club":"HOT",
+          "time":"20:48"
+        },
+        {
+          "name":"Amanda Isaksen",
+          "eligible":true,
+          "club":"University College Dublin",
+          "time":"21:11"
+        },
+        {
+          "name":"Helen Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"21:33"
+        },
+        {
+          "name":"Norah O'Brien",
+          "eligible":true,
+          "club":"Cork",
+          "time":"23:57"
+        },
+        {
+          "name":"Sophie Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"24:07"
+        },
+        {
+          "name":"Sarah Ní Ruairc",
+          "eligible":true,
+          "club":"Fingal",
+          "time":"28:50"
+        },
+        {
+          "name":"Kate Greene",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"53:35"
+        },
+        {
+          "name":"Clodagh Moran",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"DNF"
+        },
+        {
+          "name":"Toni O'Donovan",
+          "eligible":true,
+          "club":"Cork",
+          "time":"DNF"
+        },
+        {
+          "name":"Aine McCann",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"DNF"
+        }
+      ]
+    }
+  },
+  "middle":{
+    "area":"Aughrane Wood",
+    "results_url":"https://www.orienteering.ie/result2/?oaction=moreResult&id=22955",
+    "map_url":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=970",
+    "m21":{
+      "distance":"6.1 k",
+      "climb":"40 m",
+      "controls":"20",
+      "course_image":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=970",
+      "results":[
+        {
+          "name":"Colm Moran",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"37:12"
+        },
+        {
+          "name":"Adam Methven",
+          "eligible":false,
+          "club":"BKO",
+          "time":"38:03"
+        },
+        {
+          "name":"Eoghan Whelan",
+          "eligible":true,
+          "club":"SEVO",
+          "time":"38:05"
+        },
+        {
+          "name":"Kevin O'Boyle",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"39:48"
+        },
+        {
+          "name":"Ruairi Short",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"39:52"
+        },
+        {
+          "name":"Cillin Corbett",
+          "eligible":true,
+          "club":"Cork",
+          "time":"40:23"
+        },
+        {
+          "name":"Liam Cotter",
+          "eligible":true,
+          "club":"University College Cork",
+          "time":"41:49"
+        },
+        {
+          "name":"Shane Lynch",
+          "eligible":true,
+          "club":"Cork",
+          "time":"42:38"
+        },
+        {
+          "name":"Paul Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"42:49"
+        },
+        {
+          "name":"Valdas Tilunas",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"45:44"
+        },
+        {
+          "name":"Mark Stephens",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"46:30"
+        },
+        {
+          "name":"Tim Norwood",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"46:50"
+        },
+        {
+          "name":"Kieran Beausang",
+          "eligible":true,
+          "club":"Cork",
+          "time":"50:27"
+        },
+        {
+          "name":"Graeme Rennie",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"51:06"
+        },
+        {
+          "name":"Peter Reed",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"54:57"
+        },
+        {
+          "name":"Diarmaid Collins",
+          "eligible":true,
+          "club":"Defence Forces",
+          "time":"68:23"
+        },
+        {
+          "name":"Chris Colwell",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"68:48"
+        },
+        {
+          "name":"Lawrence Quinn",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"DNF"
+        }
+      ]
+    },
+    "w21":{
+      "distance":"4.6 k",
+      "climb":"25 m",
+      "controls":"15",
+      "course_image":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=970",
+      "results":[
+        {
+          "name":"Clodagh Moran",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"40:33"
+        },
+        {
+          "name":"Helen Ockenden",
+          "eligible":false,
+          "club":"DRONGO",
+          "time":"41:09"
+        },
+        {
+          "name":"Roisin Long",
+          "eligible":true,
+          "club":"Ajax",
+          "time":"41:41"
+        },
+        {
+          "name":"Emer Perkins",
+          "eligible":true,
+          "club":"Bishopstown",
+          "time":"41:43"
+        },
+        {
+          "name":"Eadaoin McCavana",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"42:25"
+        },
+        {
+          "name":"Aoife McCavana",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"43:33"
+        },
+        {
+          "name":"Toni O'Donovan",
+          "eligible":true,
+          "club":"Cork",
+          "time":"45:02"
+        },
+        {
+          "name":"Jaana Haapala",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"45:55"
+        },
+        {
+          "name":"Ciara Largey",
+          "eligible":true,
+          "club":"Fermanagh",
+          "time":"47:24"
+        },
+        {
+          "name":"Marie-Christine Happacher",
+          "eligible":false,
+          "club":"HOT",
+          "time":"51:20"
+        },
+        {
+          "name":"Helen Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"52:54"
+        },
+        {
+          "name":"Olivia Baxter",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"53:32"
+        },
+        {
+          "name":"Ruth Lynam",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"59:03"
+        },
+        {
+          "name":"Sophie Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"62:50"
+        }
+      ]
+    }
+  },
+  "long":{
+    "area":"Slieve Bawn",
+    "results_url":"https://www.orienteering.ie/result2/?oaction=moreResult&id=22957",
+    "map_url":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=971",
+    "m21":{
+      "distance":"11.9 k",
+      "climb":"500 m",
+      "controls":"24",
+      "course_image":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=971",
+      "results":[
+        {
+          "name":"Colm Moran",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"81:40"
+        },
+        {
+          "name":"Paul Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"83:30"
+        },
+        {
+          "name":"Cillin Corbett",
+          "eligible":true,
+          "club":"Cork",
+          "time":"85:56"
+        },
+        {
+          "name":"Adam Methven",
+          "eligible":false,
+          "club":"BKO",
+          "time":"87:42"
+        },
+        {
+          "name":"Lawrence Quinn",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"87:44"
+        },
+        {
+          "name":"Shane Lynch",
+          "eligible":true,
+          "club":"Cork",
+          "time":"89:02"
+        },
+        {
+          "name":"Liam Cotter",
+          "eligible":true,
+          "club":"University College Cork",
+          "time":"94:02"
+        },
+        {
+          "name":"Eoghan Whelan",
+          "eligible":true,
+          "club":"SEVO",
+          "time":"94:21"
+        },
+        {
+          "name":"Ruairi Short",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"94:58"
+        },
+        {
+          "name":"Valdas Tilunas",
+          "eligible":true,
+          "club":"Three Rock",
+          "time":"100:03"
+        },
+        {
+          "name":"Tim Norwood",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"104:26"
+        },
+        {
+          "name":"Graeme Rennie",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"107:39"
+        },
+        {
+          "name":"Joshua Hoare",
+          "eligible":true,
+          "club":"Kerry",
+          "time":"111:07"
+        },
+        {
+          "name":"Peter Reed",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"113:16"
+        },
+        {
+          "name":"Ben Mangan",
+          "eligible":true,
+          "club":"Setanta",
+          "time":"114:39"
+        },
+        {
+          "name":"Kieran Beausang",
+          "eligible":true,
+          "club":"Cork",
+          "time":"114:42"
+        },
+        {
+          "name":"Daire O Brien",
+          "eligible":true,
+          "club":"Kerry",
+          "time":"119:28"
+        },
+        {
+          "name":"Diarmaid Collins",
+          "eligible":true,
+          "club":"Defence Forces",
+          "time":"137:35"
+        },
+        {
+          "name":"Chris Colwell",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"153:12"
+        }
+      ]
+    },
+    "w21":{
+      "distance":"9.8 k",
+      "climb":"290 m",
+      "controls":"16",
+      "course_image":"https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=971",
+      "results":[
+        {
+          "name":"Niamh O'Boyle",
+          "eligible":true,
+          "club":"Curragh-Naas",
+          "time":"77:12"
+        },
+        {
+          "name":"Aoife McCavana",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"78:53"
+        },
+        {
+          "name":"Emer Perkins",
+          "eligible":true,
+          "club":"Bishopstown",
+          "time":"80:29"
+        },
+        {
+          "name":"Ciara Largey",
+          "eligible":true,
+          "club":"Fermanagh",
+          "time":"83:45"
+        },
+        {
+          "name":"Roisin Long",
+          "eligible":true,
+          "club":"Ajax",
+          "time":"92:56"
+        },
+        {
+          "name":"Helen Ockenden",
+          "eligible":false,
+          "club":"DRONGO",
+          "time":"95:31"
+        },
+        {
+          "name":"Emily Rowe",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"109:24"
+        },
+        {
+          "name":"Eadaoin McCavana",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"109:53"
+        },
+        {
+          "name":"Helen Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"114:35"
+        },
+        {
+          "name":"Jaana Haapala",
+          "eligible":true,
+          "club":"Great Eastern Navigators",
+          "time":"118:14"
+        },
+        {
+          "name":"Marie-Christine Happacher",
+          "eligible":false,
+          "club":"HOT",
+          "time":"124:03"
+        },
+        {
+          "name":"Sophie Pruzina",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"131:01"
+        },
+        {
+          "name":"Amanda Isaksen",
+          "eligible":true,
+          "club":"University College Dublin",
+          "time":"149:27"
+        },
+        {
+          "name":"Niamh Collins",
+          "eligible":true,
+          "club":"University College Dublin",
+          "time":"154:19"
+        },
+        {
+          "name":"Chloe Reed",
+          "eligible":true,
+          "club":"Lagan Valley",
+          "time":"163:03"
+        },
+        {
+          "name":"Hannah Kerr",
+          "eligible":true,
+          "club":"University College Dublin",
+          "time":"164:43"
+        }
+      ]
+    }
+  }
+}
