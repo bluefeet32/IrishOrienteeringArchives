@@ -3,7 +3,7 @@
     "area": "Maynooth University",
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22954",
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=969",
-    "courses": {
+    "classes": {
       "m21": {
         "distance": "3.7 k",
         "climb": "0 m",
@@ -260,7 +260,7 @@
     "area": "Aughrane Wood",
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22955",
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=970",
-    "courses": {
+    "classes": {
       "m21": {
         "distance": "6.1 k",
         "climb": "40 m",
@@ -475,7 +475,7 @@
     "area": "Slieve Bawn",
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22957",
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=971",
-    "courses": {
+    "classes": {
       "m21": {
         "distance": "11.9 k",
         "climb": "500 m",
