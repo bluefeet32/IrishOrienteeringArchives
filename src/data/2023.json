@@ -634,7 +634,7 @@
         "results": [
           {
             "name": "Philip Vokes",
-            "eligible": true,
+            "eligible": false,
             "club": "OD",
             "time": "119:35"
           },
