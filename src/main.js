@@ -1,48 +1,3 @@
-function getData() {
-    return {
-        selectedOption: "",
-        options: [{
-            value: "0.95",
-            text: "0.95"
-        },
-        {
-            value: "0.9",
-            text: "0.9"
-        },
-        {
-            value: "0.8",
-            text: "0.8"
-        },
-        {
-            value: "0.7",
-            text: "0.7"
-        },
-        ],
-        searchValue: '',
-        page: 1,
-        limit: 10,
-        total: 50,
-        events: null,
-        isLoading: false,
-        previousPage: 1,
-        nextPage: null,
-        lastPage: 0,
-        fetchData(page = this.page) {
-            this.page = page;
-            this.isLoading = true;
-            fetch(`https://5d6516c05b26ae001489eb85.mockapi.io/api/v1/events?search=${this.searchValue}&page=${this.page}&limit=${this.limit}`)
-                .then((res) => res.json())
-                .then((data) => {
-                    this.isLoading = false;
-                    this.events = data;
-                    this.previousPage = this.page == 1 ? this.previousPage : this.page - 1;
-                    this.nextPage = this.page + 1;
-                    this.lastPage = Math.floor(this.total / this.limit);
-                });
-        },
-    };
-}
-
 
 function capitalizeFirstLetter(str) {
     // Check if the input string is not empty
@@ -53,44 +8,45 @@ function capitalizeFirstLetter(str) {
     // Capitalize the first character and concatenate it with the rest of the string
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
+
 const getResults = () => {
     return {
         async init() {
+            const params = new URLSearchParams(document.location.search);
+            this.currentYear = params.get("year");
+            this.currentCourse = params.get("course");
+            this.currentClass = params.get("class");
+
             this.years = await (await fetch("./data/years.json")).json();
-            this.currentYear = this.years[0];
+            if (!this.currentYear) this.currentYear = this.years[0];
             await this.fetchYearData();
+
+            if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
+            if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
+            this._setUrlParams();
+
         },
         years: [],
         currentYear: "",
         yearData: {},
-        get courses() {
-            const courses = Object.keys(this.yearData);
-            if (!this.currentCourse || !courses.includes(this.currentCourse))
-                this.currentCourse = courses[0];
-            return courses;
-        },
+        get courses() { return Object.keys(this.yearData); },
         currentCourse: "",
-        get classes() {
-            const classes = Object.keys(this.yearData?.[this.currentCourse]?.classes || {});
-            if (!this.currentClass || !classes.includes(this.currentClass))
-                this.currentClass = classes[0];
-            return classes;
-        },
+        get classes() { return Object.keys(this.yearData?.[this.currentCourse]?.classes || {}); },
         currentClass: "",
         get results() { return this._indexResults(this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || []); },
         async onClickYear(year) {
             this.currentYear = year;
             await this.fetchYearData();
-
+            this._setUrlParams();
         },
         onClickCourse(course) {
             this.currentCourse = course;
-
+            this._setUrlParams();
         },
         // class is keyword, hence ageClass
         onClickClass(ageClass) {
             this.currentClass = ageClass;
-
+            this._setUrlParams();
         },
         async fetchYearData() {
             this.yearData = await (await fetch(`./data/${this.currentYear}.json`)).json();
@@ -101,6 +57,13 @@ const getResults = () => {
                 const position = runner.eligible ? idx++ : null;
                 return { ...runner, position };
             });
+        },
+        _setUrlParams() {
+            const params = new URLSearchParams(document.location.search);
+            params.set("class", this.currentClass);
+            params.set("course", this.currentCourse);
+            params.set("year", this.currentYear);
+            history.replaceState(null, null, "?" + params.toString());
         }
     };
 };
