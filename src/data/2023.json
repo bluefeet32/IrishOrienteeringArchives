@@ -383,7 +383,7 @@
     "area": "Stranahely",
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22729",
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=906",
-    "courses": {
+    "classes": {
       "m21": {
         "distance": "4.27 km",
         "climb": "130 m",
@@ -721,7 +721,7 @@
     "area": "Devil's Glen",
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22733",
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=910",
-    "courses": {
+    "classes": {
       "m21": {
         "distance": "13.8 km",
         "climb": "500 m",
