@@ -32,7 +32,7 @@
             <thead>
                 <tr>
                     <th>Year</th>
-                    <!-- <th>Position</th> -->
+                    <th>Position</th>
                     <th>Name</th>
                     <th>Club</th>
                     <th>Time</th>
@@ -43,6 +43,7 @@
                 <template x-for="result in currentResults" :key="result.year">
                     <tr :class="result.eligible ? '' : 'greyed'">
                         <th x-text="result.year"></th>
+                        <th x-text="result.position"></th>
                         <th x-text="result.name"></th>
                         <th x-text="result.club"></th>
                         <th x-text="result.time"></th>
