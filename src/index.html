@@ -52,7 +52,7 @@
                 <template x-for="runner in results" :key="runner.name">
                     <tr :class="runner.eligible ? '' : 'greyed'">
                         <th x-text="runner.position"></th>
-                        <th><a :href="`/runner.html?name=${runner.name}`" x-text="runner.name"></a></th>
+                        <th><a :href="`runner.html?name=${runner.name}`" x-text="runner.name"></a></th>
                         <th x-text="runner.club"></th>
                         <th x-text="runner.time"></th>
                         <th x-text="runner.eligible ? '' : 'x'"></th>
