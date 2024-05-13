@@ -73,8 +73,16 @@ const getRunner = () => {
         async init() {
             const params = new URLSearchParams(document.location.search);
             this.name = params.get("name");
+            this.currentCourse = params.get("course")
+            this.currentClass = params.get("class")
+
             await this.loadAllYears();
             this.allResults = this.formatResults();
+
+            if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
+            if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
+            this._setUrlParams();
+
             console.log(this.allResults);
         },
         name: "",
@@ -88,17 +96,8 @@ const getRunner = () => {
             this.allYears = data;
         },
         allResults: {},
-        get classes() {
-            const classes = Object.keys(this.allResults);
-            if (!this.currentClass || !classes.includes(this.currentClass)) this.currentClass = classes[0];
-            return classes;
-        },
-        get courses() {
-            const courses = Object.keys(this.allResults?.[this.currentClass] || {});
-            if (!this.currentCourse || !courses.includes(this.currentCourse))
-                this.currentCourse = courses[0];
-            return courses;
-        },
+        get classes() { return Object.keys(this.allResults); },
+        get courses() { return Object.keys(this.allResults?.[this.currentClass] || {}); },
         get currentResults() {
             return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.year - a.year);
         },
@@ -106,12 +105,12 @@ const getRunner = () => {
         currentCourse: "",
         onClickCourse(course) {
             this.currentCourse = course;
-
+            this._setUrlParams();
         },
         // class is keyword, hence ageClass
         onClickClass(ageClass) {
             this.currentClass = ageClass;
-
+            this._setUrlParams();
         },
         formatResults() {
             const data = {};
@@ -128,6 +127,13 @@ const getRunner = () => {
                 }
             }
             return data;
+        },
+        _setUrlParams() {
+            const params = new URLSearchParams(document.location.search);
+            params.set("name", this.name);
+            params.set("class", this.currentClass);
+            params.set("course", this.currentCourse);
+            history.replaceState(null, null, "?" + params.toString());
         }
     };
 };
