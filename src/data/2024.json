@@ -809,5 +809,316 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Strokestown House",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22958",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=972",
+    "classes": {
+      "m21": {
+        "distance": "5.4 k",
+        "climb": "40 m",
+        "controls": "22",
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=972",
+        "results": [
+          {
+            "position": 1,
+            "name": "Shane Lynch",
+            "club": "Cork",
+            "time": "27:36",
+            "team": "CorkO1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Darren Burke",
+            "club": "Cork",
+            "time": "27:08",
+            "team": "CorkO1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Cillin Corbett",
+            "club": "Cork",
+            "time": "26:38",
+            "team": "CorkO1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Laurence Quinn",
+            "club": "Great Eastern Navigators",
+            "time": "27:31",
+            "team": "The GENtlemen",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Tim Norwood",
+            "club": "Great Eastern Navigators",
+            "time": "27:09",
+            "team": "The GENtlemen",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Gerry Browne",
+            "club": "Great Eastern Navigators",
+            "time": "28:04",
+            "team": "The GENtlemen",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Paul Pruzina",
+            "club": "Lagan Valley",
+            "time": "27:01",
+            "team": "Puff, The Magic Lagan",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Mark Stephens",
+            "club": "Lagan Valley",
+            "time": "28:52",
+            "team": "Puff, The Magic Lagan",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "George Savell",
+            "club": "Lagan Valley",
+            "time": "30:13",
+            "team": "Puff, The Magic Lagan",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Graeme Rennie",
+            "club": "Curragh-Naas",
+            "time": "31:04",
+            "team": "Na Cnoic Mhora",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Ruairi Short",
+            "club": "Curragh-Naas",
+            "time": "28:08",
+            "team": "Na Cnoic Mhora",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Kevin O'Boyle",
+            "club": "Curragh-Naas",
+            "time": "27:01",
+            "team": "Na Cnoic Mhora",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Vildas Tilunas",
+            "club": "Three Rock",
+            "time": "32:54",
+            "team": "Rockets of 3ROC",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ivan Vasilkov",
+            "club": "Three Rock",
+            "time": "35:44",
+            "team": "Rockets of 3ROC",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Colm Moran",
+            "club": "Three Rock",
+            "time": "25:59",
+            "team": "Rockets of 3ROC",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Eoghan Whelan",
+            "club": "SEVO",
+            "time": "27:07",
+            "team": "The SEVO Plunderers",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Jack Hanafin",
+            "club": "SEVO",
+            "time": "36:30",
+            "team": "The SEVO Plunderers",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "John Casey",
+            "club": "SEVO",
+            "time": "34:49",
+            "team": "The SEVO Plunderers",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Sean Kearns",
+            "club": "Fingal",
+            "time": "35:53",
+            "team": "KearnO",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Donal Kearns",
+            "club": "Fingal",
+            "time": "35:55",
+            "team": "KearnO",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Ciaran Kearns",
+            "club": "Fingal",
+            "time": "34:21",
+            "team": "KearnO",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "4.2 k",
+        "climb": "40 m",
+        "controls": "17",
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=972",
+        "results": [
+          {
+            "position": 1,
+            "name": "Aoife McCavana",
+            "club": "Great Eastern Navigators",
+            "time": "27:38",
+            "team": "GENius Gals",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Emily Rowe",
+            "club": "Great Eastern Navigators",
+            "time": "34:03",
+            "team": "GENius Gals",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Eadaoin McCavana",
+            "club": "Great Eastern Navigators",
+            "time": "25:24",
+            "team": "GENius Gals",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Ellie Simpson",
+            "club": "Cork",
+            "time": "31:34",
+            "team": "CorkO2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eva Spurling",
+            "club": "Cork",
+            "time": "33:57",
+            "team": "CorkO2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Toni O'Donovan",
+            "club": "Cork",
+            "time": "27:12",
+            "team": "CorkO2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Sarah Knight",
+            "club": "Lagan Valley",
+            "time": "32:11",
+            "team": "Year of the Lagan",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Sophie Pruzina",
+            "club": "Lagan Valley",
+            "time": "29:54",
+            "team": "Year of the Lagan",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Fionne Austin",
+            "club": "Lagan Valley",
+            "time": "30:41",
+            "team": "Year of the Lagan",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Moire O'Sullivan",
+            "club": "Lagan Valley",
+            "time": "36:00",
+            "team": "Girls with the Lagan",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Olivia Baxter",
+            "club": "Lagan Valley",
+            "time": "30:41",
+            "team": "Girls with the Lagan",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Helen Pruzina",
+            "club": "Lagan Valley",
+            "time": "31:06",
+            "team": "Girls with the Lagan",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Niamh O'Boyle",
+            "club": "Curragh-Naas",
+            "time": "25:04",
+            "team": "Cnoic na Mban",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Regina Kelly",
+            "club": "Curragh-Naas",
+            "time": "38:58",
+            "team": "Cnoic na Mban",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ruth Lynam",
+            "club": "Curragh-Naas",
+            "time": "35:06",
+            "team": "Cnoic na Mban",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }

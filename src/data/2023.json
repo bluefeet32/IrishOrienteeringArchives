@@ -991,5 +991,436 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Tottenham Estate",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22734",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=911",
+    "classes": {
+      "m21": {
+        "distance": "5.2 k",
+        "climb": "0 m",
+        "controls": "26",
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=911",
+        "results": [
+          {
+            "position": 1,
+            "name": "Graeme Rennie",
+            "club": "Curragh-Naas",
+            "time": "41:10",
+            "team": "CNOCing on Heaven's Door",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Conor Short",
+            "club": "Curragh-Naas",
+            "time": "41:33",
+            "team": "CNOCing on Heaven's Door",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ruairi Short",
+            "club": "Curragh-Naas",
+            "time": "39:31",
+            "team": "CNOCing on Heaven's Door",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Aidan Mccullough",
+            "club": "Three Rock",
+            "time": "48:11",
+            "team": "3ROC OP",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eoin Mccullough",
+            "club": "Three Rock",
+            "time": "40:27",
+            "team": "3ROC OP",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Colm Moran",
+            "club": "Three Rock",
+            "time": "40:06",
+            "team": "3ROC OP",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Ruairí Long",
+            "club": "Nydalens SK",
+            "time": "39:38",
+            "team": "NyDallying",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Róisín Long",
+            "club": "Nydalens SK",
+            "time": "49:54",
+            "team": "NyDallying",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Anton Kamalz",
+            "club": "Nydalens SK",
+            "time": "40:42",
+            "team": "NyDallying",
+            "eligible": false
+          },
+          {
+            "position": 3,
+            "name": "Conall Whelan",
+            "club": "Curragh-Naas",
+            "time": "47:40",
+            "team": "CNOC Your Socks Off",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Colm Hill",
+            "club": "Curragh-Naas",
+            "time": "45:59",
+            "team": "CNOC Your Socks Off",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Seamus O'Boyle",
+            "club": "Curragh-Naas",
+            "time": "45:41",
+            "team": "CNOC Your Socks Off",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Gerry Browne",
+            "club": "Great Eastern Navigators",
+            "time": "41:39",
+            "team": "The GENtlemen",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Oscar Rowe",
+            "club": "Great Eastern Navigators",
+            "time": "52:16",
+            "team": "The GENtlemen",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Jonathan Quinn",
+            "club": "Great Eastern Navigators",
+            "time": "45:29",
+            "team": "The GENtlemen",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Phil Vokes",
+            "club": "DrongO",
+            "time": "41:38",
+            "team": "Dancing Round Oll Not Good Orienteers",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Ben Stevens",
+            "club": "DrongO",
+            "time": "49:29",
+            "team": "Dancing Round Oll Not Good Orienteers",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Helen Ockenden",
+            "club": "DrongO",
+            "time": "49:41",
+            "team": "Dancing Round Oll Not Good Orienteers",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Tom Dobra",
+            "club": "DrongO",
+            "time": "49:57",
+            "team": "Dash Round Orienteering 'n Go",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Rowan Lee",
+            "club": "DrongO",
+            "time": "75:32",
+            "team": "Dash Round Orienteering 'n Go",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Rona Lindsay",
+            "club": "DrongO",
+            "time": "89:57",
+            "team": "Dash Round Orienteering 'n Go",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Paul Pruzina",
+            "club": "Lagan Valley",
+            "time": "38:18",
+            "team": "Puff, The Magic Lagan",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Mark Stephens",
+            "club": "Lagan Valley",
+            "time": "48:50",
+            "team": "Puff, The Magic Lagan",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "George Savell",
+            "club": "Lagan Valley",
+            "time": "DNF",
+            "team": "Puff, The Magic Lagan",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Josh O'Sullivan Hourihan",
+            "club": "Cork",
+            "time": "42:56",
+            "team": "CorkO_A",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Shane Lynch",
+            "club": "Cork",
+            "time": "40:42",
+            "team": "CorkO_A",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Darren Burke",
+            "club": "Cork",
+            "time": "DNF",
+            "team": "CorkO_A",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": "3.7",
+        "climb": "0 m",
+        "controls": "16",
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=911",
+        "results": [
+          {
+            "position": 1,
+            "name": "Aoife Mccavana",
+            "club": "Great Eastern Navigators",
+            "time": "33:07",
+            "team": "LeGENds",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Emily Rowe",
+            "club": "Great Eastern Navigators",
+            "time": "49:42",
+            "team": "LeGENds",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Éadaoin Mccavana",
+            "club": "Great Eastern Navigators",
+            "time": "42:21",
+            "team": "LeGENds",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Aine Mccann",
+            "club": "Lagan Valley",
+            "time": "34:27",
+            "team": "Girls with the Lagan Tatto",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Moire O'Sullivan",
+            "club": "Lagan Valley",
+            "time": "48:00",
+            "team": "Girls with the Lagan Tatto",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Anastasia Maglich",
+            "club": "Lagan Valley",
+            "time": "57:15",
+            "team": "Girls with the Lagan Tatto",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Niamh O'Boyle",
+            "club": "Curragh-Naas",
+            "time": "36:40",
+            "team": "Line 'Em Up We'll CNOC 'Em Down",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ruth Lynam",
+            "club": "Curragh-Naas",
+            "time": "51:44",
+            "team": "Line 'Em Up We'll CNOC 'Em Down",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Regina Kelly",
+            "club": "Curragh-Naas",
+            "time": "54:56",
+            "team": "Line 'Em Up We'll CNOC 'Em Down",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Aoife O'Sullivan",
+            "club": "Bishopstown",
+            "time": "44:22",
+            "team": "BOC 3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Caroline Murray",
+            "club": "Bishopstown",
+            "time": "54:24",
+            "team": "BOC 3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Elodre Donet",
+            "club": "Bishopstown",
+            "time": "50:56",
+            "team": "BOC 3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ellie Simpson",
+            "club": "Cork",
+            "time": "53:32",
+            "team": "CorkO - WP",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Niamh Morrissey",
+            "club": "Cork",
+            "time": "50:15",
+            "team": "CorkO - WP",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Sharon Lucey",
+            "club": "Cork",
+            "time": "61:58",
+            "team": "CorkO - WP",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Edit Daniel",
+            "club": "swissotours.ch",
+            "time": "52:51",
+            "team": "Swiss Ladies",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Jo Wehrli",
+            "club": "swissotours.ch",
+            "time": "DNF",
+            "team": "Swiss Ladies",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Ursula Wyss",
+            "club": "swissotours.ch",
+            "time": "69:17",
+            "team": "Swiss Ladies",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Kinga Csecs",
+            "club": "swissotours.ch",
+            "time": "75:49",
+            "team": "Swiss Ladies 2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Leg 2 T107",
+            "club": "swissotours.ch",
+            "time": "DNF",
+            "team": "Swiss Ladies 2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Leg 3 T107",
+            "club": "swissotours.ch",
+            "time": "DNF",
+            "team": "Swiss Ladies 2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Clodagh Moran",
+            "club": "Three Rock",
+            "time": "DNF",
+            "team": "3ROC WP",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Cliona Mccullough",
+            "club": "Three Rock",
+            "time": "43:12",
+            "team": "3ROC WP",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Una Coghlan",
+            "club": "Three Rock",
+            "time": "107:15",
+            "team": "3ROC WP",
+            "eligible": false
+          }
+        ]
+      }
+    }
   }
 }
