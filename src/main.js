@@ -34,6 +34,7 @@ const getResults = () => {
         get classes() { return Object.keys(this.yearData?.[this.currentCourse]?.classes || {}); },
         currentClass: "",
         get results() { return this._indexResults(this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || []); },
+        get results() { return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || []; },
         async onClickYear(year) {
             this.currentYear = year;
             await this.fetchYearData();
@@ -50,13 +51,6 @@ const getResults = () => {
         },
         async fetchYearData() {
             this.yearData = await (await fetch(`./data/${this.currentYear}.json`)).json();
-        },
-        _indexResults(results) {
-            let idx = 1;
-            return results.map(runner => {
-                const position = runner.eligible ? idx++ : null;
-                return { ...runner, position };
-            });
         },
         _setUrlParams() {
             const params = new URLSearchParams(document.location.search);
