@@ -1009,6 +1009,7 @@
             "club": "Curragh-Naas",
             "time": "41:10",
             "team": "CNOCing on Heaven's Door",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1017,6 +1018,7 @@
             "club": "Curragh-Naas",
             "time": "41:33",
             "team": "CNOCing on Heaven's Door",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1025,6 +1027,7 @@
             "club": "Curragh-Naas",
             "time": "39:31",
             "team": "CNOCing on Heaven's Door",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1033,6 +1036,7 @@
             "club": "Three Rock",
             "time": "48:11",
             "team": "3ROC OP",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1041,6 +1045,7 @@
             "club": "Three Rock",
             "time": "40:27",
             "team": "3ROC OP",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1049,6 +1054,7 @@
             "club": "Three Rock",
             "time": "40:06",
             "team": "3ROC OP",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1057,6 +1063,7 @@
             "club": "Nydalens SK",
             "time": "39:38",
             "team": "NyDallying",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1065,6 +1072,7 @@
             "club": "Nydalens SK",
             "time": "49:54",
             "team": "NyDallying",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1073,6 +1081,7 @@
             "club": "Nydalens SK",
             "time": "40:42",
             "team": "NyDallying",
+            "leg": "3",
             "eligible": false
           },
           {
@@ -1081,6 +1090,7 @@
             "club": "Curragh-Naas",
             "time": "47:40",
             "team": "CNOC Your Socks Off",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1089,6 +1099,7 @@
             "club": "Curragh-Naas",
             "time": "45:59",
             "team": "CNOC Your Socks Off",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1097,6 +1108,7 @@
             "club": "Curragh-Naas",
             "time": "45:41",
             "team": "CNOC Your Socks Off",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1105,6 +1117,7 @@
             "club": "Great Eastern Navigators",
             "time": "41:39",
             "team": "The GENtlemen",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1113,6 +1126,7 @@
             "club": "Great Eastern Navigators",
             "time": "52:16",
             "team": "The GENtlemen",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1121,6 +1135,7 @@
             "club": "Great Eastern Navigators",
             "time": "45:29",
             "team": "The GENtlemen",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1129,6 +1144,7 @@
             "club": "DrongO",
             "time": "41:38",
             "team": "Dancing Round Oll Not Good Orienteers",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1137,6 +1153,7 @@
             "club": "DrongO",
             "time": "49:29",
             "team": "Dancing Round Oll Not Good Orienteers",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1145,6 +1162,7 @@
             "club": "DrongO",
             "time": "49:41",
             "team": "Dancing Round Oll Not Good Orienteers",
+            "leg": "3",
             "eligible": false
           },
           {
@@ -1153,6 +1171,7 @@
             "club": "DrongO",
             "time": "49:57",
             "team": "Dash Round Orienteering 'n Go",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1161,6 +1180,7 @@
             "club": "DrongO",
             "time": "75:32",
             "team": "Dash Round Orienteering 'n Go",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1169,6 +1189,7 @@
             "club": "DrongO",
             "time": "89:57",
             "team": "Dash Round Orienteering 'n Go",
+            "leg": "3",
             "eligible": false
           },
           {
@@ -1177,6 +1198,7 @@
             "club": "Lagan Valley",
             "time": "38:18",
             "team": "Puff, The Magic Lagan",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1185,6 +1207,7 @@
             "club": "Lagan Valley",
             "time": "48:50",
             "team": "Puff, The Magic Lagan",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1193,6 +1216,7 @@
             "club": "Lagan Valley",
             "time": "DNF",
             "team": "Puff, The Magic Lagan",
+            "leg": "3",
             "eligible": false
           },
           {
@@ -1201,6 +1225,7 @@
             "club": "Cork",
             "time": "42:56",
             "team": "CorkO_A",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1209,6 +1234,7 @@
             "club": "Cork",
             "time": "40:42",
             "team": "CorkO_A",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1217,6 +1243,7 @@
             "club": "Cork",
             "time": "DNF",
             "team": "CorkO_A",
+            "leg": "3",
             "eligible": false
           }
         ]
@@ -1233,6 +1260,7 @@
             "club": "Great Eastern Navigators",
             "time": "33:07",
             "team": "LeGENds",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1241,6 +1269,7 @@
             "club": "Great Eastern Navigators",
             "time": "49:42",
             "team": "LeGENds",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1249,6 +1278,7 @@
             "club": "Great Eastern Navigators",
             "time": "42:21",
             "team": "LeGENds",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1257,6 +1287,7 @@
             "club": "Lagan Valley",
             "time": "34:27",
             "team": "Girls with the Lagan Tatto",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1265,6 +1296,7 @@
             "club": "Lagan Valley",
             "time": "48:00",
             "team": "Girls with the Lagan Tatto",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1273,6 +1305,7 @@
             "club": "Lagan Valley",
             "time": "57:15",
             "team": "Girls with the Lagan Tatto",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1281,6 +1314,7 @@
             "club": "Curragh-Naas",
             "time": "36:40",
             "team": "Line 'Em Up We'll CNOC 'Em Down",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1289,6 +1323,7 @@
             "club": "Curragh-Naas",
             "time": "51:44",
             "team": "Line 'Em Up We'll CNOC 'Em Down",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1297,6 +1332,7 @@
             "club": "Curragh-Naas",
             "time": "54:56",
             "team": "Line 'Em Up We'll CNOC 'Em Down",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1305,6 +1341,7 @@
             "club": "Bishopstown",
             "time": "44:22",
             "team": "BOC 3",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1313,6 +1350,7 @@
             "club": "Bishopstown",
             "time": "54:24",
             "team": "BOC 3",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1321,6 +1359,7 @@
             "club": "Bishopstown",
             "time": "50:56",
             "team": "BOC 3",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1329,6 +1368,7 @@
             "club": "Cork",
             "time": "53:32",
             "team": "CorkO - WP",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1337,6 +1377,7 @@
             "club": "Cork",
             "time": "50:15",
             "team": "CorkO - WP",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1345,6 +1386,7 @@
             "club": "Cork",
             "time": "61:58",
             "team": "CorkO - WP",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1353,6 +1395,7 @@
             "club": "swissotours.ch",
             "time": "52:51",
             "team": "Swiss Ladies",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1361,6 +1404,7 @@
             "club": "swissotours.ch",
             "time": "DNF",
             "team": "Swiss Ladies",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1369,6 +1413,7 @@
             "club": "swissotours.ch",
             "time": "69:17",
             "team": "Swiss Ladies",
+            "leg": "3",
             "eligible": false
           },
           {
@@ -1377,6 +1422,7 @@
             "club": "swissotours.ch",
             "time": "75:49",
             "team": "Swiss Ladies 2",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1385,6 +1431,7 @@
             "club": "swissotours.ch",
             "time": "DNF",
             "team": "Swiss Ladies 2",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1393,6 +1440,7 @@
             "club": "swissotours.ch",
             "time": "DNF",
             "team": "Swiss Ladies 2",
+            "leg": "3",
             "eligible": false
           },
           {
@@ -1401,6 +1449,7 @@
             "club": "Three Rock",
             "time": "DNF",
             "team": "3ROC WP",
+            "leg": "1",
             "eligible": false
           },
           {
@@ -1409,6 +1458,7 @@
             "club": "Three Rock",
             "time": "43:12",
             "team": "3ROC WP",
+            "leg": "2",
             "eligible": false
           },
           {
@@ -1417,6 +1467,7 @@
             "club": "Three Rock",
             "time": "107:15",
             "team": "3ROC WP",
+            "leg": "3",
             "eligible": false
           }
         ]

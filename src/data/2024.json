@@ -827,6 +827,7 @@
             "club": "Cork",
             "time": "27:36",
             "team": "CorkO1",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -835,6 +836,7 @@
             "club": "Cork",
             "time": "27:08",
             "team": "CorkO1",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -843,6 +845,7 @@
             "club": "Cork",
             "time": "26:38",
             "team": "CorkO1",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -851,6 +854,7 @@
             "club": "Great Eastern Navigators",
             "time": "27:31",
             "team": "The GENtlemen",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -859,6 +863,7 @@
             "club": "Great Eastern Navigators",
             "time": "27:09",
             "team": "The GENtlemen",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -867,6 +872,7 @@
             "club": "Great Eastern Navigators",
             "time": "28:04",
             "team": "The GENtlemen",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -875,6 +881,7 @@
             "club": "Lagan Valley",
             "time": "27:01",
             "team": "Puff, The Magic Lagan",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -883,6 +890,7 @@
             "club": "Lagan Valley",
             "time": "28:52",
             "team": "Puff, The Magic Lagan",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -891,6 +899,7 @@
             "club": "Lagan Valley",
             "time": "30:13",
             "team": "Puff, The Magic Lagan",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -899,6 +908,7 @@
             "club": "Curragh-Naas",
             "time": "31:04",
             "team": "Na Cnoic Mhora",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -907,6 +917,7 @@
             "club": "Curragh-Naas",
             "time": "28:08",
             "team": "Na Cnoic Mhora",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -915,6 +926,7 @@
             "club": "Curragh-Naas",
             "time": "27:01",
             "team": "Na Cnoic Mhora",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -923,6 +935,7 @@
             "club": "Three Rock",
             "time": "32:54",
             "team": "Rockets of 3ROC",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -931,6 +944,7 @@
             "club": "Three Rock",
             "time": "35:44",
             "team": "Rockets of 3ROC",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -939,6 +953,7 @@
             "club": "Three Rock",
             "time": "25:59",
             "team": "Rockets of 3ROC",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -947,6 +962,7 @@
             "club": "SEVO",
             "time": "27:07",
             "team": "The SEVO Plunderers",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -955,6 +971,7 @@
             "club": "SEVO",
             "time": "36:30",
             "team": "The SEVO Plunderers",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -963,6 +980,7 @@
             "club": "SEVO",
             "time": "34:49",
             "team": "The SEVO Plunderers",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -971,6 +989,7 @@
             "club": "Fingal",
             "time": "35:53",
             "team": "KearnO",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -979,6 +998,7 @@
             "club": "Fingal",
             "time": "35:55",
             "team": "KearnO",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -987,6 +1007,7 @@
             "club": "Fingal",
             "time": "34:21",
             "team": "KearnO",
+            "leg": "3",
             "eligible": true
           }
         ]
@@ -1003,6 +1024,7 @@
             "club": "Great Eastern Navigators",
             "time": "27:38",
             "team": "GENius Gals",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1011,6 +1033,7 @@
             "club": "Great Eastern Navigators",
             "time": "34:03",
             "team": "GENius Gals",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1019,6 +1042,7 @@
             "club": "Great Eastern Navigators",
             "time": "25:24",
             "team": "GENius Gals",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1027,6 +1051,7 @@
             "club": "Cork",
             "time": "31:34",
             "team": "CorkO2",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1035,6 +1060,7 @@
             "club": "Cork",
             "time": "33:57",
             "team": "CorkO2",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1043,6 +1069,7 @@
             "club": "Cork",
             "time": "27:12",
             "team": "CorkO2",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1051,6 +1078,7 @@
             "club": "Lagan Valley",
             "time": "32:11",
             "team": "Year of the Lagan",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1059,6 +1087,7 @@
             "club": "Lagan Valley",
             "time": "29:54",
             "team": "Year of the Lagan",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1067,6 +1096,7 @@
             "club": "Lagan Valley",
             "time": "30:41",
             "team": "Year of the Lagan",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1075,6 +1105,7 @@
             "club": "Lagan Valley",
             "time": "36:00",
             "team": "Girls with the Lagan",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1083,6 +1114,7 @@
             "club": "Lagan Valley",
             "time": "30:41",
             "team": "Girls with the Lagan",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1091,6 +1123,7 @@
             "club": "Lagan Valley",
             "time": "31:06",
             "team": "Girls with the Lagan",
+            "leg": "3",
             "eligible": true
           },
           {
@@ -1099,6 +1132,7 @@
             "club": "Curragh-Naas",
             "time": "25:04",
             "team": "Cnoic na Mban",
+            "leg": "1",
             "eligible": true
           },
           {
@@ -1107,6 +1141,7 @@
             "club": "Curragh-Naas",
             "time": "38:58",
             "team": "Cnoic na Mban",
+            "leg": "2",
             "eligible": true
           },
           {
@@ -1115,6 +1150,7 @@
             "club": "Curragh-Naas",
             "time": "35:06",
             "team": "Cnoic na Mban",
+            "leg": "3",
             "eligible": true
           }
         ]
