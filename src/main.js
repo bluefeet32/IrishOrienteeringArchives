@@ -15,6 +15,10 @@ function sortCourses(a, b) {
         "middle": 1,
         "long": 2,
         "relay": 3,
+        "overall": 4,
+        "individual": 5,
+        "individual forest": 6,
+        "forest": 7,
     }
     return courseValues[a] - courseValues[b];
 
@@ -200,6 +204,25 @@ const getRankings = () => {
             this.currentClass = ageClass;
             this._setUrlParams();
         },
+        addRankedResult(course, resultData, year, points){
+            const result = course.find(runner => runner.name === resultData.name);
+            if(result) {
+                if (!result.hasOwnProperty(year)) {
+                    result[year] = points;
+                } else {
+                    result[year] += points;
+                }
+                result["total"] += points;
+                console.log(result);
+            } else {
+                tmpResult = {};
+                tmpResult["name"] = resultData.name;
+                tmpResult[year] = points;
+                tmpResult["total"] = points;
+                console.log(tmpResult);
+                course.push(tmpResult);
+            }
+        },
         formatResults() {
             const data = {};
             for (const [year, courses] of Object.entries(this.allYears)) {
@@ -207,21 +230,30 @@ const getRankings = () => {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
                         if (!data.hasOwnProperty(ageClass)) data[ageClass] = {};
                         if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = [];
-                        workingCourse = data[ageClass][course]
+                        if (!data[ageClass].hasOwnProperty("overall")) data[ageClass]["overall"] = [];
+                        if (!data[ageClass].hasOwnProperty("individual")) data[ageClass]["individual"] = [];
+                        if (!data[ageClass].hasOwnProperty("individual forest")) data[ageClass]["individual forest"] = [];
+                        if (!data[ageClass].hasOwnProperty("forest")) data[ageClass]["forest"] = [];
+                        workingCourse = data[ageClass][course];
+                        overallCourse = data[ageClass]["overall"];
+                        individualCourse = data[ageClass]["individual"];
+                        individualForestCourse = data[ageClass]["individual forest"];
+                        forestCourse = data[ageClass]["forest"];
                         for (const [result, resultData] of Object.entries(ageClassData.results)) {
                             points = pointsFromPosition[resultData.position]
-                            const result = workingCourse.find(runner => runner.name === resultData.name);
-                            if (result) {
-                                result[year] = points
-                                result["total"] += points ? points: 0
-                            } else {
-                                tmpResult = {}
-                                tmpResult["name"] = resultData.name
-                                // We want to leave undefined in the year entries as it's a nicer
-                                // table, but for sorting we need 0 values in total.
-                                tmpResult[year] = points
-                                tmpResult["total"] = points ? points : 0 
-                                workingCourse.push(tmpResult)
+                            points = points ? points: 0
+
+                            this.addRankedResult(workingCourse, resultData, year, points);
+                            this.addRankedResult(overallCourse, resultData, year, points);
+
+                            if (course != "relay") {
+                                this.addRankedResult(individualCourse, resultData, year, points);
+                                if (course != "sprint") {
+                                    this.addRankedResult(individualForestCourse, resultData, year, points);
+                                }
+                            }
+                            if (course != "sprint") {
+                                this.addRankedResult(forestCourse, resultData, year, points);
                             }
                         }
                     }
