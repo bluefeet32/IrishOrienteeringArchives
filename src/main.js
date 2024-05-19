@@ -9,6 +9,17 @@ function capitalizeFirstLetter(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+function sortCourses(a, b) {
+    courseValues = {
+        "sprint": 0,
+        "middle": 1,
+        "long": 2,
+        "relay": 3,
+    }
+    return courseValues[a] - courseValues[b];
+
+}
+
 pointsFromPosition = {
     1: 10,
     2: 8,
@@ -40,7 +51,7 @@ const getResults = () => {
         years: [],
         currentYear: "",
         yearData: {},
-        get courses() { return Object.keys(this.yearData); },
+        get courses() { return Object.keys(this.yearData).sort((a,b) => sortCourses(a, b)); },
         currentCourse: "",
         get classes() { return Object.keys(this.yearData?.[this.currentCourse]?.classes || {}); },
         currentClass: "",
@@ -102,7 +113,7 @@ const getRunner = () => {
         },
         allResults: {},
         get classes() { return Object.keys(this.allResults); },
-        get courses() { return Object.keys(this.allResults?.[this.currentClass] || {}); },
+        get courses() { return Object.keys(this.allResults?.[this.currentClass] || {}).sort((a,b) => sortCourses(a, b)); },
         get currentResults() {
             return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.year - a.year);
         },
@@ -173,7 +184,7 @@ const getRankings = () => {
         },
         allResults: {},
         get classes() { return Object.keys(this.allResults); },
-        get courses() { return Object.keys(this.allResults?.[this.currentClass] || {}); },
+        get courses() { return Object.keys(this.allResults?.[this.currentClass] || {}).sort((a,b) => sortCourses(a, b)); },
         get currentResults() {
             return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.total - a.total);
         },
