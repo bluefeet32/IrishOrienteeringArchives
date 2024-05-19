@@ -1,68 +1,77 @@
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
+        <!-- <link rel="stylesheet" href="pepperoni.css"> -->
+    </head>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <!-- <link rel="stylesheet" href="pepperoni.css"> -->
-</head>
-
-<body>
-    <div class="header">
-        <h1>IOC</h1>
-    </div>
-    <div x-data="getResults()">
-        <div class="tabs">
-            <ul>
-                <template x-for="year in years" :key="year">
-                    <li :class="currentYear === year ? 'is-active' : ''" @click="onClickYear(year)"><a
-                            x-text="year"></a></li>
-                </template>
-            </ul>
+    <body>
+        <div class="header">
+            <h1>IOC</h1>
         </div>
-        <div class="tabs">
-            <ul>
-                <template x-for="course in courses" :key="course">
-                    <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)"><a
-                            x-text="capitalizeFirstLetter(course)"></a></li>
-                </template>
-            </ul>
-        </div>
-        <div class="tabs">
-            <ul>
-                <template x-for="oClass in classes" :key="oClass">
-                    <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)"><a
-                            x-text="oClass.toUpperCase()"></a></li>
-                </template>
-            </ul>
-        </div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Position</th>
-                    <th>Name</th>
-                    <th>Club</th>
-                    <th>Time</th>
-                    <th>N/C</th>
-                </tr>
-            </thead>
-            <tbody>
-                <template x-for="runner in results" :key="runner.name">
-                    <tr :class="runner.eligible ? '' : 'greyed'">
-                        <th x-text="runner.position"></th>
-                        <th><a :href="`runner.html?name=${runner.name}`" x-text="runner.name"></a></th>
-                        <th x-text="runner.club"></th>
-                        <th x-text="runner.time"></th>
-                        <th x-text="runner.eligible ? '' : 'x'"></th>
+        <div x-data="getResults()">
+            <div class="tabs">
+                <ul>
+                    <template x-for="year in years" :key="year">
+                        <li :class="currentYear === year ? 'is-active' : ''" @click="onClickYear(year)">
+                            <a x-text="year"></a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <div class="tabs">
+                <ul>
+                    <template x-for="course in courses" :key="course">
+                        <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
+                            <a x-text="capitalizeFirstLetter(course)"></a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <div class="tabs">
+                <ul>
+                    <template x-for="oClass in classes" :key="oClass">
+                        <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
+                            <a x-text="oClass.toUpperCase()"></a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Name</th>
+                        <th>Club</th>
+                        <th>Time</th>
+                        <th>N/C</th>
                     </tr>
-                </template>
-            </tbody>
-        </table>
-    </div>
-    <script type="text/javascript" src="main.js"></script>
-
-</body>
-
+                </thead>
+                <tbody>
+                    <template x-for="runner in results" :key="runner.name">
+                        <tr :class="runner.eligible ? '' : 'greyed'">
+                            <td x-text="runner.position"></td>
+                            <td>
+                                <a class="button" :href="`runner.html?name=${runner.name}`" x-text="runner.name"></a>
+                            </td>
+                            <td x-text="runner.club"></td>
+                            <td x-text="runner.time"></td>
+                            <td>
+                                <template x-if="!runner.eligible">
+                                    <span class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </span>
+                                </template>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>
