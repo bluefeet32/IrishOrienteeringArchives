@@ -1,17 +1,15 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
         <link rel="stylesheet" href="styles.css" />
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <!-- <link rel="stylesheet" href="pepperoni.css"> -->
     </head>
 
     <body>
         <div x-data="getRunner()">
             <h3 class="title is-3" x-text="name"></h3>
-            <div class="tabs">
+            <div class="tabs is-boxed">
                 <ul>
                     <template x-for="oClass in classes" :key="oClass">
                         <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
@@ -20,7 +18,7 @@
                     </template>
                 </ul>
             </div>
-            <div class="tabs">
+            <div class="tabs is-boxed">
                 <ul>
                     <template x-for="course in courses" :key="course">
                         <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
