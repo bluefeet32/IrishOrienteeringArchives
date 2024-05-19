@@ -9,6 +9,17 @@ function capitalizeFirstLetter(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+pointsFromPosition = {
+    1: 10,
+    2: 8,
+    3: 6,
+    4: 5,
+    5: 4,
+    6: 3,
+    7: 2,
+    8: 1,
+}
+
 const getResults = () => {
     return {
         async init() {
@@ -113,9 +124,10 @@ const getRunner = () => {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
                         const result = ageClassData.results.find(runner => runner.name === this.name);
                         if (result) {
+                            points = result.position ? pointsFromPosition[result.position] : null
                             if (!data.hasOwnProperty(ageClass)) data[ageClass] = {};
                             if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = [];
-                            data[ageClass][course].push({ ...result, year });
+                            data[ageClass][course].push({ ...result, year, points});
                         }
                     }
                 }
@@ -177,16 +189,6 @@ const getRankings = () => {
             this.currentClass = ageClass;
             this._setUrlParams();
         },
-        pointsFromPosition: {
-            1: 10,
-            2: 8,
-            3: 6,
-            4: 5,
-            5: 4,
-            6: 3,
-            7: 2,
-            8: 1,
-        },
         formatResults() {
             const data = {};
             for (const [year, courses] of Object.entries(this.allYears)) {
@@ -196,7 +198,7 @@ const getRankings = () => {
                         if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = [];
                         workingCourse = data[ageClass][course]
                         for (const [result, resultData] of Object.entries(ageClassData.results)) {
-                            points = this.pointsFromPosition[resultData.position]
+                            points = pointsFromPosition[resultData.position]
                             const result = workingCourse.find(runner => runner.name === resultData.name);
                             if (result) {
                                 result[year] = points
