@@ -43,7 +43,7 @@
             <tbody>
                 <template x-for="result in currentResults" :key="result.year">
                     <tr :class="result.eligible ? '' : 'greyed'">
-                        <th><a :href="`index.html?&year=${result.year}&class=${currentClass}&course=${currentCourse}`" x-text="result.year"></a></th>
+                        <th><a :href="`index.html?year=${result.year}&class=${currentClass}&course=${currentCourse}`" x-text="result.year"></a></th>
                         <th x-text="result.position"></th>
                         <th x-text="result.name"></th>
                         <th x-text="result.club"></th>
