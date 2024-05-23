@@ -1,4 +1,3 @@
-
 function capitalizeFirstLetter(str) {
     // Check if the input string is not empty
     if (str.length === 0) {
@@ -50,17 +49,24 @@ const getResults = () => {
             if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
             if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
             this._setUrlParams();
-
         },
         years: [],
         currentYear: "",
         yearData: {},
-        get courses() { return Object.keys(this.yearData).sort((a,b) => sortCourses(a, b)); },
+        get courses() {
+            return Object.keys(this.yearData).sort((a,b) => sortCourses(a, b));
+        },
         currentCourse: "",
-        get classes() { return Object.keys(this.yearData?.[this.currentCourse]?.classes || {}); },
+        get classes() {
+            return Object.keys(this.yearData?.[this.currentCourse]?.classes || {});
+        },
         currentClass: "",
-        get results() { return this._indexResults(this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || []); },
-        get results() { return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || []; },
+        get results() {
+            return this._indexResults(this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || []);
+        },
+        get results() {
+            return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || [];
+        },
         async onClickYear(year) {
             this.currentYear = year;
             await this.fetchYearData();
@@ -84,7 +90,7 @@ const getResults = () => {
             params.set("course", this.currentCourse);
             params.set("year", this.currentYear);
             history.replaceState(null, null, "?" + params.toString());
-        }
+        },
     };
 };
 
@@ -93,8 +99,8 @@ const getRunner = () => {
         async init() {
             const params = new URLSearchParams(document.location.search);
             this.name = params.get("name");
-            this.currentCourse = params.get("course")
-            this.currentClass = params.get("class")
+            this.currentCourse = params.get("course");
+            this.currentClass = params.get("class");
 
             await this.loadAllYears();
             this.allResults = this.formatResults();
@@ -116,8 +122,12 @@ const getRunner = () => {
             this.allYears = data;
         },
         allResults: {},
-        get classes() { return Object.keys(this.allResults); },
-        get courses() { return Object.keys(this.allResults?.[this.currentClass] || {}).sort((a,b) => sortCourses(a, b)); },
+        get classes() {
+            return Object.keys(this.allResults);
+        },
+        get courses() {
+            return Object.keys(this.allResults?.[this.currentClass] || {}).sort((a,b) => sortCourses(a, b));
+        },
         get currentResults() {
             return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.year - a.year);
         },
@@ -137,7 +147,7 @@ const getRunner = () => {
             for (const [year, courses] of Object.entries(this.allYears)) {
                 for (const [course, courseData] of Object.entries(courses)) {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
-                        const result = ageClassData.results.find(runner => runner.name === this.name);
+                        const result = ageClassData.results.find((runner) => runner.name === this.name);
                         if (result) {
                             points = result.position ? pointsFromPosition[result.position] : null
                             if (!data.hasOwnProperty(ageClass)) data[ageClass] = {};
@@ -155,7 +165,7 @@ const getRunner = () => {
             params.set("class", this.currentClass);
             params.set("course", this.currentCourse);
             history.replaceState(null, null, "?" + params.toString());
-        }
+        },
     };
 };
 
@@ -163,8 +173,8 @@ const getRankings = () => {
     return {
         async init() {
             const params = new URLSearchParams(document.location.search);
-            this.currentCourse = params.get("course")
-            this.currentClass = params.get("class")
+            this.currentCourse = params.get("course");
+            this.currentClass = params.get("class");
 
             await this.loadAllYears();
             this.allResults = this.formatResults();
@@ -187,8 +197,12 @@ const getRankings = () => {
             this.allYears = data;
         },
         allResults: {},
-        get classes() { return Object.keys(this.allResults); },
-        get courses() { return Object.keys(this.allResults?.[this.currentClass] || {}).sort((a,b) => sortCourses(a, b)); },
+        get classes() {
+            return Object.keys(this.allResults);
+        },
+        get courses() {
+            return Object.keys(this.allResults?.[this.currentClass] || {}).sort((a,b) => sortCourses(a, b));
+        },
         get currentResults() {
             return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.total - a.total);
         },
@@ -205,7 +219,7 @@ const getRankings = () => {
             this._setUrlParams();
         },
         addRankedResult(course, resultData, year, points){
-            const result = course.find(runner => runner.name === resultData.name);
+            const result = course.find((runner) => runner.name === resultData.name);
             if(result) {
                 if (!result.hasOwnProperty(year)) {
                     result[year] = points;
@@ -240,8 +254,8 @@ const getRankings = () => {
                         individualForestCourse = data[ageClass]["individual forest"];
                         forestCourse = data[ageClass]["forest"];
                         for (const [result, resultData] of Object.entries(ageClassData.results)) {
-                            points = pointsFromPosition[resultData.position]
-                            points = points ? points: 0
+                            points = pointsFromPosition[resultData.position];
+                            points = points ? points : 0;
 
                             this.addRankedResult(workingCourse, resultData, year, points);
                             this.addRankedResult(overallCourse, resultData, year, points);
@@ -266,6 +280,6 @@ const getRankings = () => {
             params.set("class", this.currentClass);
             params.set("course", this.currentCourse);
             history.replaceState(null, null, "?" + params.toString());
-        }
+        },
     };
 };

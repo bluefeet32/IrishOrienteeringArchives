@@ -1,58 +1,66 @@
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <!-- <link rel="stylesheet" href="pepperoni.css"> -->
+    </head>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <!-- <link rel="stylesheet" href="pepperoni.css"> -->
-</head>
-
-<body>
-    <div x-data="getRankings()">
-        <h3 class="title is-3" x-text="name"></h3>
-        <div class="tabs">
-            <ul>
-                <template x-for="oClass in classes" :key="oClass">
-                    <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)"><a
-                            x-text="oClass.toUpperCase()"></a></li>
-                </template>
-            </ul>
-        </div>
-        <div class="tabs">
-            <ul>
-                <template x-for="course in courses" :key="course">
-                    <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)"><a
-                            x-text="capitalizeFirstLetter(course)"></a></li>
-                </template>
-            </ul>
-        </div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <template x-for="displayYear in years" >
-                        <th><a :href="`index.html?year=${displayYear}&course=${currentCourse}&class=${currentClass}`" x-text="displayYear"></a></th>
-                        </template>
-                    <th>Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <template x-for="result in currentResults" :key="result.name">
+    <body>
+        <div x-data="getRankings()">
+            <h3 class="title is-3" x-text="name"></h3>
+            <div class="tabs is-boxed">
+                <ul>
+                    <template x-for="oClass in classes" :key="oClass">
+                        <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
+                            <a x-text="oClass.toUpperCase()"></a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <div class="tabs is-boxed">
+                <ul>
+                    <template x-for="course in courses" :key="course">
+                        <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
+                            <a x-text="capitalizeFirstLetter(course)"></a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <table class="table">
+                <thead>
                     <tr>
-                        <th><a :href="`runner.html?name=${result.name}`" x-text="result.name"></a></th>
-                        <template x-for="year in years" >
-                            <th x-text="result[year]"></th>
+                        <th>Name</th>
+                        <template x-for="displayYear in years">
+                            <th>
+                                <a
+                                    class="button"
+                                    :href="`index.html?year=${displayYear}&course=${currentCourse}&class=${currentClass}`"
+                                    x-text="displayYear"
+                                >
+                                </a>
+                            </th>
                         </template>
-                        <th x-text="result.total"></th>
+                        <th>Total</th>
                     </tr>
-                </template>
-            </tbody>
-        </table>
-    </div>
-    <script type="text/javascript" src="main.js"></script>
-
-</body>
-
+                </thead>
+                <tbody>
+                    <template x-for="result in currentResults" :key="result.name">
+                        <tr>
+                            <td>
+                                <a class="button" :href="`runner.html?name=${result.name}`" x-text="result.name"></a>
+                            </td>
+                            <template x-for="year in years">
+                                <td x-text="result[year]"></td>
+                            </template>
+                            <td x-text="result.total"></td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>

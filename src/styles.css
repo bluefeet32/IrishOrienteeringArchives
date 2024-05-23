@@ -1,4 +1,12 @@
+body {
+    margin: 20px;
+}
+
 .greyed {
-    background-color: lightgrey;
-    color: darkgray;
+    opacity: 50%;
+}
+
+.button {
+    padding: 0.2rem 0.5rem;
+    /* width: 100%; */
 }
