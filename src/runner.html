@@ -44,6 +44,7 @@
                         <tr :class="result.eligible ? '' : 'greyed'">
                             <td>
                                 <a
+                                    class="button"
                                     :href="`index.html?year=${result.year}&class=${currentClass}&course=${currentCourse}`"
                                     x-text="result.year"
                                 ></a>
@@ -53,6 +54,7 @@
                             <td x-text="result.club"></td>
                             <td>
                                 <a
+                                    class="button"
                                     :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
                                     x-text="result.points"
                                 ></a>
