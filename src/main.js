@@ -26,6 +26,8 @@ function sortCourses(a, b) {
         "middle": 1,
         "long": 2,
         "relay": 3,
+        // TODO: Would be better to use the course variable names here,
+        //       but for some reason that didn't work when I tried it.
         "overall": 4,
         "individual": 5,
         "individual forest": 6,
