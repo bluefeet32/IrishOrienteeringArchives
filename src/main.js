@@ -8,6 +8,18 @@ function capitalizeFirstLetter(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+var overallCourse = "overall"
+var individualCourse = "individual"
+var individualForestCourse = "individual forest"
+var forestCourse = "forest"
+
+var rankingCourses = [
+    overallCourse,
+    individualCourse,
+    individualForestCourse,
+    forestCourse,
+]
+
 function sortCourses(a, b) {
     courseValues = {
         "sprint": 0,
@@ -227,13 +239,11 @@ const getRankings = () => {
                     result[year] += points;
                 }
                 result["total"] += points;
-                console.log(result);
             } else {
                 tmpResult = {};
                 tmpResult["name"] = resultData.name;
                 tmpResult[year] = points;
                 tmpResult["total"] = points;
-                console.log(tmpResult);
                 course.push(tmpResult);
             }
         },
@@ -244,30 +254,24 @@ const getRankings = () => {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
                         if (!data.hasOwnProperty(ageClass)) data[ageClass] = {};
                         if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = [];
-                        if (!data[ageClass].hasOwnProperty("overall")) data[ageClass]["overall"] = [];
-                        if (!data[ageClass].hasOwnProperty("individual")) data[ageClass]["individual"] = [];
-                        if (!data[ageClass].hasOwnProperty("individual forest")) data[ageClass]["individual forest"] = [];
-                        if (!data[ageClass].hasOwnProperty("forest")) data[ageClass]["forest"] = [];
-                        workingCourse = data[ageClass][course];
-                        overallCourse = data[ageClass]["overall"];
-                        individualCourse = data[ageClass]["individual"];
-                        individualForestCourse = data[ageClass]["individual forest"];
-                        forestCourse = data[ageClass]["forest"];
+                        for (const rankingCourse of rankingCourses) {
+                            if (!data[ageClass].hasOwnProperty(rankingCourse)) data[ageClass][rankingCourse] = [];
+                        }
                         for (const [result, resultData] of Object.entries(ageClassData.results)) {
                             points = pointsFromPosition[resultData.position];
                             points = points ? points : 0;
 
-                            this.addRankedResult(workingCourse, resultData, year, points);
-                            this.addRankedResult(overallCourse, resultData, year, points);
+                            this.addRankedResult(data[ageClass][course], resultData, year, points);
+                            this.addRankedResult(data[ageClass][overallCourse], resultData, year, points);
 
                             if (course != "relay") {
-                                this.addRankedResult(individualCourse, resultData, year, points);
+                                this.addRankedResult(data[ageClass][individualCourse], resultData, year, points);
                                 if (course != "sprint") {
-                                    this.addRankedResult(individualForestCourse, resultData, year, points);
+                                    this.addRankedResult(data[ageClass][individualForestCourse], resultData, year, points);
                                 }
                             }
                             if (course != "sprint") {
-                                this.addRankedResult(forestCourse, resultData, year, points);
+                                this.addRankedResult(data[ageClass][forestCourse], resultData, year, points);
                             }
                         }
                     }
