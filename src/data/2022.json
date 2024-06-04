@@ -1113,7 +1113,7 @@
                         "name": "Conor Short",
                         "club": "Curragh-Naas",
                         "time": "27:39",
-                        "team": "CNOC Premier 1 ",
+                        "team": "CNOC Premier 1",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1122,7 +1122,7 @@
                         "name": "Conall Whelan",
                         "club": "Curragh-Naas",
                         "time": "29:23",
-                        "team": "CNOC Premier 1 ",
+                        "team": "CNOC Premier 1",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1131,7 +1131,7 @@
                         "name": "Kevin O'Boyle",
                         "club": "Curragh-Naas",
                         "time": "27:49",
-                        "team": "CNOC Premier 1 ",
+                        "team": "CNOC Premier 1",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1140,7 +1140,7 @@
                         "name": "Darren Burke",
                         "club": "Cork",
                         "time": "27:25",
-                        "team": "Crohane ",
+                        "team": "Crohane",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1149,7 +1149,7 @@
                         "name": "Marcus Pinker",
                         "club": "Cork",
                         "time": "30:44",
-                        "team": "Crohane ",
+                        "team": "Crohane",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1158,7 +1158,7 @@
                         "name": "Shane Lynch",
                         "club": "Cork",
                         "time": "28:59",
-                        "team": "Crohane ",
+                        "team": "Crohane",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1167,7 +1167,7 @@
                         "name": "Laurence Quinn",
                         "club": "Great Eastern Navigators",
                         "time": "27:20",
-                        "team": "EiGEN Vectors ",
+                        "team": "EiGEN Vectors",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1176,7 +1176,7 @@
                         "name": "Gerry Browne",
                         "club": "Great Eastern Navigators",
                         "time": "30:24",
-                        "team": "EiGEN Vectors ",
+                        "team": "EiGEN Vectors",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1185,7 +1185,7 @@
                         "name": "Jonathon Quinn",
                         "club": "Great Eastern Navigators",
                         "time": "32:25",
-                        "team": "EiGEN Vectors ",
+                        "team": "EiGEN Vectors",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1194,7 +1194,7 @@
                         "name": "Aidan McCullough",
                         "club": "Three Rock",
                         "time": "30:18",
-                        "team": "3Rocketeers ",
+                        "team": "3Rocketeers",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1203,7 +1203,7 @@
                         "name": "Ivan Vaskilov",
                         "club": "Three Rock",
                         "time": "36:53",
-                        "team": "3Rocketeers ",
+                        "team": "3Rocketeers",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1212,7 +1212,7 @@
                         "name": "Colm Moran",
                         "club": "Three Rock",
                         "time": "27:03",
-                        "team": "3Rocketeers ",
+                        "team": "3Rocketeers",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1221,7 +1221,7 @@
                         "name": "Darragh Hoare",
                         "club": "Bishopstown",
                         "time": "30:54",
-                        "team": "BOCstreet boys ",
+                        "team": "BOCstreet boys",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1230,7 +1230,7 @@
                         "name": "Liam Cotter",
                         "club": "Bishopstown",
                         "time": "30:09",
-                        "team": "BOCstreet boys ",
+                        "team": "BOCstreet boys",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1239,7 +1239,7 @@
                         "name": "Jens Wächter",
                         "club": "Bishopstown",
                         "time": "34:59",
-                        "team": "BOCstreet boys ",
+                        "team": "BOCstreet boys",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1248,7 +1248,7 @@
                         "name": "Eoghan Whelan",
                         "club": "SEVO",
                         "time": "27:46",
-                        "team": "Vikings Abu ",
+                        "team": "Vikings Abu",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1257,7 +1257,7 @@
                         "name": "Neil Dobbs",
                         "club": "SEVO",
                         "time": "35:21",
-                        "team": "Vikings Abu ",
+                        "team": "Vikings Abu",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1266,7 +1266,7 @@
                         "name": "Andrew Pim",
                         "club": "SEVO",
                         "time": "39:44",
-                        "team": "vikings Abu ",
+                        "team": "vikings Abu",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1275,7 +1275,7 @@
                         "name": "Rob McEvoy",
                         "club": "Cork",
                         "time": "37:09",
-                        "team": "Tir na Spideoige ",
+                        "team": "Tir na Spideoige",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1284,7 +1284,7 @@
                         "name": "Dan McDonnell",
                         "club": "Cork",
                         "time": "38:05",
-                        "team": "Tir na Spideoige ",
+                        "team": "Tir na Spideoige",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1293,7 +1293,7 @@
                         "name": "Danny O'Hare",
                         "club": "Cork",
                         "time": "42:53",
-                        "team": "Tir na Spideoige ",
+                        "team": "Tir na Spideoige",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1302,7 +1302,7 @@
                         "name": "Paul Pruzina",
                         "club": "Lagan Valley",
                         "time": "26:51",
-                        "team": "Puff The Magic Lagan ",
+                        "team": "Puff The Magic Lagan",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1311,7 +1311,7 @@
                         "name": "George Savell",
                         "club": "Lagan Valley",
                         "time": "38:28",
-                        "team": "Puff The Magic Lagan ",
+                        "team": "Puff The Magic Lagan",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1320,7 +1320,7 @@
                         "name": "Richard Gamble",
                         "club": "Lagan Valley",
                         "time": "53:05",
-                        "team": "Puff The Magic Lagan ",
+                        "team": "Puff The Magic Lagan",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1329,7 +1329,7 @@
                         "name": "Mile O'Brien",
                         "club": "N/C",
                         "time": "44:52",
-                        "team": "The Spares ",
+                        "team": "The Spares",
                         "leg": "1",
                         "eligible": false
                     },
@@ -1338,7 +1338,7 @@
                         "name": "Jolanda Wehrl",
                         "club": "N/C",
                         "time": "47:07",
-                        "team": "The Spares ",
+                        "team": "The Spares",
                         "leg": "2",
                         "eligible": false
                     },
@@ -1347,7 +1347,7 @@
                         "name": "Jaana Eronen",
                         "club": "N/C",
                         "time": "DNF",
-                        "team": "The Spares ",
+                        "team": "The Spares",
                         "leg": "3",
                         "eligible": false
                     },
@@ -1356,7 +1356,7 @@
                         "name": "Graeme Rennie",
                         "club": "Curragh-Naas",
                         "time": "DNF",
-                        "team": "CNOC Premier 2 ",
+                        "team": "CNOC Premier 2",
                         "leg": "1",
                         "eligible": false
                     },
@@ -1365,7 +1365,7 @@
                         "name": "Ruairi Short",
                         "club": "Curragh-Naas",
                         "time": "29:20",
-                        "team": "CNOC Premier 2 ",
+                        "team": "CNOC Premier 2",
                         "leg": "2",
                         "eligible": false
                     },
@@ -1374,7 +1374,7 @@
                         "name": "Killian Brennan",
                         "club": "Curragh-Naas",
                         "time": "36:54",
-                        "team": "CNOC Premier 2 ",
+                        "team": "CNOC Premier 2",
                         "leg": "3",
                         "eligible": false
                     },
@@ -1383,7 +1383,7 @@
                         "name": "Alan O'Donnell",
                         "club": "Fingal",
                         "time": "DNF",
-                        "team": "Mighty Fin ",
+                        "team": "Mighty Fin",
                         "leg": "1",
                         "eligible": false
                     },
@@ -1392,7 +1392,7 @@
                         "name": "Sean Kearns",
                         "club": "Fingal",
                         "time": "38:42",
-                        "team": "Mighty Fin ",
+                        "team": "Mighty Fin",
                         "leg": "2",
                         "eligible": false
                     },
@@ -1401,7 +1401,7 @@
                         "name": "Ronan Smyth",
                         "club": "Fingal",
                         "time": "38:58",
-                        "team": "Mighty Fin ",
+                        "team": "Mighty Fin",
                         "leg": "3",
                         "eligible": false
                     }
@@ -1418,7 +1418,7 @@
                         "name": "Aoife O'Sullivan",
                         "club": "Bishopstown",
                         "time": "34:50",
-                        "team": "Never Looked BOC ",
+                        "team": "Never Looked BOC",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1427,7 +1427,7 @@
                         "name": "Emer Perkins",
                         "club": "Bishopstown",
                         "time": "31:02",
-                        "team": "Never Looked BOC ",
+                        "team": "Never Looked BOC",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1436,7 +1436,7 @@
                         "name": "Elodie Donet",
                         "club": "Bishopstown",
                         "time": "32:20",
-                        "team": "Never Looked BOC ",
+                        "team": "Never Looked BOC",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1445,7 +1445,7 @@
                         "name": "Aine McCann",
                         "club": "Lagan-Valley",
                         "time": "28:14",
-                        "team": "Girls with the Lagan Tattoo ",
+                        "team": "Girls with the Lagan Tattoo",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1454,7 +1454,7 @@
                         "name": "Olivia Baxter",
                         "club": "Lagan-Valley",
                         "time": "33:31",
-                        "team": "Girls with the Lagan Tattoo ",
+                        "team": "Girls with the Lagan Tattoo",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1463,7 +1463,7 @@
                         "name": "Sarah Knight",
                         "club": "Lagan-Valley",
                         "time": "36:31",
-                        "team": "Girls with the Lagan Tattoo ",
+                        "team": "Girls with the Lagan Tattoo",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1472,7 +1472,7 @@
                         "name": "Toni O'Donovan",
                         "club": "Cork",
                         "time": "29:26",
-                        "team": "Crohane Lake ",
+                        "team": "Crohane Lake",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1481,7 +1481,7 @@
                         "name": "Niamh Corbett",
                         "club": "Cork",
                         "time": "29:54",
-                        "team": "Crohane Lake ",
+                        "team": "Crohane Lake",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1490,7 +1490,7 @@
                         "name": "Mary O'Brien",
                         "club": "Cork",
                         "time": "44:14",
-                        "team": "Crohane Lake ",
+                        "team": "Crohane Lake",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1499,7 +1499,7 @@
                         "name": "Regina Kelly",
                         "club": "Curragh-Naas",
                         "time": "39:39",
-                        "team": "CNOC Premier Ladies ",
+                        "team": "CNOC Premier Ladies",
                         "leg": "1",
                         "eligible": true
                     },
@@ -1508,7 +1508,7 @@
                         "name": "Ruth Lynam",
                         "club": "Curragh-Naas",
                         "time": "37:24",
-                        "team": "CNOC Premier Ladies ",
+                        "team": "CNOC Premier Ladies",
                         "leg": "2",
                         "eligible": true
                     },
@@ -1517,7 +1517,7 @@
                         "name": "Niamh O'Boyle",
                         "club": "Curragh-Naas",
                         "time": "29:19",
-                        "team": "CNOC Premier Ladies ",
+                        "team": "CNOC Premier Ladies",
                         "leg": "3",
                         "eligible": true
                     },
@@ -1526,7 +1526,7 @@
                         "name": "Ellen Funke",
                         "club": "Sweden",
                         "time": "36:47",
-                        "team": "PWT - Sweden #3 ",
+                        "team": "PWT - Sweden #3",
                         "leg": "1",
                         "eligible": false
                     },
@@ -1535,7 +1535,7 @@
                         "name": "Malin Håll",
                         "club": "Sweden",
                         "time": "36:41",
-                        "team": "PWT - Sweden #3 ",
+                        "team": "PWT - Sweden #3",
                         "leg": "2",
                         "eligible": false
                     },
@@ -1544,7 +1544,7 @@
                         "name": "Alice Funke",
                         "club": "Sweden",
                         "time": "40:40",
-                        "team": "PWT - Sweden #3 ",
+                        "team": "PWT - Sweden #3",
                         "leg": "3",
                         "eligible": false
                     },
@@ -1553,7 +1553,7 @@
                         "name": "Clara Spik",
                         "club": "Sweden",
                         "time": "34:50",
-                        "team": "PWT - Sweden #2 ",
+                        "team": "PWT - Sweden #2",
                         "leg": "1",
                         "eligible": false
                     },
@@ -1562,7 +1562,7 @@
                         "name": "Erica Håll",
                         "club": "Sweden",
                         "time": "48:09",
-                        "team": "PWT - Sweden #2 ",
+                        "team": "PWT - Sweden #2",
                         "leg": "2",
                         "eligible": false
                     }
