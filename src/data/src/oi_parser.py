@@ -24,7 +24,6 @@ parser.add_argument('result_id')
 parser.add_argument('-y', '--year', required=True)
 parser.add_argument('-r', '--race', choices=['sprint', 'middle', 'long', 'relay'], required=True)
 parser.add_argument('-a', '--area')
-parser.add_argument('-m', '--map_url')
 parser.add_argument('-e', '--eligibility_file')
 
 args = parser.parse_args()
@@ -103,7 +102,7 @@ with open('results.csv', newline='') as csvfile:
                     'distance': float(row[distance_idx]),
                     'climb': int(row[climb_idx]),
                     'controls': int(row[controls_idx]),
-                    'course_image': 'TODO: ADD ME',
+                    'course_image': map_url,
                     'results': []
                 })
             # print(row[fname_idx], row[sname_idx], row[club_idx], row[class_idx], row[place_idx])
