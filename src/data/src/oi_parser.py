@@ -15,6 +15,7 @@ parser.add_argument('-y', '--year', required=True)
 parser.add_argument('-r', '--race', choices=['sprint', 'middle', 'long', 'relay'], required=True)
 parser.add_argument('-a', '--area')
 parser.add_argument('-m', '--map_url')
+parser.add_argument('-e', '--eligibility_file')
 
 args = parser.parse_args()
 
@@ -36,6 +37,11 @@ with open('results.txt', newline='') as resultsfile:
     end = data.find(search_string_end)
     map_url = data[start:end]
 os.remove("results.txt")
+
+eligibile_data = {}
+if args.eligibility_file:
+    with open(args.eligibility_file, 'r') as eligiblefile:
+        eligibile_data = json.load(eligiblefile)
 
 race_result = {
     'area': args.area,
@@ -66,12 +72,17 @@ with open('results.csv', newline='') as csvfile:
 
         if row[class_idx] in ['"M21"', '"M21E"', '"W21"', '"W21E"']:
             row = [item.replace('"', '') for item in row]
-            user_in = input(f'Is {row[fname_idx]} {row[sname_idx]} eligible (Y/n)?')
-            if user_in in ['n', 'N']:
-                eligible = False
+            name = f'{row[fname_idx]} {row[sname_idx]}'
+            if name in eligibile_data:
+                eligible = eligibile_data[name]
             else:
-                eligible = True
-            # eligible = True
+                user_in = input(f'Is {name} eligible (Y/n)?')
+                if user_in in ['n', 'N']:
+                    eligible = False
+                else:
+                    eligible = True
+                if args.eligibility_file:
+                    eligibile_data[name] = eligible
             position = int(row[place_idx])
             if row[class_idx] in ['M21', 'M21E']:
                 course = race_result['classes']['m21']
@@ -114,6 +125,10 @@ data[args.race] = race_result
 
 with open(f'src/data/{args.year}.json', 'w') as jsonfile:
     json.dump(data, jsonfile, indent=2, ensure_ascii=False)
+
+if args.eligibility_file:
+    with open(args.eligibility_file, 'w') as jsonfile:
+        json.dump(eligibile_data, jsonfile, indent=2, ensure_ascii=False)
 
 
 # os.remove("results.csv")
