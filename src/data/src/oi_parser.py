@@ -130,4 +130,4 @@ if args.eligibility_file:
         json.dump(eligibile_data, jsonfile, indent=2, ensure_ascii=False)
 
 
-# os.remove("results.csv")
+os.remove("results.csv")
