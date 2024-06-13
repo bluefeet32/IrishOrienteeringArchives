@@ -5,6 +5,16 @@ import json
 import os
 import urllib.request
 
+def _GetEligibility(name: str, eligibility_data: dict[str, bool], update_eligibility: bool = False) -> bool:
+    if name in eligibility_data:
+        return eligibility_data[name]
+    else:
+        user_in = input(f'Is {name} eligible (Y/n)?')
+        eligible = not user_in in ['n', 'N']
+        if update_eligibility:
+            eligibility_data[name] = eligible
+    return eligible
+
 parser = argparse.ArgumentParser(
                     prog='OI Results Parses',
                     description='Parses CSV files from o.ie to produce json format output',
@@ -25,7 +35,6 @@ root_dir = args.result_id[:-2]
 results_url = f'https://www.orienteering.ie/result2/?oaction=moreResult&id={args.result_id}'
 
 urllib.request.urlretrieve(f'https://www.orienteering.ie/results/files/{root_dir}/{args.result_id}.csv', 'results.csv')
-
 
 urllib.request.urlretrieve(results_url, "results.txt")
 map_url = ''
@@ -73,16 +82,7 @@ with open('results.csv', newline='') as csvfile:
         if row[class_idx] in ['"M21"', '"M21E"', '"W21"', '"W21E"']:
             row = [item.replace('"', '') for item in row]
             name = f'{row[fname_idx]} {row[sname_idx]}'
-            if name in eligibile_data:
-                eligible = eligibile_data[name]
-            else:
-                user_in = input(f'Is {name} eligible (Y/n)?')
-                if user_in in ['n', 'N']:
-                    eligible = False
-                else:
-                    eligible = True
-                if args.eligibility_file:
-                    eligibile_data[name] = eligible
+            eligible = _GetEligibility(name, eligibile_data, args.eligibility_file is not None)
             position = int(row[place_idx])
             if row[class_idx] in ['M21', 'M21E']:
                 course = race_result['classes']['m21']
