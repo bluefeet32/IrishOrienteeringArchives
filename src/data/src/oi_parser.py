@@ -100,9 +100,9 @@ with open('results.csv', newline='') as csvfile:
                     position = position - w_pos_modifier
             if 'distance' not in course:
                 course.update({
-                    'distance': row[distance_idx],
-                    'climb': row[climb_idx],
-                    'controls': row[controls_idx],
+                    'distance': float(row[distance_idx]),
+                    'climb': int(row[climb_idx]),
+                    'controls': int(row[controls_idx]),
                     'course_image': 'TODO: ADD ME',
                     'results': []
                 })
