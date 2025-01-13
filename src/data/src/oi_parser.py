@@ -116,18 +116,22 @@ with open('results.csv', newline='') as csvfile:
                     })
 # print(race_result)
 
+# It's really annoying if the eligibility file is not updated to have to re-enter all the data.
+if args.eligibility_file:
+    with open(args.eligibility_file, 'w') as jsonfile:
+        json.dump(eligibile_data, jsonfile, indent=2, ensure_ascii=False)
+
 data = {}
-with open(f'src/data/{args.year}.json', 'r') as jsonfile:
-    data = json.load(jsonfile)
+try:
+    with open(f'src/data/{args.year}.json', 'r') as jsonfile:
+        data = json.load(jsonfile)
+except FileNotFoundError:
+    # That's fine, we'll just create a new file
+    pass
 
 data[args.race] = race_result
 
 with open(f'src/data/{args.year}.json', 'w') as jsonfile:
     json.dump(data, jsonfile, indent=2, ensure_ascii=False)
-
-if args.eligibility_file:
-    with open(args.eligibility_file, 'w') as jsonfile:
-        json.dump(eligibile_data, jsonfile, indent=2, ensure_ascii=False)
-
 
 os.remove("results.csv")
