@@ -78,7 +78,7 @@ with open('results.csv', newline='') as csvfile:
             controls_idx = row.index('Course controls')
             i += 1
 
-        if row[class_idx] in ['"M21"', '"M21E"', '"W21"', '"W21E"']:
+        if row[class_idx] in ['"M21"', '"M21E"', 'M21', 'M21E', '"W21"', '"W21E"', 'W21', 'W21E']:
             row = [item.replace('"', '') for item in row]
             name = f'{row[fname_idx]} {row[sname_idx]}'
             eligible = _GetEligibility(name, eligibile_data, args.eligibility_file is not None)
