@@ -406,7 +406,7 @@
                     },
                     {
                         "position": 5,
-                        "name": "Kevin O' Boyle",
+                        "name": "Kevin O'Boyle",
                         "club": "Curragh-Naas",
                         "time": "38:15",
                         "eligible": true
@@ -1182,7 +1182,7 @@
                     },
                     {
                         "position": 3,
-                        "name": "Jonathon Quinn",
+                        "name": "Jonathan Quinn",
                         "club": "Great Eastern Navigators",
                         "time": "32:25",
                         "team": "EiGEN Vectors",
@@ -1522,7 +1522,7 @@
                         "eligible": true
                     },
                     {
-                        "position": 5,
+                        "position": null,
                         "name": "Ellen Funke",
                         "club": "Sweden",
                         "time": "36:47",
@@ -1531,7 +1531,7 @@
                         "eligible": false
                     },
                     {
-                        "position": 5,
+                        "position": null,
                         "name": "Malin Håll",
                         "club": "Sweden",
                         "time": "36:41",
@@ -1540,7 +1540,7 @@
                         "eligible": false
                     },
                     {
-                        "position": 5,
+                        "position": null,
                         "name": "Alice Funke",
                         "club": "Sweden",
                         "time": "40:40",
@@ -1549,7 +1549,7 @@
                         "eligible": false
                     },
                     {
-                        "position": 6,
+                        "position": null,
                         "name": "Clara Spik",
                         "club": "Sweden",
                         "time": "34:50",
@@ -1558,7 +1558,7 @@
                         "eligible": false
                     },
                     {
-                        "position": 6,
+                        "position": null,
                         "name": "Erica Håll",
                         "club": "Sweden",
                         "time": "48:09",

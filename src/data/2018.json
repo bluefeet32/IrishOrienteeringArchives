@@ -646,7 +646,7 @@
           },
           {
             "position": 4,
-            "name": "Kevin O' Boyle",
+            "name": "Kevin O'Boyle",
             "club": "CNOC",
             "time": "13:52",
             "eligible": true
@@ -793,7 +793,7 @@
           },
           {
             "position": null,
-            "name": "Ben Tyndadll",
+            "name": "Ben Tyndall",
             "club": "BOC",
             "time": "20:12",
             "eligible": false
@@ -1001,6 +1001,365 @@
             "club": "KERRYO",
             "time": "26:30",
             "eligible": true
+          }
+        ]
+      }
+    }
+  },
+  "relay": {
+    "area": "Finner Sand Dunes",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=21775",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=626",
+    "classes": {
+      "m21": {
+        "distance": 5.1,
+        "climb": 170,
+        "controls": 15,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=626",
+        "results": [
+          {
+            "position": 1,
+            "name": "Conall Whelan",
+            "club": "UCDO",
+            "time": "32:36",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ruairi Long",
+            "club": "UCDO",
+            "time": "32:22",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Colm Moran",
+            "club": "UCDO",
+            "time": "31:44",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Shane Lynch",
+            "club": "CorkO",
+            "time": "32:58",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Bill Edwards",
+            "club": "CorkO",
+            "time": "33:20",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Marcus Pinker",
+            "club": "CorkO",
+            "time": "31:34",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Seamus O'Boyle",
+            "club": "CNOC",
+            "time": "35:42",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ruairi Short",
+            "club": "CNOC",
+            "time": "32:49",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "30:00",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "BOC",
+            "time": "35:38",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Zac O'Sullivan-Hourihan",
+            "club": "BOC",
+            "time": "43:05",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Nicolas Simonin",
+            "club": "BOC",
+            "time": "27:21",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Ben Stevens",
+            "club": "DRONGO",
+            "time": "30:25",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Victoria Stevens",
+            "club": "DRONGO",
+            "time": "40:11",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "John Ockenden",
+            "club": "DRONGO",
+            "time": "38:12",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Erik Ivarsson Sandberg",
+            "club": " ",
+            "time": "29:38",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Elsa Jansson",
+            "club": " ",
+            "time": "41:53",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Alex Simonin",
+            "club": " ",
+            "time": "46:48",
+            "eligible": false
+          },
+          {
+            "position": 5,
+            "name": "Colm Hill",
+            "club": "CNOC",
+            "time": "34:28",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "38:52",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Killian Brennan",
+            "club": "CNOC",
+            "time": "54:34",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Cillin Corbett",
+            "club": "CorkO",
+            "time": "38:48",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Conrad Daly",
+            "club": "CorkO",
+            "time": "41:46",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Agris Kranvins",
+            "club": "CorkO",
+            "time": "48:07",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Smirnov Konseantin",
+            "club": "Valmo",
+            "time": "47:59",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Desrumaux Marie",
+            "club": "Valmo",
+            "time": "40:41",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Legere Pascal",
+            "club": "Valmo",
+            "time": "57:17",
+            "eligible": false
+          },
+          {
+            "position": 7,
+            "name": "Andrew Turner",
+            "club": "CorkO",
+            "time": "64:31",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Joe Bessonet",
+            "club": "CorkO",
+            "time": "87:05",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Brendan Wall",
+            "club": "CorkO",
+            "time": "59:35",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Zach Harrington",
+            "club": "CIT",
+            "time": "38:15",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Ben Tyndal",
+            "club": "CIT",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Niall Dobbs",
+            "club": "CIT",
+            "time": "41:42",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 4.0,
+        "climb": 110,
+        "controls": 13,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=626",
+        "results": [
+          {
+            "position": 1,
+            "name": "Aoife McCavana",
+            "club": "GEN",
+            "time": "27:42",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Cliona Donaghy",
+            "club": "GEN",
+            "time": "39:50",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Eadaoin McCavana",
+            "club": "GEN",
+            "time": "35:27",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "31:39",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Regina Kelly",
+            "club": "CNOC",
+            "time": "40:17",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "37:59",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Coleen Robinson",
+            "club": "SET",
+            "time": "49:33",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Hazel Thompson",
+            "club": "SET",
+            "time": "47:09",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Nina Haikonen",
+            "club": "SET",
+            "time": "40:39",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Helen Pruzina",
+            "club": "DRONGO",
+            "time": "34:51",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Lily Alger",
+            "club": "DRONGO",
+            "time": "75:12",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Zuzka Strakova",
+            "club": "DRONGO",
+            "time": "37:53",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Sue Stevens",
+            "club": "CUOC",
+            "time": "45:01",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Ben Windsor",
+            "club": "CUOC",
+            "time": "48:06",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "",
+            "club": "",
+            "time": "",
+            "eligible": false
           }
         ]
       }

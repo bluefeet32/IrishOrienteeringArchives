@@ -209,7 +209,7 @@
                     },
                     {
                         "position": 8,
-                        "name": "Caoimhe O' Boyle",
+                        "name": "Caoimhe O'Boyle",
                         "club": "Curragh-Naas",
                         "time": "16:18",
                         "eligible": true
@@ -470,7 +470,7 @@
                     },
                     {
                         "position": 7,
-                        "name": "Caoimhe O' Boyle",
+                        "name": "Caoimhe O'Boyle",
                         "club": "Curragh-Naas",
                         "time": "43:44",
                         "eligible": true
@@ -689,7 +689,7 @@
                     },
                     {
                         "position": 8,
-                        "name": "Caoimhe O' Boyle",
+                        "name": "Caoimhe O'Boyle",
                         "club": "Curragh-Naas",
                         "time": "108:09",
                         "eligible": true
@@ -1111,7 +1111,7 @@
                         "eligible": true
                     },
                     {
-                        "position": 7,
+                        "position": null,
                         "name": "Ciara Largey",
                         "club": "Fermanagh",
                         "time": "30:44",
@@ -1120,7 +1120,7 @@
                         "eligible": false
                     },
                     {
-                        "position": 7,
+                        "position": null,
                         "name": "Eibhlin Largey",
                         "club": "Fermanagh",
                         "time": "46:33",
@@ -1129,7 +1129,7 @@
                         "eligible": false
                     },
                     {
-                        "position": 7,
+                        "position": null,
                         "name": "Brian Furey",
                         "club": "Fermanagh",
                         "time": "76:55",
