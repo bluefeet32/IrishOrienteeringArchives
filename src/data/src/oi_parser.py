@@ -87,7 +87,9 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 controls_idx = row.index('Course controls')
                 i += 1
 
-            if row[class_idx] in ['"M21"', '"M21E"', 'M21', 'M21E', '"W21"', '"W21E"', 'W21', 'W21E']:
+            mens_classes = ['"M21"', '"M21E"', '"M21L"', 'M21', 'M21E', 'M21L']
+            womens_classes = ['"W21"', '"W21E"', '"M21L"', 'W21', 'W21E', 'W21L']
+            if row[class_idx] in mens_classes or row[class_idx] in womens_classes:
                 row = [item.replace('"', '') for item in row]
                 name = util.ParseName(row[fname_idx], row[sname_idx])
                 eligible = util.GetEligibility(name, eligibile_data, eligibility_file)
