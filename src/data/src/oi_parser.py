@@ -5,6 +5,8 @@ import json
 import os
 import urllib.request
 
+# Local imports
+import relay_helper
 import util
 
 
@@ -54,6 +56,19 @@ def main():
             'w21': {},
             }
         }
+    if args.race != 'relay':
+        race_result = ParseIndividualResult(race_result, eligibile_data, args.eligibility_file, map_url)
+    else:
+        race_result = relay_helper.ParseRelayResult(race_result, eligibile_data, args.eligibility_file, map_url)
+        
+    # print(race_result)
+
+    util.UpdateRaceResult(args.year, args.race, race_result)
+
+    os.remove("results.csv")
+
+
+def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_file: str, map_url: str):
     with open('results.csv', newline='') as csvfile:
         results_reader = csv.reader(csvfile, delimiter=';', quotechar='|')
         i = 0
@@ -108,13 +123,8 @@ def main():
                         'time': row[time_idx] if not dnf else 'DNF',
                         'eligible': eligible if not dnf else False,
                         })
-        
+    return race_result
 
-    # print(race_result)
-
-    util.UpdateRaceResult(args.year, args.race, race_result)
-
-    os.remove("results.csv")
 
 if __name__ == '__main__':
     main()
