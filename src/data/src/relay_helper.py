@@ -143,9 +143,9 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
                 for key, value in results_row.items():
                     if key:
                         row[key] = value.replace('"', '')
-                name = f'{row[fname].strip()} {row[sname].strip()}'.strip()
+                name = util.ParseName(row[fname], row[sname])
                 # print(f'"{name}"')
-                eligible = util.GetEligibility(name, eligibile_data, eligibility_file is not None)
+                eligible = util.GetEligibility(name, eligibile_data, eligibility_file)
 
                 club_num = row[club_num_header]
                 # print(f'club num: {club_num}')

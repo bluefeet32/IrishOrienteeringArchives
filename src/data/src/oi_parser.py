@@ -89,8 +89,8 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
 
             if row[class_idx] in ['"M21"', '"M21E"', 'M21', 'M21E', '"W21"', '"W21E"', 'W21', 'W21E']:
                 row = [item.replace('"', '') for item in row]
-                name = f'{row[fname_idx]} {row[sname_idx]}'
-                eligible = util.GetEligibility(name, eligibile_data, args.eligibility_file)
+                name = util.ParseName(row[fname_idx], row[sname_idx])
+                eligible = util.GetEligibility(name, eligibile_data, eligibility_file)
                 position = int(row[place_idx])
                 if row[class_idx] in ['M21', 'M21E']:
                     course = race_result['classes']['m21']
@@ -118,7 +118,7 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 dnf = '-----' in row
                 course['results'].append({
                         'position': position if not dnf else None,
-                        'name': f'{row[fname_idx]} {row[sname_idx]}',
+                        'name': name,
                         'club': row[club_idx],
                         'time': row[time_idx] if not dnf else 'DNF',
                         'eligible': eligible if not dnf else False,
