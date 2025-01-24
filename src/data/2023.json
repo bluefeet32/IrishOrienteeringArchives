@@ -251,7 +251,7 @@
           },
           {
             "position": 6,
-            "name": "Aoife O Sullivan",
+            "name": "Aoife O'Sullivan",
             "club": "UCDO/BOC",
             "time": "21:39",
             "eligible": true
@@ -363,7 +363,7 @@
           },
           {
             "position": 18,
-            "name": "Sarah Ní Ruairc",
+            "name": "Sarah Ni Ruairc",
             "club": "Fingal",
             "time": "63:10",
             "eligible": true
@@ -645,7 +645,7 @@
           },
           {
             "position": 5,
-            "name": "Aoife O Sullivan",
+            "name": "Aoife O'Sullivan",
             "club": "UCDO/BOC",
             "time": "40:10",
             "eligible": true
@@ -955,7 +955,7 @@
           },
           {
             "position": 7,
-            "name": "Aoife O Sullivan",
+            "name": "Aoife O'Sullivan",
             "club": "UCDO/BOC",
             "time": "118:55",
             "eligible": true
@@ -1032,7 +1032,7 @@
           },
           {
             "position": 2,
-            "name": "Aidan Mccullough",
+            "name": "Aidan McCullough",
             "club": "Three Rock",
             "time": "48:11",
             "team": "3ROC OP",
@@ -1041,7 +1041,7 @@
           },
           {
             "position": 2,
-            "name": "Eoin Mccullough",
+            "name": "Eoin McCullough",
             "club": "Three Rock",
             "time": "40:27",
             "team": "3ROC OP",
@@ -1059,7 +1059,7 @@
           },
           {
             "position": null,
-            "name": "Ruairí Long",
+            "name": "Ruairi Long",
             "club": "Nydalens SK",
             "time": "39:38",
             "team": "NyDallying",
@@ -1068,7 +1068,7 @@
           },
           {
             "position": null,
-            "name": "Róisín Long",
+            "name": "Roisin Long",
             "club": "Nydalens SK",
             "time": "49:54",
             "team": "NyDallying",
@@ -1221,7 +1221,7 @@
           },
           {
             "position": null,
-            "name": "Josh O'Sullivan Hourihan",
+            "name": "Josh O'Sullivan-Hourihan",
             "club": "Cork",
             "time": "42:56",
             "team": "CorkO_A",
@@ -1454,7 +1454,7 @@
           },
           {
             "position": null,
-            "name": "Cliona Mccullough",
+            "name": "Cliona McCullough",
             "club": "Three Rock",
             "time": "43:12",
             "team": "3ROC WP",

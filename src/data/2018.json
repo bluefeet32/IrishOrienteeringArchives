@@ -646,7 +646,7 @@
           },
           {
             "position": 4,
-            "name": "Kevin O' Boyle",
+            "name": "Kevin O'Boyle",
             "club": "CNOC",
             "time": "13:52",
             "eligible": true
@@ -793,7 +793,7 @@
           },
           {
             "position": null,
-            "name": "Ben Tyndadll",
+            "name": "Ben Tyndall",
             "club": "BOC",
             "time": "20:12",
             "eligible": false
@@ -1019,14 +1019,14 @@
         "results": [
           {
             "position": 1,
-            "name": "Conall Whealan",
+            "name": "Conall Whelan",
             "club": "UCDO",
             "time": "32:36",
             "eligible": true
           },
           {
             "position": 1,
-            "name": "Ruari Long",
+            "name": "Ruairi Long",
             "club": "UCDO",
             "time": "32:22",
             "eligible": true
@@ -1082,21 +1082,21 @@
           },
           {
             "position": 4,
-            "name": "Josh O'Sullivan Hourihan",
+            "name": "Josh O'Sullivan-Hourihan",
             "club": "BOC",
             "time": "35:38",
             "eligible": true
           },
           {
             "position": 4,
-            "name": "Zac O'Sullivan Hourihan",
+            "name": "Zac O'Sullivan-Hourihan",
             "club": "BOC",
             "time": "43:05",
             "eligible": true
           },
           {
             "position": 4,
-            "name": "Nick Simonin",
+            "name": "Nicolas Simonin",
             "club": "BOC",
             "time": "27:21",
             "eligible": true
@@ -1138,7 +1138,7 @@
           },
           {
             "position": null,
-            "name": "Ales Simonin",
+            "name": "Alex Simonin",
             "club": " ",
             "time": "46:48",
             "eligible": false
@@ -1166,7 +1166,7 @@
           },
           {
             "position": 6,
-            "name": "Cillian Corbett",
+            "name": "Cillin Corbett",
             "club": "CorkO",
             "time": "38:48",
             "eligible": true
