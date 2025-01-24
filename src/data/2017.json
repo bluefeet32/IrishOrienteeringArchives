@@ -662,5 +662,175 @@
         ]
       }
     }
+  },
+  "sprint": {
+    "area": "WIT Main Campus",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=2703",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=488",
+    "classes": {
+      "m21": {},
+      "w21": {
+        "distance": 3.32,
+        "climb": 0,
+        "controls": 27,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=488",
+        "results": [
+          {
+            "position": 1,
+            "name": "Seamus O'Boyle",
+            "club": "CNOC",
+            "time": "15:25",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Conor Short",
+            "club": "CNOC",
+            "time": "15:38",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Christoph Prunsche",
+            "club": "TuS Luebbecke",
+            "time": "15:47",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Christian Foley",
+            "club": "MNAV",
+            "time": "15:49",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "15:57",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Darren Burke",
+            "club": "CORKO",
+            "time": "15:58",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "UCCO/BOC",
+            "time": "16:04",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Laurence Quinn",
+            "club": "GEN",
+            "time": "16:16",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Niall McCarthy",
+            "club": "BOC",
+            "time": "16:35",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "16:49",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Andres del Bustio",
+            "club": "ASTUR EXTREM",
+            "time": "17:52",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Neil Dobbs",
+            "club": "WATO",
+            "time": "18:03",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Andrew Quin",
+            "club": "3ROC",
+            "time": "18:39",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Rob McEvoy",
+            "club": "CORKO",
+            "time": "20:50",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "Fergal Buckley",
+            "club": "KERRYO",
+            "time": "21:17",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Stuart Scott",
+            "club": "DUO",
+            "time": "26:04",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Ruairi Short",
+            "club": "CNOC",
+            "time": "16:25",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Colm Moran",
+            "club": "UCDO",
+            "time": "14:54",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Cillin Corbett",
+            "club": "CORKO",
+            "time": "15:18",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Kevin O'Riordan",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": 17,
+            "name": "Marcus Pinker",
+            "club": "Cork O",
+            "time": "17:48",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Eoin McCullough",
+            "club": "DUO/3ROC",
+            "time": "15:05",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }
