@@ -668,8 +668,7 @@
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=2703",
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=488",
     "classes": {
-      "m21": {},
-      "w21": {
+      "m21": {
         "distance": 3.32,
         "climb": 0,
         "controls": 27,
@@ -828,6 +827,91 @@
             "club": "DUO/3ROC",
             "time": "DNF",
             "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 2.9,
+        "climb": 0,
+        "controls": 23,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=488",
+        "results": [
+          {
+            "position": 1,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "15:38",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Roisin Long",
+            "club": "UCDO",
+            "time": "16:48",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Aoife McCavana",
+            "club": "GEN",
+            "time": "17:46",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Olivia Baxter",
+            "club": "LVO",
+            "time": "17:49",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Aine McCann",
+            "club": "LVO",
+            "time": "19:15",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Annika Kottonen",
+            "club": "Lynx",
+            "time": "19:38",
+            "eligible": false
+          },
+          {
+            "position": 6,
+            "name": "Sharon Lucey",
+            "club": "CORKO",
+            "time": "19:55",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Eva Suarez",
+            "club": "ASTUR EXTREM",
+            "time": "20:25",
+            "eligible": false
+          },
+          {
+            "position": 7,
+            "name": "Mariia Magina",
+            "club": "CNOC",
+            "time": "21:06",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Audrey Foley",
+            "club": "MNAV",
+            "time": "22:10",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Eibhlin Largey",
+            "club": "FERMO",
+            "time": "22:32",
+            "eligible": true
           }
         ]
       }
