@@ -85,6 +85,7 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 distance_idx = row.index('km')
                 climb_idx = row.index('m')
                 controls_idx = row.index('Course controls')
+                classifier_idx = row.index('Classifier')
                 i += 1
 
             mens_classes = ['"M21"', '"M21E"', '"M21L"', 'M21', 'M21E', 'M21L']
@@ -117,7 +118,7 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                         'results': []
                     })
                 # print(row[fname_idx], row[sname_idx], row[club_idx], row[class_idx], row[place_idx])
-                dnf = '-----' in row
+                dnf = '-----' in row or row[classifier_idx] != '0'
                 course['results'].append({
                         'position': position if not dnf else None,
                         'name': name,

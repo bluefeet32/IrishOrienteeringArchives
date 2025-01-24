@@ -788,25 +788,25 @@
             "eligible": true
           },
           {
-            "position": 17,
+            "position": null,
             "name": "Ruairi Short",
             "club": "CNOC",
-            "time": "16:25",
-            "eligible": true
+            "time": "DNF",
+            "eligible": false
           },
           {
-            "position": 17,
+            "position": null,
             "name": "Colm Moran",
             "club": "UCDO",
-            "time": "14:54",
-            "eligible": true
+            "time": "DNF",
+            "eligible": false
           },
           {
-            "position": 17,
+            "position": null,
             "name": "Cillin Corbett",
             "club": "CORKO",
-            "time": "15:18",
-            "eligible": true
+            "time": "DNF",
+            "eligible": false
           },
           {
             "position": null,
@@ -816,18 +816,18 @@
             "eligible": false
           },
           {
-            "position": 17,
+            "position": null,
             "name": "Marcus Pinker",
             "club": "Cork O",
-            "time": "17:48",
-            "eligible": true
+            "time": "DNF",
+            "eligible": false
           },
           {
-            "position": 17,
+            "position": null,
             "name": "Eoin McCullough",
             "club": "DUO/3ROC",
-            "time": "15:05",
-            "eligible": true
+            "time": "DNF",
+            "eligible": false
           }
         ]
       }
