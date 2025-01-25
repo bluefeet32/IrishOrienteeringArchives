@@ -36,6 +36,7 @@
                 <thead>
                     <tr>
                         <th>Name</th>
+                        <th>Total</th>
                         <template x-for="displayYear in years">
                             <th>
                                 <a
@@ -46,7 +47,6 @@
                                 </a>
                             </th>
                         </template>
-                        <th>Total</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -55,10 +55,10 @@
                             <td>
                                 <a class="button" :href="`runner.html?name=${result.name}`" x-text="result.name"></a>
                             </td>
+                            <td x-text="result.total"></td>
                             <template x-for="year in years">
                                 <td x-text="result[year]"></td>
                             </template>
-                            <td x-text="result.total"></td>
                         </tr>
                     </template>
                 </tbody>
