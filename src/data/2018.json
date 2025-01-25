@@ -595,11 +595,11 @@
             "eligible": false
           },
           {
-            "position": null,
+            "position": 13,
             "name": "Sharon Lucey",
             "club": "CORKO",
             "time": "72:09",
-            "eligible": false
+            "eligible": true
           },
           {
             "position": null,
