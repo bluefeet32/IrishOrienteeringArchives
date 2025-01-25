@@ -151,7 +151,7 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
                 # print(f'club num: {club_num}')
                 team = teams[club_num] if club_num in teams else Team(club_num, team_name=row[club], gender=gender)
                 # print(f'got team: {team}')
-                dnf = '-----' in row or row[classifier] != '0'
+                dnf = row[classifier] != '0'
                 team.addrunner(Runner(name=name, club=row[club], time=row[time], leg=row[leg], dnf=dnf, eligible=eligible))
                 teams[club_num] = team
                 

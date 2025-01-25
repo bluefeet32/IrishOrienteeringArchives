@@ -57,7 +57,7 @@ def main():
             }
         }
     if args.race != 'relay':
-        race_result = ParseIndividualResult(race_result, eligibile_data, args.eligibility_file, map_url)
+        race_result = ParseIndividualResult(race_result, eligibile_data, args.eligibility_file, map_url, args.race)
     else:
         race_result = relay_helper.ParseRelayResult(race_result, eligibile_data, args.eligibility_file, map_url)
         
@@ -68,7 +68,7 @@ def main():
     os.remove("results.csv")
 
 
-def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_file: str, map_url: str):
+def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_file: str, map_url: str, race: str):
     with open('results.csv', newline='') as csvfile:
         results_reader = csv.reader(csvfile, delimiter=';', quotechar='|')
         i = 0
@@ -88,8 +88,12 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 classifier_idx = row.index('Classifier')
                 i += 1
 
-            mens_classes = ['"M21"', '"M21E"', '"M21L"', 'M21', 'M21E', 'M21L']
-            womens_classes = ['"W21"', '"W21E"', '"W21L"', 'W21', 'W21E', 'W21L']
+            mens_classes = ['"M21"', '"M21E"', 'M21', 'M21E']
+            womens_classes = ['"W21"', '"W21E"', 'W21', 'W21E']
+            if race == 'sprint':
+                # In general sprint races are not "Elite"
+                mens_classes.append('"M21L"', 'M21L')
+                womens_classes.append('"W21L"', 'W21L')
             if row[class_idx] in mens_classes or row[class_idx] in womens_classes:
                 row = [item.replace('"', '') for item in row]
                 name = util.ParseSplitName(row[fname_idx], row[sname_idx])
@@ -118,7 +122,7 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                         'results': []
                     })
                 # print(row[fname_idx], row[sname_idx], row[club_idx], row[class_idx], row[place_idx])
-                dnf = '-----' in row or row[classifier_idx] != '0'
+                dnf = row[classifier_idx] != '0'
                 course['results'].append({
                         'position': position if not dnf else None,
                         'name': name,
