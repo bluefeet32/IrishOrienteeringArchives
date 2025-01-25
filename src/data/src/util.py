@@ -21,15 +21,19 @@ def GetEligibility(name: str, eligibility_data: dict[str, bool], eligibility_fil
     return eligible
 
 
-def ParseName(first_name: str, second_name: str) -> str:
-    """Parse a name from first and second name.
-
-    Irish people have awkward names with accents and stuff :)
-
-    TODO match with existing known names to avoid duplicates due to misspellings.
-    """
+def ParseSplitName(first_name: str, second_name: str) -> str:
+    """Parse a name from first and second name."""
     # Get rid of any leading/trailing whitespace
     name = f'{first_name.strip()} {second_name.strip()}'.strip()
+    return ParseName(name)
+
+
+def ParseName(name: str) -> str:
+    """Parse a name from first and second name.
+    Irish people have awkward names with accents and stuff :)
+
+    TODO match with existing known names to avoid duplicates due to misspellings
+    """
     # We're pretty naive here. Just create some known mappings for replacement.
     # Note that the order matters here, we replace the irish characters first so
     # the typos are in the correct format (e.g. consider "Ruarí").
@@ -43,6 +47,7 @@ def ParseName(first_name: str, second_name: str) -> str:
         ("O ", "O'"),  # e.g. Fix O Boyle -> O'Boyle
         # Known common misspellings
         ("Nick Simonin", "Nicolas Simonin"),
+        ("Nic Simonin", "Nicolas Simonin"),
         ("Ales Simonin", "Alex Simonin"),
         ("Lawrence Quinn", "Laurence Quinn"),
         ("Jonathon Quinn", "Jonathan Quinn"),
@@ -51,6 +56,7 @@ def ParseName(first_name: str, second_name: str) -> str:
         ("Conall Whealan", "Conal Whelan"),
         ("Vildas Tilunas", "Valdas Tilunas"),
         ("Cillian Corbett", "Cillin Corbett"),
+        ("P. Higgins", "Padraig Higgins"),
         ("Ruari", "Ruairi"),
         ("Tyndadll", "Tyndall"),
         ]
