@@ -1,0 +1,137 @@
+{
+  "long": {
+    "area": "Rossadrehid",
+    "results_url": "",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Brian Corbett",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Justin May",
+            "club": "3ROC",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "V. Joyce",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Bill Edwards",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Colm O'Halloran",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "James Logue",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Peter Kernan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Brendan Delaney",
+            "club": "CNOC",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "C. NicMhuiris",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "D. NiChallanian",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Eileen Loughman",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Una Creagh",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Eadaoin Morrish",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Julie Cleary",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "O. Cooke",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "M. Macpherson",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}

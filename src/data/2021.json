@@ -1,0 +1,23 @@
+{
+  "long": {
+    "area": "Covid",
+    "results_url": "",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": []
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": []
+      }
+    }
+  }
+}

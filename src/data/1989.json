@@ -1,0 +1,130 @@
+{
+  "long": {
+    "area": "Ravensdale Wood",
+    "results_url": "",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Peter Kernan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Justin May",
+            "club": "3ROC",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "A. O'Cleirigh",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "V. Joyce",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Padraig Higgins",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Steven Linton",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Bill Edwards",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Brian Corbett",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Una Creagh",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eadaoin Morrish",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Eileen Loughman",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "R. Burgess",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Julie Cleary",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "D. Lewis",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Tara Horan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}

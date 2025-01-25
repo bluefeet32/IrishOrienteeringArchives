@@ -1,0 +1,137 @@
+{
+  "long": {
+    "area": "Conagher & Callow Hill",
+    "results_url": "",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Marcus Pinker",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Shane Lynch",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "David Healy",
+            "club": "GEN",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Allan Bogle",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Colm O'Halloran",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Niall Bourke",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Darren Burke",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Colm Rothery",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Aislinn Austin",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Toni O'Donovan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Faye Pinker",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ciara Largey",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Maeve O'Grady",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Eileen Loughman",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}

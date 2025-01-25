@@ -1,0 +1,123 @@
+{
+  "long": {
+    "area": "Glendalough",
+    "results_url": "",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Eoin Rothery",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Brian Corbett",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Pat Healy",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Peter James",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Robin Bryson",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Denis Reidy",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Peter Kernan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Colm O'Halloran",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "D. NiChallanian",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "M. Thornhill",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Eileen Loughman",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "P. Murphy",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Roxanne White",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "C. NicMhuiris",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}

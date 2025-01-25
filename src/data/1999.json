@@ -1,0 +1,95 @@
+{
+  "long": {
+    "area": "Crohane",
+    "results_url": "",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "James Logue",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Marcus Pinker",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Colm Rothery",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "John Feehan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Steven Linton",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Bill Edwards",
+            "club": "CorkO",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Toni O'Donovan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Aislinn Austin",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Eileen Loughman",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Nuala Higgins",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}
