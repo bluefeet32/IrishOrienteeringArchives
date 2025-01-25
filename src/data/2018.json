@@ -173,87 +173,87 @@
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=625",
         "results": [
           {
-            "position": null,
+            "position": 1,
             "name": "Josefine Klintberg",
             "club": "DUO",
-            "time": "DNF",
-            "eligible": false
+            "time": "66:13",
+            "eligible": true
           },
           {
             "position": null,
             "name": "Victoria Stevens",
             "club": "AIRE",
-            "time": "DNF",
+            "time": "70:13",
             "eligible": false
           },
           {
-            "position": null,
+            "position": 2,
             "name": "Roisin Long",
             "club": "UCDO",
-            "time": "DNF",
-            "eligible": false
+            "time": "79:02",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 3,
             "name": "Niamh O'Boyle",
             "club": "CNOC",
-            "time": "DNF",
-            "eligible": false
+            "time": "79:37",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 4,
             "name": "Ciara Largey",
             "club": "FERMO",
-            "time": "DNF",
-            "eligible": false
+            "time": "81:17",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 5,
             "name": "Regina Kelly",
             "club": "CNOC",
-            "time": "DNF",
-            "eligible": false
+            "time": "96:36",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 6,
             "name": "Ruth Lynam",
             "club": "CNOC",
-            "time": "DNF",
-            "eligible": false
+            "time": "100:32",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 7,
             "name": "Helen Pruzina",
             "club": "LVO",
-            "time": "DNF",
-            "eligible": false
+            "time": "105:18",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 8,
             "name": "Zuzka Strakova",
             "club": "DrongO",
-            "time": "DNF",
-            "eligible": false
+            "time": "106:59",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 9,
             "name": "Olivia Baxter",
             "club": "LVO",
-            "time": "DNF",
-            "eligible": false
+            "time": "107:31",
+            "eligible": true
           },
           {
-            "position": null,
+            "position": 10,
             "name": "Stephanie Pruzina",
             "club": "LVO",
-            "time": "DNF",
-            "eligible": false
+            "time": "121:35",
+            "eligible": true
           },
           {
             "position": null,
             "name": "Lily Alger",
             "club": "CUOC",
-            "time": "DNF",
+            "time": "133:30",
             "eligible": false
           },
           {
