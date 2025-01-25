@@ -92,8 +92,8 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
             womens_classes = ['"W21"', '"W21E"', 'W21', 'W21E']
             if race == 'sprint':
                 # In general sprint races are not "Elite"
-                mens_classes.append('"M21L"', 'M21L')
-                womens_classes.append('"W21L"', 'W21L')
+                mens_classes += ['"M21L"', 'M21L']
+                womens_classes += ['"W21L"', 'W21L']
             if row[class_idx] in mens_classes or row[class_idx] in womens_classes:
                 row = [item.replace('"', '') for item in row]
                 name = util.ParseSplitName(row[fname_idx], row[sname_idx])
