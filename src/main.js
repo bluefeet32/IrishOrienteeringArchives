@@ -63,6 +63,9 @@ const getResults = () => {
             if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
             if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
             this._setUrlParams();
+
+            console.log(this.yearData);
+
         },
         years: [],
         currentYear: "",
@@ -80,6 +83,15 @@ const getResults = () => {
         },
         get results() {
             return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || [];
+        },
+        get area() {
+            return this.yearData?.[this.currentCourse]?.area || "";
+        },
+        get mapImage() {
+            class_info = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]
+            if (class_info?.course_image == null || class_info?.course_image == "")
+                return "404.html"
+            return class_info?.course_image || "";
         },
         async onClickYear(year) {
             this.currentYear = year;
