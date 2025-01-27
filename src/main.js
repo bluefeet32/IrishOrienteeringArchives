@@ -230,7 +230,13 @@ const getRankings = () => {
             return Object.keys(this.allResults?.[this.currentClass] || {}).sort((a,b) => sortCourses(a, b));
         },
         get currentResults() {
-            return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.total - a.total);
+            return (this.allResults?.[this.currentClass]?.[this.currentCourse]?.["results"] || []).sort((a, b) => b.total - a.total);
+        },
+        get currentAreas() {
+            return this.allResults?.[this.currentClass]?.[this.currentCourse]?.["areas"] || [];
+        },
+        get currentMaps() {
+            return this.allResults?.[this.currentClass]?.[this.currentCourse]?.["maps"] || [];
         },
         // get years() {return this.years},
         currentClass: "",
@@ -267,25 +273,36 @@ const getRankings = () => {
                 for (const [course, courseData] of Object.entries(courses)) {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
                         if (!data.hasOwnProperty(ageClass)) data[ageClass] = {};
-                        if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = [];
+                        if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = {
+                            "areas": [],
+                            "maps": [],
+                            "results": [],
+                        };
                         for (const rankingCourse of rankingCourses) {
-                            if (!data[ageClass].hasOwnProperty(rankingCourse)) data[ageClass][rankingCourse] = [];
+                            if (!data[ageClass].hasOwnProperty(rankingCourse)) data[ageClass][rankingCourse] = {
+                                // As ranking courses cover multiple disciplines they can't have an assocaited map.
+                                "areas": null,
+                                "maps": null,
+                                "results": [],
+                            };
                         }
+                        data[ageClass][course]["areas"][year] = courseData.area;
+                        data[ageClass][course]["maps"][year] = ageClassData.course_image;
                         for (const [result, resultData] of Object.entries(ageClassData.results)) {
                             points = pointsFromPosition[resultData.position];
                             points = points ? points : 0;
 
-                            this.addRankedResult(data[ageClass][course], resultData, year, points);
-                            this.addRankedResult(data[ageClass][overallCourse], resultData, year, points);
+                            this.addRankedResult(data[ageClass][course]["results"], resultData, year, points);
+                            this.addRankedResult(data[ageClass][overallCourse]["results"], resultData, year, points);
 
                             if (course != "relay") {
-                                this.addRankedResult(data[ageClass][individualCourse], resultData, year, points);
+                                this.addRankedResult(data[ageClass][individualCourse]["results"], resultData, year, points);
                                 if (course != "sprint") {
-                                    this.addRankedResult(data[ageClass][individualForestCourse], resultData, year, points);
+                                    this.addRankedResult(data[ageClass][individualForestCourse]["results"], resultData, year, points);
                                 }
                             }
                             if (course != "sprint") {
-                                this.addRankedResult(data[ageClass][forestCourse], resultData, year, points);
+                                this.addRankedResult(data[ageClass][forestCourse]["results"], resultData, year, points);
                             }
                         }
                     }
