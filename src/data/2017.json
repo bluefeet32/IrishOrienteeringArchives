@@ -73,7 +73,57 @@
         "climb": null,
         "controls": null,
         "course_image": null,
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Ciara Largey",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Toni O'Donovan",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Olivia Baxter",
+            "club": "",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Regina Kelly",
+            "club": "CNOC",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Hanna Mira Oerter",
+            "club": "",
+            "time": null,
+            "eligible": true
+          }
+        ]
       }
     }
   }
