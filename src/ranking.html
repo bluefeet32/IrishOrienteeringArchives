@@ -35,6 +35,13 @@
             <table class="table">
                 <thead>
                     <tr>
+                        <th></th>
+                        <th></th>
+                            <template x-for="year in years" x-data="currentAreas" x-dara="currentMaps">
+                                 <th><a class="vertical" :href="currentMaps[year]" x-text="currentAreas[year]"></a></th>
+                            </template>
+                    </tr>
+                    <tr>
                         <th>Name</th>
                         <th>Total</th>
                         <template x-for="displayYear in years">
