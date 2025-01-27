@@ -175,10 +175,12 @@ const getRunner = () => {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
                         const result = ageClassData.results.find((runner) => runner.name === this.name);
                         if (result) {
-                            points = result.position ? pointsFromPosition[result.position] : null
+                            points = result.position <= 8 ? pointsFromPosition[result.position] : 0
+                            area = courseData.area
+                            map = ageClassData.course_image != null ? ageClassData.course_image : "404.html"
                             if (!data.hasOwnProperty(ageClass)) data[ageClass] = {};
                             if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = [];
-                            data[ageClass][course].push({ ...result, year, points});
+                            data[ageClass][course].push({ ...result, year, area, map, points});
                         }
                     }
                 }
