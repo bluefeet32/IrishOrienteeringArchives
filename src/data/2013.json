@@ -1,126 +1,697 @@
 {
   "long": {
     "area": "Lough an Cogair",
-    "results_url": "",
-    "map_url": "",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=2082",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=317",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
-        "course_image": null,
+        "distance": 13.64,
+        "climb": 350,
+        "controls": 27,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=317",
         "results": [
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "CorkO",
-            "time": null,
+            "club": "CORKO",
+            "time": "98:30",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Neil Dobbs",
-            "club": "",
-            "time": null,
+            "club": "WATO",
+            "time": "103:42",
             "eligible": true
           },
           {
-            "position": 3,
+            "position": 2,
             "name": "Conor Short",
             "club": "CNOC",
-            "time": null,
+            "time": "103:42",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Ruairi Short",
             "club": "CNOC",
-            "time": null,
+            "time": "105:21",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Colm Moran",
             "club": "3ROC",
-            "time": null,
+            "time": "105:37",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Shane Lynch",
-            "club": "CorkO",
-            "time": null,
+            "club": "CORKO",
+            "time": "107:55",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Kevin O'Boyle",
             "club": "CNOC",
-            "time": null,
+            "time": "117:41",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Colm Hill",
             "club": "CNOC",
-            "time": null,
+            "time": "119:29",
             "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "UCC",
+            "time": "121:56",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Gerard Butler",
+            "club": "3ROC",
+            "time": "122:09",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Steven Linton",
+            "club": "NWOC",
+            "time": "124:14",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "132:24",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Gregory Ahlswede",
+            "club": "Orientacion Colmenar",
+            "time": "138:47",
+            "eligible": false
+          },
+          {
+            "position": 13,
+            "name": "Brian Flannelly",
+            "club": "CORKO",
+            "time": "156:57",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Kyle Heron",
+            "club": "DUO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Adrian Foley",
+            "club": "DFO",
+            "time": "DNF",
+            "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
-        "course_image": null,
+        "distance": 8.87,
+        "climb": 265,
+        "controls": 21,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=317",
         "results": [
           {
             "position": 1,
             "name": "Niamh O'Boyle",
             "club": "CNOC",
-            "time": null,
+            "time": "89:45",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Niamh Corbett",
-            "club": "CorkO",
-            "time": null,
+            "club": "CORKO",
+            "time": "100:29",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Ruth Lynam",
             "club": "CNOC",
-            "time": null,
+            "time": "101:08",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Rosalind Hussey",
-            "club": "",
-            "time": null,
+            "club": "DUO",
+            "time": "102:51",
             "eligible": true
           },
           {
+            "position": null,
+            "name": "Alison Campbell",
+            "club": "EUOC",
+            "time": "114:36",
+            "eligible": false
+          },
+          {
             "position": 5,
-            "name": "Susan Bell",
-            "club": "",
-            "time": null,
+            "name": "Susan Lambe",
+            "club": "LVO",
+            "time": "115:31",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Olivia Baxter",
-            "club": "",
-            "time": null,
+            "club": "LVO",
+            "time": "118:53",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Sharon Lucey",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "135:41",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  },
+  "relay": {
+    "area": "Leim Oirthair",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=2083",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=318",
+    "classes": {
+      "m21": {
+        "distance": 5.18,
+        "climb": 170,
+        "controls": 19,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=318",
+        "results": [
+          {
+            "position": 1,
+            "name": "Conor Short",
+            "club": "CNOC",
+            "time": "34:29",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "36:55",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ruairi Short",
+            "club": "CNOC",
+            "time": "39:42",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "BOC",
+            "time": "34:23",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niall McCarthy",
+            "club": "BOC",
+            "time": "39:31",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Pat O'Donovan",
+            "club": "BOC",
+            "time": "51:09",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Jonathan Quinn",
+            "club": "GEN",
+            "time": "37:47",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Gavin Doherty",
+            "club": "GEN",
+            "time": "54:26",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Laurence Quinn",
+            "club": "GEN",
+            "time": "42:22",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "34:40",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Colm Hill",
+            "club": "CNOC",
+            "time": "36:40",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Brendan Delaney",
+            "club": "CNOC",
+            "time": "63:50",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Neil Dobbs",
+            "club": "WATO",
+            "time": "34:25",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Robert Pim",
+            "club": "WATO",
+            "time": "51:32",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Andrew Cox",
+            "club": "WATO",
+            "time": "70:34",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Kyle Heron",
+            "club": "DUO",
+            "time": "42:56",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Rosalind Hussey",
+            "club": "DUO",
+            "time": "69:33",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Stuart Scott",
+            "club": "DUO",
+            "time": "58:21",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "John Power",
+            "club": "CORKO",
+            "time": "52:10",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Hugh Power",
+            "club": "CORKO",
+            "time": "51:03",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Fergal Buckley",
+            "club": "CORKO",
+            "time": "73:17",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Shane Lynch",
+            "club": "CORKO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Cillin Corbett",
+            "club": "CORKO",
+            "time": "42:57",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Marcus Pinker",
+            "club": "CORKO",
+            "time": "36:17",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Brian Flannelly",
+            "club": "CORKO",
+            "time": "50:21",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Brian Corbett",
+            "club": "CORKO",
+            "time": "42:09",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Gearoid Ryan",
+            "club": "CORKO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Jack Millar",
+            "club": "LVO",
+            "time": "34:59",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Harry Millar",
+            "club": "LVO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Ivan Millar",
+            "club": "LVO",
+            "time": "51:30",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 3.85,
+        "climb": 125,
+        "controls": 16,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=318",
+        "results": [
+          {
+            "position": 1,
+            "name": "Sharon Lucey",
+            "club": "CORKO",
+            "time": "38:28",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ailbhe Creedon",
+            "club": "CORKO",
+            "time": "40:33",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Niamh Corbett",
+            "club": "CORKO",
+            "time": "40:32",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Susan Lambe",
+            "club": "LVO",
+            "time": "38:35",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Heather Cairns",
+            "club": "LVO",
+            "time": "37:24",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Olivia Baxter",
+            "club": "LVO",
+            "time": "44:27",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "37:59",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Bernie O'Boyle",
+            "club": "CNOC",
+            "time": "50:37",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "41:11",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  },
+  "middle": {
+    "area": "Cnoc Mham na mBo",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=2080",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=315",
+    "classes": {
+      "m21": {
+        "distance": 5.17,
+        "climb": 170,
+        "controls": 17,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=315",
+        "results": [
+          {
+            "position": 1,
+            "name": "Conor Short",
+            "club": "CNOC",
+            "time": "35:43",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Marcus Pinker",
+            "club": "CORKO",
+            "time": "36:22",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Gerard Butler",
+            "club": "3ROC",
+            "time": "37:16",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Ruairi Short",
+            "club": "CNOC",
+            "time": "37:42",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Neil Dobbs",
+            "club": "WATO",
+            "time": "39:34",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Colm Moran",
+            "club": "3ROC",
+            "time": "40:05",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Kyle Heron",
+            "club": "DUO",
+            "time": "42:58",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Steven Linton",
+            "club": "NWOC",
+            "time": "43:28",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "43:28",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Brian Corbett",
+            "club": "CORKO",
+            "time": "44:10",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Gregory Ahlswede",
+            "club": "Orientacion Colmenar",
+            "time": "46:08",
+            "eligible": false
+          },
+          {
+            "position": 11,
+            "name": "Danny O'Hare",
+            "club": "CORKO",
+            "time": "49:30",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Shane Lynch",
+            "club": "CORKO",
+            "time": "49:33",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "52:27",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Kieran Rocks",
+            "club": "LVO",
+            "time": "54:40",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "UCC",
+            "time": "56:29",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Adrian Foley",
+            "club": "DFO",
+            "time": "70:05",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Brian Flannelly",
+            "club": "CORKO",
+            "time": "78:29",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": 4.36,
+        "climb": 155,
+        "controls": 13,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=315",
+        "results": [
+          {
+            "position": 1,
+            "name": "Una May",
+            "club": "3ROC",
+            "time": "43:43",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "44:48",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Niamh Corbett",
+            "club": "CORKO",
+            "time": "45:04",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Alison Campbell",
+            "club": "EUOC",
+            "time": "45:46",
+            "eligible": false
+          },
+          {
+            "position": 4,
+            "name": "Rosalind Hussey",
+            "club": "DUO",
+            "time": "47:51",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "52:28",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Susan Lambe",
+            "club": "LVO",
+            "time": "56:43",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Sharon Lucey",
+            "club": "CORKO",
+            "time": "59:20",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Olivia Baxter",
+            "club": "LVO",
+            "time": "64:47",
             "eligible": true
           }
         ]
