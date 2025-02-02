@@ -1,109 +1,232 @@
 {
   "long": {
     "area": "Inch",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=1916",
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
-        "course_image": null,
+        "distance": 10.53,
+        "climb": 500,
+        "controls": 29,
+        "course_image": "",
         "results": [
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "CorkO",
-            "time": null,
+            "club": "Cork O",
+            "time": "73:18",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Darren Burke",
-            "club": "CorkO",
-            "time": null,
+            "club": "Cork O",
+            "time": "81:12",
             "eligible": true
           },
           {
             "position": 3,
             "name": "John Feehan",
-            "club": "",
-            "time": null,
+            "club": "BVOC",
+            "time": "85:37",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Gerard Butler",
             "club": "3ROC",
-            "time": null,
+            "time": "95:40",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Daniel Morrogh",
-            "club": "",
-            "time": null,
+            "club": "DFO",
+            "time": "121:43",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Danny O'Hare",
-            "club": "",
-            "time": null,
+            "club": "Cork O",
+            "time": "130:41",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Kevin O'Reilly",
-            "club": "",
-            "time": null,
+            "club": "DFO",
+            "time": "170:42",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Eoghan Carton",
+            "club": "DFO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Gavin Doherty",
+            "club": "GEN",
+            "time": "DNF",
+            "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
-        "course_image": null,
+        "distance": 9.29,
+        "climb": 450,
+        "controls": 24,
+        "course_image": "",
         "results": [
           {
             "position": 1,
             "name": "Maeve O'Grady",
-            "club": "",
-            "time": null,
+            "club": "DFO",
+            "time": "101:40",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Rosalind Hussey",
-            "club": "",
-            "time": null,
+            "club": "DUO",
+            "time": "110:10",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Ruth Lynam",
             "club": "CNOC",
-            "time": null,
+            "time": "124:19",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Sharon Lucey",
-            "club": "",
-            "time": null,
+            "club": "FERMO",
+            "time": "141:47",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Olivia Baxter",
-            "club": "",
-            "time": null,
+            "club": "LVO",
+            "time": "144:28",
             "eligible": true
           }
         ]
       }
+    }
+  },
+  "middle": {
+    "area": "Castlegregory Sand Dunes",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=1906",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": 6.3,
+        "climb": 150,
+        "controls": 19,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Darren Burke",
+            "club": "Cork O",
+            "time": "29:44",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Marcus Pinker",
+            "club": "Cork O",
+            "time": "32:00",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Gerard Butler",
+            "club": "3ROC",
+            "time": "36:16",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "40:54",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Danny O'Hare",
+            "club": "Cork O",
+            "time": "44:47",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Gavin Doherty",
+            "club": "GEN",
+            "time": "50:26",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Eoghan Carton",
+            "club": "DFO",
+            "time": "50:26",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": 4.66,
+        "climb": 120,
+        "controls": 15,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Rosalind Hussey",
+            "club": "DUO",
+            "time": "36:16",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Olivia Baxter",
+            "club": "LVO",
+            "time": "43:27",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Sharon Lucey",
+            "club": "FERMO",
+            "time": "57:11",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Anne Werding",
+            "club": "QUBOC",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      }
+    }
+  },
+  "relay": {
+    "area": "Maharees",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=1913",
+    "map_url": "",
+    "classes": {
+      "m21": {},
+      "w21": {}
     }
   }
 }
