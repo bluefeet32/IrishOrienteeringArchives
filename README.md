@@ -31,6 +31,6 @@ If you have more info on data from these years it would be greatly appreciated.
    - 2004
    - 2005
    - 2006
-   - 2015 Long times & Relay results (o.ie results corrupted)
+   - 2015 Long times (o.ie results corrupted)
  - Before 1985 only the top three are known
  - Anything before 1976 is missing (if it ever existed)

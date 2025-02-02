@@ -422,5 +422,342 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Hillsborough Forest",
+    "results_url": "https://lvo.org.uk/ioc/results/relay/",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": "6.05 k",
+        "climb": "0 m",
+        "controls": "23",
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "BOC",
+            "time": "37:51",
+            "team": "BOC to the Future 2",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Niall McCarthy",
+            "club": "BOC",
+            "time": "44:47",
+            "team": "BOC to the Future 2",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Nicolas Simonin",
+            "club": "BOC",
+            "time": "30:58",
+            "team": "BOC to the Future 2",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Marcus Pinker",
+            "club": "Cork",
+            "time": "39:00",
+            "team": "Rebel Rebels",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Shane Lynch",
+            "club": "Cork",
+            "time": "37:32",
+            "team": "Rebel Rebels",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Cillin Corbett",
+            "club": "UCDO",
+            "time": "36:50",
+            "team": "UCDO Honeybadgers",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Laurence Quinn",
+            "club": "UCDO",
+            "time": "39:40",
+            "team": "UCDO Honeybadgers",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Colm Moran",
+            "club": "UCDO",
+            "time": "38:22",
+            "team": "UCDO Honeybadgers",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "36:43",
+            "team": "Carrantoohil",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Ruairi Short",
+            "club": "CNOC",
+            "time": "41:05",
+            "team": "Carrantoohil",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Conor Short",
+            "club": "CNOC",
+            "time": "38:11",
+            "team": "Carrantoohil",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Paul Pruzina",
+            "club": "LVO",
+            "time": "38:56",
+            "team": "Lagan Behind",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Frazer Howe",
+            "club": "LVO",
+            "time": "46:22",
+            "team": "Lagan Behind",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Patrick Higgins",
+            "club": "LVO",
+            "time": "47:58",
+            "team": "Lagan Behind",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Tom Dobra",
+            "club": "SJMT",
+            "time": "46:11",
+            "team": "SJMT",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Sarah-Jane Barrable",
+            "club": "SJMT",
+            "time": "64:58",
+            "team": "SJMT",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Tom Dobra - 2",
+            "club": "SJMT",
+            "time": "43:59",
+            "team": "SJMT",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": 6,
+            "name": "Allan Bogle",
+            "club": "NWOC",
+            "time": "37:57",
+            "team": "Foyle Rovers",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Peter Meehan",
+            "club": "NWOC",
+            "time": "60:31",
+            "team": "Foyle Rovers",
+            "leg": "2",
+            "eligible": true
+          },{
+            "position": 6,
+            "name": "Mark Hudson",
+            "club": "NWOC",
+            "time": "60:54",
+            "team": "Foyle Rovers",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "39:46",
+            "team": "Lugnaquilla",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Conall Whelan",
+            "club": "CNOC",
+            "time": "48:02",
+            "team": "Lugnaquilla",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Senen O'Boyle",
+            "club": "CNOC",
+            "time": "78:33",
+            "team": "Lugnaquilla",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Stephen Armstrong",
+            "club": "QUBOC",
+            "time": "91:41",
+            "team": "The Spaniards",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Richard Gillen",
+            "club": "QUBOC",
+            "time": "114:12",
+            "team": "The Spaniards",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Sean McGuinness",
+            "club": "QUBOC",
+            "time": "71:12",
+            "team": "The Spaniards",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "4.65 k",
+        "climb": "0 m",
+        "controls": "17",
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Caoimhe O'Boyle",
+            "club": "CNOC",
+            "time": "33:46",
+            "team": "Galtymore",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Regina Kelly",
+            "club": "CNOC",
+            "time": "49:57",
+            "team": "Galtymore",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "37:31",
+            "team": "Galtymore",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Toni O'Donovan",
+            "club": "CORKO",
+            "time": "32:10",
+            "team": "Rebel Rovers",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niamh Corbett",
+            "club": "CORKO",
+            "time": "37:00",
+            "team": "Rebel Rovers",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Fionne Lynch",
+            "club": "CORKO",
+            "time": "54:33",
+            "team": "Rebel Rovers",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Susan Lambe",
+            "club": "LVO",
+            "time": "47:29",
+            "team": "L's Belles",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Mari Troeng",
+            "club": "LVO",
+            "time": "47:17",
+            "team": "L's Belles",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Olivia Baxter",
+            "club": "LVO",
+            "time": "41:16",
+            "team": "L's Belles",
+            "leg": "1",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }
