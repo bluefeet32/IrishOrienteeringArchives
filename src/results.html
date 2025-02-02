@@ -72,11 +72,7 @@
                                 <td x-text="runner.club"></td>
                                 <td x-text="runner.time"></td>
                                 <td>
-                                    <template x-if="!runner.eligible">
-                                        <span class="icon">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                    </template>
+                                    <td x-text="runner.eligible ? '' : 'x'"></td>
                                 </td>
                             </tr>
                         </template>
