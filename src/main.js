@@ -239,11 +239,11 @@ const getRankings = () => {
 
             console.log(this.allResults);
 
-            await this.$nextTick();
-            console.log("hello");
+            // await this.$nextTick();
+            // console.log("hello");
 
 
-            this.setTableHeaderHeight();
+            // this.setTableHeaderHeight();
         },
         name: "",
         years: [],
