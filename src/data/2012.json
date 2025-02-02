@@ -225,8 +225,169 @@
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=1913",
     "map_url": "",
     "classes": {
-      "m21": {},
-      "w21": {}
+      "m21": {
+        "distance": 5.86,
+        "climb": 122,
+        "controls": 20,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Darren Burke",
+            "club": "Cork O",
+            "time": "31:54",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Brian Corbett",
+            "club": "Cork O",
+            "time": "33:37",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Marcus Pinker",
+            "club": "Cork O",
+            "time": "28:47",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Seamus O'Boyle",
+            "club": "CNOC",
+            "time": "30:51",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "29:59",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Colm Hill",
+            "club": "CNOC",
+            "time": "36:31",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "BOC",
+            "time": "39:53",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Aidan Kelleher",
+            "club": "BOC",
+            "time": "43:39",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Donal Murphy",
+            "club": "BOC",
+            "time": "34:37",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Colm O'Halloran",
+            "club": "Cork O",
+            "time": "41:24",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Gearoid Ryan",
+            "club": "Cork O",
+            "time": "39:52",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Danny O'Hare",
+            "club": "Cork O",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 4.89,
+        "climb": 104,
+        "controls": 19,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Caoimhe O'Boyle",
+            "club": "CNOC",
+            "time": "44:00",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Eileen Loughman",
+            "club": "CNOC",
+            "time": "46:38",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "41:37",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Susan Fitzgerald",
+            "club": "BOC",
+            "time": "76:17",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Nora Perkins",
+            "club": "BOC",
+            "time": "57:57",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Caroline Dennehy",
+            "club": "BOC",
+            "time": "42:27",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Eleanor Lucey",
+            "club": "BOC",
+            "time": "69:49",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Natusko Cotter",
+            "club": "BOC",
+            "time": "92:13",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Meabh Perkins",
+            "club": "BOC",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      }
     }
   }
 }
