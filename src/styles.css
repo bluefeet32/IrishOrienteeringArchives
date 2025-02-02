@@ -89,3 +89,28 @@ body {
     transform: translateX(150%);
 }
 
+
+
+.spinner-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid black;
+    background: linear-gradient(45deg, orange 50%, white 50%);
+    position: absolute;
+    animation: spin 1.5s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
