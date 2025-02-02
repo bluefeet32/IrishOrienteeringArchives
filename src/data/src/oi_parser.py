@@ -82,7 +82,10 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 club_idx = row.index('City')
                 class_idx = row.index('Short')
                 place_idx = row.index('Pl')
-                distance_idx = row.index('km')
+                if 'km' in row:
+                    distance_idx = row.index('km')
+                else:
+                    distance_idx = row.index('Km')
                 climb_idx = row.index('m')
                 controls_idx = row.index('Course controls')
                 classifier_idx = row.index('Classifier')
