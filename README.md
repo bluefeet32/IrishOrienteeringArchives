@@ -12,7 +12,7 @@ Data was collected from a few sources:
 
 A spreadhseet at https://docs.google.com/spreadsheets/d/1vPK1cAg3593l2pNEJpgtBBVHGx8LP-Q7mSgFKXT5FrY/edit?usp=sharing was used to generate the json data and can be used to generate other years which are missing. This also serves as a backup of the data outside of github.
 
-As of 2024/05/12 data collection is ongoing.
+As of 2025/02/02 data collection is ongoing.
 
 ## Data quality
 
@@ -31,5 +31,6 @@ If you have more info on data from these years it would be greatly appreciated.
    - 2004
    - 2005
    - 2006
+   - 2015 Long times & Relay results (o.ie results corrupted)
  - Before 1985 only the top three are known
  - Anything before 1976 is missing (if it ever existed)

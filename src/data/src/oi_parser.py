@@ -98,7 +98,11 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 row = [item.replace('"', '') for item in row]
                 name = util.ParseSplitName(row[fname_idx], row[sname_idx])
                 eligible = util.GetEligibility(name, eligibile_data, eligibility_file)
-                position = int(row[place_idx])
+                if row[place_idx]:
+                    position = int(row[place_idx])
+                else:
+                    eligible = False
+                    position = None
                 if row[class_idx] in mens_classes:
                     course = race_result['classes']['m21']
                     if not eligible:
