@@ -89,6 +89,10 @@ const getResults = () => {
             return this._indexResults(this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || []);
         },
         get results() {
+            resultList = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || [];
+            for (result of resultList) {
+                result['points'] = pointsFromPosition[result['position']]
+            }
             return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || [];
         },
         get area() {

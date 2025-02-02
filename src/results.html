@@ -54,6 +54,7 @@
                             <th>Position</th>
                             <th>Name</th>
                             <th>Club</th>
+                            <th>Points</th>
                             <th>Time</th>
                             <th>N/C</th>
                         </tr>
@@ -70,10 +71,14 @@
                                     ></a>
                                 </td>
                                 <td x-text="runner.club"></td>
-                                <td x-text="runner.time"></td>
                                 <td>
-                                    <td x-text="runner.eligible ? '' : 'x'"></td>
+                                    <a class="button"
+                                    :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
+                                    x-text="runner.points ? runner.points : '0'"></a>
+
                                 </td>
+                                <td x-text="runner.time"></td>
+                                <td x-text="runner.eligible ? '' : 'x'"></td>
                             </tr>
                         </template>
                     </tbody>
