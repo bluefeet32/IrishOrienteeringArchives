@@ -10,11 +10,16 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
+    <div x-data="getRankings()">
+    <div class="header">
+        <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
+    </div>
+    <div class="spinner-container" x-show="loading" x-transition.opacity>
+        <div class="spinner">
         </div>
-        <div x-data="getRankings()">
+    </div>
+    <div class="container"  x-show="!loading" x-transition.opacity>
+        <div>
             <h3 class="title is-3" x-text="name"></h3>
             <div class="tabs is-boxed">
                 <ul>
@@ -50,7 +55,7 @@
                             <th></th>
                             <template x-for="year in years" x-data="currentAreas">
                                 <th>
-                                    <a x-ref="areaItems" class="vertical" :href="currentMaps[year]"
+                                    <a x-ref="areaItems" class="vertical" :href="currentMaps[year] || false"
                                         x-text="currentAreas[year]"></a>
                                 </th>
                             </template>
@@ -86,6 +91,7 @@
             </div>
         </div>
     </div>
+</div>
 
     <script type="text/javascript" src="main.js"></script>
 </body>

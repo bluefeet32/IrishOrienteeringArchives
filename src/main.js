@@ -23,9 +23,9 @@ const INDIVIDUAL_FOREST_COURSE = "individual forest";
 const FOREST_COURSE = "forest";
 
 
-const eventCourses = [
+const EVENT_COURSES = [
     SPRINT, MIDDLE, LONG, RELAY
-]
+];
 
 const RANKING_COURSES = [
     OVERALL_COURSE,
@@ -105,7 +105,7 @@ const getResults = () => {
         get results() {
             resultList = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || [];
             for (result of resultList) {
-                result['points'] = pointsFromPosition[result['position']]
+                result['points'] = pointsFromPosition[result['position']];
             }
             return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.results || [];
         },
@@ -226,6 +226,7 @@ const getRunner = () => {
 const getRankings = () => {
     return {
         async init() {
+ 
             const params = new URLSearchParams(document.location.search);
             this.currentCourse = params.get("course");
             this.currentClass = params.get("class");
@@ -238,23 +239,25 @@ const getRankings = () => {
             this._setUrlParams();
 
             console.log(this.allResults);
+            
+            await this.$nextTick()
+            this.loading = false
 
-            // await this.$nextTick();
-            // console.log("hello");
-
-
-            // this.setTableHeaderHeight();
         },
+        loading: true,
         name: "",
         years: [],
         allYears: {},
         async loadAllYears() {
             this.years = await (await fetch("./data/years.json")).json();
-            const data = {};
-            for (const year of this.years) {
-                data[year] = await (await fetch(`./data/${year}.json`)).json();
-            }
-            this.allYears = data;
+            const allData =
+                await Promise.all(
+                    this.years.map(year =>
+                        fetch(`./data/${year}.json`).then(response => response.json())
+                    )
+                );
+
+            this.allYears = Object.fromEntries(this.years.map((year, index) => [year, allData[index]]));
         },
         allResults: {},
         get classes() {
@@ -266,10 +269,6 @@ const getRankings = () => {
         get currentResults() {
             return (this.allResults?.[this.currentClass]?.[this.currentCourse]?.["results"] || []).sort((a, b) => b.total - a.total);
         },
-        /**
- * Scroll `.table-container` in a specified direction.
- * @returns {Array<string>} direction - The direction to move.
- */
         get currentAreas() {
             return this.allResults?.[this.currentClass]?.[this.currentCourse]?.["areas"] || [];
         },
@@ -395,15 +394,20 @@ const getOverview = () => {
         allYears: {},
         async loadAllYears() {
             this.years = await (await fetch("./data/years.json")).json();
-            const data = {};
-            for (const year of this.years) {
-                data[year] = await (await fetch(`./data/${year}.json`)).json();
-            }
-            this.allYears = data;
+
+            const allData =
+                await Promise.all(
+                    this.years.map(year =>
+                        fetch(`./data/${year}.json`).then(response => response.json())
+                    )
+                );
+
+            this.allYears = Object.fromEntries(this.years.map((year, index) => [year, allData[index]]));
+
         },
         allResults: [],
         get courses() {
-            return eventCourses.sort((a,b) => sortCourses(a, b)) || [];
+            return EVENT_COURSES.sort((a, b) => sortCourses(a, b)) || [];
         },
         get currentResults() {
             return this.allResults || {};
@@ -417,14 +421,14 @@ const getOverview = () => {
         formatResults() {
             const data = [];
             for (const [year, courses] of Object.entries(this.allYears)) {
-                yearData = {"year": year}
-                for (const course of eventCourses) {
-                    yearData[course] = ""
+                yearData = { "year": year };
+                for (const course of EVENT_COURSES) {
+                    yearData[course] = "";
                 }
                 for (const [course, courseData] of Object.entries(courses)) {
-                    yearData[course] = courseData.area
+                    yearData[course] = courseData.area;
                 }
-                data.push(yearData)
+                data.push(yearData);
             }
             return data.sort().reverse();
         },
