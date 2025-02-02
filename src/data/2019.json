@@ -2,13 +2,13 @@
     "sprint": {
         "area": "Florence Court Estate",
         "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22020",
-        "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=379",
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
         "classes": {
             "m21": {
                 "distance": "2.7",
                 "climb": "60",
                 "controls": "18",
-                "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=379",
+                "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
                 "results": [
                     {
                         "position": 1,
@@ -156,7 +156,7 @@
                 "distance": "2.26",
                 "climb": "40",
                 "controls": "18",
-                "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=379",
+                "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
                 "results": [
                     {
                         "position": 1,
