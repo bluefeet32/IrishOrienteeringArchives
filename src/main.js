@@ -8,6 +8,13 @@ function capitalizeFirstLetter(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+var eventCourses = [
+    "sprint",
+    "middle",
+    "long",
+    "relay",
+]
+
 var overallCourse = "overall"
 var individualCourse = "individual"
 var individualForestCourse = "individual forest"
@@ -317,6 +324,53 @@ const getRankings = () => {
             params.set("class", this.currentClass);
             params.set("course", this.currentCourse);
             history.replaceState(null, null, "?" + params.toString());
+        },
+    };
+};
+
+const getOverview = () => {
+    return {
+        async init() {
+            await this.loadAllYears();
+            this.allResults = this.formatResults();
+            console.log(this.allResults);
+        },
+        years: [],
+        allYears: {},
+        async loadAllYears() {
+            this.years = await (await fetch("./data/years.json")).json();
+            const data = {};
+            for (const year of this.years) {
+                data[year] = await (await fetch(`./data/${year}.json`)).json();
+            }
+            this.allYears = data;
+        },
+        allResults: [],
+        get courses() {
+            return eventCourses.sort((a,b) => sortCourses(a, b)) || [];
+        },
+        get currentResults() {
+            return this.allResults || {};
+        },
+        currentClass: "",
+        // class is keyword, hence ageClass
+        onClickClass(ageClass) {
+            this.currentClass = ageClass;
+            this._setUrlParams();
+        },
+        formatResults() {
+            const data = [];
+            for (const [year, courses] of Object.entries(this.allYears)) {
+                yearData = {"year": year}
+                for (const course of eventCourses) {
+                    yearData[course] = ""
+                }
+                for (const [course, courseData] of Object.entries(courses)) {
+                    yearData[course] = courseData.area
+                }
+                data.push(yearData)
+            }
+            return data.sort().reverse();
         },
     };
 };
