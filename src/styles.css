@@ -15,3 +15,77 @@ body {
     writing-mode: tb-rl;
     transform: rotate(-180deg);
 }
+
+/* 
+
+.slanted-text {
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+    position: absolute;
+    text-decoration: none;
+
+}
+ */
+
+
+.table-container {
+    overflow-y: visible;
+    border: 1px solid #ddd;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.table-container th,
+.table-container td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container th.vertical {
+    writing-mode: vertical-rl;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.scroll-wrapper {
+    position: relative;
+}
+
+.scroll-arrow-container {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    z-index: 100;
+    background: transparent;
+    top: 50%;
+}
+
+.scroll-arrow {
+    transform: translateY(-50%);
+    width: 30px;
+    height: 150px;
+
+}
+
+
+.scroll-left {
+    transform: translateX(-150%);
+}
+
+
+.scroll-right {
+    transform: translateX(150%);
+}
+

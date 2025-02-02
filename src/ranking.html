@@ -1,14 +1,16 @@
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-        <link rel="stylesheet" href="styles.css" />
-        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <!-- <link rel="stylesheet" href="pepperoni.css"> -->
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- <link rel="stylesheet" href="pepperoni.css"> -->
+</head>
+
+<body>
+    <div class="container">
         <div class="header">
             <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
         </div>
@@ -32,45 +34,60 @@
                     </template>
                 </ul>
             </div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th></th>
-                            <template x-for="year in years" x-data="currentAreas" x-dara="currentMaps">
-                                 <th><a class="vertical" :href="currentMaps[year]" x-text="currentAreas[year]"></a></th>
-                            </template>
-                    </tr>
-                    <tr>
-                        <th>Name</th>
-                        <th>Total</th>
-                        <template x-for="displayYear in years">
-                            <th>
-                                <a
-                                    class="button"
-                                    :href="`results.html?year=${displayYear}&course=${currentCourse}&class=${currentClass}`"
-                                    x-text="displayYear"
-                                >
-                                </a>
-                            </th>
-                        </template>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template x-for="result in currentResults" :key="result.name">
-                        <tr>
-                            <td>
-                                <a class="button" :href="`runner.html?name=${result.name}`" x-text="result.name"></a>
-                            </td>
-                            <td x-text="result.total"></td>
-                            <template x-for="year in years">
-                                <td x-text="result[year]"></td>
+
+
+            <div class="scroll-arrow-container">
+                <button @click="onClickScroll('left')"
+                    class="scroll-arrow scroll-left button is-size-4 has-text-weight-bold is-link">&lt;</button>
+                <button @click="onClickScroll('right')"
+                    class="scroll-arrow scroll-right button is-size-4 has-text-weight-bold is-link">&gt;</button>
+            </div>
+            <div class="table-container">
+                <table class="table is-striped is-hoverable">
+                    <thead>
+                        <tr x-ref="areaHeader">
+                            <th></th>
+                            <th></th>
+                            <template x-for="year in years" x-data="currentAreas">
+                                <th>
+                                    <a x-ref="areaItems" class="vertical" :href="currentMaps[year]"
+                                        x-text="currentAreas[year]"></a>
+                                </th>
                             </template>
                         </tr>
-                    </template>
-                </tbody>
-            </table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Total</th>
+                            <template x-for="displayYear in years">
+                                <th>
+                                    <a class="button"
+                                        :href="`results.html?year=${displayYear}&course=${currentCourse}&class=${currentClass}`"
+                                        x-text="displayYear">
+                                    </a>
+                                </th>
+                            </template>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template x-for="result in currentResults" :key="result.name">
+                            <tr>
+                                <td>
+                                    <a class="button" :href="`runner.html?name=${result.name}`"
+                                        x-text="result.name"></a>
+                                </td>
+                                <td x-text="result.total"></td>
+                                <template x-for="year in years">
+                                    <td x-text="result[year]"></td>
+                                </template>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <script type="text/javascript" src="main.js"></script>
-    </body>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
 </html>
