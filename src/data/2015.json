@@ -1,127 +1,260 @@
 {
   "long": {
     "area": "Slieve Croob",
-    "results_url": "",
+    "results_url": "https://lvo.org.uk/ioc/results/long/",
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": null,
+        "distance": "11.6 k",
         "climb": null,
-        "controls": null,
+        "controls": 25,
         "course_image": null,
         "results": [
           {
             "position": 1,
             "name": "Nicolas Simonin",
             "club": "BOC",
-            "time": null,
+            "time": "76:16",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Nick Barrable",
+            "club": "SYO",
+            "time": "83:34",
+            "eligible": false
           },
           {
             "position": 2,
             "name": "Eoin McCullough",
             "club": "3ROC",
-            "time": null,
+            "time": "87:28",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Marcus Pinker",
             "club": "CorkO",
-            "time": null,
+            "time": "88:17",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Conor Short",
             "club": "CNOC",
-            "time": null,
+            "time": "91:33",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Colm Moran",
             "club": "3ROC",
-            "time": null,
+            "time": "91:47",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Ruairi Short",
             "club": "CNOC",
-            "time": null,
+            "time": "92:25",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Darren Burke",
             "club": "CorkO",
-            "time": null,
+            "time": "92:56",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Shane Lynch",
             "club": "CorkO",
-            "time": null,
+            "time": "93:46",
             "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Jack Millar",
+            "club": "LVO",
+            "time": "94:55",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Cillin Corbett",
+            "club": "CorkO",
+            "time": "95:22",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Neil Dobbs",
+            "club": "WatO",
+            "time": "97:33",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "UCCO",
+            "time": "105:51",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "109:27",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Mark Stephens",
+            "club": "LVO",
+            "time": "115:22",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "Valdas Tilunas",
+            "club": "3ROC",
+            "time": "148:18",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Patrick Higgins",
+            "club": "LVO",
+            "time": "321:33",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Laurence Quinn",
+            "club": "GEN",
+            "time": null,
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Mario Nogales Pastrana",
+            "club": "QUBOC",
+            "time": null,
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": null,
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Markku Elo",
+            "club": "ANGELNIEMEN ANKKURI",
+            "time": null,
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Gerard Butler",
+            "club": "3ROC",
+            "time": null,
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Stuart Scott",
+            "club": "DUO",
+            "time": null,
+            "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": null,
+        "distance": "7.1 k",
         "climb": null,
-        "controls": null,
+        "controls": 16,
         "course_image": null,
         "results": [
           {
             "position": 1,
             "name": "Niamh O'Boyle",
             "club": "CNOC",
-            "time": null,
+            "time": "68:30",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Ciara Largey",
             "club": "",
-            "time": null,
+            "time": "69:26",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Toni O'Donovan",
             "club": "",
-            "time": null,
+            "time": "70:18",
             "eligible": true
+          },
+          {
+          "position": null,
+          "name": "Sarah-Jane Barrable",
+          "club": "SLOW",
+          "time": "74:05",
+          "eligible": false
           },
           {
             "position": 4,
             "name": "Niamh Corbett",
             "club": "CorkO",
-            "time": null,
+            "time": "84:26",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Regina Kelly",
             "club": "CNOC",
-            "time": null,
+            "time": "91:37",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Ruth Lynam",
             "club": "CNOC",
-            "time": null,
+            "time": "99:33",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Sharon Lucey",
             "club": "",
-            "time": null,
+            "time": "111:50",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Eibhlin Largey",
+            "club": "FERMO",
+            "time": null,
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Katarina Stefkova",
+            "club": "LVO",
+            "time": null,
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Mari Troeng",
+            "club": "LVO",
+            "time": null,
+            "eligible": false
           }
         ]
       }
