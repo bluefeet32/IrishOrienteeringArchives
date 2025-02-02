@@ -113,7 +113,7 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
 
         
         mens_classes = ['"Open Premier"', 'Open Premier']
-        womens_classes = ['"Womens Premier"', 'Womens Premier']
+        womens_classes = ['"Womens Premier"', 'Womens Premier', '"Women\'s Premier"', 'Women\'s Premier']
 
         # Relay results are ordered by the finish times on the course. We need to group the results by team and then figure out the team's position, then apply
         # that to the individual's position. A team is ineligible if any individual in that team is ineligible.
