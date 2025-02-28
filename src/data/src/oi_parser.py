@@ -21,6 +21,9 @@ def main():
     parser.add_argument('-r', '--race', choices=['sprint', 'middle', 'long', 'relay'], required=True)
     parser.add_argument('-a', '--area')
     parser.add_argument('-e', '--eligibility_file')
+    # Most of the time the club name is in the "City" field, but every now and then it's actually in "Cl.name".
+    # Allow to select it to avoid having to manually edit the results files.
+    parser.add_argument('-c', '--club_field', choices=['City', 'Cl.name'], default='City')
 
     args = parser.parse_args()
 
@@ -57,7 +60,7 @@ def main():
             }
         }
     if args.race != 'relay':
-        race_result = ParseIndividualResult(race_result, eligibile_data, args.eligibility_file, map_url, args.race)
+        race_result = ParseIndividualResult(race_result, eligibile_data, args.eligibility_file, map_url, args.race, args.club_field)
     else:
         race_result = relay_helper.ParseRelayResult(race_result, eligibile_data, args.eligibility_file, map_url)
         
@@ -68,7 +71,7 @@ def main():
     os.remove("results.csv")
 
 
-def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_file: str, map_url: str, race: str):
+def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_file: str, map_url: str, race: str, club_field: str):
     with open('results.csv', newline='') as csvfile:
         results_reader = csv.reader(csvfile, delimiter=';', quotechar='|')
         i = 0
@@ -79,7 +82,7 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 fname_idx = row.index('First name')
                 sname_idx = row.index('Surname')
                 time_idx = row.index('Time')
-                club_idx = row.index('City')
+                club_idx = row.index(club_field)
                 class_idx = row.index('Short')
                 place_idx = row.index('Pl')
                 if 'km' in row:
@@ -102,7 +105,11 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                 name = util.ParseSplitName(row[fname_idx], row[sname_idx])
                 eligible = util.GetEligibility(name, eligibile_data, eligibility_file)
                 if row[place_idx]:
-                    position = int(row[place_idx])
+                    if row[place_idx] == 'nc':
+                        eligible = False
+                        position = None
+                    else:
+                        position = int(row[place_idx])
                 else:
                     eligible = False
                     position = None
@@ -134,7 +141,7 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
                         'position': position if not dnf else None,
                         'name': name,
                         'club': row[club_idx],
-                        'time': row[time_idx] if not dnf else 'DNF',
+                        'time': util.FormatTime(row[time_idx]) if not dnf else 'DNF',
                         'eligible': eligible if not dnf else False,
                         })
     return race_result

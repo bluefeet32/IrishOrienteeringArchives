@@ -51,17 +51,21 @@ def ParseName(name: str) -> str:
         ("Ales Simonin", "Alex Simonin"),
         ("Lawrence Quinn", "Laurence Quinn"),
         ("Jonathon Quinn", "Jonathan Quinn"),
+        ("Andrew Quinn", "Andrew Quin"),
         ("O'S H", "O'Sullivan-Hourihan"),
         ("O'Sullivan Hourihan", "O'Sullivan-Hourihan"),
         ("Conall Whealan", "Conal Whelan"),
         ("Vildas Tilunas", "Valdas Tilunas"),
         ("Cillian Corbett", "Cillin Corbett"),
         ("P. Higgins", "Padraig Higgins"),
+        ("Katarina Sterko", "Katarina Stefko"),
         ("Katarina Stefko", "Katarina Stefkova"),
+        ("Andrea Stefko", "Andrea Stefkova"),
         ("Beirne O'Boyle", "Bernie O'Boyle"),
         ("Shea O'Boyle", "Seamus O'Boyle"),
         ("Johnny Kendall", "Jonny Kendall"),
         ("Gerald Butler", "Gerard Butler"),
+        ("Naill Ewwn", "Niall Ewen"),
         ("Ruari", "Ruairi"),
         ("Tyndadll", "Tyndall"),
         ("Mckenna", "McKenna"),
@@ -70,7 +74,27 @@ def ParseName(name: str) -> str:
     for char_pair in chars_mapping:
         name = name.replace(char_pair[0], char_pair[1])
 
-    return name 
+    return name
+
+def FormatTime(time_str: str) -> str:
+    """Format a time string to a consistent format.
+    
+    Args:
+        time_str: The time string to format. Either "mm:ss" or "h:mm:ss".
+
+    Returns:
+        Time formatted at mmm:ss
+    """
+    time_arr = time_str.split(':')
+    if len(time_arr) == 3:
+        # We have h:mm:ss
+        mins = int(time_arr[0]) * 60 + int(time_arr[1])
+        return f'{mins}:{time_arr[2]}'
+    if len(time_arr) == 2:
+        # We have mm:ss, don't need to do anything
+        return time_str
+    else:
+        raise ValueError(f'Unsupported time format: {time_str}')
 
 
 def UpdateRaceResult(year: int, race: str, race_result: dict):

@@ -18,7 +18,7 @@ class Runner:
     def __init__(self, name, club, time, leg, dnf, eligible):
         self.name = name
         self.club = club
-        self.time = time if not dnf else 'DNF'
+        self.time = util.FormatTime(time) if not dnf else 'DNF'
         self.leg = leg
         self.eligible = False if dnf else eligible
 
@@ -72,7 +72,8 @@ class Team:
     
     def addrunner(self, runner: Runner):
         if len(self.runners) >= 3:
-            print(f'Team cannot have more than 3 runners. Skipped adding runner: {runner}')
+            print(f'Team cannot have more than 3 runners. Skipped adding runner "{runner}" to team "{self}"')
+            return
         self.runners.append(runner)
         if runner.eligible == False:
             self.eligible = False
@@ -112,8 +113,8 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
         classifier = "Classifier"
 
         
-        mens_classes = ['"Open Premier"', 'Open Premier', 'O Prem', '"O Prem"']
-        womens_classes = ['"Womens Premier"', 'Womens Premier', '"Women\'s Premier"', 'Women\'s Premier', 'W Prem', '"W Prem"']
+        mens_classes = ['"Open Premier"', 'Open Premier', 'O Prem', '"O Prem"', 'M.Open', '"M.Open"']
+        womens_classes = ['"Womens Premier"', 'Womens Premier', '"Women\'s Premier"', 'Women\'s Premier', 'W Prem', '"W Prem"', 'W.Open', '"W.Open"']
 
         # Relay results are ordered by the finish times on the course. We need to group the results by team and then figure out the team's position, then apply
         # that to the individual's position. A team is ineligible if any individual in that team is ineligible.
@@ -128,32 +129,33 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
             if results_row[class_name] in mens_classes or results_row[class_name] in womens_classes:
                 gender = 'm' if results_row[class_name] in mens_classes else 'w'
                 # print(results_row)
-
-                course = m_course if gender == 'm' else w_course
-                if 'distance' not in course:
-                    course.update({
-                        'distance': float(results_row[distance]),
-                        'climb': int(results_row[climb]),
-                        'controls': int(results_row[controls]),
-                        'course_image': map_url,
-                        'results': []
-                    })
-
                 row = {}
                 for key, value in results_row.items():
                     if key:
                         row[key] = value.replace('"', '')
+
+                course = m_course if gender == 'm' else w_course
+                if 'distance' not in course:
+                    course.update({
+                        'distance': float(row[distance]),
+                        'climb': int(row[climb]),
+                        'controls': int(row[controls]),
+                        'course_image': map_url,
+                        'results': []
+                    })
+
                 name = util.ParseSplitName(row[fname], row[sname])
                 # print(f'"{name}"')
                 eligible = util.GetEligibility(name, eligibile_data, eligibility_file)
 
                 club_num = row[club_num_header]
-                # print(f'club num: {club_num}')
-                team = teams[club_num] if club_num in teams else Team(club_num, team_name=row[club], gender=gender)
+                team_name = row[club]
+                # print(f'team name: {team_name}')
+                team = teams[team_name] if team_name in teams else Team(club_num, team_name=row[club], gender=gender)
                 # print(f'got team: {team}')
                 dnf = row[classifier] != '0'
                 team.addrunner(Runner(name=name, club=row[club], time=row[time], leg=row[leg], dnf=dnf, eligible=eligible))
-                teams[club_num] = team
+                teams[team_name] = team
                 
         # print(teams)
 
@@ -165,6 +167,7 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
 
         m_pos = 1
         w_pos = 1
+        blank_count = 0
         for team in sorted_teams:
             course = m_course if team.gender == 'm' else w_course
             if team.eligible == False:
@@ -176,6 +179,9 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
                 else:
                     w_pos += 1
             sorted_runners = sorted(team.runners, key=lambda x: x.leg)
+            if len(sorted_runners) < 3:
+                team.eligible = False
+                pos = None
             for runner in sorted_runners:
                 course['results'].append({
                     'position': pos,
@@ -189,10 +195,12 @@ def ParseRelayResult(race_result: dict, eligibile_data: dict, eligibility_file: 
                 for i in range(3 - len(sorted_runners)):
                     course['results'].append({
                         'position': pos,
-                        'name': '',
-                        'club': '',
+                        'name': f'Blank {blank_count}',
+                        'club': team.club_name,
                         'time': '',
-                        'eligible': False
+                        'eligible': team.eligible
                     })
+                    # names have to be unique so we add a count to the end
+                    blank_count += 1
 
     return race_result
