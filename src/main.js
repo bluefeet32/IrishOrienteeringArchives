@@ -226,7 +226,6 @@ const getRunner = () => {
 const getRankings = () => {
     return {
         async init() {
- 
             const params = new URLSearchParams(document.location.search);
             this.currentCourse = params.get("course");
             this.currentClass = params.get("class");
@@ -238,10 +237,8 @@ const getRankings = () => {
             if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
             this._setUrlParams();
 
-            console.log(this.allResults);
-            
-            await this.$nextTick()
-            this.loading = false
+            await this.$nextTick();
+            this.loading = false;
 
         },
         loading: true,
@@ -298,10 +295,10 @@ const getRankings = () => {
             else if (direction === 'right') scrollAmount = scrollAmount;
             else return;
 
-            document.querySelector('.table-container').scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            document.querySelector('body').scrollBy({ left: scrollAmount, behavior: 'smooth' });
         },
         addRankedResult(course, resultData, year, points) {
-            const result = course.find((runner) => runner.name === resultData.name);
+            const result = Object.values(course).find((runner) => runner.name === resultData.name);
             if (result) {
                 if (!result.hasOwnProperty(year)) {
                     result[year] = points;
@@ -324,8 +321,8 @@ const getRankings = () => {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
                         if (!data.hasOwnProperty(ageClass)) data[ageClass] = {};
                         if (!data[ageClass].hasOwnProperty(course)) data[ageClass][course] = {
-                            "areas": [],
-                            "maps": [],
+                            "areas": {},
+                            "maps": {},
                             "results": [],
                         };
                         for (const rankingCourse of RANKING_COURSES) {
@@ -360,18 +357,7 @@ const getRankings = () => {
             }
             return data;
         },
-        // async setTableHeaderHeight() {
-        //     // this.$watch('classes', () => {
-        //     //     console.log(this.$refs.areaHeader.children)
-        //     // })
 
-        //     const currentAreas = this.$refs.areaHeader.querySelectorAll('.current-area.slanted-text');
-
-        //     let longestOffsetWidth = 0;
-        //     currentAreas.forEach(area => longestOffsetWidth = Math.max(area.offsetWidth, longestOffsetWidth));
-        //     // currentAreas.forEach(area => area.style.transformY(-longestOffsetWidth));
-        //     this.$refs.areaHeader.style.height = longestOffsetWidth
-        // },
 
 
         _setUrlParams() {
