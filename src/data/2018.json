@@ -1019,7 +1019,7 @@
         "results": [
           {
             "position": 1,
-            "name": "Conall Whelan",
+            "name": "Conal Whelan",
             "club": "UCDO",
             "time": "32:36",
             "eligible": true
@@ -1356,8 +1356,8 @@
           },
           {
             "position": null,
-            "name": "",
-            "club": "",
+            "name": "Blank 0",
+            "club": "CUOC",
             "time": "",
             "eligible": false
           }
