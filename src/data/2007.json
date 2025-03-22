@@ -1,133 +1,954 @@
 {
   "long": {
     "area": "Conagher & Callow Hill",
-    "results_url": "",
-    "map_url": "",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=351",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=22",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
-        "course_image": null,
+        "distance": 9.9,
+        "climb": 510,
+        "controls": 29,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=22",
         "results": [
           {
             "position": 1,
             "name": "Marcus Pinker",
             "club": "CorkO",
-            "time": null,
+            "time": "73:05",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Shane Lynch",
             "club": "CorkO",
-            "time": null,
+            "time": "86:30",
             "eligible": true
           },
           {
             "position": 3,
             "name": "David Healy",
             "club": "GEN",
-            "time": null,
+            "time": "90:09",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Allan Bogle",
-            "club": "",
-            "time": null,
+            "club": "NWOC",
+            "time": "91:43",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Colm O'Halloran",
-            "club": "",
-            "time": null,
+            "club": "CorkO",
+            "time": "93:29",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Niall Bourke",
-            "club": "",
-            "time": null,
+            "club": "CorkO",
+            "time": "93:33",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Darren Burke",
             "club": "CorkO",
-            "time": null,
+            "time": "97:11",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Colm Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "97:28",
             "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Steven Linton",
+            "club": "NWOC",
+            "time": "99:30",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Andrew Johnstone",
+            "club": "GEN",
+            "time": "105:58",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Neil Dobbs",
+            "club": "WATO",
+            "time": "107:01",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Jonny Gallier",
+            "club": "LVO",
+            "time": "110:02",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Patrick Higgins",
+            "club": "LVO",
+            "time": "111:41",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Donal Burke",
+            "club": "DFO",
+            "time": "114:10",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "Kieran Rocks",
+            "club": "LVO",
+            "time": "118:52",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Gerard Butler",
+            "club": "3ROC",
+            "time": "119:37",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Andrew McCarthy",
+            "club": "AJAX",
+            "time": "134:28",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "Oliver Clear",
+            "club": "DFO",
+            "time": "137:25",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Danny O'Hare",
+            "club": "CorkO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Simon Keenan",
+            "club": "DFO",
+            "time": "DNF",
+            "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
-        "course_image": null,
+        "distance": 6.6,
+        "climb": 325,
+        "controls": 17,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=22",
         "results": [
           {
             "position": 1,
             "name": "Aislinn Austin",
-            "club": "",
-            "time": null,
+            "club": "CorkO",
+            "time": "68:18",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Toni O'Donovan",
-            "club": "",
-            "time": null,
+            "club": "CorkO",
+            "time": "71:54",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Ruth Lynam",
             "club": "CNOC",
-            "time": null,
+            "time": "79:50",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Faye Pinker",
             "club": "CorkO",
-            "time": null,
+            "time": "81:08",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Ciara Largey",
-            "club": "",
-            "time": null,
+            "club": "FERMO",
+            "time": "81:58",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Maeve O'Grady",
-            "club": "",
-            "time": null,
+            "club": "CNOC/DEO",
+            "time": "90:33",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Niamh O'Boyle",
             "club": "CNOC",
-            "time": null,
+            "time": "97:38",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Eileen Loughman",
+            "club": "CNOC",
+            "time": "98:25",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Orla Jennings",
+            "club": "DFO",
+            "time": "100:46",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Fionne Austin",
+            "club": "CorkO",
+            "time": "102:09",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Deirdre Carbery",
+            "club": "DFO",
+            "time": "146:19",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  },
+  "middle": {
+    "area": "Crossmurrin",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=352",
+    "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=23",
+    "classes": {
+      "m21": {
+        "distance": 4.8,
+        "climb": 150,
+        "controls": 15,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=23",
+        "results": [
+          {
+            "position": 1,
+            "name": "Marcus Pinker",
+            "club": "CorkO",
+            "time": "32:36",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niall Bourke",
+            "club": "CorkO",
+            "time": "33:52",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "David Healy",
+            "club": "GEN",
+            "time": "33:59",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Allan Bogle",
+            "club": "NWOC",
+            "time": "35:27",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Shane Lynch",
+            "club": "CorkO",
+            "time": "35:31",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Colm O'Halloran",
+            "club": "CorkO",
+            "time": "36:33",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Steven Linton",
+            "club": "NWOC",
+            "time": "37:08",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Neil Dobbs",
+            "club": "WATO",
+            "time": "37:38",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Rory Finlay",
+            "club": "FERMO",
+            "time": "38:58",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Andrew Johnstone",
+            "club": "GEN",
+            "time": "39:21",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Kieran Rocks",
+            "club": "LVO",
+            "time": "41:54",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Darren Burke",
+            "club": "CorkO",
+            "time": "42:47",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Colm Rothery",
+            "club": "AJAX",
+            "time": "44:15",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "David Musil",
+            "club": "BOC",
+            "time": "45:58",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "Donal Burke",
+            "club": "DFO",
+            "time": "46:09",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Adrian Bostan",
+            "club": "FIN",
+            "time": "48:02",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Oliver Clear",
+            "club": "DFO",
+            "time": "52:57",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "Danny O'Hare",
+            "club": "CorkO",
+            "time": "53:57",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "Jonny Gallier",
+            "club": "LVO",
+            "time": "58:16",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Andrew McCarthy",
+            "club": "AJAX",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Rachel Reid",
+            "club": "NWOC",
+            "time": "127:16",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Charles Reid",
+            "club": "NWOC",
+            "time": "59:41",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 3.1,
+        "climb": 125,
+        "controls": 15,
+        "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=23",
+        "results": [
+          {
+            "position": 1,
+            "name": "Toni O'Donovan",
+            "club": "CorkO",
+            "time": "32:37",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Maeve O'Grady",
+            "club": "CNOC",
+            "time": "39:12",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ciara Largey",
+            "club": "FERMO",
+            "time": "40:09",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Aislinn Austin",
+            "club": "CorkO",
+            "time": "40:44",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "41:10",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Faye Pinker",
+            "club": "CorkO",
+            "time": "41:49",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "43:13",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Eileen Loughman",
+            "club": "CNOC",
+            "time": "46:50",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Orla Jennings",
+            "club": "DFO",
+            "time": "51:58",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Fionne Austin",
+            "club": "CorkO",
+            "time": "55:08",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Deirdre Carbery",
+            "club": "DFO",
+            "time": "72:57",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Nick Walker",
             "club": "",
-            "time": null,
+            "time": "73:52",
+            "eligible": false
+          }
+        ]
+      }
+    }
+  },
+  "relay": {
+    "area": "John F. Kennedy Arboretum",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=fullResult&id=558",
+    "map_url": "null",
+    "classes": {
+      "m21": {
+        "distance": "null",
+        "climb": "null",
+        "controls": "null",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Seamus O'Boyle",
+            "club": "Curragh-Naas",
+            "time": "94:45",
+            "team": "Curragh-Naas",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Colm Hill",
+            "club": "Curragh-Naas",
+            "time": "94:45",
+            "team": "Curragh-Naas",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Donal Burke",
+            "club": "Curragh-Naas",
+            "time": "94:45",
+            "team": "Curragh-Naas",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Aonghus O'Cleirigh",
+            "club": "Ajax",
+            "time": "96:17",
+            "team": "Ajax",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "John Casey",
+            "club": "Ajax",
+            "time": "96:17",
+            "team": "Ajax",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Brendan O'Brien",
+            "club": "Ajax",
+            "time": "96:17",
+            "team": "Ajax",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ruairi Short",
+            "club": "Defence Forces",
+            "time": "105:27",
+            "team": "Defence Forces",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Kevin O'Reilly",
+            "club": "Defence Forces",
+            "time": "105:27",
+            "team": "Defence Forces",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ray Houlihan",
+            "club": "Defence Forces",
+            "time": "105:27",
+            "team": "Defence Forces",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Danny O'Hare",
+            "club": "Cork",
+            "time": "109:08",
+            "team": "Cork",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Brian Corbett",
+            "club": "Cork",
+            "time": "109:08",
+            "team": "Cork",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Darren Burke",
+            "club": "Cork",
+            "time": "109:08",
+            "team": "Cork",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Niall Ewen",
+            "club": "Ajax",
+            "time": "110:43",
+            "team": "Ajax",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Andrew McCarthy",
+            "club": "Ajax",
+            "time": "110:43",
+            "team": "Ajax",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Marcus Geoghegan",
+            "club": "Ajax",
+            "time": "110:43",
+            "team": "Ajax",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Fiach O'Rourke",
+            "club": "Fingal",
+            "time": "124:42",
+            "team": "Fingal",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Jim Hoare",
+            "club": "Fingal",
+            "time": "124:42",
+            "team": "Fingal",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Val Jones",
+            "club": "Fingal",
+            "time": "124:42",
+            "team": "Fingal",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Diarmaid Collins",
+            "club": "Bishopstown",
+            "time": "128:39",
+            "team": "Bishopstown",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Kieran Beausang",
+            "club": "Bishopstown",
+            "time": "128:39",
+            "team": "Bishopstown",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Stephen O'Callaghan",
+            "club": "Bishopstown",
+            "time": "128:39",
+            "team": "Bishopstown",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Jim Cleary",
+            "club": "Defence Forces",
+            "time": "129:28",
+            "team": "Defence Forces",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Fabian Flood",
+            "club": "Defence Forces",
+            "time": "129:28",
+            "team": "Defence Forces",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Pat Farrelly",
+            "club": "Defence Forces",
+            "time": "129:28",
+            "team": "Defence Forces",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Tom Callery",
+            "club": "Ajax",
+            "time": "139:32",
+            "team": "Ajax",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Ed Niland",
+            "club": "Ajax",
+            "time": "139:32",
+            "team": "Ajax",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Brendan O'Connor",
+            "club": "Ajax",
+            "time": "139:32",
+            "team": "Ajax",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Malte Rehbein",
+            "club": "South East",
+            "time": "145:25",
+            "team": "South East",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Andrew Johnston",
+            "club": "South East",
+            "time": "145:25",
+            "team": "South East",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Ian McHardy",
+            "club": "South East",
+            "time": "145:25",
+            "team": "South East",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Martin Flynn",
+            "club": "Ajax",
+            "time": "151:58",
+            "team": "Ajax",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Mike Long",
+            "club": "Ajax",
+            "time": "151:58",
+            "team": "Ajax",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Rory Wallace",
+            "club": "Ajax",
+            "time": "151:58",
+            "team": "Ajax",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "null",
+        "climb": "null",
+        "controls": "null",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Aine McCann",
+            "club": "Lagan Valley",
+            "time": "106:47",
+            "team": "Lagan Valley",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Katarina Stevko",
+            "club": "Lagan Valley",
+            "time": "106:47",
+            "team": "Lagan Valley",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Andrea Stevko",
+            "club": "Lagan Valley",
+            "time": "106:47",
+            "team": "Lagan Valley",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Maeve O'Grady",
+            "club": "Defence Forces",
+            "time": "108:4",
+            "team": "Defence Forces",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Orlagh Jennings",
+            "club": "Defence Forces",
+            "time": "108:4",
+            "team": "Defence Forces",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Danielle Buckley",
+            "club": "Defence Forces",
+            "time": "108:4",
+            "team": "Defence Forces",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Fiona O'Brien",
+            "club": "Ajax",
+            "time": "112:11",
+            "team": "Ajax",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Brid Higgins",
+            "club": "Ajax",
+            "time": "112:11",
+            "team": "Ajax",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Nuala Callery",
+            "club": "Ajax",
+            "time": "112:11",
+            "team": "Ajax",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Colleen Robinson",
+            "club": "Setanta",
+            "time": "112:39",
+            "team": "Setanta",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Marita Kymaleinen",
+            "club": "Setanta",
+            "time": "112:39",
+            "team": "Setanta",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Hazel Thompson",
+            "club": "Setanta",
+            "time": "112:39",
+            "team": "Setanta",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Deirdre Creedon",
+            "club": "Cork",
+            "time": "131:22",
+            "team": "Cork",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ailbhe Creedon",
+            "club": "Cork",
+            "time": "131:22",
+            "team": "Cork",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Elaine Sheridan",
+            "club": "Cork",
+            "time": "131:22",
+            "team": "Cork",
+            "leg": "3",
             "eligible": true
           }
         ]
