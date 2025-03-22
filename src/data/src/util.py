@@ -54,6 +54,7 @@ def ParseName(name: str) -> str:
         ("Andrew Quinn", "Andrew Quin"),
         ("O'S H", "O'Sullivan-Hourihan"),
         ("O'Sullivan Hourihan", "O'Sullivan-Hourihan"),
+        ("OHalloran", "O'Halloran"),
         ("Conall Whealan", "Conal Whelan"),
         ("Vildas Tilunas", "Valdas Tilunas"),
         ("Cillian Corbett", "Cillin Corbett"),
