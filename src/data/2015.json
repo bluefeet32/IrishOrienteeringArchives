@@ -2,13 +2,13 @@
   "long": {
     "area": "Slieve Croob",
     "results_url": "https://lvo.org.uk/ioc/results/long/",
-    "map_url": "",
+    "map_url": "https://www.lvo.routegadget.co.uk/rg2/#223",
     "classes": {
       "m21": {
         "distance": "11.6 k",
         "climb": null,
         "controls": 25,
-        "course_image": null,
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#223&course=1",
         "results": [
           {
             "position": 1,
@@ -177,7 +177,7 @@
         "distance": "7.1 k",
         "climb": null,
         "controls": 16,
-        "course_image": null,
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#223&course=2",
         "results": [
           {
             "position": 1,
@@ -263,13 +263,13 @@
   "sprint": {
     "area": "Laurelhill Sportszone",
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=2496",
-    "map_url": "",
+    "map_url": "https://www.lvo.routegadget.co.uk/rg2/#220",
     "classes": {
       "m21": {
         "distance": 3.5,
         "climb": 35,
         "controls": 27,
-        "course_image": "",
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#220&course=1",
         "results": [
           {
             "position": null,
@@ -438,7 +438,7 @@
         "distance": 3.2,
         "climb": 30,
         "controls": 21,
-        "course_image": "",
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#220&course=2",
         "results": [
           {
             "position": 1,
@@ -550,6 +550,183 @@
             "name": "Regina Kelly",
             "club": "CNOC",
             "time": "25:56",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  },
+  "middle": {
+    "area": "Magilligan Strand",
+    "results_url": "https://www.nwoc.info/res/2015/iocm/index.htm",
+    "map_url": "https://www.lvo.routegadget.co.uk/rg2/#253",
+    "classes": {
+      "m21": {
+        "distance": "5.2",
+        "climb": null,
+        "controls": "18",
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#253&course=1",
+        "results": [
+          {
+            "position": 1,
+            "name": "Colm Moran",
+            "club": "UCDO",
+            "time": "28:37",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Cillin Corbett",
+            "club": "CorkO",
+            "time": "29:30",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Darren Burke",
+            "club": "CorkO",
+            "time": "29:46",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Jonathan Quinn",
+            "club": "GEN",
+            "time": "30:12",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Josh O'Sullivan-hourihan",
+            "club": "UCCO",
+            "time": "30:25",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Shane Lynch",
+            "club": "SYO",
+            "time": "30:38",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Ruairi Short",
+            "club": "CNOC",
+            "time": "30:52",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Christian Foley",
+            "club": "MNAV",
+            "time": "30:57",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Christoph Rohrmeier",
+            "club": "DUO",
+            "time": "31:52",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Stephen Linton",
+            "club": "NWOC",
+            "time": "32:14",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Hugh Cashell",
+            "club": "CNOC",
+            "time": "33:28",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Agris Kramins",
+            "club": "CorkO",
+            "time": "36:37",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "James Haynes",
+            "club": "DUO",
+            "time": "42:29",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Ross Walker",
+            "club": "NWOC",
+            "time": "53:52",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "3.8",
+        "climb": null,
+        "controls": "13",
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#253&course=2",
+        "results": [
+          {
+            "position": 1,
+            "name": "Niamh Corbett",
+            "club": "CorkO",
+            "time": "25:46",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Roisin Long",
+            "club": "UCDO",
+            "time": "27:59",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Anne Straube",
+            "club": "OD",
+            "time": "28:44",
+            "eligible": false
+          },
+          {
+            "position": 3,
+            "name": "Aoife McCavana",
+            "club": "GEN",
+            "time": "29:29",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Olivia Baxter",
+            "club": "LVO",
+            "time": "29:38",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "34:04",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Regina Kelly",
+            "club": "CNOC",
+            "time": "37:37",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Eibhlin Largey",
+            "club": "FERMO",
+            "time": "40:09",
             "eligible": true
           }
         ]
@@ -838,7 +1015,7 @@
           {
             "position": 2,
             "name": "Toni O'Donovan",
-            "club": "CORKO",
+            "club": "CorkO",
             "time": "32:10",
             "team": "Rebel Rovers",
             "leg": "1",
@@ -847,7 +1024,7 @@
           {
             "position": 2,
             "name": "Niamh Corbett",
-            "club": "CORKO",
+            "club": "CorkO",
             "time": "37:00",
             "team": "Rebel Rovers",
             "leg": "2",
@@ -856,7 +1033,7 @@
           {
             "position": 2,
             "name": "Fionne Lynch",
-            "club": "CORKO",
+            "club": "CorkO",
             "time": "54:33",
             "team": "Rebel Rovers",
             "leg": "3",
