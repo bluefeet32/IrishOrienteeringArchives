@@ -67,6 +67,7 @@ def ParseName(name: str) -> str:
         ("Johnny Kendall", "Jonny Kendall"),
         ("Gerald Butler", "Gerard Butler"),
         ("Naill Ewwn", "Niall Ewen"),
+        ("Killeeen", "Killeen"),
         ("Ruari", "Ruairi"),
         ("Tyndadll", "Tyndall"),
         ("Mckenna", "McKenna"),

@@ -140,7 +140,7 @@
           }
         ]
       },
-    "w21": {
+      "w21": {
         "distance": null,
         "climb": null,
         "controls": null,
@@ -620,6 +620,169 @@
             "time": "62:45",
             "team": "FIN",
             "leg": "3",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  },
+  "sprint": {
+    "area": "Belvedere",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=230",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": 6.7,
+        "climb": 100,
+        "controls": 26,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Alan Barry",
+            "club": "Cork",
+            "time": "32:31",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Andrew Johnstone",
+            "club": "NZL",
+            "time": "32:56",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ivan Millar",
+            "club": "Belfast",
+            "time": "33:16",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Niall McAlinden",
+            "club": "Dublin",
+            "time": "34:54",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Gerard Butler",
+            "club": "Dublin",
+            "time": "35:34",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Ray Holohan",
+            "club": "Ireland",
+            "time": "35:49",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Christian Foley-Fisher",
+            "club": "Dublin",
+            "time": "37:05",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Marcus Byrne",
+            "club": "Kildare",
+            "time": "39:38",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Mark Prendergast",
+            "club": "Ireland",
+            "time": "40:02",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Danny O'Hare",
+            "club": "Cork",
+            "time": "43:20",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Mick Hannon",
+            "club": "Ireland",
+            "time": "48:24",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "John Killeen",
+            "club": "Ireland",
+            "time": "58:15",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Gerard Flynn",
+            "club": "Dublin",
+            "time": "67:29",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Kieran Rocks",
+            "club": "Belfast",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 6.3,
+        "climb": 80,
+        "controls": 22,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Ruth Lynam",
+            "club": "Kildare",
+            "time": "37:51",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Ailbhe Creedon",
+            "club": "Cork",
+            "time": "38:06",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Eileen Loughman",
+            "club": "Kildare",
+            "time": "40:32",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Susan Bell",
+            "club": "Belfast",
+            "time": "40:40",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Maeve O'Grady",
+            "club": "Ireland",
+            "time": "42:33",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Danielle Buckley",
+            "club": "Ireland",
+            "time": "57:37",
             "eligible": true
           }
         ]
