@@ -183,6 +183,33 @@
         "course_image": "null",
         "results": [
           {
+            "position": 1,
+            "name": "Niall Bourke",
+            "club": "CorkO",
+            "time": "38:02",
+            "team": "CorkO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Alan Barry",
+            "club": "CorkO",
+            "time": "40:12",
+            "team": "CorkO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Marcus Pinker",
+            "club": "CorkO",
+            "time": "35:05",
+            "team": "CorkO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
             "position": null,
             "name": "Magnus Fransson",
             "club": "SOK ANEBY SWE",
@@ -210,7 +237,7 @@
             "eligible": false
           },
           {
-            "position": 1,
+            "position": 2,
             "name": "Patrick Higgins",
             "club": "LVO",
             "time": "41:44",
@@ -219,7 +246,7 @@
             "eligible": true
           },
           {
-            "position": 1,
+            "position": 2,
             "name": "Igor Stefko",
             "club": "LVO",
             "time": "42:49",
@@ -228,7 +255,7 @@
             "eligible": true
           },
           {
-            "position": 1,
+            "position": 2,
             "name": "Declan McGrellis",
             "club": "LVO",
             "time": "37:51",
@@ -237,7 +264,7 @@
             "eligible": true
           },
           {
-            "position": 2,
+            "position": 3,
             "name": "Niall McAlinden",
             "club": "DUO",
             "time": "46:30",
@@ -246,7 +273,7 @@
             "eligible": true
           },
           {
-            "position": 2,
+            "position": 3,
             "name": "Seamus O'Boyle",
             "club": "DUO",
             "time": "37:38",
@@ -255,38 +282,11 @@
             "eligible": true
           },
           {
-            "position": 2,
+            "position": 3,
             "name": "Christian Foley Fisher",
             "club": "DUO",
             "time": "38:30",
             "team": "DUO",
-            "leg": "3",
-            "eligible": true
-          },
-          {
-            "position": 3,
-            "name": "Niall Bourke",
-            "club": "CorkO",
-            "time": "38:02",
-            "team": "CorkO",
-            "leg": "1",
-            "eligible": true
-          },
-          {
-            "position": 3,
-            "name": "Alan Barry",
-            "club": "CorkO",
-            "time": "40:12",
-            "team": "CorkO",
-            "leg": "2",
-            "eligible": true
-          },
-          {
-            "position": 3,
-            "name": "Danny O'Hare",
-            "club": "CorkO",
-            "time": "51:05",
-            "team": "CorkO",
             "leg": "3",
             "eligible": true
           },
