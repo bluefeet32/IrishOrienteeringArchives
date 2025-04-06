@@ -91,5 +91,70 @@
         ]
       }
     }
+  },
+  "middle": {
+    "area": "Inishbofin",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/tio110.pdf",
+    "map_url": "null",
+    "classes": {
+      "m21": {
+        "distance": "4.4 k",
+        "climb": "145 m",
+        "controls": "24",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Andrew Quin",
+            "club": "3ROC",
+            "time": "22:05",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Jussi Makila",
+            "club": "SET",
+            "time": "22:51",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Niall Bourke",
+            "club": "CORKO",
+            "time": "24:08",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "3.4 k",
+        "climb": "130 m",
+        "controls": "19",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "21:55",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Ailbhe Creedon",
+            "club": "CORKO",
+            "time": "23:33",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Una May",
+            "club": "3ROC",
+            "time": "24:13",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }
