@@ -118,6 +118,9 @@ const getResults = () => {
                 return "404.html";
             return class_info?.course_image || "";
         },
+        get resultsSource() {
+            return this.yearData?.[this.currentCourse]?.results_url || "404.html";
+        },
         async onClickYear(year) {
             this.currentYear = year;
             await this.fetchYearData();
