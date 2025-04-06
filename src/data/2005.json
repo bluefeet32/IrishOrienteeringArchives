@@ -156,5 +156,190 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Inishbofin",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/tio110.pdf",
+    "map_url": "null",
+    "classes": {
+      "m21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Brendan O'Brien",
+            "club": "AJAX",
+            "time": "32:18",
+            "team": "AJAX Warriors",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Colm Rothery",
+            "club": "AJAX",
+            "time": "31:42",
+            "team": "AJAX Warriors",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "John Casey",
+            "club": "AJAX",
+            "time": "35:43",
+            "team": "AJAX Warriors",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Danny O'Hare",
+            "club": "CORKO",
+            "time": "53:20",
+            "team": "CORKO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Brian Corbett",
+            "club": "CORKO",
+            "time": "34:24",
+            "team": "CORKO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Darren Burke",
+            "club": "CORKO",
+            "time": "34:19",
+            "team": "CORKO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Gerry Brady",
+            "club": "SET",
+            "time": "32:19",
+            "team": "Get-Set",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Jussi Makila",
+            "club": "SET",
+            "time": "28:56",
+            "team": "Get-Set",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Paul Mahon",
+            "club": "SET",
+            "time": "60:58",
+            "team": "Get-Set",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "35:52",
+            "team": "CNOC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "38:59",
+            "team": "CNOC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Bernie O'Boyle",
+            "club": "CNOC",
+            "time": "62:32",
+            "team": "CNOC",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Nina Phillips",
+            "club": "SET",
+            "time": "36:01",
+            "team": "Up-Set",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Colleen Robinson",
+            "club": "SET",
+            "time": "60:34",
+            "team": "Up-Set",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Hazel Thompson",
+            "club": "SET",
+            "time": "43:08",
+            "team": "Up-Set",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Nuala Callery",
+            "club": "AJAX",
+            "time": "40:00",
+            "team": "AJAX Amazons",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Brid Higgins",
+            "club": "AJAX",
+            "time": "44:55",
+            "team": "AJAX Amazons",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Sonja Ewen",
+            "club": "AJAX",
+            "time": "73:11",
+            "team": "AJAX Amazons",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }
