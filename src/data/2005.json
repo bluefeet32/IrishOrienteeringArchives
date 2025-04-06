@@ -1,91 +1,91 @@
 {
   "long": {
     "area": "Inishbofin",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/tio110.pdf",
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
+        "distance": "4.4 k",
+        "climb": "145 m",
+        "controls": 24,
         "course_image": null,
         "results": [
           {
             "position": 1,
             "name": "Andrew Quin",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "62:05",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Jussi Makila",
-            "club": "",
-            "time": null,
+            "club": "SET",
+            "time": "66:12",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Colm Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "69:37",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Colm O'Halloran",
-            "club": "",
-            "time": null,
+            "club": "LEE O",
+            "time": "71:39",
             "eligible": true
           },
           {
             "position": 5,
             "name": "John Casey",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "73:53",
             "eligible": true
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
+        "distance": "8.4 k",
+        "climb": "250 m",
+        "controls": 29,
         "course_image": null,
         "results": [
           {
             "position": 1,
             "name": "Niamh O'Boyle",
             "club": "CNOC",
-            "time": null,
+            "time": "73:50",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Una Creagh",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "74:19",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Petranka Pacheva",
-            "club": "",
-            "time": null,
+            "club": "BOC",
+            "time": "77:18",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Ruth Lynam",
             "club": "CNOC",
-            "time": null,
+            "time": "78:36",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Ailbhe Creedon",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "88:01",
             "eligible": true
           }
         ]
