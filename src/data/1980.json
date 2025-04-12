@@ -1,0 +1,130 @@
+{
+    "long":{
+       "area":"Rockmarshall",
+       "results_url":"https://drive.google.com/file/d/1OO96Wecv1HSqtzHDCNEDmscQHseBh9Ar/view?usp=sharing",
+       "map_url":"",
+       "classes":{
+          "m21":{
+             "distance":"",
+             "climb":"",
+             "controls":"",
+             "course_image":null,
+             "results":[
+                {
+                   "position":1,
+                   "name":"Justin May",
+                   "club":"3ROC",
+                   "time":"96:42",
+                   "eligible":true
+                },
+                {
+                   "position":2,
+                   "name":"Eoin Rothery",
+                   "club":"AJAX",
+                   "time":"96:51",
+                   "eligible":true
+                },
+                {
+                   "position":3,
+                   "name":"Wally Young",
+                   "club":"CO",
+                   "time":"99:50",
+                   "eligible":true
+                },
+                {
+                   "position":4,
+                   "name":"A. O'Cleirigh",
+                   "club":"",
+                   "time":"104:06",
+                   "eligible":true
+                },
+                {
+                   "position":5,
+                   "name":"P. L.",
+                   "club":"",
+                   "time":"108:58",
+                   "eligible":true
+                },
+                {
+                   "position":6,
+                   "name":"J. W.",
+                   "club":"",
+                   "time":"109:36",
+                   "eligible":true
+                },
+                {
+                   "position":7,
+                   "name":"E.W.",
+                   "club":"",
+                   "time":"112:57",
+                   "eligible":true
+                },
+                {
+                   "position":8,
+                   "name":"P. Nash",
+                   "club":"",
+                   "time":"114:18",
+                   "eligible":true
+                },
+                {
+                   "position":9,
+                   "name":"John McCullough",
+                   "club":"3ROC",
+                   "time":"120:02",
+                   "eligible":true
+                },
+                {
+                   "position":10,
+                   "name":"P. Thompson",
+                   "club":"",
+                   "time":"120:13",
+                   "eligible":true
+                }
+             ]
+          },
+          "w21":{
+             "distance":"",
+             "climb":"",
+             "controls":"",
+             "course_image":null,
+             "results":[
+                {
+                   "position":1,
+                   "name":"C. May",
+                   "club":"AJAX",
+                   "time":"83:55",
+                   "eligible":true
+                },
+                {
+                   "position":2,
+                   "name":"Maura Thornhill",
+                   "club":"GEN",
+                   "time":"94:05",
+                   "eligible":true
+                },
+                {
+                   "position":3,
+                   "name":"R. White",
+                   "club":"",
+                   "time":"98:40",
+                   "eligible":true
+                },
+                {
+                   "position":4,
+                   "name":"Eileen Loughman",
+                   "club":"GEN",
+                   "time":"99:12",
+                   "eligible":true
+                },
+                {
+                   "position":5,
+                   "name":"A. Hamilton",
+                   "club":"",
+                   "time":"110:17",
+                   "eligible":true
+                }
+             ]
+          }
+       }
+    }
+ }
