@@ -1,0 +1,165 @@
+{
+    "long":{
+       "area":"Curraghcloe",
+       "results_url":"https://drive.google.com/file/d/1OO96Wecv1HSqtzHDCNEDmscQHseBh9Ar/view?usp=sharing",
+       "map_url":"",
+       "classes":{
+          "m21":{
+             "distance":"",
+             "climb":"",
+             "controls":"",
+             "course_image":null,
+             "results":[
+                {
+                   "position":null,
+                   "name":"A. Bradley",
+                   "club":"SPOOK",
+                   "time":"71:50",
+                   "eligible":false
+                },
+                {
+                   "position":1,
+                   "name":"A. O'Cleirigh",
+                   "club":"CO",
+                   "time":"71:54",
+                   "eligible":true
+                },
+                {
+                   "position":null,
+                   "name":"T. Keyes",
+                   "club":"SUOC",
+                   "time":"72:45",
+                   "eligible":false
+                },
+                {
+                   "position":2,
+                   "name":"Pat Healy",
+                   "club":"CO",
+                   "time":"73:13",
+                   "eligible":true
+                },
+                {
+                   "position":3,
+                   "name":"Wally Young",
+                   "club":"CO",
+                   "time":"77:33",
+                   "eligible":true
+                },
+                {
+                   "position":null,
+                   "name":"D. Rosen",
+                   "club":"LOK",
+                   "time":"82:13",
+                   "eligible":false
+                },
+                {
+                   "position":4,
+                   "name":"Justin May",
+                   "club":"3ROC",
+                   "time":"83:07",
+                   "eligible":true
+                },
+                {
+                   "position":5,
+                   "name":"A. Pickles",
+                   "club":"SPOOK",
+                   "time":"84:05",
+                   "eligible":true
+                },
+                {
+                   "position":null,
+                   "name":"J. Rye",
+                   "club":"LOK",
+                   "time":"88:44",
+                   "eligible":false
+                },
+                {
+                   "position":null,
+                   "name":"S. ???",
+                   "club":"SUOC",
+                   "time":"90:11",
+                   "eligible":false
+                },
+                {
+                   "position":6,
+                   "name":"P. James",
+                   "club":"NWOC",
+                   "time":"90:30",
+                   "eligible":true
+                },
+                {
+                   "position":null,
+                   "name":"M. Cooper",
+                   "club":"LOK",
+                   "time":"94:03",
+                   "eligible":false
+                },
+                {
+                   "position":7,
+                   "name":"D. Blair",
+                   "club":"NWOC",
+                   "time":"97:11",
+                   "eligible":true
+                }
+             ]
+          },
+          "w21":{
+             "distance":"",
+             "climb":"",
+             "controls":"",
+             "course_image":null,
+             "results":[
+                {
+                   "position":null,
+                   "name":"J. Pielon",
+                   "club":"SUOC",
+                   "time":"81:49",
+                   "eligible":false
+                },
+                {
+                   "position":null,
+                   "name":"D. Kaley",
+                   "club":"LOK",
+                   "time":"93:36",
+                   "eligible":false
+                },
+                {
+                   "position":1,
+                   "name":"R. White",
+                   "club":"SET",
+                   "time":"93:36",
+                   "eligible":true
+                },
+                {
+                   "position":2,
+                   "name":"Eileen Loughman",
+                   "club":"GEN",
+                   "time":"98:23",
+                   "eligible":true
+                },
+                {
+                   "position":3,
+                   "name":"P. Murphy",
+                   "club":"3ROC",
+                   "time":"100:05",
+                   "eligible":true
+                },
+                {
+                   "position":null,
+                   "name":"M. Rosen",
+                   "club":"LOK",
+                   "time":"102:12",
+                   "eligible":false
+                },
+                {
+                   "position":4,
+                   "name":"A. Hamilton",
+                   "club":"LVO",
+                   "time":"103:38",
+                   "eligible":true
+                }
+             ]
+          }
+       }
+    }
+ }
