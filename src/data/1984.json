@@ -8,7 +8,7 @@
              "distance":"",
              "climb":"",
              "controls":"",
-             "course_image":"null",
+             "course_image":null,
              "results":[
                 {
                    "position":1,
@@ -86,7 +86,7 @@
              "distance":"",
              "climb":"",
              "controls":"",
-             "course_image":"null",
+             "course_image":null,
              "results":[
                 {
                    "position":null,
@@ -143,7 +143,7 @@
              "distance":"",
              "climb":"",
              "controls":"",
-             "course_image":"null",
+             "course_image":null,
              "results":[
                 {
                    "position":1,
@@ -286,7 +286,7 @@
              "distance":"",
              "climb":"",
              "controls":"",
-             "course_image":"",
+             "course_image":null,
              "results":[
                 {
                    "position":1,
