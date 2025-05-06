@@ -252,7 +252,7 @@
           },
           {
             "position": 5,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "3ROC",
             "time": "79:30",
             "eligible": true
@@ -570,7 +570,7 @@
           },
           {
             "position": 5,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "3ROC",
             "time": "19:37",
             "eligible": true
@@ -979,7 +979,7 @@
           },
           {
             "position": 5,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "3ROC",
             "time": "37:43",
             "eligible": true
@@ -1406,7 +1406,7 @@
             },
             {
                "position":3,
-               "name":"Rosalind Hussey",
+               "name":"Rosalind Heron",
                "club":"3ROC",
                "time":"29:02",
                "team":"GoldiRocks & the 3 Bears",

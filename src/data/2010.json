@@ -167,7 +167,7 @@
           },
           {
             "position": 3,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "FERMO",
             "time": "56:00",
             "eligible": true
@@ -484,7 +484,7 @@
           },
           {
             "position": 2,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "DUO/FERMO",
             "time": "19:07",
             "eligible": true
@@ -909,7 +909,7 @@
             },
             {
                "position":12,
-               "name":"Rosalind Hussey",
+               "name":"Rosalind Heron",
                "club":"UCDO",
                "time":"33:40",
                "team":"UCDDUO",

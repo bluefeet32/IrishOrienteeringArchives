@@ -251,7 +251,7 @@
           },
           {
             "position": 8,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "FERMO",
             "time": "133:51",
             "eligible": true
@@ -822,7 +822,7 @@
           },
           {
             "position": 7,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "FERMO",
             "time": "56:42",
             "eligible": true
@@ -1244,7 +1244,7 @@
           },
           {
             "position": null,
-            "name": "Rosalind Hussey",
+            "name": "Rosalind Heron",
             "club": "FERMO Eniskillen Fermo",
             "time": "60:41",
             "eligible": false
