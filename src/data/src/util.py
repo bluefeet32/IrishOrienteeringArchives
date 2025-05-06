@@ -41,10 +41,14 @@ def ParseName(name: str) -> str:
         # Irish Characters
         ('Á', 'A'), ('É', 'E'), ('Í', 'I'), ('Ó', 'O'), ('Ú', 'U'),
         ('á', 'a'), ('é', 'e'), ('í', 'i'), ('ó', 'o'), ('ú', 'u'),
+        # Encodings
+        ("&#39;", "'"), ("&#225;", "a"), ("&#228;", "a"), ("&#233;", "e"),
+        ("&#237;", "i"), ("&#243;", "o"), ("&#250;", "u"), ("&#241;", "n"), 
         # Common Typos
         ("' ", "'"),  # e.g. Fix O' Boyle -> O'Boyle
         ("Mcc", "McC"),  # e.g. Fix Mccann -> McCann
         ("O ", "O'"),  # e.g. Fix O Boyle -> O'Boyle
+        ("O' ", "O'"),  # e.g. Fix O' Boyle -> O'Boyle
         # Known common misspellings
         ("Nick Simonin", "Nicolas Simonin"),
         ("Nic Simonin", "Nicolas Simonin"),
@@ -67,6 +71,7 @@ def ParseName(name: str) -> str:
         ("Johnny Kendall", "Jonny Kendall"),
         ("Gerald Butler", "Gerard Butler"),
         ("Naill Ewwn", "Niall Ewen"),
+        ("Rosalind Heron", "Rosalind Hussey"),
         ("Killeeen", "Killeen"),
         ("Ruari", "Ruairi"),
         ("Tyndadll", "Tyndall"),
