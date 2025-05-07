@@ -754,7 +754,7 @@
           {
             "position": 1,
             "name": "Darren Burke",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "25:14",
             "team": "Rebel Red",
             "leg": "1",
@@ -763,7 +763,7 @@
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "28:39",
             "team": "Rebel Red",
             "leg": "2",
@@ -772,7 +772,7 @@
           {
             "position": 1,
             "name": "Shane Lynch",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "29:45",
             "team": "Rebel Red",
             "leg": "3",
@@ -781,7 +781,7 @@
           {
             "position": 2,
             "name": "Seamus O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "28:46",
             "team": "Hard to Kill",
             "leg": "1",
@@ -790,7 +790,7 @@
           {
             "position": 2,
             "name": "Colm Hill",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "28:30",
             "team": "Hard to Kill",
             "leg": "2",
@@ -799,7 +799,7 @@
           {
             "position": 2,
             "name": "Kevin O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "26:38",
             "team": "Hard to Kill",
             "leg": "3",
@@ -835,7 +835,7 @@
           {
             "position": 4,
             "name": "Conrad Daly",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "29:44",
             "team": "Corkophony",
             "leg": "1",
@@ -844,7 +844,7 @@
           {
             "position": 4,
             "name": "Cillin Corbett",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "28:51",
             "team": "Corkophony",
             "leg": "2",
@@ -853,7 +853,7 @@
           {
             "position": 4,
             "name": "Josh O'Sullivan-Hourihan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "29:04",
             "team": "Corkophony",
             "leg": "3",
@@ -862,7 +862,7 @@
           {
             "position": 5,
             "name": "Paul Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "25:51",
             "team": "Lagan Behind",
             "leg": "1",
@@ -871,7 +871,7 @@
           {
             "position": 5,
             "name": "Andrew Elwood",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "32:16",
             "team": "Lagan Behind",
             "leg": "2",
@@ -880,7 +880,7 @@
           {
             "position": 5,
             "name": "Billy Reed",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "31:55",
             "team": "Lagan Behind",
             "leg": "3",
@@ -889,7 +889,7 @@
           {
             "position": 6,
             "name": "Aidan McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "36:27",
             "team": "3ROC1",
             "leg": "1",
@@ -898,7 +898,7 @@
           {
             "position": 6,
             "name": "Valdas Tilunas",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "34:15",
             "team": "3ROC1",
             "leg": "2",
@@ -907,7 +907,7 @@
           {
             "position": 6,
             "name": "Colm Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "30:40",
             "team": "3ROC1",
             "leg": "3",
@@ -916,7 +916,7 @@
           {
             "position": 7,
             "name": "Kieran Beausang",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "40:29",
             "team": "Corked",
             "leg": "1",
@@ -925,7 +925,7 @@
           {
             "position": 7,
             "name": "David Bossonet",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "50:14",
             "team": "Corked",
             "leg": "2",
@@ -934,7 +934,7 @@
           {
             "position": 7,
             "name": "Brendan Wall",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "44:47",
             "team": "Corked",
             "leg": "3",
@@ -978,7 +978,7 @@
           {
             "position": 2,
             "name": "Emer Perkins",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "32:44",
             "team": "PayBOC Time",
             "leg": "1",
@@ -987,7 +987,7 @@
           {
             "position": 2,
             "name": "Aoife O'Sullivan",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "32:48",
             "team": "PayBOC Time",
             "leg": "2",
@@ -996,7 +996,7 @@
           {
             "position": 2,
             "name": "Meabh Perkins",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "39:32",
             "team": "PayBOC Time",
             "leg": "3",
@@ -1005,7 +1005,7 @@
           {
             "position": 3,
             "name": "Caoimhe O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "34:36",
             "team": "Out for Justice",
             "leg": "1",
@@ -1014,7 +1014,7 @@
           {
             "position": 3,
             "name": "Ruth Lynam",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "36:10",
             "team": "Out for Justice",
             "leg": "2",
@@ -1023,7 +1023,7 @@
           {
             "position": 3,
             "name": "Niamh O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "38:42",
             "team": "Out for Justice",
             "leg": "3",
@@ -1032,7 +1032,7 @@
           {
             "position": 4,
             "name": "Eadaoin McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "32:07",
             "team": "GENoa",
             "leg": "1",
@@ -1041,7 +1041,7 @@
           {
             "position": 4,
             "name": "Cliodhna Donaghy",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "33:51",
             "team": "GENoa",
             "leg": "2",
@@ -1050,7 +1050,7 @@
           {
             "position": 4,
             "name": "Heather Wood",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "46:37",
             "team": "GENoa",
             "leg": "3",
@@ -1059,7 +1059,7 @@
           {
             "position": 5,
             "name": "Norah O'Brien",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "55:48",
             "team": "Redz",
             "leg": "1",
@@ -1068,7 +1068,7 @@
           {
             "position": 5,
             "name": "Toni O'Donovan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "33:38",
             "team": "Redz",
             "leg": "2",
@@ -1077,7 +1077,7 @@
           {
             "position": 5,
             "name": "Niamh Corbett",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "29:10",
             "team": "Redz",
             "leg": "3",
@@ -1086,7 +1086,7 @@
           {
             "position": 6,
             "name": "Olivia Baxter",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "37:43",
             "team": "The Girls with the Lagan Tattoo",
             "leg": "1",
@@ -1095,7 +1095,7 @@
           {
             "position": 6,
             "name": "Stephanie Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "42:26",
             "team": "The Girls with the Lagan Tattoo",
             "leg": "2",
@@ -1104,7 +1104,7 @@
           {
             "position": 6,
             "name": "Moire O'Sullivan",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "44:55",
             "team": "The Girls with the Lagan Tattoo",
             "leg": "3",

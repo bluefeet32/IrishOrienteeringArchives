@@ -20,7 +20,7 @@
           {
             "position": 2,
             "name": "Marcus Pinker",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "34:21",
             "eligible": true
           },
@@ -253,7 +253,7 @@
           {
             "position": 2,
             "name": "Marcus Pinker",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "89:35",
             "eligible": true
           },
@@ -817,7 +817,7 @@
           {
             "position": null,
             "name": "Marcus Pinker",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           },

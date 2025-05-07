@@ -13,14 +13,14 @@
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "73:18",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Darren Burke",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "81:12",
             "eligible": true
           },
@@ -48,7 +48,7 @@
           {
             "position": 6,
             "name": "Danny O'Hare",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "130:41",
             "eligible": true
           },
@@ -134,14 +134,14 @@
           {
             "position": 1,
             "name": "Darren Burke",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "29:44",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Marcus Pinker",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "32:00",
             "eligible": true
           },
@@ -162,7 +162,7 @@
           {
             "position": 5,
             "name": "Danny O'Hare",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "44:47",
             "eligible": true
           },
@@ -234,21 +234,21 @@
           {
             "position": 1,
             "name": "Darren Burke",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "31:54",
             "eligible": true
           },
           {
             "position": 1,
             "name": "Brian Corbett",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "33:37",
             "eligible": true
           },
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "28:47",
             "eligible": true
           },
@@ -297,21 +297,21 @@
           {
             "position": null,
             "name": "Colm O'Halloran",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "41:24",
             "eligible": false
           },
           {
             "position": null,
             "name": "Gearoid Ryan",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "39:52",
             "eligible": false
           },
           {
             "position": null,
             "name": "Danny O'Hare",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           }

@@ -48,7 +48,7 @@
           {
             "position": 5,
             "name": "Eoin Rothery",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "96:15",
             "eligible": true
           },
@@ -62,7 +62,7 @@
           {
             "position": 7,
             "name": "W. McAuliffe",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "100:20",
             "eligible": true
           },
@@ -76,14 +76,14 @@
           {
             "position": 9,
             "name": "R. Bryson",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "109:12",
             "eligible": true
           },
           {
             "position": 10,
             "name": "P. Waldron",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "109:18",
             "eligible": true
           },
@@ -132,14 +132,14 @@
           {
             "position": 15,
             "name": "P. Cadogan",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "115:33",
             "eligible": true
           },
           {
             "position": 16,
             "name": "Colm O’Halloran",
-            "club": "Lee O",
+            "club": "LEEO",
             "time": "116:19",
             "eligible": true
           },
@@ -223,7 +223,7 @@
           {
             "position": 27,
             "name": "P. O’Brien",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "136:45",
             "eligible": true
           },
@@ -364,7 +364,7 @@
           {
             "position": 3,
             "name": "D. Ní Challanain",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "99:13",
             "eligible": true
           },
@@ -420,21 +420,21 @@
           {
             "position": 10,
             "name": "M. Walsh",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "123:24",
             "eligible": true
           },
           {
             "position": 11,
             "name": "O. Cooke",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "125:29",
             "eligible": true
           },
           {
             "position": 12,
             "name": "T. Horan",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "128:33",
             "eligible": true
           },

@@ -34,7 +34,7 @@
           {
             "position": 3,
             "name": "Marcus Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "88:17",
             "eligible": true
           },
@@ -62,14 +62,14 @@
           {
             "position": 7,
             "name": "Darren Burke",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "92:56",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Shane Lynch",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "93:46",
             "eligible": true
           },
@@ -83,14 +83,14 @@
           {
             "position": 10,
             "name": "Cillin Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "95:22",
             "eligible": true
           },
           {
             "position": 11,
             "name": "Neil Dobbs",
-            "club": "WatO",
+            "club": "WATO",
             "time": "97:33",
             "eligible": true
           },
@@ -210,7 +210,7 @@
           {
             "position": 4,
             "name": "Niamh Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "84:26",
             "eligible": true
           },
@@ -281,7 +281,7 @@
           {
             "position": 1,
             "name": "Darren Burke",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "13:32",
             "eligible": true
           },
@@ -309,7 +309,7 @@
           {
             "position": 4,
             "name": "Cillin Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "13:57",
             "eligible": true
           },
@@ -330,7 +330,7 @@
           {
             "position": 7,
             "name": "Bill Edwards",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "14:41",
             "eligible": true
           },
@@ -358,7 +358,7 @@
           {
             "position": 11,
             "name": "Marcus Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "15:15",
             "eligible": true
           },
@@ -372,7 +372,7 @@
           {
             "position": 12,
             "name": "Neil Dobbs",
-            "club": "WatO",
+            "club": "WATO",
             "time": "15:20",
             "eligible": true
           },
@@ -407,7 +407,7 @@
           {
             "position": 17,
             "name": "Shane Lynch",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "38:01",
             "eligible": true
           },
@@ -464,21 +464,21 @@
           {
             "position": 2,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "15:32",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Roisin Long",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "15:34",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Niamh Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "15:40",
             "eligible": true
           },
@@ -527,14 +527,14 @@
           {
             "position": 11,
             "name": "Sharon Lucey",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "21:21",
             "eligible": true
           },
           {
             "position": 12,
             "name": "Fionne Lynch",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "21:54",
             "eligible": true
           },
@@ -577,14 +577,14 @@
           {
             "position": 2,
             "name": "Cillin Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "29:30",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Darren Burke",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "29:46",
             "eligible": true
           },
@@ -647,7 +647,7 @@
           {
             "position": 12,
             "name": "Agris Kramins",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "36:37",
             "eligible": true
           },
@@ -676,7 +676,7 @@
           {
             "position": 1,
             "name": "Niamh Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "25:46",
             "eligible": true
           },
@@ -774,7 +774,7 @@
           {
             "position": 2,
             "name": "Marcus Pinker",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "39:00",
             "team": "Rebel Rebels",
             "leg": "1",
@@ -783,7 +783,7 @@
           {
             "position": 2,
             "name": "Shane Lynch",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "37:32",
             "team": "Rebel Rebels",
             "leg": "2",
@@ -1016,7 +1016,7 @@
           {
             "position": 2,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "32:10",
             "team": "Rebel Rovers",
             "leg": "1",
@@ -1025,7 +1025,7 @@
           {
             "position": 2,
             "name": "Niamh Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "37:00",
             "team": "Rebel Rovers",
             "leg": "2",
@@ -1034,7 +1034,7 @@
           {
             "position": 2,
             "name": "Fionne Lynch",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "54:33",
             "team": "Rebel Rovers",
             "leg": "3",

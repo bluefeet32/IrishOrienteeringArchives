@@ -540,7 +540,7 @@
           {
             "position": 21,
             "name": "Fiach O'Rourke",
-            "club": "Fingal",
+            "club": "FIN",
             "time": "53:19",
             "eligible": true
           },
@@ -773,21 +773,21 @@
           {
             "position": null,
             "name": "Jonny Kendall",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "34:29",
             "eligible": false
           },
           {
             "position": null,
             "name": "Arnis Saltumis",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "36:55",
             "eligible": false
           },
           {
             "position": null,
             "name": "Shane Lynch",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "33:33",
             "eligible": false
           },
@@ -815,21 +815,21 @@
           {
             "position": 2,
             "name": "Darren Burke",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "38:59",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Bill Edwards",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "35:13",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Marcus Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "32:48",
             "eligible": true
           },
@@ -899,21 +899,21 @@
           {
             "position": 5,
             "name": "Greg Hill",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "45:26",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Brian Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "43:50",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Colm O'Halloran",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "48:16",
             "eligible": true
           },
@@ -1004,21 +1004,21 @@
           {
             "position": 9,
             "name": "Fiach O'Rourke",
-            "club": "Fingal",
+            "club": "FIN",
             "time": "53:42",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Pat Ryan",
-            "club": "Fingal",
+            "club": "FIN",
             "time": "57:42",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Ingus Retkins",
-            "club": "Fingal",
+            "club": "FIN",
             "time": "50:13",
             "eligible": true
           },
@@ -1222,21 +1222,21 @@
           {
             "position": null,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           },
           {
             "position": null,
             "name": "Faye Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "50:18",
             "eligible": false
           },
           {
             "position": null,
             "name": "Aislinn Kendall",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "37:44",
             "eligible": false
           }

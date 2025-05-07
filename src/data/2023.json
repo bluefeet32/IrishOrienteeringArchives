@@ -13,7 +13,7 @@
           {
             "position": 1,
             "name": "Paul Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "14:45",
             "eligible": true
           },
@@ -27,28 +27,28 @@
           {
             "position": 2,
             "name": "Colm Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "15:43",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Josh O'Sullivan-Hourihan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "16:42",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Shane Lynch",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "17:02",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Mark Stephens",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "17:15",
             "eligible": true
           },
@@ -62,28 +62,28 @@
           {
             "position": 6,
             "name": "Jonathan Quinn",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "18:12",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Seamus O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "18:18",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Graeme Rennie",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "18:41",
             "eligible": true
           },
           {
             "position": 9,
             "name": "George Savell",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "19:03",
             "eligible": true
           },
@@ -97,28 +97,28 @@
           {
             "position": 10,
             "name": "Eoin McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "19:40",
             "eligible": true
           },
           {
             "position": 11,
             "name": "Conor Short",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "20:03",
             "eligible": true
           },
           {
             "position": 12,
             "name": "Dan McDonnell",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "20:47",
             "eligible": true
           },
           {
             "position": 13,
             "name": "Aidan McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "21:21",
             "eligible": true
           },
@@ -139,7 +139,7 @@
           {
             "position": 14,
             "name": "Kieran Beausang",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "24:35",
             "eligible": true
           },
@@ -153,7 +153,7 @@
           {
             "position": 16,
             "name": "Chris Colwell",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "28:59",
             "eligible": true
           },
@@ -210,7 +210,7 @@
           {
             "position": 1,
             "name": "Kathryn Barr",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "17:43",
             "eligible": true
           },
@@ -224,28 +224,28 @@
           {
             "position": 2,
             "name": "Aine McCann",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "18:43",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Clodagh Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "18:52",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Niamh O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "19:06",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Roisin Long",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "20:13",
             "eligible": true
           },
@@ -259,7 +259,7 @@
           {
             "position": 7,
             "name": "Aoife McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "21:55",
             "eligible": true
           },
@@ -280,7 +280,7 @@
           {
             "position": 9,
             "name": "Elodie Donet",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "26:01",
             "eligible": true
           },
@@ -294,7 +294,7 @@
           {
             "position": 10,
             "name": "Olivia Baxter",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "28:27",
             "eligible": true
           },
@@ -308,21 +308,21 @@
           {
             "position": 11,
             "name": "Eadaoin McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "32:11",
             "eligible": true
           },
           {
             "position": 12,
             "name": "Sarah Knight",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "33:02",
             "eligible": true
           },
           {
             "position": 13,
             "name": "Regina Kelly",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "36:50",
             "eligible": true
           },
@@ -343,35 +343,35 @@
           {
             "position": 15,
             "name": "Marie O'Donovan",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "51:48",
             "eligible": true
           },
           {
             "position": 16,
             "name": "Mariia Malone",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "52:24",
             "eligible": true
           },
           {
             "position": 17,
             "name": "Eileen O'Donovan",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "58:11",
             "eligible": true
           },
           {
             "position": 18,
             "name": "Sarah Ni Ruairc",
-            "club": "Fingal",
+            "club": "FIN",
             "time": "63:10",
             "eligible": true
           },
           {
             "position": null,
             "name": "Vishaka Reddy",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "DNF",
             "eligible": false
           }
@@ -393,35 +393,35 @@
           {
             "position": 1,
             "name": "Ruairi Short",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "32:48",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Laurence Quinn",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "33:42",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Colm Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "33:48",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Conor Short",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "35:35",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Graeme Rennie",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "36:04",
             "eligible": true
           },
@@ -442,7 +442,7 @@
           {
             "position": 6,
             "name": "Josh O'Sullivan-Hourihan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "36:37",
             "eligible": true
           },
@@ -456,49 +456,49 @@
           {
             "position": 7,
             "name": "Paul Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "38:05",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Darragh Hoare",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "38:26",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Shane Lynch",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "38:27",
             "eligible": true
           },
           {
             "position": 10,
             "name": "Ruairi Long",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "38:50",
             "eligible": true
           },
           {
             "position": 11,
             "name": "Eoin McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "39:13",
             "eligible": true
           },
           {
             "position": 12,
             "name": "Seamus O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "39:35",
             "eligible": true
           },
           {
             "position": 13,
             "name": "Jonathan Quinn",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "41:09",
             "eligible": true
           },
@@ -512,14 +512,14 @@
           {
             "position": 15,
             "name": "Mark Stephens",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "41:14",
             "eligible": true
           },
           {
             "position": 16,
             "name": "Valdas Tilunas",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "42:33",
             "eligible": true
           },
@@ -533,21 +533,21 @@
           {
             "position": 18,
             "name": "Aidan McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "52:40",
             "eligible": true
           },
           {
             "position": 19,
             "name": "George Savell",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "55:39",
             "eligible": true
           },
           {
             "position": 20,
             "name": "Dan McDonnell",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "57:09",
             "eligible": true
           },
@@ -561,14 +561,14 @@
           {
             "position": 21,
             "name": "Chris Colwell",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "57:45",
             "eligible": true
           },
           {
             "position": 22,
             "name": "Kieran Beausang",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "57:53",
             "eligible": true
           },
@@ -596,7 +596,7 @@
           {
             "position": null,
             "name": "Keith Johnston",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "DNF",
             "eligible": false
           }
@@ -611,7 +611,7 @@
           {
             "position": 1,
             "name": "Clodagh Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "31:54",
             "eligible": true
           },
@@ -625,21 +625,21 @@
           {
             "position": 2,
             "name": "Kathryn Barr",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "33:59",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Aoife McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "34:31",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Niamh O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "36:06",
             "eligible": true
           },
@@ -653,28 +653,28 @@
           {
             "position": 6,
             "name": "Roisin Long",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "41:23",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Eadaoin McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "41:30",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Aine McCann",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "46:56",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Norah O'Brien",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "56:58",
             "eligible": true
           },
@@ -688,14 +688,14 @@
           {
             "position": 10,
             "name": "Elodie Donet",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "62:09",
             "eligible": true
           },
           {
             "position": 11,
             "name": "Meabh Perkins",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "68:25",
             "eligible": true
           },
@@ -709,7 +709,7 @@
           {
             "position": null,
             "name": "Sarah Knight",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "DNF",
             "eligible": false
           }
@@ -738,7 +738,7 @@
           {
             "position": 1,
             "name": "Ruairi Short",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "120:53",
             "eligible": true
           },
@@ -752,63 +752,63 @@
           {
             "position": 3,
             "name": "Colm Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "122:38",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Paul Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "123:59",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Conor Short",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "124:43",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Shane Lynch",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "127:50",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Laurence Quinn",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "133:05",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Darragh Hoare",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "142:39",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Valdas Tilunas",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "144:30",
             "eligible": true
           },
           {
             "position": 10,
             "name": "Eoin McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "145:39",
             "eligible": true
           },
           {
             "position": 11,
             "name": "Graeme Rennie",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "148:10",
             "eligible": true
           },
@@ -822,14 +822,14 @@
           {
             "position": 12,
             "name": "Aidan McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "157:24",
             "eligible": true
           },
           {
             "position": 13,
             "name": "Dan McDonnell",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "169:39",
             "eligible": true
           },
@@ -843,7 +843,7 @@
           {
             "position": 14,
             "name": "George Savell",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "186:01",
             "eligible": true
           },
@@ -857,14 +857,14 @@
           {
             "position": 15,
             "name": "Chris Colwell",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "275:47",
             "eligible": true
           },
           {
             "position": 16,
             "name": "Keith Johnston",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "287:38",
             "eligible": true
           },
@@ -878,7 +878,7 @@
           {
             "position": null,
             "name": "Ruairi Long",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "DNF",
             "eligible": false
           },
@@ -907,7 +907,7 @@
           {
             "position": 1,
             "name": "Clodagh Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "91:50",
             "eligible": true
           },
@@ -921,35 +921,35 @@
           {
             "position": 2,
             "name": "Niamh O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "92:50",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Roisin Long",
-            "club": "Ajax",
+            "club": "AJAX",
             "time": "102:52",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Aoife McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "107:44",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Aine McCann",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "111:52",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Eadaoin McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "116:45",
             "eligible": true
           },
@@ -963,7 +963,7 @@
           {
             "position": 8,
             "name": "Elodie Donet",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "134:52",
             "eligible": true
           },
@@ -977,7 +977,7 @@
           {
             "position": null,
             "name": "Kathryn Barr",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "DNF",
             "eligible": false
           },
@@ -1006,7 +1006,7 @@
           {
             "position": 1,
             "name": "Graeme Rennie",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "41:10",
             "team": "CNOCing on Heaven's Door",
             "leg": "1",
@@ -1015,7 +1015,7 @@
           {
             "position": 1,
             "name": "Conor Short",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "41:33",
             "team": "CNOCing on Heaven's Door",
             "leg": "2",
@@ -1024,7 +1024,7 @@
           {
             "position": 1,
             "name": "Ruairi Short",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "39:31",
             "team": "CNOCing on Heaven's Door",
             "leg": "3",
@@ -1033,7 +1033,7 @@
           {
             "position": 2,
             "name": "Aidan McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "48:11",
             "team": "3ROC OP",
             "leg": "1",
@@ -1042,7 +1042,7 @@
           {
             "position": 2,
             "name": "Eoin McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "40:27",
             "team": "3ROC OP",
             "leg": "2",
@@ -1051,7 +1051,7 @@
           {
             "position": 2,
             "name": "Colm Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "40:06",
             "team": "3ROC OP",
             "leg": "3",
@@ -1087,7 +1087,7 @@
           {
             "position": 3,
             "name": "Conall Whelan",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "47:40",
             "team": "CNOC Your Socks Off",
             "leg": "1",
@@ -1096,7 +1096,7 @@
           {
             "position": 3,
             "name": "Colm Hill",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "45:59",
             "team": "CNOC Your Socks Off",
             "leg": "2",
@@ -1105,7 +1105,7 @@
           {
             "position": 3,
             "name": "Seamus O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "45:41",
             "team": "CNOC Your Socks Off",
             "leg": "3",
@@ -1114,7 +1114,7 @@
           {
             "position": 4,
             "name": "Gerry Browne",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "41:39",
             "team": "The GENtlemen",
             "leg": "1",
@@ -1123,7 +1123,7 @@
           {
             "position": 4,
             "name": "Oscar Rowe",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "52:16",
             "team": "The GENtlemen",
             "leg": "2",
@@ -1132,7 +1132,7 @@
           {
             "position": 4,
             "name": "Jonathan Quinn",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "45:29",
             "team": "The GENtlemen",
             "leg": "3",
@@ -1195,7 +1195,7 @@
           {
             "position": null,
             "name": "Paul Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "38:18",
             "team": "Puff, The Magic Lagan",
             "leg": "1",
@@ -1204,7 +1204,7 @@
           {
             "position": null,
             "name": "Mark Stephens",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "48:50",
             "team": "Puff, The Magic Lagan",
             "leg": "2",
@@ -1213,7 +1213,7 @@
           {
             "position": null,
             "name": "George Savell",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "DNF",
             "team": "Puff, The Magic Lagan",
             "leg": "3",
@@ -1222,7 +1222,7 @@
           {
             "position": null,
             "name": "Josh O'Sullivan-Hourihan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "42:56",
             "team": "CorkO_A",
             "leg": "1",
@@ -1231,7 +1231,7 @@
           {
             "position": null,
             "name": "Shane Lynch",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "40:42",
             "team": "CorkO_A",
             "leg": "2",
@@ -1240,7 +1240,7 @@
           {
             "position": null,
             "name": "Darren Burke",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "DNF",
             "team": "CorkO_A",
             "leg": "3",
@@ -1257,7 +1257,7 @@
           {
             "position": 1,
             "name": "Aoife McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "33:07",
             "team": "LeGENds",
             "leg": "1",
@@ -1266,7 +1266,7 @@
           {
             "position": 1,
             "name": "Emily Rowe",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "49:42",
             "team": "LeGENds",
             "leg": "2",
@@ -1275,7 +1275,7 @@
           {
             "position": 1,
             "name": "Eadaoin McCavana",
-            "club": "Great Eastern Navigators",
+            "club": "GEN",
             "time": "42:21",
             "team": "LeGENds",
             "leg": "3",
@@ -1284,7 +1284,7 @@
           {
             "position": 2,
             "name": "Aine McCann",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "34:27",
             "team": "Girls with the Lagan Tatto",
             "leg": "1",
@@ -1293,7 +1293,7 @@
           {
             "position": 2,
             "name": "Moire O'Sullivan",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "48:00",
             "team": "Girls with the Lagan Tatto",
             "leg": "2",
@@ -1302,7 +1302,7 @@
           {
             "position": 2,
             "name": "Anastasia Maglich",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "57:15",
             "team": "Girls with the Lagan Tatto",
             "leg": "3",
@@ -1311,7 +1311,7 @@
           {
             "position": 3,
             "name": "Niamh O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "36:40",
             "team": "Line 'Em Up We'll CNOC 'Em Down",
             "leg": "1",
@@ -1320,7 +1320,7 @@
           {
             "position": 3,
             "name": "Ruth Lynam",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "51:44",
             "team": "Line 'Em Up We'll CNOC 'Em Down",
             "leg": "2",
@@ -1329,7 +1329,7 @@
           {
             "position": 3,
             "name": "Regina Kelly",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "54:56",
             "team": "Line 'Em Up We'll CNOC 'Em Down",
             "leg": "3",
@@ -1338,7 +1338,7 @@
           {
             "position": 4,
             "name": "Aoife O'Sullivan",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "44:22",
             "team": "BOC 3",
             "leg": "1",
@@ -1347,7 +1347,7 @@
           {
             "position": 4,
             "name": "Caroline Murray",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "54:24",
             "team": "BOC 3",
             "leg": "2",
@@ -1356,7 +1356,7 @@
           {
             "position": 4,
             "name": "Elodre Donet",
-            "club": "Bishopstown",
+            "club": "BOC",
             "time": "50:56",
             "team": "BOC 3",
             "leg": "3",
@@ -1365,7 +1365,7 @@
           {
             "position": 5,
             "name": "Ellie Simpson",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "53:32",
             "team": "CorkO - WP",
             "leg": "1",
@@ -1374,7 +1374,7 @@
           {
             "position": 5,
             "name": "Niamh Morrissey",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "50:15",
             "team": "CorkO - WP",
             "leg": "2",
@@ -1383,7 +1383,7 @@
           {
             "position": 5,
             "name": "Sharon Lucey",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "61:58",
             "team": "CorkO - WP",
             "leg": "3",
@@ -1446,7 +1446,7 @@
           {
             "position": null,
             "name": "Clodagh Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "DNF",
             "team": "3ROC WP",
             "leg": "1",
@@ -1455,7 +1455,7 @@
           {
             "position": null,
             "name": "Cliona McCullough",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "43:12",
             "team": "3ROC WP",
             "leg": "2",
@@ -1464,7 +1464,7 @@
           {
             "position": null,
             "name": "Una Coghlan",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "107:15",
             "team": "3ROC WP",
             "leg": "3",

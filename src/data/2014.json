@@ -13,7 +13,7 @@
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "125:37",
             "eligible": true
           },
@@ -48,7 +48,7 @@
           {
             "position": 6,
             "name": "Darren Burke",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "149:55",
             "eligible": true
           },
@@ -69,7 +69,7 @@
           {
             "position": 8,
             "name": "Shane Lynch",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "199:10",
             "eligible": true
           },
@@ -97,7 +97,7 @@
           {
             "position": null,
             "name": "Cillin Corbett",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           },
@@ -125,7 +125,7 @@
           {
             "position": null,
             "name": "John Power",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           },
@@ -210,7 +210,7 @@
           {
             "position": null,
             "name": "Sharon Lucey",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           },
@@ -570,7 +570,7 @@
           {
             "position": 8,
             "name": "Neil Dobbs",
-            "club": "WatO",
+            "club": "WATO",
             "time": "58:25",
             "eligible": true
           },
@@ -873,21 +873,21 @@
           {
             "position": 5,
             "name": "Robert Pim",
-            "club": "WatO",
+            "club": "WATO",
             "time": "56:27",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Gints Plaudis",
-            "club": "WatO",
+            "club": "WATO",
             "time": "50:25",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Thomas Callery",
-            "club": "WatO",
+            "club": "WATO",
             "time": "56:14",
             "eligible": true
           },

@@ -13,7 +13,7 @@
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "100:21",
             "eligible": true
           },
@@ -62,7 +62,7 @@
           {
             "position": 7,
             "name": "Shane Lynch",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": null,
             "eligible": true
           },
@@ -134,7 +134,7 @@
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": null,
             "eligible": true
           }
@@ -149,7 +149,7 @@
           {
             "position": 1,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": null,
             "eligible": true
           },
@@ -185,7 +185,7 @@
           {
             "position": 1,
             "name": "Niall Bourke",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "38:02",
             "team": "CorkO",
             "leg": "1",
@@ -194,7 +194,7 @@
           {
             "position": 1,
             "name": "Alan Barry",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "40:12",
             "team": "CorkO",
             "leg": "2",
@@ -203,7 +203,7 @@
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "35:05",
             "team": "CorkO",
             "leg": "3",
@@ -544,7 +544,7 @@
           {
             "position": 3,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "32:53",
             "team": "CorkO",
             "leg": "1",
@@ -553,7 +553,7 @@
           {
             "position": 3,
             "name": "Ailbhe Creedon",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "36:49",
             "team": "CorkO",
             "leg": "2",
@@ -562,7 +562,7 @@
           {
             "position": 3,
             "name": "Elaine Sheridan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "66:20",
             "team": "CorkO",
             "leg": "3",
@@ -640,7 +640,7 @@
           {
             "position": 1,
             "name": "Alan Barry",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "32:31",
             "eligible": true
           },
@@ -703,7 +703,7 @@
           {
             "position": 10,
             "name": "Danny O'Hare",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "43:20",
             "eligible": true
           },
@@ -753,7 +753,7 @@
           {
             "position": 2,
             "name": "Ailbhe Creedon",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "38:06",
             "eligible": true
           },

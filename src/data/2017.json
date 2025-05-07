@@ -118,7 +118,7 @@
           {
             "position": null,
             "name": "Aldis Skraucs",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           },
@@ -139,7 +139,7 @@
           {
             "position": null,
             "name": "Agris Kramins",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "DNF",
             "eligible": false
           },
@@ -175,7 +175,7 @@
           {
             "position": 3,
             "name": "Toni O'Donovan",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "93:31",
             "eligible": true
           },
@@ -887,14 +887,14 @@
           {
             "position": 18,
             "name": "Aldis Skraucs",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "51:54",
             "eligible": true
           },
           {
             "position": 19,
             "name": "Agris Kramins",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "54:10",
             "eligible": true
           },
@@ -937,7 +937,7 @@
           {
             "position": 3,
             "name": "Toni O'Donovan",
-            "club": "Cork O",
+            "club": "CORKO",
             "time": "35:19",
             "eligible": true
           },

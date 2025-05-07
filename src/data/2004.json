@@ -20,14 +20,14 @@
           {
             "position": 2,
             "name": "Bill Edwards",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "96:56",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Colm O'Halloran",
-            "club": "LeeO",
+            "club": "LEEO",
             "time": "99:14",
             "eligible": true
           },
@@ -70,7 +70,7 @@
           {
             "position": 3,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "82:56",
             "eligible": true
           },
@@ -84,7 +84,7 @@
           {
             "position": 5,
             "name": "Ailbhe Creedon",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "93:49",
             "eligible": true
           }
@@ -106,7 +106,7 @@
           {
             "position": 1,
             "name": "Bill Edwards",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "31:46",
             "eligible": true
           },
@@ -135,7 +135,7 @@
           {
             "position": 1,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "30:05",
             "eligible": true
           },
@@ -206,7 +206,7 @@
           {
             "position": 1,
             "name": "Toni O'Donovan",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "00:00",
             "team": "CorkO",
             "leg": "1",
@@ -215,7 +215,7 @@
           {
             "position": 1,
             "name": "Faye Pinker",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "00:00",
             "team": "CorkO",
             "leg": "2",
@@ -224,7 +224,7 @@
           {
             "position": 1,
             "name": "Ailbhe Creedon",
-            "club": "CorkO",
+            "club": "CORKO",
             "time": "00:00",
             "team": "CorkO",
             "leg": "3",
