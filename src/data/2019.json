@@ -2,251 +2,251 @@
   "sprint": {
     "area": "Florence Court Estate",
     "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=22020",
-    "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
+    "map_url": "https://www.lvo.routegadget.co.uk/rg2/#380",
     "classes": {
       "m21": {
-        "distance": "2.7",
-        "climb": "60",
-        "controls": "18",
+        "distance": 2.7,
+        "climb": 60,
+        "controls": 18,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
         "results": [
           {
             "position": 1,
             "name": "Colm Moran",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "11:03",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Paul Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "11:33",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Darren Burke",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "11:46",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Kevin O'Boyle",
-            "club": "Curragh-Naas",
-            "time": "11:55",
+            "club": "CNOC",
+            "time": "11:50",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Josh O'Sullivan-Hourihan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "11:55",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Mark Stephens",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "12:02",
             "eligible": true
           },
           {
-            "position": 7,
+            "position": null,
             "name": "Anton Hallor",
             "club": "OK TISA",
             "time": "12:30",
-            "eligible": true
+            "eligible": false
           },
           {
-            "position": 8,
+            "position": 7,
             "name": "Cillin Corbett",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "13:08",
             "eligible": true
           },
           {
-            "position": 9,
+            "position": 8,
             "name": "Zach Harrington",
             "club": "CITO",
             "time": "13:17",
             "eligible": true
           },
           {
-            "position": 10,
+            "position": 9,
             "name": "Conall Whelan",
             "club": "UCDO/CN",
             "time": "13:23",
             "eligible": true
           },
           {
-            "position": 11,
+            "position": 10,
             "name": "Marcus Pinker",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "13:49",
             "eligible": true
           },
           {
-            "position": 12,
+            "position": 11,
             "name": "Kieran Beausang",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "14:12",
             "eligible": true
           },
           {
-            "position": 13,
+            "position": 12,
             "name": "Andrew Quin",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "14:20",
             "eligible": true
           },
           {
-            "position": 14,
+            "position": 13,
             "name": "Conrad Daly",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "15:28",
             "eligible": true
           },
           {
-            "position": 15,
+            "position": 14,
             "name": "Neil Dobbs",
-            "club": "South East",
+            "club": "WATO",
             "time": "15:36",
             "eligible": true
           },
           {
-            "position": 16,
+            "position": 15,
             "name": "Brian Armstrong",
-            "club": "Fermanagh",
+            "club": "FERMO",
             "time": "16:29",
             "eligible": true
           },
           {
-            "position": 17,
+            "position": 16,
             "name": "Valdas Tilunas",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "16:40",
             "eligible": true
           },
           {
-            "position": 18,
+            "position": 17,
             "name": "Sean Kearns",
-            "club": "Fingal",
+            "club": "FIN",
             "time": "16:55",
             "eligible": true
           },
           {
-            "position": 19,
+            "position": 18,
             "name": "Daniel Sheridan",
-            "club": "Fermanagh",
+            "club": "FERMO",
             "time": "28:37",
             "eligible": true
           },
           {
             "position": null,
             "name": "Niall McCarthy",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "DNF",
             "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": "2.26",
-        "climb": "40",
-        "controls": "18",
+        "distance": 2.6,
+        "climb": 40,
+        "controls": 18,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
         "results": [
           {
             "position": 1,
             "name": "Aoife McCavana",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "13:06",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Roisin Long",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "13:25",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Niamh Corbett",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "14:32",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Kathryn Barr",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "15:14",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Niamh O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "15:21",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Aine McCann",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "15:23",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Toni O'Donovan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "16:13",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Caoimhe O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "16:18",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Olivia Baxter",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "17:26",
             "eligible": true
           },
           {
             "position": 10,
             "name": "Eibhlin Largey",
-            "club": "Fermanagh",
+            "club": "FERMO",
             "time": "17:57",
             "eligible": true
           },
           {
             "position": 11,
             "name": "Sam McNeilly",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "19:18",
             "eligible": true
           },
           {
             "position": 12,
             "name": "Ruth Lynam",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "23:27",
             "eligible": true
           },
           {
             "position": 13,
             "name": "Niamh Conerney",
-            "club": "Western Eagles",
-            "time": "26:54",
+            "club": "WEGO",
+            "time": "23:54",
             "eligible": true
           }
         ]
@@ -259,233 +259,233 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#380",
     "classes": {
       "m21": {
-        "distance": "5.6",
-        "climb": "165",
-        "controls": "22",
+        "distance": 5.6,
+        "climb": 165,
+        "controls": 22,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
         "results": [
           {
             "position": 1,
             "name": "Paul Pruzina",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "35:06",
             "eligible": true
           },
           {
-            "position": 2,
+            "position": null,
             "name": "Anton Hallor",
             "club": "OK TISA",
             "time": "35:15",
+            "eligible": false
+          },
+          {
+            "position": 2,
+            "name": "Colm Moran",
+            "club": "3ROC",
+            "time": "37:20",
             "eligible": true
           },
           {
-            "position": 3,
-            "name": "Colm Moran",
-            "club": "Three Rock",
+            "position": 2,
+            "name": "Darren Burke",
+            "club": "CORKO",
             "time": "37:20",
             "eligible": true
           },
           {
             "position": 4,
-            "name": "Darren Burke",
-            "club": "Cork",
-            "time": "37:20",
-            "eligible": true
-          },
-          {
-            "position": 5,
             "name": "Shane Lynch",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "39:13",
             "eligible": true
           },
           {
-            "position": 6,
+            "position": 5,
             "name": "Seamus O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "39:36",
             "eligible": true
           },
           {
-            "position": 7,
+            "position": 6,
             "name": "Marcus Pinker",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "40:07",
             "eligible": true
           },
           {
-            "position": 8,
+            "position": 7,
             "name": "Kevin O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "40:25",
             "eligible": true
           },
           {
-            "position": 9,
+            "position": 8,
             "name": "Conall Whelan",
             "club": "UCDO/CN",
             "time": "40:32",
             "eligible": true
           },
           {
-            "position": 10,
+            "position": 9,
             "name": "Mark Stephens",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "41:01",
             "eligible": true
           },
           {
-            "position": 11,
+            "position": 10,
             "name": "Josh O'Sullivan-Hourihan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "42:58",
             "eligible": true
           },
           {
-            "position": 12,
+            "position": 11,
             "name": "Zach Harrington",
             "club": "CITO",
             "time": "44:02",
             "eligible": true
           },
           {
-            "position": 13,
+            "position": 12,
             "name": "Valdas Tilunas",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "45:00",
             "eligible": true
           },
           {
-            "position": 14,
+            "position": 13,
             "name": "Neil Dobbs",
-            "club": "South East",
+            "club": "WATO",
             "time": "46:33",
             "eligible": true
           },
           {
-            "position": 15,
+            "position": 14,
             "name": "Andrew Quin",
-            "club": "Three Rock",
+            "club": "3ROC",
             "time": "47:04",
             "eligible": true
           },
           {
-            "position": 16,
+            "position": 15,
             "name": "Cillin Corbett",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "53:40",
             "eligible": true
           },
           {
-            "position": 17,
+            "position": 16,
             "name": "Kieran Beausang",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "55:24",
             "eligible": true
           },
           {
-            "position": 18,
+            "position": 17,
             "name": "Zac O'Sullivan-Hourihan",
-            "club": "University College Cork",
+            "club": "UCCO",
             "time": "56:06",
             "eligible": true
           },
           {
-            "position": 19,
+            "position": 18,
             "name": "Conrad Daly",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "64:54",
             "eligible": true
           },
           {
-            "position": null,
+            "position": 19,
             "name": "Mario Nogales Pastrana",
             "club": "COLMENA",
             "time": "65:02",
-            "eligible": false
+            "eligible": true
           },
           {
             "position": 20,
             "name": "Brian Armstrong",
-            "club": "Fermanagh",
+            "club": "FERMO",
             "time": "65:25",
             "eligible": true
           },
           {
             "position": null,
             "name": "Daniel Sheridan",
-            "club": "Fermanagh",
+            "club": "FERMO",
             "time": "DNF",
             "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": "4.375",
-        "climb": "120",
-        "controls": "15",
+        "distance": 4.375,
+        "climb": 120,
+        "controls": 15,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#380",
         "results": [
           {
             "position": 1,
             "name": "Aine McCann",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "34:17",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Niamh Corbett",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "34:44",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Roisin Long",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "36:16",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Toni O'Donovan",
-            "club": "Cork",
+            "club": "CORKO",
             "time": "39:38",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Aoife McCavana",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "39:42",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Kathryn Barr",
-            "club": "University College Dublin",
+            "club": "UCDO",
             "time": "40:24",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Caoimhe O'Boyle",
-            "club": "Curragh-Naas",
+            "club": "CNOC",
             "time": "43:44",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Eibhlin Largey",
-            "club": "Fermanagh",
+            "club": "FERMO",
             "time": "47:51",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Olivia Baxter",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "58:16",
             "eligible": true
           },
@@ -499,14 +499,14 @@
           {
             "position": 11,
             "name": "Sam McNeilly",
-            "club": "Lagan Valley",
+            "club": "LVO",
             "time": "70:13",
             "eligible": true
           },
           {
             "position": 12,
             "name": "Niamh Conerney",
-            "club": "Western Eagles",
+            "club": "WEGO",
             "time": "72:35",
             "eligible": true
           }
