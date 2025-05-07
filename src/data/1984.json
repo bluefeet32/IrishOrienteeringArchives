@@ -1,376 +1,376 @@
 {
-    "long":{
-       "area":"Killary",
-       "results_url":"https://www.orienteering.ie/wp-content/uploads/2013/02/tio_11_may_june_1984.pdf",
-       "map_url":"",
-       "classes":{
-          "m21":{
-             "distance":"",
-             "climb":"",
-             "controls":"",
-             "course_image":null,
-             "results":[
-                {
-                   "position":1,
-                   "name":"P. James",
-                   "club":"NWOC",
-                   "time":"78:21",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"Eoin Rothery",
-                   "club":"AJAX",
-                   "time":"78:38",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"Justin May",
-                   "club":"3ROC",
-                   "time":"85:40",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"Peter Kernan",
-                   "club":"3ROC",
-                   "time":"86:19",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"Brian Corbett",
-                   "club":"DUO",
-                   "time":"89:30",
-                   "eligible":true
-                },
-                {
-                   "position":6,
-                   "name":"Wally Young",
-                   "club":"CO",
-                   "time":"90:45",
-                   "eligible":true
-                },
-                {
-                   "position":7,
-                   "name":"Pat Healy",
-                   "club":"CO",
-                   "time":"91:18",
-                   "eligible":true
-                },
-                {
-                   "position":8,
-                   "name":"Robbie Bryson",
-                   "club":"AJAX",
-                   "time":"92:16",
-                   "eligible":true
-                },
-                {
-                   "position":9,
-                   "name":"B. Dalby",
-                   "club":"3ROC",
-                   "time":"92:44",
-                   "eligible":true
-                },
-                {
-                   "position":10,
-                   "name":"M. James",
-                   "club":"NWOC",
-                   "time":"92:54",
-                   "eligible":true
-                }
-             ]
+  "long": {
+    "area": "Killary",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/tio_11_may_june_1984.pdf",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "P. James",
+            "club": "NWOC",
+            "time": "78:21",
+            "eligible": true
           },
-          "w21":{
-             "distance":"",
-             "climb":"",
-             "controls":"",
-             "course_image":null,
-             "results":[
-                {
-                   "position":null,
-                   "name":"A. Bedwell",
-                   "club":"UBOC",
-                   "time":"83:39",
-                   "eligible":false
-                },
-                {
-                   "position":1,
-                   "name":"O. Cooke",
-                   "club":"AJAX",
-                   "time":"101:19",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"Eileen Loughman",
-                   "club":"GEN",
-                   "time":"102:03",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"P. Murphy",
-                   "club":"3ROC",
-                   "time":"102:07",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"Ann Savage",
-                   "club":"LVO",
-                   "time":"103:44",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"M. Thornhill",
-                   "club":"GEN",
-                   "time":"111:44",
-                   "eligible":true
-                }
-             ]
-          }
-       }
-    },
-    "relay":{
-       "area":"Killary",
-       "results_url":"https://www.orienteering.ie/wp-content/uploads/2013/02/tio_11_may_june_1984.pdf",
-       "map_url":"null",
-       "classes":{
-          "m21":{
-             "distance":"",
-             "climb":"",
-             "controls":"",
-             "course_image":null,
-             "results":[
-                {
-                   "position":1,
-                   "name":"Wally Young",
-                   "club":"Curragh",
-                   "time":"34:41",
-                   "team":"Curragh",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":1,
-                   "name":"Pat Farrelly",
-                   "club":"Curragh",
-                   "time":"42:32",
-                   "team":"Curragh",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":1,
-                   "name":"Pat Healy",
-                   "club":"Curragh",
-                   "time":"35:55",
-                   "team":"Curragh",
-                   "leg":"3",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"A. Lewis",
-                   "club":"NWOC",
-                   "time":"39:32",
-                   "team":"NWOC",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"M. James",
-                   "club":"NWOC",
-                   "time":"41:05",
-                   "team":"NWOC",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"P. James",
-                   "club":"NWOC",
-                   "time":"34:30",
-                   "team":"NWOC",
-                   "leg":"3",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"Robbie Bryson",
-                   "club":"AJAX",
-                   "time":"41:30",
-                   "team":"AJAX",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"Eoin Rothery",
-                   "club":"AJAX",
-                   "time":"34:00",
-                   "team":"AJAX",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"W. McAuliffe",
-                   "club":"AJAX",
-                   "time":"41:13",
-                   "team":"AJAX",
-                   "leg":"3",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"John McCullough",
-                   "club":"3ROC",
-                   "time":"39:11",
-                   "team":"3ROC",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"Peter Kernan",
-                   "club":"3ROC",
-                   "time":"41:23",
-                   "team":"3ROC",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"Justin May",
-                   "club":"3ROC",
-                   "time":"40:27",
-                   "team":"3ROC",
-                   "leg":"3",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"P. Waldron",
-                   "club":"CORKO",
-                   "time":"43:53",
-                   "team":"CORKO",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"W. Edwards",
-                   "club":"CORKO",
-                   "time":"41:57",
-                   "team":"CORKO",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"Sean Cotter",
-                   "club":"CORKO",
-                   "time":"44:16",
-                   "team":"CORKO",
-                   "leg":"3",
-                   "eligible":true
-                }
-             ]
+          {
+            "position": 2,
+            "name": "Eoin Rothery",
+            "club": "AJAX",
+            "time": "78:38",
+            "eligible": true
           },
-          "w21":{
-             "distance":"",
-             "climb":"",
-             "controls":"",
-             "course_image":null,
-             "results":[
-                {
-                   "position":1,
-                   "name":"T. Horan",
-                   "club":"AJAX",
-                   "time":"45:54",
-                   "team":"AJAX",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":1,
-                   "name":"O. Cooke",
-                   "club":"AJAX",
-                   "time":"47:44",
-                   "team":"AJAX",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":1,
-                   "name":"Deirdre Ni Challanain",
-                   "club":"AJAX",
-                   "time":"45:20",
-                   "team":"AJAX",
-                   "leg":"3",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"Eileen Loughman",
-                   "club":"GEN",
-                   "time":"42:30",
-                   "team":"GEN",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"D. Large",
-                   "club":"GEN",
-                   "time":"61:02",
-                   "team":"GEN",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"M. Thornhill",
-                   "club":"GEN",
-                   "time":"45:20",
-                   "team":"GEN",
-                   "leg":"3",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"Ann Savage",
-                   "club":"LVO",
-                   "time":"48:10",
-                   "team":"LVO",
-                   "leg":"1",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"H. Johnston",
-                   "club":"LVO",
-                   "time":"59:18",
-                   "team":"LVO",
-                   "leg":"2",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"H. Baxter",
-                   "club":"LVO",
-                   "time":"48:52",
-                   "team":"LVO",
-                   "leg":"3",
-                   "eligible":true
-                }
-             ]
+          {
+            "position": 3,
+            "name": "Justin May",
+            "club": "3ROC",
+            "time": "85:40",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Peter Kernan",
+            "club": "3ROC",
+            "time": "86:19",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Brian Corbett",
+            "club": "DUO",
+            "time": "89:30",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "90:45",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Pat Healy",
+            "club": "CO",
+            "time": "91:18",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Robbie Bryson",
+            "club": "AJAX",
+            "time": "92:16",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "B. Dalby",
+            "club": "3ROC",
+            "time": "92:44",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "M. James",
+            "club": "NWOC",
+            "time": "92:54",
+            "eligible": true
           }
-       }
+        ]
+      },
+      "w21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": null,
+        "results": [
+          {
+            "position": null,
+            "name": "A. Bedwell",
+            "club": "UBOC",
+            "time": "83:39",
+            "eligible": false
+          },
+          {
+            "position": 1,
+            "name": "O. Cooke",
+            "club": "AJAX",
+            "time": "101:19",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eileen Loughman",
+            "club": "GEN",
+            "time": "102:03",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "P. Murphy",
+            "club": "3ROC",
+            "time": "102:07",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Ann Savage",
+            "club": "LVO",
+            "time": "103:44",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "M. Thornhill",
+            "club": "GEN",
+            "time": "111:44",
+            "eligible": true
+          }
+        ]
+      }
     }
- }
+  },
+  "relay": {
+    "area": "Killary",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/tio_11_may_june_1984.pdf",
+    "map_url": "null",
+    "classes": {
+      "m21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Wally Young",
+            "club": "Curragh",
+            "time": "34:41",
+            "team": "Curragh",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Pat Farrelly",
+            "club": "Curragh",
+            "time": "42:32",
+            "team": "Curragh",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Pat Healy",
+            "club": "Curragh",
+            "time": "35:55",
+            "team": "Curragh",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "A. Lewis",
+            "club": "NWOC",
+            "time": "39:32",
+            "team": "NWOC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "M. James",
+            "club": "NWOC",
+            "time": "41:05",
+            "team": "NWOC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "P. James",
+            "club": "NWOC",
+            "time": "34:30",
+            "team": "NWOC",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Robbie Bryson",
+            "club": "AJAX",
+            "time": "41:30",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Eoin Rothery",
+            "club": "AJAX",
+            "time": "34:00",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "W. McAuliffe",
+            "club": "AJAX",
+            "time": "41:13",
+            "team": "AJAX",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "John McCullough",
+            "club": "3ROC",
+            "time": "39:11",
+            "team": "3ROC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Peter Kernan",
+            "club": "3ROC",
+            "time": "41:23",
+            "team": "3ROC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Justin May",
+            "club": "3ROC",
+            "time": "40:27",
+            "team": "3ROC",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "P. Waldron",
+            "club": "CORKO",
+            "time": "43:53",
+            "team": "CORKO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "W. Edwards",
+            "club": "CORKO",
+            "time": "41:57",
+            "team": "CORKO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Sean Cotter",
+            "club": "CORKO",
+            "time": "44:16",
+            "team": "CORKO",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "T. Horan",
+            "club": "AJAX",
+            "time": "45:54",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "O. Cooke",
+            "club": "AJAX",
+            "time": "47:44",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Deirdre Ni Challanain",
+            "club": "AJAX",
+            "time": "45:20",
+            "team": "AJAX",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eileen Loughman",
+            "club": "GEN",
+            "time": "42:30",
+            "team": "GEN",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "D. Large",
+            "club": "GEN",
+            "time": "61:02",
+            "team": "GEN",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "M. Thornhill",
+            "club": "GEN",
+            "time": "45:20",
+            "team": "GEN",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ann Savage",
+            "club": "LVO",
+            "time": "48:10",
+            "team": "LVO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "H. Johnston",
+            "club": "LVO",
+            "time": "59:18",
+            "team": "LVO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "H. Baxter",
+            "club": "LVO",
+            "time": "48:52",
+            "team": "LVO",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}

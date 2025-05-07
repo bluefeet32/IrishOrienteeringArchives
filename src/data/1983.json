@@ -1,459 +1,459 @@
 {
-    "long":{
-       "area":"Ballyhouirgan",
-       "results_url":"https://drive.google.com/file/d/1w2IzB6hBTnoBaPQf4ViKSrus-qYzMk_S/view?usp=sharing",
-       "map_url":"",
-       "classes":{
-          "m21":{
-             "distance":"10.7 k",
-             "climb":"540 m",
-             "controls":"",
-             "course_image":"",
-             "results":[
-                {
-                   "position":1,
-                   "name":"Justin May",
-                   "club":"3ROC",
-                   "time":"87:43",
-                   "eligible":true
-                },
-                {
-                   "position":null,
-                   "name":"G. MacIntyre",
-                   "club":"EVOC",
-                   "time":"88:09",
-                   "eligible":false
-                },
-                {
-                   "position":2,
-                   "name":"P. James",
-                   "club":"NWOC",
-                   "time":"88:30",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"Wally Young",
-                   "club":"CO",
-                   "time":"89:45",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"Pat Healy",
-                   "club":"CO",
-                   "time":"95:56",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"Eoin Rothery",
-                   "club":"Ajax",
-                   "time":"96:15",
-                   "eligible":true
-                },
-                {
-                   "position":6,
-                   "name":"J. Ward",
-                   "club":"FermO",
-                   "time":"97:52",
-                   "eligible":true
-                },
-                {
-                   "position":7,
-                   "name":"W. McAuliffe",
-                   "club":"Ajax",
-                   "time":"100:20",
-                   "eligible":true
-                },
-                {
-                   "position":8,
-                   "name":"John McCullough",
-                   "club":"3ROC",
-                   "time":"107:54",
-                   "eligible":true
-                },
-                {
-                   "position":9,
-                   "name":"R. Bryson",
-                   "club":"Ajax",
-                   "time":"109:12",
-                   "eligible":true
-                },
-                {
-                   "position":10,
-                   "name":"P. Waldron",
-                   "club":"Cork O",
-                   "time":"109:18",
-                   "eligible":true
-                },
-                {
-                   "position":11,
-                   "name":"Brian Corbett",
-                   "club":"DUO",
-                   "time":"109:40",
-                   "eligible":true
-                },
-                {
-                   "position":12,
-                   "name":"M. James",
-                   "club":"NWOC",
-                   "time":"110:14",
-                   "eligible":true
-                },
-                {
-                   "position":null,
-                   "name":"A. Wood",
-                   "club":"AIRE",
-                   "time":"110:26",
-                   "eligible":false
-                },
-                {
-                   "position":13,
-                   "name":"D. Reidy",
-                   "club":"ECO",
-                   "time":"112:56",
-                   "eligible":true
-                },
-                {
-                   "position":null,
-                   "name":"A. Kelly",
-                   "club":"AIRE",
-                   "time":"114:58",
-                   "eligible":false
-                },
-                {
-                   "position":14,
-                   "name":"P. Nash",
-                   "club":"SO",
-                   "time":"115:10",
-                   "eligible":true
-                },
-                {
-                   "position":15,
-                   "name":"P. Cadogan",
-                   "club":"Cork O",
-                   "time":"115:33",
-                   "eligible":true
-                },
-                {
-                   "position":16,
-                   "name":"Colm O’Halloran",
-                   "club":"Lee O",
-                   "time":"116:19",
-                   "eligible":true
-                },
-                {
-                   "position":17,
-                   "name":"T. Torstensen",
-                   "club":"LVO",
-                   "time":"116:52",
-                   "eligible":true
-                },
-                {
-                   "position":18,
-                   "name":"D. Blair",
-                   "club":"ENOC",
-                   "time":"122:36",
-                   "eligible":true
-                },
-                {
-                   "position":19,
-                   "name":"P. Higgins",
-                   "club":"WEO",
-                   "time":"123:29",
-                   "eligible":true
-                },
-                {
-                   "position":20,
-                   "name":"B. Dalby",
-                   "club":"3Roc",
-                   "time":"124:17",
-                   "eligible":true
-                },
-                {
-                   "position":21,
-                   "name":"Pat Farrelly",
-                   "club":"CO",
-                   "time":"124:38",
-                   "eligible":true
-                },
-                {
-                   "position":22,
-                   "name":"R. Poff",
-                   "club":"DUO/Set",
-                   "time":"125:43",
-                   "eligible":true
-                },
-                {
-                   "position":23,
-                   "name":"K. Davies",
-                   "club":"DUO",
-                   "time":"127:37",
-                   "eligible":true
-                },
-                {
-                   "position":24,
-                   "name":"F. O’Leary",
-                   "club":"CO",
-                   "time":"128:02",
-                   "eligible":true
-                },
-                {
-                   "position":25,
-                   "name":"B. Murphy",
-                   "club":"ECO",
-                   "time":"129:06",
-                   "eligible":true
-                },
-                {
-                   "position":26,
-                   "name":"B. O’Neill",
-                   "club":"ECO",
-                   "time":"130:09",
-                   "eligible":true
-                },
-                {
-                   "position":null,
-                   "name":"J. Wilkinson",
-                   "club":"SOC",
-                   "time":"132:48",
-                   "eligible":false
-                },
-                {
-                   "position":27,
-                   "name":"P. O’Brien",
-                   "club":"Ajax",
-                   "time":"136:45",
-                   "eligible":true
-                },
-                {
-                   "position":28,
-                   "name":"J. Kehoe",
-                   "club":"Set",
-                   "time":"138:39",
-                   "eligible":true
-                },
-                {
-                   "position":29,
-                   "name":"D. O’Beirne",
-                   "club":"3Roc",
-                   "time":"140:58",
-                   "eligible":true
-                },
-                {
-                   "position":30,
-                   "name":"C. Lawn",
-                   "club":"SO",
-                   "time":"141:36",
-                   "eligible":true
-                },
-                {
-                   "position":31,
-                   "name":"F. Corscadden",
-                   "club":"NWOC",
-                   "time":"142:07",
-                   "eligible":true
-                },
-                {
-                   "position":32,
-                   "name":"R. Cleary",
-                   "club":"3Roc",
-                   "time":"145:56",
-                   "eligible":true
-                },
-                {
-                   "position":33,
-                   "name":"P. Farrell",
-                   "club":"ECO",
-                   "time":"150:43",
-                   "eligible":true
-                },
-                {
-                   "position":34,
-                   "name":"I. McNeill",
-                   "club":"3Roc",
-                   "time":"151:26",
-                   "eligible":true
-                },
-                {
-                   "position":35,
-                   "name":"K. Cunniffe",
-                   "club":"DVO",
-                   "time":"151:31",
-                   "eligible":true
-                },
-                {
-                   "position":36,
-                   "name":"P. Monaghan",
-                   "club":"WEO",
-                   "time":"153:11",
-                   "eligible":true
-                },
-                {
-                   "position":37,
-                   "name":"A. McGonigle",
-                   "club":"WCOC",
-                   "time":"153:36",
-                   "eligible":true
-                },
-                {
-                   "position":38,
-                   "name":"R. O’Shea",
-                   "club":"CO",
-                   "time":"161:15",
-                   "eligible":true
-                },
-                {
-                   "position":39,
-                   "name":"P. Meakins",
-                   "club":"SOC",
-                   "time":"164:00",
-                   "eligible":true
-                },
-                {
-                   "position":40,
-                   "name":"B. Heeney",
-                   "club":"UCDO",
-                   "time":"171:01",
-                   "eligible":true
-                },
-                {
-                   "position":41,
-                   "name":"F. Gleeson",
-                   "club":"UCDO",
-                   "time":"178:28",
-                   "eligible":true
-                },
-                {
-                   "position":42,
-                   "name":"M. Saunders",
-                   "club":"UBOC",
-                   "time":"180:05",
-                   "eligible":true
-                },
-                {
-                   "position":43,
-                   "name":"D. Quinn",
-                   "club":"GEN",
-                   "time":"198:24",
-                   "eligible":true
-                }
-             ]
+  "long": {
+    "area": "Ballyhouirgan",
+    "results_url": "https://drive.google.com/file/d/1w2IzB6hBTnoBaPQf4ViKSrus-qYzMk_S/view?usp=sharing",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": "10.7 k",
+        "climb": "540 m",
+        "controls": "",
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Justin May",
+            "club": "3ROC",
+            "time": "87:43",
+            "eligible": true
           },
-          "w21":{
-             "distance":"7.0 k",
-             "climb":"370 m",
-             "controls":"",
-             "course_image":"",
-             "results":[
-                {
-                   "position":1,
-                   "name":"Maura Thornhill",
-                   "club":"GEN",
-                   "time":"81:50",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"Eileen Loughman",
-                   "club":"GEN",
-                   "time":"95:17",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"D. Ní Challanain",
-                   "club":"Ajax",
-                   "time":"99:13",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"A. Savage",
-                   "club":"LVO",
-                   "time":"104:54",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"C. Bonar-Law",
-                   "club":"DUO",
-                   "time":"106:51",
-                   "eligible":true
-                },
-                {
-                   "position":6,
-                   "name":"P. Murphy",
-                   "club":"3ROC",
-                   "time":"107:08",
-                   "eligible":true
-                },
-                {
-                   "position":7,
-                   "name":"J. Martindale",
-                   "club":"TO",
-                   "time":"108:14",
-                   "eligible":true
-                },
-                {
-                   "position":8,
-                   "name":"C. Murtagh",
-                   "club":"Set",
-                   "time":"111:45",
-                   "eligible":true
-                },
-                {
-                   "position":9,
-                   "name":"R. White",
-                   "club":"Set",
-                   "time":"113:46",
-                   "eligible":true
-                },
-                {
-                   "position":null,
-                   "name":"A. Bedwell",
-                   "club":"UBOC",
-                   "time":"122:16",
-                   "eligible":false
-                },
-                {
-                   "position":10,
-                   "name":"M. Walsh",
-                   "club":"Ajax",
-                   "time":"123:24",
-                   "eligible":true
-                },
-                {
-                   "position":11,
-                   "name":"O. Cooke",
-                   "club":"Ajax",
-                   "time":"125:29",
-                   "eligible":true
-                },
-                {
-                   "position":12,
-                   "name":"T. Horan",
-                   "club":"Ajax",
-                   "time":"128:33",
-                   "eligible":true
-                },
-                {
-                   "position":13,
-                   "name":"M. Feherty",
-                   "club":"LVO",
-                   "time":"130:01",
-                   "eligible":true
-                },
-                {
-                   "position":14,
-                   "name":"A. Sloane",
-                   "club":"3Roc",
-                   "time":"132:22",
-                   "eligible":true
-                }
-             ]
+          {
+            "position": null,
+            "name": "G. MacIntyre",
+            "club": "EVOC",
+            "time": "88:09",
+            "eligible": false
+          },
+          {
+            "position": 2,
+            "name": "P. James",
+            "club": "NWOC",
+            "time": "88:30",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "89:45",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Pat Healy",
+            "club": "CO",
+            "time": "95:56",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Eoin Rothery",
+            "club": "Ajax",
+            "time": "96:15",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "J. Ward",
+            "club": "FermO",
+            "time": "97:52",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "W. McAuliffe",
+            "club": "Ajax",
+            "time": "100:20",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "John McCullough",
+            "club": "3ROC",
+            "time": "107:54",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "R. Bryson",
+            "club": "Ajax",
+            "time": "109:12",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "P. Waldron",
+            "club": "Cork O",
+            "time": "109:18",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Brian Corbett",
+            "club": "DUO",
+            "time": "109:40",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "M. James",
+            "club": "NWOC",
+            "time": "110:14",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "A. Wood",
+            "club": "AIRE",
+            "time": "110:26",
+            "eligible": false
+          },
+          {
+            "position": 13,
+            "name": "D. Reidy",
+            "club": "ECO",
+            "time": "112:56",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "A. Kelly",
+            "club": "AIRE",
+            "time": "114:58",
+            "eligible": false
+          },
+          {
+            "position": 14,
+            "name": "P. Nash",
+            "club": "SO",
+            "time": "115:10",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "P. Cadogan",
+            "club": "Cork O",
+            "time": "115:33",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Colm O’Halloran",
+            "club": "Lee O",
+            "time": "116:19",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "T. Torstensen",
+            "club": "LVO",
+            "time": "116:52",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "D. Blair",
+            "club": "ENOC",
+            "time": "122:36",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "P. Higgins",
+            "club": "WEO",
+            "time": "123:29",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "B. Dalby",
+            "club": "3Roc",
+            "time": "124:17",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "Pat Farrelly",
+            "club": "CO",
+            "time": "124:38",
+            "eligible": true
+          },
+          {
+            "position": 22,
+            "name": "R. Poff",
+            "club": "DUO/Set",
+            "time": "125:43",
+            "eligible": true
+          },
+          {
+            "position": 23,
+            "name": "K. Davies",
+            "club": "DUO",
+            "time": "127:37",
+            "eligible": true
+          },
+          {
+            "position": 24,
+            "name": "F. O’Leary",
+            "club": "CO",
+            "time": "128:02",
+            "eligible": true
+          },
+          {
+            "position": 25,
+            "name": "B. Murphy",
+            "club": "ECO",
+            "time": "129:06",
+            "eligible": true
+          },
+          {
+            "position": 26,
+            "name": "B. O’Neill",
+            "club": "ECO",
+            "time": "130:09",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "J. Wilkinson",
+            "club": "SOC",
+            "time": "132:48",
+            "eligible": false
+          },
+          {
+            "position": 27,
+            "name": "P. O’Brien",
+            "club": "Ajax",
+            "time": "136:45",
+            "eligible": true
+          },
+          {
+            "position": 28,
+            "name": "J. Kehoe",
+            "club": "Set",
+            "time": "138:39",
+            "eligible": true
+          },
+          {
+            "position": 29,
+            "name": "D. O’Beirne",
+            "club": "3Roc",
+            "time": "140:58",
+            "eligible": true
+          },
+          {
+            "position": 30,
+            "name": "C. Lawn",
+            "club": "SO",
+            "time": "141:36",
+            "eligible": true
+          },
+          {
+            "position": 31,
+            "name": "F. Corscadden",
+            "club": "NWOC",
+            "time": "142:07",
+            "eligible": true
+          },
+          {
+            "position": 32,
+            "name": "R. Cleary",
+            "club": "3Roc",
+            "time": "145:56",
+            "eligible": true
+          },
+          {
+            "position": 33,
+            "name": "P. Farrell",
+            "club": "ECO",
+            "time": "150:43",
+            "eligible": true
+          },
+          {
+            "position": 34,
+            "name": "I. McNeill",
+            "club": "3Roc",
+            "time": "151:26",
+            "eligible": true
+          },
+          {
+            "position": 35,
+            "name": "K. Cunniffe",
+            "club": "DVO",
+            "time": "151:31",
+            "eligible": true
+          },
+          {
+            "position": 36,
+            "name": "P. Monaghan",
+            "club": "WEO",
+            "time": "153:11",
+            "eligible": true
+          },
+          {
+            "position": 37,
+            "name": "A. McGonigle",
+            "club": "WCOC",
+            "time": "153:36",
+            "eligible": true
+          },
+          {
+            "position": 38,
+            "name": "R. O’Shea",
+            "club": "CO",
+            "time": "161:15",
+            "eligible": true
+          },
+          {
+            "position": 39,
+            "name": "P. Meakins",
+            "club": "SOC",
+            "time": "164:00",
+            "eligible": true
+          },
+          {
+            "position": 40,
+            "name": "B. Heeney",
+            "club": "UCDO",
+            "time": "171:01",
+            "eligible": true
+          },
+          {
+            "position": 41,
+            "name": "F. Gleeson",
+            "club": "UCDO",
+            "time": "178:28",
+            "eligible": true
+          },
+          {
+            "position": 42,
+            "name": "M. Saunders",
+            "club": "UBOC",
+            "time": "180:05",
+            "eligible": true
+          },
+          {
+            "position": 43,
+            "name": "D. Quinn",
+            "club": "GEN",
+            "time": "198:24",
+            "eligible": true
           }
-       }
+        ]
+      },
+      "w21": {
+        "distance": "7.0 k",
+        "climb": "370 m",
+        "controls": "",
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Maura Thornhill",
+            "club": "GEN",
+            "time": "81:50",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eileen Loughman",
+            "club": "GEN",
+            "time": "95:17",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "D. Ní Challanain",
+            "club": "Ajax",
+            "time": "99:13",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "A. Savage",
+            "club": "LVO",
+            "time": "104:54",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "C. Bonar-Law",
+            "club": "DUO",
+            "time": "106:51",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "P. Murphy",
+            "club": "3ROC",
+            "time": "107:08",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "J. Martindale",
+            "club": "TO",
+            "time": "108:14",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "C. Murtagh",
+            "club": "Set",
+            "time": "111:45",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "R. White",
+            "club": "Set",
+            "time": "113:46",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "A. Bedwell",
+            "club": "UBOC",
+            "time": "122:16",
+            "eligible": false
+          },
+          {
+            "position": 10,
+            "name": "M. Walsh",
+            "club": "Ajax",
+            "time": "123:24",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "O. Cooke",
+            "club": "Ajax",
+            "time": "125:29",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "T. Horan",
+            "club": "Ajax",
+            "time": "128:33",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "M. Feherty",
+            "club": "LVO",
+            "time": "130:01",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "A. Sloane",
+            "club": "3Roc",
+            "time": "132:22",
+            "eligible": true
+          }
+        ]
+      }
     }
- }
+  }
+}

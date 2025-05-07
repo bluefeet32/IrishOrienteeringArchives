@@ -201,11 +201,11 @@
             "eligible": true
           },
           {
-          "position": null,
-          "name": "Sarah-Jane Barrable",
-          "club": "SLOW",
-          "time": "74:05",
-          "eligible": false
+            "position": null,
+            "name": "Sarah-Jane Barrable",
+            "club": "SLOW",
+            "time": "74:05",
+            "eligible": false
           },
           {
             "position": 4,
@@ -914,7 +914,8 @@
             "team": "Foyle Rovers",
             "leg": "2",
             "eligible": true
-          },{
+          },
+          {
             "position": 6,
             "name": "Mark Hudson",
             "club": "NWOC",

@@ -1097,405 +1097,405 @@
       }
     }
   },
-  "relay":{
-   "area":"Lower Drummans",
-   "results_url":"",
-   "map_url":"https://www.lvo.routegadget.co.uk/rg2/#568",
-   "classes":{
-      "m21":{
-         "distance": 5.5,
-         "climb": 0,
-         "controls": 23,
-         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#568",
-         "results":[
-            {
-               "position":1,
-               "name":"Shane Lynch",
-               "club":"CORKO",
-               "time":"25:53",
-               "team":"CorkO_A",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":1,
-               "name":"Cillin Corbett",
-               "club":"CORKO",
-               "time":"25:48",
-               "team":"CorkO_A",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":1,
-               "name":"Josh O'Sullivan-Hourihan",
-               "club":"CORKO",
-               "time":"25:02",
-               "team":"CorkO_A",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":2,
-               "name":"Graeme Rennie",
-               "club":"CNOC",
-               "time":"29:59",
-               "team":"CNOCkin' on heavens door",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":2,
-               "name":"Conor Short",
-               "club":"CNOC",
-               "time":"26:20",
-               "team":"CNOCkin' on heavens door",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":2,
-               "name":"Kevin O'Boyle",
-               "club":"CNOC",
-               "time":"25:14",
-               "team":"CNOCkin' on heavens door",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":3,
-               "name":"Aidan McCullough",
-               "club":"3ROC",
-               "time":"29:07",
-               "team":"3Rockafellas",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":3,
-               "name":"Valdas Tilunas",
-               "club":"3ROC",
-               "time":"28:58",
-               "team":"3Rockafellas",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":3,
-               "name":"Colm Moran",
-               "club":"3ROC",
-               "time":"26:13",
-               "team":"3Rockafellas",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":4,
-               "name":"Laurence Quinn",
-               "club":"GEN",
-               "time":"28:49",
-               "team":"Uncut Gens",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":4,
-               "name":"Gerry Browne",
-               "club":"GEN",
-               "time":"27:48",
-               "team":"Uncut Gens",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":4,
-               "name":"Oscar Rowe",
-               "club":"GEN",
-               "time":"27:45",
-               "team":"Uncut Gens",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":5,
-               "name":"Niall McCarthy",
-               "club":"BOC",
-               "time":"27:40",
-               "team":"BOC and Awe",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":5,
-               "name":"Liam Cotter",
-               "club":"BOC",
-               "time":"28:11",
-               "team":"BOC and Awe",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":5,
-               "name":"Emer Perkins",
-               "club":"BOC",
-               "time":"30:22",
-               "team":"BOC and Awe",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":6,
-               "name":"George Savell",
-               "club":"LVO",
-               "time":"33:58",
-               "team":"George and the Lagans",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":6,
-               "name":"Mark Stephens",
-               "club":"LVO",
-               "time":"27:02",
-               "team":"George and the Lagans",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":6,
-               "name":"Paul Pruzina",
-               "club":"LVO",
-               "time":"25:14",
-               "team":"George and the Lagans",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":7,
-               "name":"Daire O'Brien",
-               "club":"KERRYO",
-               "time":"28:22",
-               "team":"Kerry Gold",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":7,
-               "name":"Fionn Buckley",
-               "club":"KERRYO",
-               "time":"31:02",
-               "team":"Kerry Gold",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":7,
-               "name":"Eve Buckley",
-               "club":"KERRYO",
-               "time":"33:14",
-               "team":"Kerry Gold",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":null,
-               "name":"Jack Hanafin",
-               "club":"SEVO",
-               "time":"34:50",
-               "team":"The SEVO Conquerors",
-               "leg":"1",
-               "eligible":false
-            },
-            {
-               "position":null,
-               "name":"Eoghan Whelan",
-               "club":"SEVO",
-               "time":"DNF",
-               "team":"The SEVO Conquerors",
-               "leg":"2",
-               "eligible":false
-            },
-            {
-               "position":null,
-               "name":"Liam Casey",
-               "club":"SEVO",
-               "time":"26:33",
-               "team":"The SEVO Conquerors",
-               "leg":"3",
-               "eligible":false
-            },
-            {
-               "position":null,
-               "name":"Adam Methven",
-               "club":"CNOC",
-               "time":"24:48",
-               "team":"CNOCking at your back door",
-               "leg":"1",
-               "eligible":false
-            },
-            {
-               "position":null,
-               "name":"Blank 0",
-               "club":"CNOC",
-               "time":"DNF",
-               "team":"CNOCking at your back door",
-               "leg":"2",
-               "eligible":false
-            },
-            {
-               "position":null,
-               "name":"Blank 1",
-               "club":"CNOC",
-               "time":"DNF",
-               "team":"CNOCking at your back door",
-               "leg":"3",
-               "eligible":false
-            }
-         ]
+  "relay": {
+    "area": "Lower Drummans",
+    "results_url": "",
+    "map_url": "https://www.lvo.routegadget.co.uk/rg2/#568",
+    "classes": {
+      "m21": {
+        "distance": 5.5,
+        "climb": 0,
+        "controls": 23,
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#568",
+        "results": [
+          {
+            "position": 1,
+            "name": "Shane Lynch",
+            "club": "CORKO",
+            "time": "25:53",
+            "team": "CorkO_A",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Cillin Corbett",
+            "club": "CORKO",
+            "time": "25:48",
+            "team": "CorkO_A",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "CORKO",
+            "time": "25:02",
+            "team": "CorkO_A",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Graeme Rennie",
+            "club": "CNOC",
+            "time": "29:59",
+            "team": "CNOCkin' on heavens door",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Conor Short",
+            "club": "CNOC",
+            "time": "26:20",
+            "team": "CNOCkin' on heavens door",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Kevin O'Boyle",
+            "club": "CNOC",
+            "time": "25:14",
+            "team": "CNOCkin' on heavens door",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Aidan McCullough",
+            "club": "3ROC",
+            "time": "29:07",
+            "team": "3Rockafellas",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Valdas Tilunas",
+            "club": "3ROC",
+            "time": "28:58",
+            "team": "3Rockafellas",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Colm Moran",
+            "club": "3ROC",
+            "time": "26:13",
+            "team": "3Rockafellas",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Laurence Quinn",
+            "club": "GEN",
+            "time": "28:49",
+            "team": "Uncut Gens",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Gerry Browne",
+            "club": "GEN",
+            "time": "27:48",
+            "team": "Uncut Gens",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Oscar Rowe",
+            "club": "GEN",
+            "time": "27:45",
+            "team": "Uncut Gens",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Niall McCarthy",
+            "club": "BOC",
+            "time": "27:40",
+            "team": "BOC and Awe",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Liam Cotter",
+            "club": "BOC",
+            "time": "28:11",
+            "team": "BOC and Awe",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Emer Perkins",
+            "club": "BOC",
+            "time": "30:22",
+            "team": "BOC and Awe",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "George Savell",
+            "club": "LVO",
+            "time": "33:58",
+            "team": "George and the Lagans",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Mark Stephens",
+            "club": "LVO",
+            "time": "27:02",
+            "team": "George and the Lagans",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Paul Pruzina",
+            "club": "LVO",
+            "time": "25:14",
+            "team": "George and the Lagans",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Daire O'Brien",
+            "club": "KERRYO",
+            "time": "28:22",
+            "team": "Kerry Gold",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Fionn Buckley",
+            "club": "KERRYO",
+            "time": "31:02",
+            "team": "Kerry Gold",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Eve Buckley",
+            "club": "KERRYO",
+            "time": "33:14",
+            "team": "Kerry Gold",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Jack Hanafin",
+            "club": "SEVO",
+            "time": "34:50",
+            "team": "The SEVO Conquerors",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Eoghan Whelan",
+            "club": "SEVO",
+            "time": "DNF",
+            "team": "The SEVO Conquerors",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Liam Casey",
+            "club": "SEVO",
+            "time": "26:33",
+            "team": "The SEVO Conquerors",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Adam Methven",
+            "club": "CNOC",
+            "time": "24:48",
+            "team": "CNOCking at your back door",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Blank 0",
+            "club": "CNOC",
+            "time": "DNF",
+            "team": "CNOCking at your back door",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Blank 1",
+            "club": "CNOC",
+            "time": "DNF",
+            "team": "CNOCking at your back door",
+            "leg": "3",
+            "eligible": false
+          }
+        ]
       },
-      "w21":{
-         "distance": 4.5,
-         "climb": 0,
-         "controls": 22,
-         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#568",
-         "results":[
-            {
-               "position":1,
-               "name":"Emily Rowe",
-               "club":"GEN",
-               "time":"26:39",
-               "team":"Real GENs",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":1,
-               "name":"Eadaoin McCavana",
-               "club":"GEN",
-               "time":"29:09",
-               "team":"Real GENs",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":1,
-               "name":"Aoife McCavana",
-               "club":"GEN",
-               "time":"23:33",
-               "team":"Real GENs",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":2,
-               "name":"Aine McCann",
-               "club":"LVO",
-               "time":"26:23",
-               "team":"The Girls with the Lagan Tattoo",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":2,
-               "name":"Olivia Baxter",
-               "club":"LVO",
-               "time":"33:47",
-               "team":"The Girls with the Lagan Tattoo",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":2,
-               "name":"Moire O'Sullivan",
-               "club":"LVO",
-               "time":"34:25",
-               "team":"The Girls with the Lagan Tattoo",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":3,
-               "name":"Clodagh Moran",
-               "club":"3ROC",
-               "time":"27:48",
-               "team":"GoldiRocks & the 3 Bears",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":3,
-               "name":"Rosalind Heron",
-               "club":"3ROC",
-               "time":"29:02",
-               "team":"GoldiRocks & the 3 Bears",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":3,
-               "name":"Inge Lisauskiene",
-               "club":"3ROC",
-               "time":"48:08",
-               "team":"GoldiRocks & the 3 Bears",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":4,
-               "name":"Ciara Largey",
-               "club":"FERMO",
-               "time":"34:28",
-               "team":"Life aFERMing",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":4,
-               "name":"Eibhlin Largey",
-               "club":"FERMO",
-               "time":"40:23",
-               "team":"Life aFERMing",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":4,
-               "name":"Sara Mason",
-               "club":"FERMO",
-               "time":"34:06",
-               "team":"Life aFERMing",
-               "leg":"3",
-               "eligible":true
-            },
-            {
-               "position":5,
-               "name":"Niamh Corbett",
-               "club":"CORKO",
-               "time":"25:40",
-               "team":"CORKO_B",
-               "leg":"1",
-               "eligible":true
-            },
-            {
-               "position":5,
-               "name":"Mary O'Brien",
-               "club":"CORKO",
-               "time":"43:21",
-               "team":"CORKO_B",
-               "leg":"2",
-               "eligible":true
-            },
-            {
-               "position":5,
-               "name":"Niamh Morrisey",
-               "club":"CORKO",
-               "time":"40:55",
-               "team":"CORKO_B",
-               "leg":"3",
-               "eligible":true
-            }
-         ]
+      "w21": {
+        "distance": 4.5,
+        "climb": 0,
+        "controls": 22,
+        "course_image": "https://www.lvo.routegadget.co.uk/rg2/#568",
+        "results": [
+          {
+            "position": 1,
+            "name": "Emily Rowe",
+            "club": "GEN",
+            "time": "26:39",
+            "team": "Real GENs",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Eadaoin McCavana",
+            "club": "GEN",
+            "time": "29:09",
+            "team": "Real GENs",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Aoife McCavana",
+            "club": "GEN",
+            "time": "23:33",
+            "team": "Real GENs",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Aine McCann",
+            "club": "LVO",
+            "time": "26:23",
+            "team": "The Girls with the Lagan Tattoo",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Olivia Baxter",
+            "club": "LVO",
+            "time": "33:47",
+            "team": "The Girls with the Lagan Tattoo",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Moire O'Sullivan",
+            "club": "LVO",
+            "time": "34:25",
+            "team": "The Girls with the Lagan Tattoo",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Clodagh Moran",
+            "club": "3ROC",
+            "time": "27:48",
+            "team": "GoldiRocks & the 3 Bears",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Rosalind Heron",
+            "club": "3ROC",
+            "time": "29:02",
+            "team": "GoldiRocks & the 3 Bears",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Inge Lisauskiene",
+            "club": "3ROC",
+            "time": "48:08",
+            "team": "GoldiRocks & the 3 Bears",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Ciara Largey",
+            "club": "FERMO",
+            "time": "34:28",
+            "team": "Life aFERMing",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Eibhlin Largey",
+            "club": "FERMO",
+            "time": "40:23",
+            "team": "Life aFERMing",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Sara Mason",
+            "club": "FERMO",
+            "time": "34:06",
+            "team": "Life aFERMing",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Niamh Corbett",
+            "club": "CORKO",
+            "time": "25:40",
+            "team": "CORKO_B",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Mary O'Brien",
+            "club": "CORKO",
+            "time": "43:21",
+            "team": "CORKO_B",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Niamh Morrisey",
+            "club": "CORKO",
+            "time": "40:55",
+            "team": "CORKO_B",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
       }
-   }
+    }
   }
 }
