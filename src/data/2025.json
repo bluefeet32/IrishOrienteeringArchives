@@ -5,6 +5,9 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#567",
     "classes": {
       "m21": {
+        "distance": 16,
+        "climb": 0,
+        "controls": 39,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#567",
         "results": [
           {
@@ -206,6 +209,9 @@
         ]
       },
       "w21": {
+        "distance": 9.7,
+        "climb": 0,
+        "controls": 27,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#567",
         "results": [
           {
@@ -337,6 +343,9 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#565",
     "classes": {
       "m21": {
+        "distance": 4,
+        "climb": 0,
+        "controls": 20,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#565",
         "results": [
           {
@@ -531,6 +540,9 @@
         ]
       },
       "w21": {
+        "distance": 3.6,
+        "climb": 0,
+        "controls": 20,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#565",
         "results": [
           {
@@ -697,6 +709,9 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#566",
     "classes": {
       "m21": {
+        "distance": 5.7,
+        "climb": 0,
+        "controls": 21,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#566",
         "results": [
           {
@@ -940,6 +955,9 @@
         ]
       },
       "w21": {
+        "distance": 4.4,
+        "climb": 0,
+        "controls": 18,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#566",
         "results": [
           {
@@ -1082,13 +1100,13 @@
   "relay":{
    "area":"Lower Drummans",
    "results_url":"",
-   "map_url":"",
+   "map_url":"https://www.lvo.routegadget.co.uk/rg2/#568",
    "classes":{
       "m21":{
-         "distance":"",
-         "climb":"",
-         "controls":"",
-         "course_image":"",
+         "distance": 5.5,
+         "climb": 0,
+         "controls": 23,
+         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#568",
          "results":[
             {
                "position":1,
@@ -1336,10 +1354,10 @@
          ]
       },
       "w21":{
-         "distance":"",
-         "climb":"",
-         "controls":"",
-         "course_image":"",
+         "distance": 4.5,
+         "climb": 0,
+         "controls": 22,
+         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#568",
          "results":[
             {
                "position":1,
