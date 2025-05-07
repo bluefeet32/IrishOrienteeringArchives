@@ -880,316 +880,361 @@
           {
             "position": 1,
             "name": "Shane Lynch",
-            "club": "CORKO Cork Cork Exile",
+            "club": "CORKO",
             "time": "39:59",
+            "team": "Cork Exile",
             "eligible": true
           },
           {
             "position": 1,
             "name": "Darren Burke",
-            "club": "CORKO Cork Cork Exile",
+            "club": "CORKO",
             "time": "44:58",
+            "team": "Cork Exile",
             "eligible": true
           },
           {
             "position": 1,
             "name": "Marcus Pinker",
-            "club": "CORKO Cork Cork Exile",
+            "club": "CORKO",
             "time": "35:50",
+            "team": "Cork Exile",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Ruairi Short",
-            "club": "CNOC Naas Rocker Man",
+            "club": "CNOC",
             "time": "40:00",
+            "team":  "Rocket Man",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Seamus O'Boyle",
-            "club": "CNOC Naas Rocker Man",
+            "club": "CNOC",
             "time": "44:13",
+            "team": "Rocket Man",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Colm Hill",
-            "club": "CNOC Naas Rocker Man",
+            "club": "CNOC",
             "time": "42:18",
+            "team": "Rocket Man",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Niall Ewen",
-            "club": "AJAX Dublin Watchmen",
+            "club": "AJAX",
             "time": "53:08",
+            "team":  "Watchmen",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Aonghus O'Cleirigh",
-            "club": "AJAX Dublin Watchmen",
+            "club": "AJAX",
             "time": "48:17",
+            "team":  "Watchmen",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Colm Rothery",
-            "club": "AJAX Dublin Watchmen",
+            "club": "AJAX",
             "time": "46:53",
+            "team":  "Watchmen",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Sean Knight",
-            "club": "LVO Belfast Laggan Lea",
+            "club": "LVO",
             "time": "50:34",
+            "team": "Laggan Lea",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Kieran Rocks",
-            "club": "LVO Belfast Laggan Lea",
+            "club": "LVO",
             "time": "52:56",
+            "team": "Laggan Lea",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Patrick Higgins",
-            "club": "LVO Belfast Laggan Lea",
+            "club": "LVO",
             "time": "47:18",
+            "team": "Laggan Lea",
             "eligible": true
           },
           {
             "position": null,
             "name": "Magnus Fransson",
-            "club": "SOKA Sweden SOKA",
+            "club": "SOKA",
             "time": "60:32",
+            "team": "SOKA",
             "eligible": false
           },
           {
             "position": null,
             "name": "P-O'Derebrant",
-            "club": "SOKA Sweden SOKA",
+            "club": "SOKA",
             "time": "47:16",
+            "team": "SOKA",
             "eligible": false
           },
           {
             "position": null,
             "name": "Magnos Fransson",
-            "club": "SOKA Sweden SOKA",
+            "club": "SOKA",
             "time": "70:35",
+            "team": "SOKA",
             "eligible": false
           },
           {
             "position": 5,
             "name": "Brian Corbett",
-            "club": "CORKO Cork Cork Chase",
+            "club": "CORKO",
             "time": "48:01",
+            "team": "Cork Chase",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Colm O'Halloran",
-            "club": "CORKO Cork Cork Chase",
+            "club": "CORKO",
             "time": "84:13",
+            "team": "Cork Chase",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Brian Flanelly",
-            "club": "CORKO Cork Cork Chase",
+            "club": "CORKO",
             "time": "48:51",
+            "team": "Cork Chase",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Donal Burke",
-            "club": "DFO Ireland DFO/CNOC",
+            "club": "DFO",
             "time": "59:53",
+            "team": "DFO/CNOC",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Brendan Delaney",
-            "club": "DFO Ireland DFO/CNOC",
+            "club": "DFO",
             "time": "90:21",
+            "team": "DFO/CNOC",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Ollie Clear",
-            "club": "DFO Ireland DFO/CNOC",
+            "club": "DFO",
             "time": "65:21",
+            "team": "DFO/CNOC",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Robbie Bryson",
-            "club": "FERMO Eniskillen Ferm Belef",
+            "club": "FERMO",
             "time": "90:47",
+            "team": "Ferm Belef",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Ray Finlay",
-            "club": "FERMO Eniskillen Ferm Belef",
+            "club": "FERMO",
             "time": "66:38",
+            "team": "Ferm Belef",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Simon Reeve",
-            "club": "FERMO Eniskillen Ferm Belef",
+            "club": "FERMO",
             "time": "62:05",
+            "team": "Ferm Belef",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Marcus Geoghegan",
-            "club": "AJAX Dublin X-Men",
+            "club": "AJAX",
             "time": "79:34",
+            "team": "X-Men",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Paul Smyth",
-            "club": "AJAX Dublin X-Men",
+            "club": "AJAX",
             "time": "74:55",
+            "team": "X-Men",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Mike Long",
-            "club": "AJAX Dublin X-Men",
+            "club": "AJAX",
             "time": "75:34",
+            "team": "X-Men",
             "eligible": true
           },
           {
             "position": null,
             "name": "Patrick Casey",
-            "club": "GEN Dublin Gen1",
+            "club": "GEN",
             "time": "55:57",
+            "team": "Gen1",
             "eligible": false
           },
           {
             "position": null,
             "name": "Laurence Quinn",
-            "club": "GEN Dublin Gen1",
+            "club": "GEN",
             "time": "73:54",
+            "team": "Gen1",
             "eligible": false
           },
           {
             "position": null,
             "name": "Paul Nolan",
-            "club": "GEN Dublin Gen1",
+            "club": "GEN",
             "time": "DNF",
+            "team": "Gen1",
             "eligible": false
           },
           {
             "position": null,
             "name": "Kevin O'Reilly",
-            "club": "DFO Ireland Defenders1",
+            "club": "DFO",
             "time": "55:59",
+            "team": "Defenders1",
             "eligible": false
           },
           {
             "position": null,
             "name": "Dan Morragh",
-            "club": "DFO Ireland Defenders1",
+            "club": "DFO",
             "time": "79:08",
+            "team": "Defenders1",
             "eligible": false
           },
           {
             "position": null,
             "name": "Ray Houlihan",
-            "club": "DFO Ireland Defenders1",
+            "club": "DFO",
             "time": "DNF",
+            "team": "Defenders1",
             "eligible": false
           },
           {
             "position": null,
             "name": "Paul Hourihan",
-            "club": "DFO Ireland Defenders2",
+            "club": "DFO",
             "time": "60:12",
+            "team": "Defenders2",
             "eligible": false
           },
           {
             "position": null,
             "name": "Blank 0",
-            "club": "DFO Ireland Defenders2",
+            "club": "DFO",
             "time": "",
+            "team": "Defenders2",
             "eligible": false
           },
           {
             "position": null,
             "name": "Blank 1",
-            "club": "DFO Ireland Defenders2",
+            "club": "DFO",
             "time": "",
+            "team": "Defenders2",
             "eligible": false
           },
           {
             "position": null,
             "name": "Kieran Beausang",
-            "club": "UCCO Cork Actimel",
+            "club": "UCCO",
             "time": "60:14",
+            "team": "Actimel",
             "eligible": false
           },
           {
             "position": null,
             "name": "Gearoid Ryan",
-            "club": "UCCO Cork Actimel",
+            "club": "UCCO",
             "time": "103:03",
+            "team": "Actimel",
             "eligible": false
           },
           {
             "position": null,
             "name": "Robert Mc Evoy",
-            "club": "UCCO Cork Actimel",
+            "club": "UCCO",
             "time": "DNF",
+            "team": "Actimel",
             "eligible": false
           },
           {
             "position": null,
             "name": "Fergal Reid",
-            "club": "SET Dublin SET-OFF",
+            "club": "SET",
             "time": "85:20",
+            "team": "SET-OFF",
             "eligible": false
           },
           {
             "position": null,
             "name": "Kevin O'Riordan",
-            "club": "SET Dublin SET-OFF",
+            "club": "SET",
             "time": "69:36",
+            "team": "SET-OFF",
             "eligible": false
           },
           {
             "position": null,
             "name": "Shane Enright",
-            "club": "SET Dublin SET-OFF",
+            "club": "SET",
             "time": "DNF",
+            "team": "SET-OFF",
             "eligible": false
           },
           {
             "position": null,
             "name": "Ciaran Young",
-            "club": "FIN Dublin Fingal Men",
+            "club": "FIN",
             "time": "DNF",
+            "team": "Fingal Men",
             "eligible": false
           },
           {
             "position": null,
             "name": "Val Jones",
-            "club": "FIN Dublin Fingal Men",
+            "club": "FIN",
             "time": "98:10",
+            "team": "Fingal Men",
             "eligible": false
           },
           {
             "position": null,
             "name": "Dave Richardson",
-            "club": "FIN Dublin Fingal Men",
+            "club": "FIN",
             "time": "DNF",
+            "team": "Fingal Men",
             "eligible": false
           }
         ]
@@ -1203,127 +1248,145 @@
           {
             "position": 1,
             "name": "Niamh O'Boyle",
-            "club": "CNOC Naas Angles",
+            "club": "CNOC",
             "time": "48:25",
+            "team": "Angles",
             "eligible": true
           },
           {
             "position": 1,
             "name": "Maeve O'Grady",
-            "club": "CNOC Naas Angles",
+            "club": "CNOC",
             "time": "51:08",
+            "team": "Angles",
             "eligible": true
           },
           {
             "position": 1,
             "name": "Ruth Lynam",
-            "club": "CNOC Naas Angles",
+            "club": "CNOC",
             "time": "62:53",
+            "team": "Angles",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Andrea Stefkova",
-            "club": "LVO Belfast Ladies",
+            "club": "LVO",
             "time": "75:11",
+            "team": "Ladies",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Susan Bell",
-            "club": "LVO Belfast Ladies",
+            "club": "LVO",
             "time": "78:14",
+            "team": "Ladies",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Katarina Stefkova",
-            "club": "LVO Belfast Ladies",
+            "club": "LVO",
             "time": "56:47",
+            "team": "Ladies",
             "eligible": true
           },
           {
             "position": null,
             "name": "Rosalind Heron",
-            "club": "FERMO Eniskillen Fermo",
+            "club": "FERMO",
             "time": "60:41",
+            "team": "Fermo",
             "eligible": false
           },
           {
             "position": null,
             "name": "Sharon Lucey",
-            "club": "FERMO Eniskillen Fermo",
+            "club": "FERMO",
             "time": "47:06",
+            "team": "Fermo",
             "eligible": false
           },
           {
             "position": null,
             "name": "Blank 2",
-            "club": "FERMO Eniskillen Fermo",
+            "club": "FERMO",
             "time": "",
+            "team": "Fermo",
             "eligible": false
           },
           {
             "position": null,
             "name": "Maritta Kymalainen",
-            "club": "SET Dublin GET-UP",
+            "club": "SET",
             "time": "55:44",
+            "team": "GET-UP",
             "eligible": false
           },
           {
             "position": null,
             "name": "Colleen Robinson",
-            "club": "SET Dublin GET-UP",
+            "club": "SET",
             "time": "72:46",
+            "team": "GET-UP",
             "eligible": false
           },
           {
             "position": null,
             "name": "Hazel Thompson",
-            "club": "SET Dublin GET-UP",
+            "club": "SET",
             "time": "DNF",
+            "team": "GET-UP",
             "eligible": false
           },
           {
             "position": null,
             "name": "Orla Jennings",
-            "club": "DFO Ireland DFO",
+            "club": "DFO",
             "time": "60:16",
+            "team": "DFO",
             "eligible": false
           },
           {
             "position": null,
             "name": "Daneille Buckley",
-            "club": "DFO Ireland DFO",
+            "club": "DFO",
             "time": "66:57",
+            "team": "DFO",
             "eligible": false
           },
           {
             "position": null,
             "name": "Sarah O'Regan",
-            "club": "DFO Ireland DFO",
+            "club": "DFO",
             "time": "DNF",
+            "team": "DFO",
             "eligible": false
           },
           {
             "position": null,
             "name": "Liz Deane",
-            "club": "CORKO Cork Dashers",
+            "club": "CORKO",
             "time": "70:23",
+            "team": "Dashers",
             "eligible": false
           },
           {
             "position": null,
             "name": "Blank 3",
-            "club": "CORKO Cork Dashers",
+            "club": "CORKO",
             "time": "",
+            "team": "Dashers",
             "eligible": false
           },
           {
             "position": null,
             "name": "Blank 4",
-            "club": "CORKO Cork Dashers",
+            "club": "CORKO",
             "time": "",
+            "team": "Dashers",
             "eligible": false
           }
         ]
