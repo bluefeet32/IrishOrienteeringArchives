@@ -47,9 +47,9 @@ def ParseName(name: str) -> str:
         # Common Typos
         ("' ", "'"),  # e.g. Fix O' Boyle -> O'Boyle
         ("Mcc", "McC"),  # e.g. Fix Mccann -> McCann
-        ("O ", "O'"),  # e.g. Fix O Boyle -> O'Boyle
         ("O' ", "O'"),  # e.g. Fix O' Boyle -> O'Boyle
         # Known common misspellings
+        ("O Boyle", "O'Boyle"),
         ("Nick Simonin", "Nicolas Simonin"),
         ("Nic Simonin", "Nicolas Simonin"),
         ("Ales Simonin", "Alex Simonin"),
@@ -66,6 +66,7 @@ def ParseName(name: str) -> str:
         ("Katarina Sterko", "Katarina Stefko"),
         ("Katarina Stefko", "Katarina Stefkova"),
         ("Andrea Stefko", "Andrea Stefkova"),
+        ("Stefkovava", "Stefkova"),
         ("Beirne O'Boyle", "Bernie O'Boyle"),
         ("Shea O'Boyle", "Seamus O'Boyle"),
         ("Johnny Kendall", "Jonny Kendall"),
@@ -89,7 +90,7 @@ def ParseClub(club: str) -> str:
     club_mappings = [
         ("Ajax", "AJAX"),
         ("Bishopstown", "BOC"),
-        ("Cork O", "CORKO"), ("Cork", "CORKO"), ("CorkO", "CORKO"),
+        ("Cork O", "CORKO"), ("CorkO", "CORKO"), ("Cork", "CORKO"),
         ("Curragh-Naas", "CNOC"), ("Curragh Naas", "CNOC"),
         ("Fingal", "FIN"),
         ("Great Eastern Navigators", "GEN"),
