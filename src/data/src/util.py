@@ -83,6 +83,28 @@ def ParseName(name: str) -> str:
 
     return name
 
+def ParseClub(club: str) -> str:
+    """Convert a club name to a standard format."""
+
+    club_mappings = [
+        ("Ajax", "AJAX"),
+        ("Bishopstown", "BOC"),
+        ("Cork O", "CORKO"), ("Cork", "CORKO"), ("CorkO", "CORKO"),
+        ("Curragh-Naas", "CNOC"), ("Curragh Naas", "CNOC"),
+        ("Fingal", "FIN"),
+        ("Great Eastern Navigators", "GEN"),
+        ("Lagan Valley", "LVO"),
+        ("Lee O", "LEEO"), ("LeeO", "LEEO"),
+        ("Three Rock", "3ROC"), ("3Rock", "3ROC"),
+        ("University College Dublin", "UCDO"),
+        ("WatO", "WATO"),
+    ]
+
+    for char_pair in club_mappings:
+        club = club.replace(char_pair[0], char_pair[1])
+
+    return club
+
 def FormatTime(time_str: str) -> str:
     """Format a time string to a consistent format.
     
