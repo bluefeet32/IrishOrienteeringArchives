@@ -56,5 +56,163 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Castleward",
+    "results_url": "https://www.orienteering.ie/tio/105/4.html",
+    "map_url": "null",
+    "classes": {
+      "m21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Brendan O'Brien",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Aonghus O'Cleirigh",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Colm Rothery",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 1",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 2",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 3",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Blank 4",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Blank 5",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Blank 6",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Claire O'Brien",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Fionne Austin",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Aislinn Austin",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 7",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 8",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 9",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }
