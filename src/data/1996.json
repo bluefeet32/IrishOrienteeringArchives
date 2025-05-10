@@ -1,47 +1,54 @@
 {
   "long": {
     "area": "Woodford",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t78_jul96.pdf",
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": null,
+        "distance": 12.2,
         "climb": null,
         "controls": null,
         "course_image": null,
         "results": [
           {
+            "position": null,
+            "name": "Frederic Sturesson",
+            "club": "UCDO",
+            "time": "95:29",
+            "eligible": true
+          },
+          {
             "position": 1,
             "name": "Colm Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "100:00",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Colm O'Halloran",
-            "club": "",
-            "time": null,
+            "club": "LEEO",
+            "time": "100:30",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Brian Corbett",
             "club": "CORKO",
-            "time": null,
+            "time": "110:57",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Padraig Higgins",
-            "club": "",
-            "time": null,
+            "club": "PXN",
+            "time": "121:17",
             "eligible": true
           }
         ]
       },
       "w21": {
-        "distance": null,
+        "distance": 9.5,
         "climb": null,
         "controls": null,
         "course_image": null,
@@ -49,36 +56,36 @@
           {
             "position": 1,
             "name": "Eileen Loughman",
-            "club": "",
-            "time": null,
+            "club": "CNOC",
+            "time": "92:31",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Eadaoin Morrish",
-            "club": "",
-            "time": null,
+            "club": "LEEO",
+            "time": "95:45",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Miriam Feehan",
-            "club": "",
-            "time": null,
+            "club": "BVOC",
+            "time": "109:34",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Emma Glanville",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "112:02",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Nina Philips",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "131:05",
             "eligible": true
           }
         ]
