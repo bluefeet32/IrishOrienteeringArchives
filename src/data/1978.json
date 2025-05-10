@@ -1,334 +1,334 @@
 {
-    "long":{
-       "area":"Glendav",
-       "results_url":"https://www.orienteering.ie/wp-content/uploads/2013/02/loc7_june_1978.pdf",
-       "map_url":"",
-       "note":"Results were cumulative over two days",
-       "classes":{
-          "m21":{
-             "distance":15.8,
-             "climb":533,
-             "controls":41,
-             "course_image":"",
-             "results":[
-                {
-                   "position":1,
-                   "name":"Wally Young",
-                   "club":"CO",
-                   "time":"167:55",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"Eoin Rothery",
-                   "club":"DUO",
-                   "time":"170:21",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"D. O'Callaghan",
-                   "club":"SET",
-                   "time":"188:57",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"E. Wilson",
-                   "club":"LVO",
-                   "time":"199:17",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"G. Byrne",
-                   "club":"CO",
-                   "time":"201:47",
-                   "eligible":true
-                },
-                {
-                   "position":6,
-                   "name":"P. Lalor",
-                   "club":"CO",
-                   "time":"207:35",
-                   "eligible":true
-                },
-                {
-                   "position":7,
-                   "name":"P. McCormack",
-                   "club":"GEN",
-                   "time":"218:03",
-                   "eligible":true
-                },
-                {
-                   "position":8,
-                   "name":"N. Rice",
-                   "club":"SET",
-                   "time":"230:53",
-                   "eligible":true
-                },
-                {
-                   "position":9,
-                   "name":"Denis Reidy",
-                   "club":"ECOM",
-                   "time":"231:42",
-                   "eligible":true
-                },
-                {
-                   "position":10,
-                   "name":"T. Russell",
-                   "club":"CO",
-                   "time":"232:40",
-                   "eligible":true
-                },
-                {
-                   "position":11,
-                   "name":"B. Simpson",
-                   "club":"LVO",
-                   "time":"245:09",
-                   "eligible":true
-                },
-                {
-                   "position":12,
-                   "name":"John McCullough",
-                   "club":"3ROC",
-                   "time":"258:43",
-                   "eligible":true
-                },
-                {
-                   "position":13,
-                   "name":"E. Niland",
-                   "club":"MAC",
-                   "time":"258:55",
-                   "eligible":true
-                },
-                {
-                   "position":14,
-                   "name":"P. Flanagan",
-                   "club":"3ROC",
-                   "time":"269:35",
-                   "eligible":true
-                },
-                {
-                   "position":15,
-                   "name":"D. Burke",
-                   "club":"MO",
-                   "time":"273:23",
-                   "eligible":true
-                },
-                {
-                   "position":16,
-                   "name":"T. McCormack",
-                   "club":"GEN",
-                   "time":"275:07",
-                   "eligible":true
-                },
-                {
-                   "position":17,
-                   "name":"J. Murray",
-                   "club":"MAC",
-                   "time":"281:51",
-                   "eligible":true
-                },
-                {
-                   "position":18,
-                   "name":"J. Beecher",
-                   "club":"MO",
-                   "time":"304:02",
-                   "eligible":true
-                },
-                {
-                   "position":19,
-                   "name":"W. O'Neill",
-                   "club":"SO",
-                   "time":"315:23",
-                   "eligible":true
-                },
-                {
-                   "position":20,
-                   "name":"ML. O'Callaghan",
-                   "club":"MO",
-                   "time":"9373:12",
-                   "eligible":true
-                },
-                {
-                   "position":21,
-                   "name":"B. Gregor",
-                   "club":"MO",
-                   "time":"393:05",
-                   "eligible":true
-                },
-                {
-                   "position":null,
-                   "name":"S. McGibbon",
-                   "club":"LVO",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"J. McCarthy",
-                   "club":"MO",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"D. Morrissey",
-                   "club":"MO",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"R. Goffe",
-                   "club":"LVO",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"T. Caffrey",
-                   "club":"SET",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"K. O'Brien",
-                   "club":"MO",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"P. Nevin",
-                   "club":"",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"C. Carr",
-                   "club":"Thom",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"D. Deasy",
-                   "club":"SET",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"B. Power",
-                   "club":"SET",
-                   "time":"DNF",
-                   "eligible":false
-                }
-             ]
+  "long": {
+    "area": "Glendav",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/loc7_june_1978.pdf",
+    "map_url": "",
+    "note": "Results were cumulative over two days",
+    "classes": {
+      "m21": {
+        "distance": 15.8,
+        "climb": 533,
+        "controls": 41,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "167:55",
+            "eligible": true
           },
-          "w21":{
-             "distance":14.4,
-             "climb":442,
-             "controls":33,
-             "course_image":"",
-             "results":[
-                {
-                   "position":1,
-                   "name":"Eileen Loughman",
-                   "club":"GEN",
-                   "time":"238:54",
-                   "eligible":true
-                },
-                {
-                   "position":2,
-                   "name":"M. Turley",
-                   "club":"MAC",
-                   "time":"243:31",
-                   "eligible":true
-                },
-                {
-                   "position":3,
-                   "name":"M. Thornhill",
-                   "club":"GEN",
-                   "time":"269:23",
-                   "eligible":true
-                },
-                {
-                   "position":4,
-                   "name":"Clare Nuttall",
-                   "club":"MO",
-                   "time":"279:26",
-                   "eligible":true
-                },
-                {
-                   "position":5,
-                   "name":"B. Flanagan",
-                   "club":"3ROC",
-                   "time":"327:46",
-                   "eligible":true
-                },
-                {
-                   "position":6,
-                   "name":"M. Rohan",
-                   "club":"MO",
-                   "time":"334:22",
-                   "eligible":true
-                },
-                {
-                   "position":7,
-                   "name":"M. Groeger",
-                   "club":"MO",
-                   "time":"340:14",
-                   "eligible":true
-                },
-                {
-                   "position":8,
-                   "name":"A. Hamilton",
-                   "club":"QUBOC",
-                   "time":"340:22",
-                   "eligible":true
-                },
-                {
-                   "position":9,
-                   "name":"S. Cawley",
-                   "club":"3ROC",
-                   "time":"421:22",
-                   "eligible":true
-                },
-                {
-                   "position":null,
-                   "name":"U. Cregan",
-                   "club":"SET",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"C. Murtagh",
-                   "club":"MO",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"H. McGarrigle",
-                   "club":"LVO",
-                   "time":"DNF",
-                   "eligible":false
-                },
-                {
-                   "position":null,
-                   "name":"M. Walsh",
-                   "club":"3ROC",
-                   "time":"DNF",
-                   "eligible":false
-                }
-             ]
+          {
+            "position": 2,
+            "name": "Eoin Rothery",
+            "club": "DUO",
+            "time": "170:21",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "D. O'Callaghan",
+            "club": "SET",
+            "time": "188:57",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "E. Wilson",
+            "club": "LVO",
+            "time": "199:17",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "G. Byrne",
+            "club": "CO",
+            "time": "201:47",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "P. Lalor",
+            "club": "CO",
+            "time": "207:35",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "P. McCormack",
+            "club": "GEN",
+            "time": "218:03",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "N. Rice",
+            "club": "SET",
+            "time": "230:53",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Denis Reidy",
+            "club": "ECOM",
+            "time": "231:42",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "T. Russell",
+            "club": "CO",
+            "time": "232:40",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "B. Simpson",
+            "club": "LVO",
+            "time": "245:09",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "John McCullough",
+            "club": "3ROC",
+            "time": "258:43",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "E. Niland",
+            "club": "MAC",
+            "time": "258:55",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "P. Flanagan",
+            "club": "3ROC",
+            "time": "269:35",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "D. Burke",
+            "club": "MO",
+            "time": "273:23",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "T. McCormack",
+            "club": "GEN",
+            "time": "275:07",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "J. Murray",
+            "club": "MAC",
+            "time": "281:51",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "J. Beecher",
+            "club": "MO",
+            "time": "304:02",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "W. O'Neill",
+            "club": "SO",
+            "time": "315:23",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "ML. O'Callaghan",
+            "club": "MO",
+            "time": "9373:12",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "B. Gregor",
+            "club": "MO",
+            "time": "393:05",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "S. McGibbon",
+            "club": "LVO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "J. McCarthy",
+            "club": "MO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "D. Morrissey",
+            "club": "MO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "R. Goffe",
+            "club": "LVO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "T. Caffrey",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "K. O'Brien",
+            "club": "MO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "P. Nevin",
+            "club": "",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "C. Carr",
+            "club": "Thom",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "D. Deasy",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "B. Power",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
           }
-       }
+        ]
+      },
+      "w21": {
+        "distance": 14.4,
+        "climb": 442,
+        "controls": 33,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Eileen Loughman",
+            "club": "GEN",
+            "time": "238:54",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "M. Turley",
+            "club": "MAC",
+            "time": "243:31",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "M. Thornhill",
+            "club": "GEN",
+            "time": "269:23",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Clare Nuttall",
+            "club": "MO",
+            "time": "279:26",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "B. Flanagan",
+            "club": "3ROC",
+            "time": "327:46",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "M. Rohan",
+            "club": "MO",
+            "time": "334:22",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "M. Groeger",
+            "club": "MO",
+            "time": "340:14",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "A. Hamilton",
+            "club": "QUBOC",
+            "time": "340:22",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "S. Cawley",
+            "club": "3ROC",
+            "time": "421:22",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "U. Cregan",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "C. Murtagh",
+            "club": "MO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "H. McGarrigle",
+            "club": "LVO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "M. Walsh",
+            "club": "3ROC",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      }
     }
- }
+  }
+}
