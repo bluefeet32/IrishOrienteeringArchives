@@ -81,7 +81,10 @@ def ParseName(name: str) -> str:
         # Men
         ("A. O'Cleirigh", "Aonghus O'Cleirigh"),
         ("E. Rothery", "Eoin Rothery"),
+        ("G. Byrne", "Gerry Byrne"),
+        ("H. Quirke", "Harry Quirke"),
         ("P. Healy", "Pat Healy"),
+        ("P. Nash", "Pat Nash"),
         ("W. Young", "Wally Young"),
         # Women
         ("A. Shiel", "Ann Shiel"),
