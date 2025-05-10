@@ -1,7 +1,7 @@
 {
   "long": {
     "area": "Glendalough",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t82_aug97.pdf",
     "map_url": "",
     "classes": {
       "m21": {
@@ -13,36 +13,36 @@
           {
             "position": 1,
             "name": "Colm Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "89:32",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Colm O'Halloran",
-            "club": "",
-            "time": null,
+            "club": "LEEO",
+            "time": "89:33",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Steven Linton",
-            "club": "",
-            "time": null,
+            "club": "NWOC",
+            "time": "90:34",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Bill Edwards",
             "club": "CORKO",
-            "time": null,
+            "time": "93:53",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Marcus Pinker",
             "club": "CORKO",
-            "time": null,
+            "time": "93:53",
             "eligible": true
           }
         ]
@@ -56,36 +56,36 @@
           {
             "position": 1,
             "name": "Una Creagh",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "70:18",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Nuala Higgins",
-            "club": "",
-            "time": null,
+            "club": "FUCCO",
+            "time": "79:45",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Eileen Loughman",
-            "club": "",
-            "time": null,
+            "club": "CNOC",
+            "time": "80:39",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Joanne Mein",
-            "club": "",
-            "time": null,
+            "club": "NWOC",
+            "time": "81:44",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Julie Cleary",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "83:04",
             "eligible": true
           }
         ]
