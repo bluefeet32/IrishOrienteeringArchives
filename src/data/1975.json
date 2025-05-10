@@ -259,7 +259,7 @@
         "results": [
           {
             "position": 1,
-            "name": "A. Shiel",
+            "name": "Ann Shiel",
             "club": "IO",
             "time": "84:00",
             "eligible": true
@@ -273,14 +273,14 @@
           },
           {
             "position": 3,
-            "name": "M. Turley",
+            "name": "Monica Turley",
             "club": "IO",
             "time": "92:43",
             "eligible": true
           },
           {
             "position": 4,
-            "name": "U. Cregan",
+            "name": "Una Cregan",
             "club": "IO",
             "time": "97:55",
             "eligible": true
@@ -294,7 +294,7 @@
           },
           {
             "position": 6,
-            "name": "G. Quinn",
+            "name": "Geraldine Quinn",
             "club": "IO",
             "time": "107:51",
             "eligible": true
@@ -308,7 +308,7 @@
           },
           {
             "position": 8,
-            "name": "B. Flanagan",
+            "name": "Brigid Flanagan",
             "club": "IO",
             "time": "115:13",
             "eligible": true

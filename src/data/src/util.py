@@ -84,9 +84,16 @@ def ParseName(name: str) -> str:
         ("P. Healy", "Pat Healy"),
         ("W. Young", "Wally Young"),
         # Women
+        ("A. Shiel", "Ann Shiel"),
+        ("B. Flanagan", "Brigid Flanagan"),
+        ("D. NiChallanain", "Deirdre Ni Challanain"),  ("D. Ní Challanain", "Deirdre Ni Challanain"),
         ("E. Loughman", "Eileen Loughman"),
+        ("G. Quinn", "Geraldine Quinn"),
         ("M. Thornhill", "Maura Thornhill"),
-        ("D. NiChallanain", "Deirdre Ni Challanain"),  ("D. Ní Challanain", "Deirdre Ni Challanain")
+        ("M. Turley", "Monica Turley"),
+        ("R. White", "Roxanne White"),
+        ("U. Creagh", "Una Creagh"),
+        ("U. Cregan", "Una Cregan"),
         ]
 
     for char_pair in chars_mapping:
