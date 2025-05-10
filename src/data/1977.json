@@ -1,0 +1,327 @@
+{
+  "long": {
+    "area": "Kinnity (Castle Bernard)",
+    "results_url": "https://drive.google.com/drive/folders/1TnD9YCukgte0Qha_HMCr1_f6nhJiCf0x",
+    "map_url": "",
+    "note": "P. Nash late DQ'd after the race",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "results": [
+          {
+            "position": null,
+            "name": "P. Nash",
+            "club": "MO",
+            "time": "100:52",
+            "eligible": false
+          },
+          {
+            "position": 1,
+            "name": "N. Rice",
+            "club": "SET",
+            "time": "104:44",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "E. Rothery",
+            "club": "3ROC",
+            "time": "105:45",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "E. Wilson",
+            "club": "LVO",
+            "time": "107:14",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "D. O'Callaghan",
+            "club": "SET",
+            "time": "109:00",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "D. McGarrigle",
+            "club": "QUB",
+            "time": "109:22",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "J. Warde",
+            "club": "SO",
+            "time": "111:15",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "T. McCormack",
+            "club": "GEN",
+            "time": "113:31",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "D. Reidy",
+            "club": "EO",
+            "time": "114:45",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "J. McCullough",
+            "club": "3ROC",
+            "time": "124:00",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "B. McKenna",
+            "club": "AOK",
+            "time": "128:45",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "C. McAuley",
+            "club": "SLSO",
+            "time": "131:13",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "B. Simpson",
+            "club": "LVO",
+            "time": "132:00",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "C. Rice",
+            "club": "SET",
+            "time": "133:45",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "R. O'Shea",
+            "club": "CO",
+            "time": "135:28",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "R. Garrett",
+            "club": "MT",
+            "time": "145:00",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "J. Gartside",
+            "club": "LVO",
+            "time": "148:05",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "P. Flanagan",
+            "club": "3ROC",
+            "time": "149:00",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "M. Mulready",
+            "club": "SO",
+            "time": "153:15",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "E. Niland",
+            "club": "MT",
+            "time": "157:25",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "B. O'Neill",
+            "club": "SO",
+            "time": "158:20",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "J. Beecher",
+            "club": "MO",
+            "time": "158:36",
+            "eligible": true
+          },
+          {
+            "position": 22,
+            "name": "T. Russell",
+            "club": "EO",
+            "time": "161:00",
+            "eligible": true
+          },
+          {
+            "position": 23,
+            "name": "J. Ryan",
+            "club": "SET",
+            "time": "169:18",
+            "eligible": true
+          },
+          {
+            "position": 24,
+            "name": "C. O'Dulachán",
+            "club": "CEN",
+            "time": "184:00",
+            "eligible": true
+          },
+          {
+            "position": 25,
+            "name": "M. Meehan",
+            "club": "EO",
+            "time": "191:00",
+            "eligible": true
+          },
+          {
+            "position": 26,
+            "name": "T. Hurley",
+            "club": "SO",
+            "time": "200:00",
+            "eligible": true
+          },
+          {
+            "position": 27,
+            "name": "J. Ryan",
+            "club": "GEN",
+            "time": "208:00",
+            "eligible": true
+          },
+          {
+            "position": 28,
+            "name": "M.J. Kavanagh",
+            "club": "SET",
+            "time": "260:00",
+            "eligible": true
+          },
+          {
+            "position": 29,
+            "name": "D. O'Callaghan",
+            "club": "MO",
+            "time": "294:00",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "E. Gaffney",
+            "club": "",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "E. Loughman",
+            "club": "GEN",
+            "time": "75:06",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "A. Smillie",
+            "club": "AOK",
+            "time": "77:45",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "M. Turley",
+            "club": "MCT",
+            "time": "92:02",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "M. Walsh",
+            "club": "3ROC",
+            "time": "96:40",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "M. Thornhill",
+            "club": "GEN",
+            "time": "100:04",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "W. Delaney",
+            "club": "GEN",
+            "time": "103:18",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "B. Flanagan",
+            "club": "3ROC",
+            "time": "111:46",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "G. Gregan",
+            "club": "SET",
+            "time": "120:32",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "C. Murtagh",
+            "club": "SET",
+            "time": "123:32",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "P. Tolhurst",
+            "club": "WCOK",
+            "time": "127:27",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "M. Doyle",
+            "club": "MCT",
+            "time": "134:15",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "A. Hallowes",
+            "club": "MCT",
+            "time": "143:00",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}
