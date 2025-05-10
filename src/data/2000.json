@@ -1,7 +1,7 @@
 {
   "long": {
     "area": "Bawnreagh",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t94_2000.pdf",
     "map_url": "",
     "classes": {
       "m21": {
@@ -59,6 +59,137 @@
             "club": "CORKO",
             "time": "111:47",
             "eligible": true
+          }
+        ]
+      }
+    }
+  },
+  "relay": {
+    "area": "Charleville Estate",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t94_2000.pdf",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Colm Rothery",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Brendan O'Brien",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "John Feehan",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 1",
+            "club": "NWOC",
+            "time": "00:00",
+            "team": "NWOC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 2",
+            "club": "NWOC",
+            "time": "00:00",
+            "team": "NWOC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Blank 3",
+            "club": "NWOC",
+            "time": "00:00",
+            "team": "NWOC",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Violet Cordner",
+            "club": "LVO",
+            "time": "00:00",
+            "team": "LVO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Heather Ervine",
+            "club": "LVO",
+            "time": "00:00",
+            "team": "LVO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ann Savage",
+            "club": "LVO",
+            "time": "00:00",
+            "team": "LVO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Blank 4",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Blank 5",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Toni O'Donovan",
+            "club": "CORKO",
+            "time": "DNF",
+            "team": "CORKO",
+            "leg": "3",
+            "eligible": false
           }
         ]
       }
