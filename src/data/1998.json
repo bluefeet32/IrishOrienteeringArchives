@@ -1,133 +1,161 @@
 {
   "long": {
     "area": "Slieve Gullion",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t86_jul98.pdf",
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
+        "distance": 11.5,
+        "climb": 420,
         "controls": null,
         "course_image": null,
         "results": [
           {
+            "position": null,
+            "name": "Daniel Marston",
+            "club": "INT",
+            "time": "76:51",
+            "eligible": false
+          },
+          {
             "position": 1,
             "name": "Bill Edwards",
             "club": "CORKO",
-            "time": null,
+            "time": "78:38",
             "eligible": true
           },
           {
             "position": 2,
             "name": "John Feehan",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "81:52",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Colm Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "82:56",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Brian Ervine",
-            "club": "",
-            "time": null,
+            "club": "LVO",
+            "time": "85:05",
             "eligible": true
           },
           {
             "position": 5,
             "name": "James Logue",
-            "club": "",
-            "time": null,
+            "club": "NWOC",
+            "time": "85:24",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Marcus Pinker",
             "club": "CORKO",
-            "time": null,
+            "time": "85:42",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Colm O'Halloran",
-            "club": "",
-            "time": null,
+            "club": "LEEO",
+            "time": "86:27",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Brendan Delaney",
             "club": "CNOC",
-            "time": null,
+            "time": "87:35",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Rory Morrish",
+            "club": "LEEO",
+            "time": "90:31",
             "eligible": true
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
+        "distance": 7,
+        "climb": 240,
         "controls": null,
         "course_image": null,
         "results": [
           {
             "position": 1,
             "name": "Toni O'Donovan",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "72:09",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Una Creagh",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "74:02",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Eadaoin Morrish",
-            "club": "",
-            "time": null,
+            "club": "LEEO",
+            "time": "78:04",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Nuala Higgins",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "82:35",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Julie Cleary",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "83:05",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Ailbhe Creedon",
-            "club": "",
-            "time": null,
+            "club": "DUO",
+            "time": "91:09",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Fiona O'Hanlon",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "98:47",
             "eligible": true
           },
           {
-            "position": 8,
+            "position": 7,
             "name": "Nina Philips",
-            "club": "",
-            "time": null,
+            "club": "SET",
+            "time": "98:47",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Heather Ervine",
+            "club": "LVO",
+            "time": "99:38",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Eileen Loughman",
+            "club": "CNOC",
+            "time": "107:35",
             "eligible": true
           }
         ]
