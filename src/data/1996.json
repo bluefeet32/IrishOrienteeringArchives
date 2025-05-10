@@ -91,5 +91,82 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Portumna Forest Park",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t78_jul96.pdf",
+    "map_url": "null",
+    "classes": {
+      "m21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Rory Morrish",
+            "club": "FUCCO",
+            "time": "00:00",
+            "team": "FUCCO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "John Feehan",
+            "club": "FUCCO",
+            "time": "00:00",
+            "team": "FUCCO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Colm O'Halloran",
+            "club": "FUCCO",
+            "time": "00:00",
+            "team": "FUCCO",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Eileen Loughman",
+            "club": "CNOC",
+            "time": "00:00",
+            "team": "CNOC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Maureen Dooley",
+            "club": "CNOC",
+            "time": "00:00",
+            "team": "CNOC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "00:00",
+            "team": "CNOC",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }
