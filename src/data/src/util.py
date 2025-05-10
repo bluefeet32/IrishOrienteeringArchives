@@ -92,6 +92,7 @@ def ParseClub(club: str) -> str:
         ("Bishopstown", "BOC"),
         ("Cork O", "CORKO"), ("CorkO", "CORKO"), ("Cork", "CORKO"),
         ("Curragh-Naas", "CNOC"), ("Curragh Naas", "CNOC"),
+        ("Curragh", "CO"),  # CO is an older version of CNOC
         ("Fingal", "FIN"),
         ("Great Eastern Navigators", "GEN"),
         ("Lagan Valley", "LVO"),
