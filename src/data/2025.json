@@ -32,7 +32,7 @@
             "eligible": true
           },
           {
-            "position": 3,
+            "position":  null,
             "name": "Adam Methven",
             "club": "BKO",
             "time": "91:53",
@@ -60,7 +60,7 @@
             "eligible": true
           },
           {
-            "position": 6,
+            "position": null,
             "name": "Raphael Schalbetter",
             "club": "OLG NOW",
             "time": "95:24",
@@ -88,7 +88,7 @@
             "eligible": true
           },
           {
-            "position": 9,
+            "position": null,
             "name": "Bradley Lund",
             "club": "WSX",
             "time": "103:59",
@@ -165,7 +165,7 @@
             "eligible": true
           },
           {
-            "position": 19,
+            "position": null,
             "name": "Alistair Landels",
             "club": "OD",
             "time": "128:33",
@@ -186,21 +186,21 @@
             "eligible": true
           },
           {
-            "position": 22,
+            "position": null,
             "name": "Chris Colwell",
             "club": "LVO",
             "time": "DNF",
             "eligible": false
           },
           {
-            "position": 23,
+            "position": null,
             "name": "Valdas Tilunas",
             "club": "3ROC",
             "time": "DNF",
             "eligible": false
           },
           {
-            "position": 24,
+            "position": null,
             "name": "Kevin O'Boyle",
             "club": "CNOC",
             "time": "DNF",
@@ -229,7 +229,7 @@
             "eligible": true
           },
           {
-            "position": 2,
+            "position": null,
             "name": "Helen Ockenden",
             "club": "DRONGO",
             "time": "73:49",
@@ -243,7 +243,7 @@
             "eligible": true
           },
           {
-            "position": 3,
+            "position": null,
             "name": "Alice Kemsley",
             "club": "BASOC",
             "time": "75:10",
@@ -292,7 +292,7 @@
             "eligible": true
           },
           {
-            "position": 9,
+            "position": null,
             "name": "Juliette Soulard",
             "club": "OD",
             "time": "91:40",
@@ -384,7 +384,7 @@
             "eligible": true
           },
           {
-            "position": 5,
+            "position": null,
             "name": "Raphael Schalbetter",
             "club": "OLG NOW",
             "time": "17:52",
@@ -398,7 +398,7 @@
             "eligible": true
           },
           {
-            "position": 6,
+            "position": null,
             "name": "Bradley Lund",
             "club": "WSX",
             "time": "18:26",
@@ -412,7 +412,7 @@
             "eligible": true
           },
           {
-            "position": 7,
+            "position": null,
             "name": "Adam Methven",
             "club": "BKO",
             "time": "18:34",
@@ -531,7 +531,7 @@
             "eligible": true
           },
           {
-            "position": 23,
+            "position": null,
             "name": "Gavin Smith",
             "club": "SROC",
             "time": "30:19",
@@ -567,7 +567,7 @@
             "eligible": true
           },
           {
-            "position": 3,
+            "position": null,
             "name": "Kirstin Maxwell",
             "club": "RR",
             "time": "19:21",
@@ -609,7 +609,7 @@
             "eligible": true
           },
           {
-            "position": 8,
+            "position": null,
             "name": "Kathi Schalbetter",
             "club": "OLG NOW",
             "time": "22:31",
@@ -637,14 +637,14 @@
             "eligible": true
           },
           {
-            "position": 11,
+            "position": null,
             "name": "Mary Ockenden",
             "club": "SROC",
             "time": "25:43",
             "eligible": false
           },
           {
-            "position": 11,
+            "position": null,
             "name": "Lucy Browne",
             "club": "SLOW",
             "time": "29:58",
@@ -679,23 +679,23 @@
             "eligible": true
           },
           {
-            "position": 15,
+            "position": null,
             "name": "Laura Nuno Iglesias",
-            "club": "&nbsp;",
+            "club": "",
             "time": "58:42",
             "eligible": false
           },
           {
-            "position": 15,
+            "position": null,
             "name": "Gosia Nedzi",
             "club": "CNOC",
             "time": "DNF",
             "eligible": false
           },
           {
-            "position": 15,
+            "position": null,
             "name": "Ariel McCleary",
-            "club": "&nbsp;",
+            "club": "",
             "time": "DNF",
             "eligible": false
           }
@@ -736,7 +736,7 @@
             "eligible": true
           },
           {
-            "position": 3,
+            "position": null,
             "name": "Adam Methven",
             "club": "BKO",
             "time": "31:07",
@@ -778,7 +778,7 @@
             "eligible": true
           },
           {
-            "position": 8,
+            "position": null,
             "name": "Bradley Lund",
             "club": "WSX",
             "time": "33:52",
@@ -806,7 +806,7 @@
             "eligible": true
           },
           {
-            "position": 11,
+            "position": null,
             "name": "Raphael Schalbetter",
             "club": "OLG NOW",
             "time": "35:01",
@@ -869,14 +869,14 @@
             "eligible": true
           },
           {
-            "position": 19,
+            "position": null,
             "name": "Alistair Landels",
             "club": "OD",
             "time": "39:53",
             "eligible": false
           },
           {
-            "position": 19,
+            "position": null,
             "name": "Quentin Harding",
             "club": "CLARO",
             "time": "40:41",
@@ -932,7 +932,7 @@
             "eligible": true
           },
           {
-            "position": 26,
+            "position": null,
             "name": "Gavin Smith",
             "club": "SROC",
             "time": "56:34",
@@ -946,7 +946,7 @@
             "eligible": true
           },
           {
-            "position": 28,
+            "position": null,
             "name": "Seamus O'Boyle",
             "club": "CNOC",
             "time": "DNF",
@@ -961,7 +961,7 @@
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#566",
         "results": [
           {
-            "position": 0,
+            "position": null,
             "name": "Helen Ockenden",
             "club": "DRONGO",
             "time": "32:17",
@@ -1003,7 +1003,7 @@
             "eligible": true
           },
           {
-            "position": 5,
+            "position": null,
             "name": "Juliette Soulard",
             "club": "OD",
             "time": "38:28",
@@ -1024,9 +1024,9 @@
             "eligible": true
           },
           {
-            "position": 7,
+            "position": null,
             "name": "Mairead Rocke",
-            "club": "&nbsp;",
+            "club": "",
             "time": "40:56",
             "eligible": false
           },
@@ -1038,7 +1038,7 @@
             "eligible": true
           },
           {
-            "position": 8,
+            "position": null,
             "name": "Kathi Schalbetter",
             "club": "OLG NOW",
             "time": "42:05",
@@ -1066,7 +1066,7 @@
             "eligible": true
           },
           {
-            "position": 11,
+            "position": null,
             "name": "Mary Ockenden",
             "club": "SROC",
             "time": "50:16",
