@@ -77,6 +77,16 @@ def ParseName(name: str) -> str:
         ("Ruari", "Ruairi"),
         ("Tyndadll", "Tyndall"),
         ("Mckenna", "McKenna"),
+        # Old results have names with F. Surname format, we need to convert them to Firstname Surname
+        # Men
+        ("A. O'Cleirigh", "Aonghus O'Cleirigh"),
+        ("E. Rothery", "Eoin Rothery"),
+        ("P. Healy", "Pat Healy"),
+        ("W. Young", "Wally Young"),
+        # Women
+        ("E. Loughman", "Eileen Loughman"),
+        ("M. Thornhill", "Maura Thornhill"),
+        ("D. NiChallanain", "Deirdre Ni Challanain"),  ("D. Ní Challanain", "Deirdre Ni Challanain")
         ]
 
     for char_pair in chars_mapping:
