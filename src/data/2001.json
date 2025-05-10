@@ -1,35 +1,183 @@
 {
   "long": {
     "area": "Mullaghmeen",
-    "results_url": "",
-    "map_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t99oct01.pdf",
+    "map_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t99oct01.pdf",
+    "note": "Was also LOC due to foot & mouth",
     "classes": {
       "m21": {
         "distance": null,
         "climb": null,
         "controls": null,
-        "course_image": null,
+        "course_image": "https://www.orienteering.ie/wp-content/uploads/2013/02/t99oct01.pdf",
         "results": [
           {
             "position": 1,
             "name": "John Feehan",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "69:37",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Bill Edwards",
             "club": "CORKO",
-            "time": null,
+            "time": "73:37",
             "eligible": true
           },
           {
             "position": 3,
             "name": "James Logue",
-            "club": "",
-            "time": null,
+            "club": "NWOC",
+            "time": "76:07",
             "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Marcus Pinker",
+            "club": "CORKO",
+            "time": "76:14",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Brendan O'Brien",
+            "club": "AJAX",
+            "time": "80:19",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Steven Linton",
+            "club": "NWOC",
+            "time": "84:16",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Brian Corbett",
+            "club": "CORKO",
+            "time": "84:24",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Colm Rothery",
+            "club": "AJAX",
+            "time": "87:02",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Patrick Casey",
+            "club": "GEN",
+            "time": "90:44",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Murray Cowan",
+            "club": "LVO",
+            "time": "90:55",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Brendan Delaney",
+            "club": "CNOC",
+            "time": "91:13",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "John Casey",
+            "club": "AJAX",
+            "time": "91:26",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Andrew Quin",
+            "club": "DUO",
+            "time": "91:29",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Neil Dobbs",
+            "club": "DUO",
+            "time": "93:42",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "Conor Barry",
+            "club": "CORKO",
+            "time": "94:39",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Lauri Bellmann",
+            "club": "OK ORION",
+            "time": "96:11",
+            "eligible": false
+          },
+          {
+            "position": 16,
+            "name": "Alan Barry",
+            "club": "CORKO",
+            "time": "102:48",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Darren Burke",
+            "club": "UCCO",
+            "time": "103:10",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "Peter Mork",
+            "club": "3ROC",
+            "time": "109:58",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "T. Slattery",
+            "club": "CNOC",
+            "time": "115:38",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "Brian Jones",
+            "club": "GEN",
+            "time": "123:34",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "G. Evans",
+            "club": "CNOC",
+            "time": "129:07",
+            "eligible": true
+          },
+          {
+            "position": 22,
+            "name": "Ed Niland",
+            "club": "AJAX",
+            "time": "133:04",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Donal Burke",
+            "club": "CNOC",
+            "time": "DNF",
+            "eligible": false
           }
         ]
       },
@@ -42,22 +190,106 @@
           {
             "position": 1,
             "name": "Aislinn Austin",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "76:37",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Nuala Higgins",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "77:09",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Toni O'Donovan",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "78:14",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Una May",
+            "club": "3ROC",
+            "time": "79:00",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Petranka Pacheva",
+            "club": "BOC",
+            "time": "85:16",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Faye Pinker",
+            "club": "CORKO",
+            "time": "90:12",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Nina Phillips",
+            "club": "SET",
+            "time": "100:17",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Ruth Lynam",
+            "club": "CNOC",
+            "time": "100:44",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Miriam Feehan",
+            "club": "BVOC",
+            "time": "106:51",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Eileen Loughman",
+            "club": "CNOC",
+            "time": "109:30",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Fionne Austin",
+            "club": "CORKO",
+            "time": "112:30",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "D. Buckley",
+            "club": "DFO",
+            "time": "130:27",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Deirdre O'Neill",
+            "club": "FIN",
+            "time": "161:41",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Orla Jennings",
+            "club": "DFO",
+            "time": "164:15",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "D. Hurley",
+            "club": "DFO",
+            "time": "169:12",
             "eligible": true
           }
         ]
