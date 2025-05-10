@@ -1,7 +1,7 @@
 {
   "long": {
     "area": "Scarr",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t102sept02.pdf",
     "map_url": "",
     "classes": {
       "m21": {
@@ -40,6 +40,13 @@
         "course_image": null,
         "results": [
           {
+            "position": null,
+            "name": "Silke Schlittermann",
+            "club": "",
+            "time": null,
+            "eligible": false
+          },
+          {
             "position": 1,
             "name": "Petranka Pacheva",
             "club": "",
@@ -58,6 +65,83 @@
             "name": "Toni O'Donovan",
             "club": "",
             "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  },
+"relay": {
+    "area": "Phoenix Park",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t102sept02.pdf",
+    "map_url": "null",
+    "classes": {
+      "m21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Brendan O'Brien",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Aonghus O'Cleirigh",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Colm Rothery",
+            "club": "AJAX",
+            "time": "00:00",
+            "team": "AJAX",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": "",
+        "climb": "",
+        "controls": "",
+        "course_image": "null",
+        "results": [
+          {
+            "position": 1,
+            "name": "Fionne Austin",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Toni O'Donovan",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Faye Pinker",
+            "club": "CORKO",
+            "time": "00:00",
+            "team": "CORKO",
+            "leg": "3",
             "eligible": true
           }
         ]
