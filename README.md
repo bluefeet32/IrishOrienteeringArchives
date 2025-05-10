@@ -19,17 +19,39 @@ As of 2025/04/04 data collection is ongoing.
 Recent results are very reliable (2007 & later), and can be found on http://orienteering.ie. Older results are more challenging and in some cases this may be the only digital copy of them.
 
 ### Known missing data:
-If you have more info on data from these years it would be greatly appreciated.
 
- - Only partial results are present for the following years:
-   - 1996
-   - 1999
-   - 2000
-   - 2001
-   - 2002
-   - 2003
-   - 2004
-   - 2005
-   - 2006
- - Before 1985 only the top three are known
- - Anything before 1976 is missing (if it ever existed)
+First names of many old results are missing, I would appreciate input into these.
+
+If you have more info on data from the below years it would be greatly appreciated. The top 3 is mostly present in individual races.
+  - All detailed relay results before 1999 are missing, except 1984.
+    - In some cases I have first place
+  - 2006
+    - Middle
+    - Long times
+  - 2005
+    - All races (M, L, R)
+  - 2004
+    - All races (L, R)
+  - 2003
+    - All races (L, R)
+  - 2002
+    - All races (L, R)
+  - 2001
+    - All races (L, R)
+  - 1997
+  - 1996
+  - 1995
+  - 1994
+  - 1993
+  - 1992
+  - 1991
+  - 1990
+  - 1989
+  - 1988
+  - 1987
+  - 1986
+  - 1985
+  - 1979
+  - 1976
+
+ - I don't believe there was anything before 1975 (orienteering Ireland was founded in 1970).
