@@ -1,0 +1,341 @@
+{
+  "long": {
+    "area": "Trooperstown",
+    "results_url": "https://drive.google.com/drive/folders/1TnD9YCukgte0Qha_HMCr1_f6nhJiCf0x",
+    "map_url": "",
+    "note": "M19 same course as M21",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "82:53",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Wilbert Hollinger",
+            "club": "AOK",
+            "time": "87:11",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "P. McCormack",
+            "club": "IO",
+            "time": "90:00",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "N. Rice",
+            "club": "IO",
+            "time": "93:04",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Pat Healy",
+            "club": "CO",
+            "time": "96:48",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "D. McGarrigle",
+            "club": "QUBOC",
+            "time": "103:15",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "E. Wilson",
+            "club": "QUBOC",
+            "time": "109:12",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "P. Flanagan",
+            "club": "IO",
+            "time": "110:04",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "J. O'Leary",
+            "club": "MO",
+            "time": "110:23",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "J. Butler",
+            "club": "IO",
+            "time": "112:42",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "P. Nash",
+            "club": "CO",
+            "time": "112:52",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "D. O'Callaghan",
+            "club": "IO",
+            "time": "115:52",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "H. Quirke",
+            "club": "CO",
+            "time": "116:28",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "B. McGrath",
+            "club": "IO",
+            "time": "130:25",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "D. Doyle",
+            "club": "IO",
+            "time": "134:43",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "D. Bourke",
+            "club": "MO",
+            "time": "135:15",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "B. Power",
+            "club": "IO",
+            "time": "138:26",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "P. Long",
+            "club": "MO",
+            "time": "138:24",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "S. Stewart",
+            "club": "IO",
+            "time": "138:43",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "F. Glavey",
+            "club": "IO",
+            "time": "141:35",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "K. Warren",
+            "club": "AOK",
+            "time": "143:24",
+            "eligible": true
+          },
+          {
+            "position": 22,
+            "name": "P. Monaghan",
+            "club": "QUBOC",
+            "time": "145:39",
+            "eligible": true
+          },
+          {
+            "position": 23,
+            "name": "No Name",
+            "club": "CO",
+            "time": "154:20",
+            "eligible": true
+          },
+          {
+            "position": 24,
+            "name": "D. Rankin",
+            "club": "AOK",
+            "time": "158:54",
+            "eligible": true
+          },
+          {
+            "position": 25,
+            "name": "J. Bent",
+            "club": "IO",
+            "time": "160:06",
+            "eligible": true
+          },
+          {
+            "position": 26,
+            "name": "M. Scott",
+            "club": "IO",
+            "time": "175:58",
+            "eligible": true
+          },
+          {
+            "position": 27,
+            "name": "D. O'Leary",
+            "club": "MO",
+            "time": "190:29",
+            "eligible": true
+          },
+          {
+            "position": 28,
+            "name": "M. Halpin",
+            "club": "",
+            "time": "197:37",
+            "eligible": true
+          },
+          {
+            "position": 29,
+            "name": "B. Farley",
+            "club": "",
+            "time": "207:20",
+            "eligible": true
+          },
+          {
+            "position": 30,
+            "name": "J. Rappel",
+            "club": "",
+            "time": "DNF",
+            "eligible": true
+          },
+          {
+            "position": 31,
+            "name": "No Name (2)",
+            "club": "",
+            "time": "DNF",
+            "eligible": true
+          },
+          {
+            "position": 32,
+            "name": "M. Forkin",
+            "club": "",
+            "time": "DNF",
+            "eligible": true
+          },
+          {
+            "position": 33,
+            "name": "No Name (3)",
+            "club": "",
+            "time": "DNF",
+            "eligible": true
+          },
+          {
+            "position": 34,
+            "name": "N. Meehan",
+            "club": "",
+            "time": "DNF",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "A. Shiel",
+            "club": "IO",
+            "time": "84:00",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Ruth Lynam",
+            "club": "DUO",
+            "time": "87:09",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "M. Turley",
+            "club": "IO",
+            "time": "92:43",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "U. Cregan",
+            "club": "IO",
+            "time": "97:55",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Eileen Loughman",
+            "club": "IO",
+            "time": "101:10",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "G. Quinn",
+            "club": "IO",
+            "time": "107:51",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Clare Nuttall",
+            "club": "MO",
+            "time": "109:06",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "B. Flanagan",
+            "club": "IO",
+            "time": "115:13",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "H. Hunter",
+            "club": "QUBOC",
+            "time": "133:55",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "B. Byrne",
+            "club": "IO",
+            "time": "136:24",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "A. Downey",
+            "club": "QUBOC",
+            "time": "194:30",
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}
