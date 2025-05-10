@@ -13,22 +13,22 @@
           {
             "position": 1,
             "name": "Colm Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "96:35",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Brendan O'Brien",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "104:34",
             "eligible": true
           },
           {
             "position": 3,
             "name": "John Feehan",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "106:39",
             "eligible": true
           }
         ]
@@ -42,22 +42,22 @@
           {
             "position": 1,
             "name": "Toni O'Donovan",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "93:04",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Ruth Lynam",
             "club": "CNOC",
-            "time": null,
+            "time": "109:12",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Aislinn Austin",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "111:47",
             "eligible": true
           }
         ]
