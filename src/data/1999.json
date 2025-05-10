@@ -1,91 +1,155 @@
 {
   "long": {
     "area": "Crohane",
-    "results_url": "",
+    "results_url": "https://www.orienteering.ie/tio/91/SOR.HTM",
     "map_url": "",
+    "note": "Was also Day 2 of Shamrock O-Ringen",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
+        "distance": 11.65,
+        "climb": 540,
         "controls": null,
-        "course_image": null,
+        "course_image": "",
         "results": [
           {
             "position": 1,
             "name": "James Logue",
-            "club": "",
-            "time": null,
+            "club": "NWOC",
+            "time": "97:10",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Marcus Pinker",
             "club": "CORKO",
-            "time": null,
+            "time": "100:50",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Charlie Adams",
+            "club": "SYO",
+            "time": "101:24",
+            "eligible": false
           },
           {
             "position": 3,
             "name": "Colm Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "102:37",
             "eligible": true
           },
           {
             "position": 4,
             "name": "John Feehan",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "105:32",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Mark Seddon",
+            "club": "",
+            "time": "108:43",
+            "eligible": false
           },
           {
             "position": 5,
             "name": "Steven Linton",
-            "club": "",
-            "time": null,
+            "club": "NWOC",
+            "time": "109:42",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Bill Edwards",
             "club": "CORKO",
-            "time": null,
+            "time": "112:05",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "John Emelius",
+            "club": "",
+            "time": "113:45",
+            "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
+        "distance": 7.21,
+        "climb": 340,
         "controls": null,
-        "course_image": null,
+        "course_image": "",
         "results": [
+          {
+            "position": null,
+            "name": "Liz Campbell",
+            "club": "WAROC",
+            "time": "75:37",
+            "eligible": false
+          },
           {
             "position": 1,
             "name": "Toni O'Donovan",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "77:13",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Charlotte Somers-Cocks",
+            "club": "LOC",
+            "time": "80:55",
+            "eligible": false
           },
           {
             "position": 2,
             "name": "Aislinn Austin",
-            "club": "",
-            "time": null,
+            "club": "CORKO",
+            "time": "84:56",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Sarah Pattinson",
+            "club": "",
+            "time": "87:50",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Brigitte Grob",
+            "club": "",
+            "time": "89:44",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Tuuli Koivu",
+            "club": "",
+            "time": "90:06",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Michelle Spillar",
+            "club": "",
+            "time": "95:39",
+            "eligible": false
           },
           {
             "position": 3,
             "name": "Eileen Loughman",
-            "club": "",
-            "time": null,
+            "club": "CNOC",
+            "time": "98:29",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Nuala Higgins",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "99:12",
             "eligible": true
           }
         ]
