@@ -77,6 +77,7 @@ def ParseName(name: str) -> str:
         ("Ruari", "Ruairi"),
         ("Tyndadll", "Tyndall"),
         ("Mckenna", "McKenna"),
+        ("Anton Kamalz", "Anton Kamolz"),
         # Old results have names with F. Surname format, we need to convert them to Firstname Surname
         # Men
         ("A. O'Cleirigh", "Aonghus O'Cleirigh"),
@@ -113,11 +114,16 @@ def ParseClub(club: str) -> str:
         ("Cork O", "CORKO"), ("CorkO", "CORKO"), ("Cork", "CORKO"),
         ("Curragh-Naas", "CNOC"), ("Curragh Naas", "CNOC"),
         ("Curragh", "CO"),  # CO is an older version of CNOC
+        ("Defence Forces", "DFO"),
+        ("DrongO", "DRONGO"), ("Drongo", "DRONGO"),
         ("Fingal", "FIN"),
         ("Great Eastern Navigators", "GEN"),
-        ("Lagan Valley", "LVO"),
+        ("Kerry", "KERRYO"),
+        ("Lagan Valley", "LVO"), ("Lagan-Valley", "LVO"),
         ("Lee O", "LEEO"), ("LeeO", "LEEO"),
-        ("Three Rock", "3ROC"), ("3Rock", "3ROC"),
+        ("Setanta", "SET"), ("Set", "SET"),
+        ("South East", "SEVO"),
+        ("Three Rock", "3ROC"), ("3Rock", "3ROC"), ("3Roc", "3ROC"),
         ("University College Dublin", "UCDO"),
         ("WatO", "WATO"),
     ]

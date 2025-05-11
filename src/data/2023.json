@@ -266,7 +266,7 @@
           {
             "position": 8,
             "name": "Maeve O'Grady",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "23:24",
             "eligible": true
           },
@@ -336,7 +336,7 @@
           {
             "position": 14,
             "name": "Aoife O'Brien",
-            "club": "Kerry",
+            "club": "KERRYO",
             "time": "47:29",
             "eligible": true
           },
@@ -816,7 +816,7 @@
           {
             "position": null,
             "name": "Ben Stevens",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "148:35",
             "eligible": false
           },
@@ -837,7 +837,7 @@
           {
             "position": null,
             "name": "Tom Dobra",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "184:35",
             "eligible": false
           },
@@ -851,7 +851,7 @@
           {
             "position": null,
             "name": "Rowan Lee",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "212:26",
             "eligible": false
           },
@@ -915,7 +915,7 @@
           {
             "position": null,
             "name": "Helen Ockenden",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "91:52",
             "eligible": false
           },
@@ -971,7 +971,7 @@
           {
             "position": null,
             "name": "Maeve O'Grady",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "DNF",
             "eligible": false
           },
@@ -1078,7 +1078,7 @@
           },
           {
             "position": null,
-            "name": "Anton Kamalz",
+            "name": "Anton Kamolz",
             "club": "Nydalens SK",
             "time": "40:42",
             "team": "NyDallying",
@@ -1142,7 +1142,7 @@
           {
             "position": null,
             "name": "Phil Vokes",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "41:38",
             "team": "Dancing Round Oll Not Good Orienteers",
             "leg": "1",
@@ -1151,7 +1151,7 @@
           {
             "position": null,
             "name": "Ben Stevens",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "49:29",
             "team": "Dancing Round Oll Not Good Orienteers",
             "leg": "2",
@@ -1160,7 +1160,7 @@
           {
             "position": null,
             "name": "Helen Ockenden",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "49:41",
             "team": "Dancing Round Oll Not Good Orienteers",
             "leg": "3",
@@ -1169,7 +1169,7 @@
           {
             "position": null,
             "name": "Tom Dobra",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "49:57",
             "team": "Dash Round Orienteering 'n Go",
             "leg": "1",
@@ -1178,7 +1178,7 @@
           {
             "position": null,
             "name": "Rowan Lee",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "75:32",
             "team": "Dash Round Orienteering 'n Go",
             "leg": "2",
@@ -1187,7 +1187,7 @@
           {
             "position": null,
             "name": "Rona Lindsay",
-            "club": "DrongO",
+            "club": "DRONGO",
             "time": "89:57",
             "team": "Dash Round Orienteering 'n Go",
             "leg": "3",
