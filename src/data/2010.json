@@ -217,9 +217,9 @@
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": "2.3 k",
-        "climb": "",
-        "controls": "25",
+        "distance": 2.3,
+        "climb": null,
+        "controls": 25,
         "course_image": "",
         "results": [
           {
@@ -470,9 +470,9 @@
         ]
       },
       "w21": {
-        "distance": "2.1 k",
-        "climb": "",
-        "controls": "23",
+        "distance": 2.1,
+        "climb": null,
+        "controls": 23,
         "course_image": "",
         "results": [
           {
@@ -569,9 +569,9 @@
     "map_url": "null",
     "classes": {
       "m21": {
-        "distance": "5.7",
-        "climb": "0",
-        "controls": "18",
+        "distance": 5.7,
+        "climb": 0,
+        "controls": 18,
         "course_image": "null",
         "results": [
           {
@@ -982,9 +982,9 @@
         ]
       },
       "w21": {
-        "distance": "4.5",
-        "climb": "0",
-        "controls": "17",
+        "distance": 4.5,
+        "climb": 0,
+        "controls": 17,
         "course_image": "null",
         "results": [
           {

@@ -5,7 +5,7 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#567",
     "classes": {
       "m21": {
-        "distance": 16,
+        "distance": 16.0,
         "climb": 0,
         "controls": 39,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#567",
@@ -343,7 +343,7 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#565",
     "classes": {
       "m21": {
-        "distance": 4,
+        "distance": 4.0,
         "climb": 0,
         "controls": 20,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#565",

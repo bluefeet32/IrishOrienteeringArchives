@@ -177,9 +177,9 @@
     "map_url": "bull",
     "classes": {
       "m21": {
-        "distance": "5.1",
-        "climb": "200",
-        "controls": "14",
+        "distance": 5.1,
+        "climb": 200,
+        "controls": 14,
         "course_image": "null",
         "results": [
           {
@@ -482,9 +482,9 @@
         ]
       },
       "w21": {
-        "distance": "4.0",
-        "climb": "170",
-        "controls": "13",
+        "distance": 4.0,
+        "climb": 170,
+        "controls": 13,
         "course_image": "null",
         "results": [
           {

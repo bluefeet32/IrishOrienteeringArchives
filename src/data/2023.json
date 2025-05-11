@@ -5,9 +5,9 @@
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=904",
     "classes": {
       "m21": {
-        "distance": "2.67 km",
-        "climb": "90 m",
-        "controls": "20",
+        "distance": 2.67,
+        "climb": 90,
+        "controls": 20,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=904",
         "results": [
           {
@@ -202,9 +202,9 @@
         ]
       },
       "w21": {
-        "distance": "2.41 km",
-        "climb": "70 m",
-        "controls": "19",
+        "distance": 2.41,
+        "climb": 70,
+        "controls": 19,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=904",
         "results": [
           {
@@ -385,9 +385,9 @@
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=906",
     "classes": {
       "m21": {
-        "distance": "4.27 km",
-        "climb": "130 m",
-        "controls": "20",
+        "distance": 4.27,
+        "climb": 130,
+        "controls": 20,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=906",
         "results": [
           {
@@ -603,9 +603,9 @@
         ]
       },
       "w21": {
-        "distance": "3.32 km",
-        "climb": "130 m",
-        "controls": "13",
+        "distance": 3.32,
+        "climb": 130,
+        "controls": 13,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=906",
         "results": [
           {
@@ -723,9 +723,9 @@
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=910",
     "classes": {
       "m21": {
-        "distance": "13.8 km",
-        "climb": "500 m",
-        "controls": "34",
+        "distance": 13.8,
+        "climb": 500,
+        "controls": 34,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=910",
         "results": [
           {
@@ -899,9 +899,9 @@
         ]
       },
       "w21": {
-        "distance": "8.16 km",
-        "climb": "290 m",
-        "controls": "20",
+        "distance": 8.16,
+        "climb": 290,
+        "controls": 20,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=910",
         "results": [
           {
@@ -998,9 +998,9 @@
     "map_url": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=911",
     "classes": {
       "m21": {
-        "distance": "5.2 k",
-        "climb": "0 m",
-        "controls": "26",
+        "distance": 5.2,
+        "climb": 0,
+        "controls": 26,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=911",
         "results": [
           {
@@ -1249,9 +1249,9 @@
         ]
       },
       "w21": {
-        "distance": "3.7",
-        "climb": "0 m",
-        "controls": "16",
+        "distance": 3.7,
+        "climb": 0,
+        "controls": 16,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=911",
         "results": [
           {

@@ -401,9 +401,9 @@
     "map_url": "null",
     "classes": {
       "m21": {
-        "distance": "4.8",
-        "climb": "230",
-        "controls": "13",
+        "distance": 4.8,
+        "climb": 230,
+        "controls": 13,
         "course_image": "null",
         "results": [
           {
@@ -868,9 +868,9 @@
         ]
       },
       "w21": {
-        "distance": "4",
-        "climb": "190",
-        "controls": "14",
+        "distance": 4.0,
+        "climb": 190,
+        "controls": 14,
         "course_image": "null",
         "results": [
           {
