@@ -112,6 +112,15 @@ const getResults = () => {
         get area() {
             return this.yearData?.[this.currentCourse]?.area || "";
         },
+        get distance() {
+            return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.distance ?? "???";
+        },
+        get climb() {
+            return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.climb ?? "???";
+        },
+        get controls() {
+            return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.controls ?? "???";
+        },
         get mapImage() {
             class_info = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass];
             if (class_info?.course_image == null || class_info?.course_image == "")
