@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
+        </div>
+        <div x-data="getRunnerList()">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Classes</th>
+                        <th>Clubs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template x-for="runner in runners" :key="runner.name">
+                        <tr>
+                            <td>
+                                <a
+                                    class="button"
+                                    :href="`runner.html?name=${runner.name}&class=${runner.classes[0]}`"
+                                    x-text="runner.name"
+                                ></a>
+                            </td>
+                            <td><span x-text="runner.classes"></span></td>
+                            <td><span x-text="runner.clubs"></span></td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

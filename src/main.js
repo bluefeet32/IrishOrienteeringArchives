@@ -55,6 +55,18 @@ function sortCourses(a, b) {
     return (COURSE_SORT_ORDER[a] ?? Number.MAX_VALUE) - (COURSE_SORT_ORDER[b] ?? Number.MAX_VALUE);
 }
 
+function sortNames(a, b) {
+    nameA = a["name"].toUpperCase();
+    nameB = b["name"].toUpperCase();
+    if (nameA < nameB) {
+        return -1;
+    }
+    if (nameA > nameB) {
+        return 1;
+    }
+    return 0;
+}
+
 const pointsFromPosition = {
     1: 10,
     2: 8,
@@ -434,6 +446,55 @@ const getOverview = () => {
                 data.push(yearData);
             }
             return data.sort().reverse();
+        },
+    };
+};
+
+const getRunnerList = () => {
+    return {
+        async init() {
+            const params = new URLSearchParams(document.location.search);
+            await this.loadAllYears();
+            this.allRunners = this.getAllRunners();
+            console.log(this.allRunners);
+        },
+        years: [],
+        allYears: {},
+        allRunners: [],
+        async loadAllYears() {
+            this.years = await (await fetch("./data/years.json")).json();
+            const allData =
+                await Promise.all(
+                    this.years.map(year =>
+                        fetch(`./data/${year}.json`).then(response => response.json())
+                    )
+                );
+
+            this.allYears = Object.fromEntries(this.years.map((year, index) => [year, allData[index]]));
+        },
+        getAllRunners() {
+            const runners = new Map();
+            for (const [year, courses] of Object.entries(this.allYears)) {
+                for (const [course, courseData] of Object.entries(courses)) {
+                    for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
+                        for (const [_, resultData] of Object.entries(ageClassData.results)) {
+                            const r_name = resultData.name;
+                            if (!runners.has(r_name)) {
+                                runners.set(r_name, {"classes": new Set(), "clubs": new Set()})
+                            }
+                            var runner = runners.get(r_name)
+                            runner["classes"].add(ageClass);
+                            runner["clubs"].add(resultData.club);
+                            runners.set(r_name, runner)
+                        }
+                    }
+                }
+            }
+            const runnersList = Array.from(runners, (name, _) => ({ "name": name[0], "classes": Array.from(name[1]["classes"]), "clubs": Array.from(name[1]["clubs"]) }));
+            return runnersList.sort((a, b) => sortNames(a, b));
+        },
+        get runners() {
+            return this.allRunners || [];
         },
     };
 };
