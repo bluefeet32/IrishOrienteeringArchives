@@ -5,7 +5,7 @@
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": "13.5 k",
+        "distance": 13.5,
         "climb": null,
         "controls": 29,
         "course_image": null,
@@ -48,9 +48,9 @@
         ]
       },
       "w21": {
-        "distance": "8.4 k",
+        "distance": 8.4,
         "climb": null,
-        "controls": "29",
+        "controls": 29,
         "course_image": null,
         "results": [
           {
@@ -98,9 +98,9 @@
     "map_url": "null",
     "classes": {
       "m21": {
-        "distance": "5.5 k",
-        "climb": "125 m",
-        "controls": "24",
+        "distance": 5.5,
+        "climb": 125,
+        "controls": 24,
         "course_image": "null",
         "results": [
           {
@@ -127,9 +127,9 @@
         ]
       },
       "w21": {
-        "distance": "3.9 k",
-        "climb": "125 m",
-        "controls": "24",
+        "distance": 3.9,
+        "climb": 125,
+        "controls": 24,
         "course_image": "null",
         "results": [
           {
@@ -163,9 +163,9 @@
     "map_url": "null",
     "classes": {
       "m21": {
-        "distance": "",
-        "climb": "",
-        "controls": "",
+        "distance": null,
+        "climb": null,
+        "controls": null,
         "course_image": "null",
         "results": [
           {
@@ -198,9 +198,9 @@
         ]
       },
       "w21": {
-        "distance": "",
-        "climb": "",
-        "controls": "",
+        "distance": null,
+        "climb": null,
+        "controls": null,
         "course_image": "null",
         "results": [
           {

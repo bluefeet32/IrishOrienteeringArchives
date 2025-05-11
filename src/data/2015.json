@@ -5,7 +5,7 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#223",
     "classes": {
       "m21": {
-        "distance": "11.6 k",
+        "distance": 11.6,
         "climb": null,
         "controls": 25,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#223&course=1",
@@ -174,7 +174,7 @@
         ]
       },
       "w21": {
-        "distance": "7.1 k",
+        "distance": 7.1,
         "climb": null,
         "controls": 16,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#223&course=2",
@@ -562,9 +562,9 @@
     "map_url": "https://www.lvo.routegadget.co.uk/rg2/#253",
     "classes": {
       "m21": {
-        "distance": "5.2",
+        "distance": 5.2,
         "climb": null,
-        "controls": "18",
+        "controls": 18,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#253&course=1",
         "results": [
           {
@@ -668,9 +668,9 @@
         ]
       },
       "w21": {
-        "distance": "3.8",
+        "distance": 3.8,
         "climb": null,
-        "controls": "13",
+        "controls": 13,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#253&course=2",
         "results": [
           {
@@ -739,9 +739,9 @@
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": "6.05 k",
-        "climb": "0 m",
-        "controls": "23",
+        "distance": 6.05,
+        "climb": 0,
+        "controls": 23,
         "course_image": "",
         "results": [
           {
@@ -981,9 +981,9 @@
         ]
       },
       "w21": {
-        "distance": "4.65 k",
-        "climb": "0 m",
-        "controls": "17",
+        "distance": 4.65,
+        "climb": 0,
+        "controls": 17,
         "course_image": "",
         "results": [
           {

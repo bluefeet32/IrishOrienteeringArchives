@@ -83,7 +83,7 @@
         ]
       },
       "w21": {
-        "distance": 7,
+        "distance": 7.0,
         "climb": 240,
         "controls": null,
         "course_image": null,

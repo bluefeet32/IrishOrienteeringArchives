@@ -9,6 +9,7 @@
         "climb": 350,
         "controls": 27,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=317",
+        "note": "Conor and Neil were awarded joint 2nd place after an imbalance in how the SI boxes were turned on was found.",
         "results": [
           {
             "position": 1,

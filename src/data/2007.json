@@ -506,9 +506,9 @@
     "map_url": "null",
     "classes": {
       "m21": {
-        "distance": "null",
-        "climb": "null",
-        "controls": "null",
+        "distance": null,
+        "climb": null,
+        "controls": null,
         "course_image": "null",
         "results": [
           {
@@ -811,9 +811,9 @@
         ]
       },
       "w21": {
-        "distance": "null",
-        "climb": "null",
-        "controls": "null",
+        "distance": null,
+        "climb": null,
+        "controls": null,
         "course_image": "null",
         "results": [
           {

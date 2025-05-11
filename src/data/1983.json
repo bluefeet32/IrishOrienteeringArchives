@@ -5,9 +5,9 @@
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": "10.7 k",
-        "climb": "540 m",
-        "controls": "",
+        "distance": 10.7,
+        "climb": 540,
+        "controls": null,
         "course_image": "",
         "results": [
           {
@@ -342,9 +342,9 @@
         ]
       },
       "w21": {
-        "distance": "7.0 k",
-        "climb": "370 m",
-        "controls": "",
+        "distance": 7.0,
+        "climb": 370,
+        "controls": null,
         "course_image": "",
         "results": [
           {
