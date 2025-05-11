@@ -480,17 +480,24 @@ const getRunnerList = () => {
                         for (const [_, resultData] of Object.entries(ageClassData.results)) {
                             const r_name = resultData.name;
                             if (!runners.has(r_name)) {
-                                runners.set(r_name, {"classes": new Set(), "clubs": new Set()})
+                                runners.set(r_name, {"count": 0, "classes": new Set(), "clubs": new Set()})
                             }
                             var runner = runners.get(r_name)
+                            runner["count"] += 1;
                             runner["classes"].add(ageClass);
-                            runner["clubs"].add(resultData.club);
+                            if (resultData.club) {
+                                runner["clubs"].add(resultData.club);
+                            }
                             runners.set(r_name, runner)
                         }
                     }
                 }
             }
-            const runnersList = Array.from(runners, (name, _) => ({ "name": name[0], "classes": Array.from(name[1]["classes"]), "clubs": Array.from(name[1]["clubs"]) }));
+            const runnersList = Array.from(runners, (name, _) => (
+                { "name": name[0], 
+                  "count": name[1]["count"],
+                  "classes": Array.from(name[1]["classes"]),
+                  "clubs": Array.from(name[1]["clubs"]).sort() }));
             return runnersList.sort((a, b) => sortNames(a, b));
         },
         get runners() {
