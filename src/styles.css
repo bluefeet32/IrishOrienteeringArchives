@@ -18,7 +18,13 @@ body {
 
 
 
+h2 {
+    font-size: 1.5rem;
+}
 
+h3 {
+    font-size: 1.2rem;
+}
 
 
 /* Ranking table headers */
@@ -37,7 +43,6 @@ body {
     left: 10px;
     z-index: 10;
 }
-
 
 
 

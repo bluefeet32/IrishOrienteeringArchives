@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- <link rel="stylesheet" href="pepperoni.css"> -->
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
+    </div>
+    <div class="tabs is-boxed">
+        <ul>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="ranking.html">Rankings</a></li>
+            <li><a href="runner_list.html">Runners</a></li>
+            <li class="is-active"><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div>
+        <p>
+            Storage and web presentation of the history of Irish Orienteering Championship races.
+        </p>
+
+        <h2>Data</h2>
+        <p>Data was collected from a few sources:
+            <li>results on <a href="http://orienteering.ie">orienteering.ie</a> & <a
+                    href="https://www.niorienteering.org.uk/">www.niorienteering.org.uk</a></li>
+            <li><a href="https://www.orienteering.ie/high-performance/past-irish-champions/">Past champions</a> page on
+                o.ie</li>
+            <li>Spreadsheets maintained by Marcus Pinker</li>
+        </p>
+
+        <h2>Data generation</h2>
+        <p>A <a
+                href="https://docs.google.com/spreadsheets/d/1vPK1cAg3593l2pNEJpgtBBVHGx8LP-Q7mSgFKXT5FrY/edit?usp=sharing">spreadhseet</a>
+            was
+            used to generate the json data and can be used to generate other years which are missing. This also serves
+            as a backup of the data outside of github.
+
+            As of 2025/04/04 data collection is ongoing.
+        </p>
+
+        <h2>Data quality</h2>
+        <p>
+            Recent results are very reliable (2007 & later), and can be found on <a
+                href="http://orienteering.ie">orienteering.ie</a>. Older results
+            are more challenging and in some cases this may be the only digital copy of them.
+
+        <h3>Known missing data</h3>
+        First names of many old results are missing, I would appreciate input into these.
+
+        If you have more info on data from the below years it would be greatly appreciated. The top 3 is mostly present
+        in individual races.
+
+        All detailed relay results before 1999 are missing, except 1984.
+
+        In some cases I have first place
+        <li>2006: Middle, Long times</li>
+        <li>2005: All races (M, L, R)</li>
+        <li>2004: All races (L, R)</li>
+        <li>2003: All races (L, R)</li>
+        <li>2002: All races (L, R)</li>
+        <li>2001: All races (L, R)</li>
+        <li>1997</li>
+        <li>1996</li>
+        <li>1995</li>
+        <li>1994</li>
+        <li>1993</li>
+        <li>1992</li>
+        <li>1991</li>
+        <li>1990</li>
+        <li>1989</li>
+        <li>1988</li>
+        <li>1987</li>
+        <li>1986</li>
+        <li>1985</li>
+        <li>1979</li>
+        <li>1976</li>
+
+        I don't believe there was anything before 1975 (orienteering Ireland was founded in 1970).
+        </p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
