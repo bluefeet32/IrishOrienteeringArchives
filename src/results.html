@@ -1,104 +1,136 @@
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-        <link rel="stylesheet" href="styles.css" />
-        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <body>
-        <div class="header">
-            <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
-        </div>      
-        <div class="container">
-            <div x-data="getResults()">
-                <div class="tabs is-boxed">
-                    <ul>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
+    </div>
+        <div x-data="getResults()">
+
+            <div class="dropdown" :class="yearDropdownActive && 'is-active'">
+                <div class="dropdown-trigger" @click="yearDropdownActive = !yearDropdownActive">
+                    <button class="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu">
+                        <span x-text="currentYear"></span>
+                        <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+
                         <template x-for="year in years" :key="year">
-                            <li :class="currentYear === year ? 'is-active' : ''" @click="onClickYear(year)">
-                                <a x-text="year"></a>
-                            </li>
+                            <a x-text="year" class="dropdown-item" :class="currentYear === year ? 'is-active' : ''"
+                                @click="onClickYear(year)">
+
                         </template>
-                    </ul>
+
+                    </div>
                 </div>
-                <div class="tabs is-boxed">
-                    <ul>
+            </div>
+
+
+            <div class="dropdown" :class="courseDropdownActive && 'is-active'">
+                <div class="dropdown-trigger" @click="courseDropdownActive = !courseDropdownActive">
+                    <button class="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu">
+                        <span x-text="capitalizeFirstLetter(currentCourse)"></span>
+                        <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+
                         <template x-for="course in courses" :key="course">
-                            <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
-                                <a x-text="capitalizeFirstLetter(course)"></a>
-                            </li>
+                            <a x-text="capitalizeFirstLetter(course)" class="dropdown-item"
+                                :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
+
                         </template>
-                    </ul>
+
+                    </div>
                 </div>
-                <div class="tabs is-boxed">
-                    <ul>
+            </div>
+
+            <div class="dropdown" :class="classDropdownActive && 'is-active'">
+                <div class="dropdown-trigger" @click="classDropdownActive = !classDropdownActive">
+                    <button class="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu">
+                        <span x-text="currentClass.toUpperCase()"></span>
+                        <span class="icon is-small">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+
                         <template x-for="oClass in classes" :key="oClass">
-                            <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
-                                <a x-text="oClass.toUpperCase()"></a>
-                            </li>
+                            <a x-text="oClass.toUpperCase()" class="dropdown-item"
+                            :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
+
                         </template>
-                    </ul>
+
+                    </div>
                 </div>
-                <div class="header">
-                    <a
-                        class="button"
-                        x-bind:href="mapImage"
-                        x-text="area"
-                    ></a>
-                    &nbsp
-                    <a
-                        class="button"
-                        x-bind:href="resultsSource"
-                    >Original results</a>
-                </div>
-                <div class="header">
-                    <span x-html="note"></span>
-                    <br/><strong>
+            </div>
+
+            <div class="header is-size-3"  x-text="area">
+                <span></span>
+            </div>
+            <div class="header">
+                <a x-bind:href="mapImage" >Map</a>
+                &nbsp
+                <a x-bind:href="resultsSource">Original results</a>
+            </div>
+            <div class="header">
+                <span x-html="note"></span>
+                <br /><strong>
                     &nbsp;&nbsp;
                     <span x-text="distance"></span> km &nbsp;
                     <span x-text="climb"></span> m &nbsp;
                     <span x-text="controls"></span> c &nbsp;
-                    </strong>
-                </div>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Position</th>
-                            <th>Name</th>
-                            <th>Club</th>
-                            <th>Points</th>
-                            <th>Time</th>
-                            <th>N/C</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <template x-for="runner in results" :key="runner.name">
-                            <tr :class="runner.eligible ? '' : 'greyed'">
-                                <td x-text="runner.position"></td>
-                                <td>
-                                    <a
-                                        class="button"
-                                        :href="`runner.html?name=${runner.name}&class=${currentClass}&course=${currentCourse}`"
-                                        x-text="runner.name"
-                                    ></a>
-                                </td>
-                                <td x-text="runner.club"></td>
-                                <td>
-                                    <a class="button"
-                                    :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
+                </strong>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Name</th>
+                        <th>Club</th>
+                        <th>Points</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template x-for="runner in results" :key="runner.name">
+                        <tr :class="runner.eligible ? '' : 'greyed'">
+                            <td x-text="runner.position ?? (runner.eligible ? '' : 'N/C')"></td>
+                            <td>
+                                <a class="button"
+                                    :href="`runner.html?name=${runner.name}&class=${currentClass}&course=${currentCourse}`"
+                                    x-text="runner.name"></a>
+                            </td>
+                            <td x-text="runner.club"></td>
+                            <td>
+                                <a class="button" :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
                                     x-text="runner.points ? runner.points : '0'"></a>
 
-                                </td>
-                                <td x-text="runner.time"></td>
-                                <td x-text="runner.eligible ? '' : 'x'"></td>
-                            </tr>
-                        </template>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <script type="text/javascript" src="main.js"></script>
-    </body>
+                            </td>
+                            <td x-text="runner.time"></td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
 </html>

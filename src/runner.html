@@ -36,11 +36,9 @@
                         <th>Year</th>
                         <th>Area</th>
                         <th>Position</th>
-                        <th>Name</th>
                         <th>Club</th>
                         <th>Points</th>
                         <th>Time</th>
-                        <th>N/C</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -60,18 +58,19 @@
                                     x-text="result.area"
                                 ></a>
                             </td>
-                            <td x-text="result.position"></td>
-                            <td x-text="result.name"></td>
+                            <td x-text="result.position ?? (result.eligible ? '' : 'N/C')"></td>
                             <td x-text="result.club"></td>
                             <td>
+                                <template  x-if="result.eligible">
                                 <a
                                     class="button"
                                     :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
                                     x-text="result.points"
                                 ></a>
+                                </template>
+                            
                             </td>
                             <td x-text="result.time"></td>
-                            <td x-text="result.eligible ? '' : 'x'"></td>
                         </tr>
                     </template>
                 </tbody>

@@ -91,6 +91,9 @@ const getResults = () => {
         years: [],
         currentYear: "",
         yearData: {},
+        yearDropdownActive: false,
+        courseDropdownActive: false,
+        classDropdownActive: false,
         get courses() {
             return Object.keys(this.yearData).sort((a, b) => sortCourses(a, b));
         },
@@ -122,7 +125,7 @@ const getResults = () => {
             return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.controls ?? "???";
         },
         get note() {
-            note = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.note || "";
+            const note = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.note || "";
             if (note === "") return "";
             return "<br/>" + note + "<br/>";
         },
@@ -137,16 +140,24 @@ const getResults = () => {
         },
         async onClickYear(year) {
             this.currentYear = year;
+            this.yearDropdownActive = false;
             await this.fetchYearData();
             this._setUrlParams();
         },
+        setAllDropdownsInactive() {
+            this.yearDropdownActive = false;
+            this.courseDropdownActive = false;
+            this.classDropdownActive = false;
+        },
         onClickCourse(course) {
             this.currentCourse = course;
+            this.courseDropdownActive = false;
             this._setUrlParams();
         },
         // class is keyword, hence ageClass
         onClickClass(ageClass) {
             this.currentClass = ageClass;
+            this.classDropdownActive = false;
             this._setUrlParams();
         },
         async fetchYearData() {
