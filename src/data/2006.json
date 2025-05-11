@@ -654,49 +654,49 @@
           {
             "position": 3,
             "name": "Ivan Millar",
-            "club": "Belfast",
+            "club": "LVO",
             "time": "33:16",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Niall McAlinden",
-            "club": "Dublin",
+            "club": "DUO",
             "time": "34:54",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Gerard Butler",
-            "club": "Dublin",
+            "club": "3ROC",
             "time": "35:34",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Ray Holohan",
-            "club": "Ireland",
+            "club": "DFO",
             "time": "35:49",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Christian Foley-Fisher",
-            "club": "Dublin",
+            "club": "DUO",
             "time": "37:05",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Marcus Byrne",
-            "club": "Kildare",
+            "club": "CNOC",
             "time": "39:38",
             "eligible": true
           },
           {
             "position": 9,
             "name": "Mark Prendergast",
-            "club": "Ireland",
+            "club": "DFO",
             "time": "40:02",
             "eligible": true
           },
@@ -710,28 +710,28 @@
           {
             "position": 11,
             "name": "Mick Hannon",
-            "club": "Ireland",
+            "club": "DFO",
             "time": "48:24",
             "eligible": true
           },
           {
             "position": 12,
             "name": "John Killeen",
-            "club": "Ireland",
+            "club": "DFO",
             "time": "58:15",
             "eligible": true
           },
           {
             "position": 13,
             "name": "Gerard Flynn",
-            "club": "Dublin",
+            "club": "",
             "time": "67:29",
             "eligible": true
           },
           {
             "position": null,
             "name": "Kieran Rocks",
-            "club": "Belfast",
+            "club": "LVO",
             "time": "DNF",
             "eligible": false
           }
@@ -746,7 +746,7 @@
           {
             "position": 1,
             "name": "Ruth Lynam",
-            "club": "Kildare",
+            "club": "CNOC",
             "time": "37:51",
             "eligible": true
           },
@@ -760,28 +760,28 @@
           {
             "position": 3,
             "name": "Eileen Loughman",
-            "club": "Kildare",
+            "club": "CNOC",
             "time": "40:32",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Susan Bell",
-            "club": "Belfast",
+            "club": "LVO",
             "time": "40:40",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Maeve O'Grady",
-            "club": "Ireland",
+            "club": "DFO",
             "time": "42:33",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Danielle Buckley",
-            "club": "Ireland",
+            "club": "DFO",
             "time": "57:37",
             "eligible": true
           }

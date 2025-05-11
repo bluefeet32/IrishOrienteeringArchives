@@ -625,7 +625,7 @@
           {
             "position": 9,
             "name": "Kevin O'Reilly",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "58:43",
             "team": "Defence Forces",
             "leg": "1",
@@ -634,7 +634,7 @@
           {
             "position": 9,
             "name": "Padraig Higgins",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "44:33",
             "team": "Defence Forces",
             "leg": "2",
@@ -643,7 +643,7 @@
           {
             "position": 9,
             "name": "Brendan Delaney",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "50:22",
             "team": "Defence Forces",
             "leg": "3",
@@ -984,7 +984,7 @@
           {
             "position": 4,
             "name": "Maritta Kymalainen",
-            "club": "Set",
+            "club": "SET",
             "time": "41:52",
             "team": "Set6",
             "leg": "1",
@@ -993,7 +993,7 @@
           {
             "position": 4,
             "name": "Jackie Atkinson",
-            "club": "Set",
+            "club": "SET",
             "time": "75:34",
             "team": "Set6",
             "leg": "2",
@@ -1002,7 +1002,7 @@
           {
             "position": 4,
             "name": "Hazel Thompson",
-            "club": "Set",
+            "club": "SET",
             "time": "56:16",
             "team": "Set6",
             "leg": "3",

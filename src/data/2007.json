@@ -568,7 +568,7 @@
           {
             "position": 3,
             "name": "Ruairi Short",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "105:27",
             "team": "Defence Forces",
             "leg": "1",
@@ -577,7 +577,7 @@
           {
             "position": 3,
             "name": "Kevin O'Reilly",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "105:27",
             "team": "Defence Forces",
             "leg": "2",
@@ -586,7 +586,7 @@
           {
             "position": 3,
             "name": "Ray Houlihan",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "105:27",
             "team": "Defence Forces",
             "leg": "3",
@@ -703,7 +703,7 @@
           {
             "position": 8,
             "name": "Jim Cleary",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "129:28",
             "team": "Defence Forces",
             "leg": "1",
@@ -712,7 +712,7 @@
           {
             "position": 8,
             "name": "Fabian Flood",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "129:28",
             "team": "Defence Forces",
             "leg": "2",
@@ -721,7 +721,7 @@
           {
             "position": 8,
             "name": "Pat Farrelly",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "129:28",
             "team": "Defence Forces",
             "leg": "3",
@@ -757,7 +757,7 @@
           {
             "position": 10,
             "name": "Malte Rehbein",
-            "club": "South East",
+            "club": "SEVO",
             "time": "145:25",
             "team": "South East",
             "leg": "1",
@@ -766,7 +766,7 @@
           {
             "position": 10,
             "name": "Andrew Johnston",
-            "club": "South East",
+            "club": "SEVO",
             "time": "145:25",
             "team": "South East",
             "leg": "2",
@@ -775,7 +775,7 @@
           {
             "position": 10,
             "name": "Ian McHardy",
-            "club": "South East",
+            "club": "SEVO",
             "time": "145:25",
             "team": "South East",
             "leg": "3",
@@ -846,7 +846,7 @@
           {
             "position": 2,
             "name": "Maeve O'Grady",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "108:4",
             "team": "Defence Forces",
             "leg": "1",
@@ -855,7 +855,7 @@
           {
             "position": 2,
             "name": "Orlagh Jennings",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "108:4",
             "team": "Defence Forces",
             "leg": "2",
@@ -864,7 +864,7 @@
           {
             "position": 2,
             "name": "Danielle Buckley",
-            "club": "Defence Forces",
+            "club": "DFO",
             "time": "108:4",
             "team": "Defence Forces",
             "leg": "3",
@@ -900,7 +900,7 @@
           {
             "position": 4,
             "name": "Colleen Robinson",
-            "club": "Setanta",
+            "club": "SET",
             "time": "112:39",
             "team": "Setanta",
             "leg": "1",
@@ -909,7 +909,7 @@
           {
             "position": 4,
             "name": "Marita Kymaleinen",
-            "club": "Setanta",
+            "club": "SET",
             "time": "112:39",
             "team": "Setanta",
             "leg": "2",
@@ -918,7 +918,7 @@
           {
             "position": 4,
             "name": "Hazel Thompson",
-            "club": "Setanta",
+            "club": "SET",
             "time": "112:39",
             "team": "Setanta",
             "leg": "3",
