@@ -123,7 +123,7 @@ const getResults = () => {
         },
         get mapImage() {
             class_info = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass];
-            if (class_info?.course_image == null || class_info?.course_image == "")
+            if (class_info?.course_image === null || class_info?.course_image === "")
                 return "404.html";
             return class_info?.course_image || "";
         },
