@@ -121,6 +121,11 @@ const getResults = () => {
         get controls() {
             return this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.controls ?? "???";
         },
+        get note() {
+            note = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass]?.note || "";
+            if (note === "") return "";
+            return "<br/>" + note + "<br/>";
+        },
         get mapImage() {
             class_info = this.yearData?.[this.currentCourse]?.classes?.[this.currentClass];
             if (class_info?.course_image === null || class_info?.course_image === "")
