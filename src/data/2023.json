@@ -727,6 +727,7 @@
         "climb": 500,
         "controls": 34,
         "course_image": "https://www.orienteering.ie/gadget/cgi-bin/reitti.cgi?act=map&id=910",
+        "note": "Times don't include what was supposed to be a timed out road crossing. It didn't affect the results order, but Eoghan was less than a minute behind Ruairi after it was taken out.",
         "results": [
           {
             "position": null,
