@@ -218,7 +218,7 @@
     "classes": {
       "m21": {
         "distance": 2.3,
-        "climb": null,
+        "climb": 0,
         "controls": 25,
         "course_image": "",
         "results": [
@@ -471,7 +471,7 @@
       },
       "w21": {
         "distance": 2.1,
-        "climb": null,
+        "climb": 0,
         "controls": 23,
         "course_image": "",
         "results": [
