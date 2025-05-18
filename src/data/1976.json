@@ -1,0 +1,97 @@
+{
+  "long": {
+    "area": "Glen of Imaal",
+    "results_url": "",
+    "map_url": "",
+    "note": "From Eoin Rothery memory",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Tom McCormack",
+            "club": "GEN",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Pat Flanagan",
+            "club": "IO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Eoin Rothery",
+            "club": "DUO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Martin Mulligan",
+            "club": "CO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Declan O'Callaghan",
+            "club": "IO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Pat Nash",
+            "club": "CO",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "note": "From Eoin Rothery memory",
+        "results": [
+          {
+            "position": 1,
+            "name": "Maura Thornhill",
+            "club": "GEN",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eileen Loughman",
+            "club": "IO",
+            "time": null,
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Monica Turley",
+            "club": "IO",
+            "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+}
