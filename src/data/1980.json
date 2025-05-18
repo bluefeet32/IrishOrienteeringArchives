@@ -40,21 +40,21 @@
           },
           {
             "position": 5,
-            "name": "P. L.",
+            "name": "Pat Lalor",
             "club": "",
             "time": "108:58",
             "eligible": true
           },
           {
             "position": 6,
-            "name": "J. W.",
+            "name": "Jonathan Warde",
             "club": "",
             "time": "109:36",
             "eligible": true
           },
           {
             "position": 7,
-            "name": "E.W.",
+            "name": "Ernie Wilson",
             "club": "",
             "time": "112:57",
             "eligible": true
@@ -75,7 +75,7 @@
           },
           {
             "position": 10,
-            "name": "P. Thompson",
+            "name": "Phillip Thompson",
             "club": "",
             "time": "120:13",
             "eligible": true
@@ -90,7 +90,7 @@
         "results": [
           {
             "position": 1,
-            "name": "C. May",
+            "name": "Carey May",
             "club": "AJAX",
             "time": "83:55",
             "eligible": true
@@ -118,7 +118,7 @@
           },
           {
             "position": 5,
-            "name": "A. Hamilton",
+            "name": "Ann Hamilton",
             "club": "",
             "time": "110:17",
             "eligible": true

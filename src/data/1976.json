@@ -1,68 +1,62 @@
 {
   "long": {
-    "area": "Slish Wood & Killery",
+    "area": "Glen of Imaal",
     "results_url": "",
     "map_url": "",
+    "note": "From Eoin Rothery memory",
     "classes": {
       "m21": {
         "distance": null,
         "climb": null,
         "controls": null,
-        "course_image": null,
+        "course_image": "",
         "results": [
           {
             "position": 1,
-            "name": "Aonghus O'Cleirigh",
-            "club": "",
+            "name": "Wally Young",
+            "club": "CO",
             "time": null,
             "eligible": true
           },
           {
             "position": 2,
-            "name": "V. Joyce",
-            "club": "",
+            "name": "Tom McCormack",
+            "club": "GEN",
             "time": null,
             "eligible": true
           },
           {
             "position": 3,
-            "name": "Bill Edwards",
-            "club": "CORKO",
+            "name": "Pat Flanagan",
+            "club": "IO",
             "time": null,
             "eligible": true
           },
           {
             "position": 4,
             "name": "Eoin Rothery",
-            "club": "",
+            "club": "DUO",
             "time": null,
             "eligible": true
           },
           {
             "position": 5,
-            "name": "Wally Young",
-            "club": "",
+            "name": "Martin Mulligan",
+            "club": "CO",
             "time": null,
             "eligible": true
           },
           {
             "position": 6,
-            "name": "Willie McAuliffe",
-            "club": "",
+            "name": "Declan O'Callaghan",
+            "club": "IO",
             "time": null,
             "eligible": true
           },
           {
             "position": 7,
-            "name": "Rory Morrish",
-            "club": "",
-            "time": null,
-            "eligible": true
-          },
-          {
-            "position": 8,
-            "name": "Steven Linton",
-            "club": "",
+            "name": "Pat Nash",
+            "club": "CO",
             "time": null,
             "eligible": true
           }
@@ -72,47 +66,27 @@
         "distance": null,
         "climb": null,
         "controls": null,
-        "course_image": null,
+        "course_image": "",
+        "note": "From Eoin Rothery memory",
         "results": [
           {
             "position": 1,
-            "name": "Deirdre Ni Challanain",
-            "club": "",
+            "name": "Maura Thornhill",
+            "club": "GEN",
             "time": null,
             "eligible": true
           },
           {
             "position": 2,
-            "name": "C. NicMhuiris",
-            "club": "",
+            "name": "Eileen Loughman",
+            "club": "IO",
             "time": null,
             "eligible": true
           },
           {
             "position": 3,
-            "name": "S. Clarke",
-            "club": "",
-            "time": null,
-            "eligible": true
-          },
-          {
-            "position": 4,
-            "name": "Mary Curran",
-            "club": "",
-            "time": null,
-            "eligible": true
-          },
-          {
-            "position": 5,
-            "name": "D. Lewis",
-            "club": "",
-            "time": null,
-            "eligible": true
-          },
-          {
-            "position": 6,
-            "name": "M. Macpherson",
-            "club": "",
+            "name": "Monica Turley",
+            "club": "IO",
             "time": null,
             "eligible": true
           }

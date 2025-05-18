@@ -12,7 +12,7 @@
         "results": [
           {
             "position": 1,
-            "name": "P. James",
+            "name": "Peter James",
             "club": "NWOC",
             "time": "78:21",
             "eligible": true
@@ -68,7 +68,7 @@
           },
           {
             "position": 9,
-            "name": "B. Dalby",
+            "name": "Barry Dalby",
             "club": "3ROC",
             "time": "92:44",
             "eligible": true
@@ -90,14 +90,14 @@
         "results": [
           {
             "position": null,
-            "name": "A. Bedwell",
+            "name": "Alice Bedwell",
             "club": "UBOC",
             "time": "83:39",
             "eligible": false
           },
           {
             "position": 1,
-            "name": "O. Cooke",
+            "name": "Orla Cooke",
             "club": "AJAX",
             "time": "101:19",
             "eligible": true
@@ -111,7 +111,7 @@
           },
           {
             "position": 3,
-            "name": "P. Murphy",
+            "name": "Patricia Murphy",
             "club": "3ROC",
             "time": "102:07",
             "eligible": true
@@ -192,7 +192,7 @@
           },
           {
             "position": 2,
-            "name": "P. James",
+            "name": "Peter James",
             "club": "NWOC",
             "time": "34:30",
             "team": "NWOC",
@@ -219,7 +219,7 @@
           },
           {
             "position": 3,
-            "name": "W. McAuliffe",
+            "name": "Willie McAuliffe",
             "club": "AJAX",
             "time": "41:13",
             "team": "AJAX",
@@ -290,7 +290,7 @@
         "results": [
           {
             "position": 1,
-            "name": "T. Horan",
+            "name": "Tara Horan",
             "club": "AJAX",
             "time": "45:54",
             "team": "AJAX",
@@ -299,7 +299,7 @@
           },
           {
             "position": 1,
-            "name": "O. Cooke",
+            "name": "Orla Cooke",
             "club": "AJAX",
             "time": "47:44",
             "team": "AJAX",
@@ -326,7 +326,7 @@
           },
           {
             "position": 2,
-            "name": "D. Large",
+            "name": "Diana Large",
             "club": "GEN",
             "time": "61:02",
             "team": "GEN",
