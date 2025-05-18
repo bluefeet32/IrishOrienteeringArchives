@@ -110,7 +110,7 @@
           },
           {
             "position": 10,
-            "name": "Arnis Saltums",
+            "name": "Arnis Saltumis",
             "club": "CORKO",
             "time": "122:48",
             "eligible": true
@@ -504,7 +504,7 @@
           },
           {
             "position": 17,
-            "name": "Arnis Saltums",
+            "name": "Arnis Saltumis",
             "club": "CORKO",
             "time": "47:29",
             "eligible": true
@@ -1108,7 +1108,7 @@
           },
           {
             "position": null,
-            "name": "Audrey Martin",
+            "name": "Audrey Foley",
             "club": "OC",
             "time": "DNF",
             "eligible": false
