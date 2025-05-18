@@ -71,13 +71,17 @@ def ParseName(name: str) -> str:
         ("Shea O'Boyle", "Seamus O'Boyle"),
         ("Johnny Kendall", "Jonny Kendall"),
         ("Gerald Butler", "Gerard Butler"),
-        ("Naill Ewwn", "Niall Ewen"),
+        ("Naill Ewwn", "Niall Ewen"), ("Niall Ewan", "Niall Ewen"),
         ("Rosalind Hussey", "Rosalind Heron"),
         ("Killeeen", "Killeen"),
         ("Ruari", "Ruairi"),
         ("Tyndadll", "Tyndall"),
         ("Mckenna", "McKenna"),
         ("Anton Kamalz", "Anton Kamolz"),
+        ("Brian Flanelly", "Brian Flannelly"),
+        ("Edward Niland", "Ed Niland"), ("Edwarn Niland", "Ed Niland"), # Note that Ed and Eddie Niland are different people.
+        ("Niamh Morrisey", "Niamh Morrissey"),
+
         # Old results have names with F. Surname format, we need to convert them to Firstname Surname
         # Men
         ("A. Bradley", "Alan Bradley"),
