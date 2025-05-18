@@ -337,5 +337,570 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Kilmurry",
+    "results_url": "",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "note": "Women ran the same courses as the men, they are included in the men's results. Some times are missing from the results, where two runners on the same team have the same time as each other it's been back calculated",
+        "results": [
+          {
+            "position": 1,
+            "name": "Pat Nash",
+            "club": "CO",
+            "time": "36:06",
+            "team": "CO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Pat Healy",
+            "club": "CO",
+            "time": "28:50",
+            "team": "CO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "27:55",
+            "team": "CO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Sean Rothery",
+            "club": "IO",
+            "time": "38:50",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Colm Rothery",
+            "club": "IO",
+            "time": "38:00",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Eoin Rothery",
+            "club": "IO",
+            "time": "32:14",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ernie Wilson",
+            "club": "QUBOC",
+            "time": "35:50",
+            "team": "QUBOC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "P. Monahan",
+            "club": "QUBOC",
+            "time": "43:35",
+            "team": "QUBOC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "D. McGonagle",
+            "club": "QUBOC",
+            "time": "34:02",
+            "team": "QUBOC",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Donal Burke",
+            "club": "MO",
+            "time": "36:00",
+            "team": "MO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "J. O'Leary",
+            "club": "MO",
+            "time": "41:10",
+            "team": "MO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "J. Meaghar",
+            "club": "MO",
+            "time": "43:15",
+            "team": "MO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Brian McGrath",
+            "club": "IO",
+            "time": "36:20",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "E. McGrath",
+            "club": "IO",
+            "time": "39:00",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "K. Flannery",
+            "club": "IO",
+            "time": "50:40",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Wilbert Hollinger",
+            "club": "AOK",
+            "time": "35:40",
+            "team": "AOK",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Kenny Warren",
+            "club": "AOK",
+            "time": "46:31",
+            "team": "AOK",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "D. Rankin",
+            "club": "AOK",
+            "time": "46:31",
+            "team": "AOK",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Winifred Delaney",
+            "club": "IO",
+            "time": "42:50",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Eileen Loughman",
+            "club": "IO",
+            "time": "48:20",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Ann Shiel",
+            "club": "IO",
+            "time": "45:13",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Monica Turley",
+            "club": "IO",
+            "time": "50:05",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Maire Cregan",
+            "club": "IO",
+            "time": "41:35",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Una Cregan",
+            "club": "IO",
+            "time": "47:05",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Pat Walsh",
+            "club": "MO",
+            "time": "50:00",
+            "team": "MO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Maire Walsh",
+            "club": "MO",
+            "time": "50:07",
+            "team": "MO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "J. Murtagh",
+            "club": "MO",
+            "time": "50:07",
+            "team": "MO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "J. Rapple",
+            "club": "IO",
+            "time": "70:20",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Joe Bent",
+            "club": "IO",
+            "time": "42:05",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Declan O'Callaghan",
+            "club": "IO",
+            "time": "45:06",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Fergus Sweeney",
+            "club": "IO",
+            "time": "53:45",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "N. Scott",
+            "club": "IO",
+            "time": "58:27",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Des Doyle",
+            "club": "IO",
+            "time": "58:48",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "F. Martindale",
+            "club": "NO",
+            "time": "37:45",
+            "team": "NO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Pat Long",
+            "club": "NO",
+            "time": "42:55",
+            "team": "NO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "D. O'Leary",
+            "club": "NO",
+            "time": "93:43",
+            "team": "NO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Paget McCormack",
+            "club": "IO",
+            "time": "29:40",
+            "team": "IO",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Niall Rice",
+            "club": "IO",
+            "time": "MP",
+            "team": "IO",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Tom McCormack",
+            "club": "IO",
+            "time": "35:10",
+            "team": "IO",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Pat Lalor",
+            "club": "CO",
+            "time": "42:45",
+            "team": "CO",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Gerry Byrne",
+            "club": "CO",
+            "time": "38:00",
+            "team": "CO",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "F. McCormack",
+            "club": "CO",
+            "time": "DNF",
+            "team": "CO",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "P. Walsh",
+            "club": "CO",
+            "time": "57:20",
+            "team": "CO",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "W. Halpin",
+            "club": "CO",
+            "time": "65:43",
+            "team": "CO",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "N. Dowling",
+            "club": "CO",
+            "time": "DNF",
+            "team": "CO",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "N. Rankin",
+            "club": "NIOA",
+            "time": "DNF",
+            "team": "NIOA",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "H. Hunter",
+            "club": "NIOA",
+            "time": "NK",
+            "team": "NIOA",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Anne Downey",
+            "club": "NIOA",
+            "time": "NK",
+            "team": "NIOA",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "R. O'Shea",
+            "club": "CO",
+            "time": "76:20",
+            "team": "CO",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "L. Dwyer",
+            "club": "CO",
+            "time": "38:40",
+            "team": "CO",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "J. Murphy",
+            "club": "CO",
+            "time": "DNF",
+            "team": "CO",
+            "leg": "3",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "note": "Same course as the men, but men removed.",
+        "results": [
+          {
+            "position": 1,
+            "name": "Winifred Delaney",
+            "club": "IO",
+            "time": "42:50",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Eileen Loughman",
+            "club": "IO",
+            "time": "48:20",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Ann Shiel",
+            "club": "IO",
+            "time": "45:13",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Monica Turley",
+            "club": "IO",
+            "time": "50:05",
+            "team": "IO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Maire Cregan",
+            "club": "IO",
+            "time": "41:35",
+            "team": "IO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Una Cregan",
+            "club": "IO",
+            "time": "47:05",
+            "team": "IO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "N. Rankin",
+            "club": "NIOA",
+            "time": "DNF",
+            "team": "NIOA",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "H. Hunter",
+            "club": "NIOA",
+            "time": "NK",
+            "team": "NIOA",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Anne Downey",
+            "club": "NIOA",
+            "time": "NK",
+            "team": "NIOA",
+            "leg": "3",
+            "eligible": false
+          }
+        ]
+      }
+    }
   }
 }
