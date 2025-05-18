@@ -20,7 +20,7 @@
           },
           {
             "position": 1,
-            "name": "N. Rice",
+            "name": "Niall Rice",
             "club": "SET",
             "time": "104:44",
             "eligible": true
@@ -34,35 +34,35 @@
           },
           {
             "position": 3,
-            "name": "E. Wilson",
+            "name": "Ernie Wilson",
             "club": "LVO",
             "time": "107:14",
             "eligible": true
           },
           {
             "position": 4,
-            "name": "D. O'Callaghan",
+            "name": "Declan O'Callaghan",
             "club": "SET",
             "time": "109:00",
             "eligible": true
           },
           {
             "position": 5,
-            "name": "D. McGarrigle",
+            "name": "Don McGarrigle",
             "club": "QUB",
             "time": "109:22",
             "eligible": true
           },
           {
             "position": 6,
-            "name": "J. Warde",
+            "name": "Jonathan Warde",
             "club": "SO",
             "time": "111:15",
             "eligible": true
           },
           {
             "position": 7,
-            "name": "T. McCormack",
+            "name": "Tom McCormack",
             "club": "GEN",
             "time": "113:31",
             "eligible": true
@@ -104,7 +104,7 @@
           },
           {
             "position": 13,
-            "name": "C. Rice",
+            "name": "Christy Rice",
             "club": "SET",
             "time": "133:45",
             "eligible": true
@@ -118,7 +118,7 @@
           },
           {
             "position": 15,
-            "name": "R. Garrett",
+            "name": "Robert Garrett",
             "club": "MT",
             "time": "145:00",
             "eligible": true
@@ -132,7 +132,7 @@
           },
           {
             "position": 17,
-            "name": "P. Flanagan",
+            "name": "Pat Flanagan",
             "club": "3ROC",
             "time": "149:00",
             "eligible": true
@@ -146,7 +146,7 @@
           },
           {
             "position": 19,
-            "name": "E. Niland",
+            "name": "Eddie Niland",
             "club": "MT",
             "time": "157:25",
             "eligible": true
@@ -160,7 +160,7 @@
           },
           {
             "position": 21,
-            "name": "J. Beecher",
+            "name": "John Beecher",
             "club": "MO",
             "time": "158:36",
             "eligible": true
@@ -174,7 +174,7 @@
           },
           {
             "position": 23,
-            "name": "J. Ryan",
+            "name": "John Ryan",
             "club": "SET",
             "time": "169:18",
             "eligible": true
@@ -202,7 +202,7 @@
           },
           {
             "position": 27,
-            "name": "J. Ryan (2)",
+            "name": "Joe Ryan",
             "club": "GEN",
             "time": "208:00",
             "eligible": true
@@ -216,14 +216,14 @@
           },
           {
             "position": 29,
-            "name": "D. O'Callaghan (2)",
+            "name": "Declan O'Callaghan (2)",
             "club": "MO",
             "time": "294:00",
             "eligible": true
           },
           {
             "position": null,
-            "name": "E. Gaffney",
+            "name": "Eddie Gaffney",
             "club": "",
             "time": "DNF",
             "eligible": false
@@ -245,7 +245,7 @@
           },
           {
             "position": 2,
-            "name": "A. Smillie",
+            "name": "Alison Smillie",
             "club": "AOK",
             "time": "77:45",
             "eligible": true
@@ -259,7 +259,7 @@
           },
           {
             "position": 4,
-            "name": "M. Walsh",
+            "name": "Maire Walsh",
             "club": "3ROC",
             "time": "96:40",
             "eligible": true
@@ -273,7 +273,7 @@
           },
           {
             "position": 6,
-            "name": "W. Delaney",
+            "name": "Winifred Delaney",
             "club": "GEN",
             "time": "103:18",
             "eligible": true
@@ -294,7 +294,7 @@
           },
           {
             "position": 9,
-            "name": "C. Murtagh",
+            "name": "Catherine Murtagh",
             "club": "SET",
             "time": "123:32",
             "eligible": true
@@ -308,14 +308,14 @@
           },
           {
             "position": 11,
-            "name": "M. Doyle",
+            "name": "Mary Doyle",
             "club": "MCT",
             "time": "134:15",
             "eligible": true
           },
           {
             "position": 12,
-            "name": "A. Hallowes",
+            "name": "Ann Hallowes",
             "club": "MCT",
             "time": "143:00",
             "eligible": true

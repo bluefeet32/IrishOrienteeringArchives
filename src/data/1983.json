@@ -19,14 +19,14 @@
           },
           {
             "position": null,
-            "name": "G. MacIntyre",
+            "name": "Graham MacIntyre",
             "club": "EVOC",
             "time": "88:09",
             "eligible": false
           },
           {
             "position": 2,
-            "name": "P. James",
+            "name": "Peter James",
             "club": "NWOC",
             "time": "88:30",
             "eligible": true
@@ -61,7 +61,7 @@
           },
           {
             "position": 7,
-            "name": "W. McAuliffe",
+            "name": "Willie McAuliffe",
             "club": "AJAX",
             "time": "100:20",
             "eligible": true
@@ -75,7 +75,7 @@
           },
           {
             "position": 9,
-            "name": "R. Bryson",
+            "name": "Robbie Bryson",
             "club": "AJAX",
             "time": "109:12",
             "eligible": true
@@ -110,7 +110,7 @@
           },
           {
             "position": 13,
-            "name": "D. Reidy",
+            "name": "Denis Reidy",
             "club": "ECO",
             "time": "112:56",
             "eligible": true
@@ -131,7 +131,7 @@
           },
           {
             "position": 15,
-            "name": "P. Cadogan",
+            "name": "Pat Cadogan",
             "club": "CORKO",
             "time": "115:33",
             "eligible": true
@@ -166,7 +166,7 @@
           },
           {
             "position": 20,
-            "name": "B. Dalby",
+            "name": "Barry Dalby",
             "club": "3Roc",
             "time": "124:17",
             "eligible": true
@@ -180,7 +180,7 @@
           },
           {
             "position": 22,
-            "name": "R. Poff",
+            "name": "Richard Poff",
             "club": "DUO/Set",
             "time": "125:43",
             "eligible": true
@@ -250,14 +250,14 @@
           },
           {
             "position": 31,
-            "name": "F. Corscadden",
+            "name": "Fred Corscadden",
             "club": "NWOC",
             "time": "142:07",
             "eligible": true
           },
           {
             "position": 32,
-            "name": "R. Cleary",
+            "name": "Ronan Cleary",
             "club": "3Roc",
             "time": "145:56",
             "eligible": true
@@ -334,7 +334,7 @@
           },
           {
             "position": 43,
-            "name": "D. Quinn",
+            "name": "David Quinn",
             "club": "GEN",
             "time": "198:24",
             "eligible": true
@@ -363,42 +363,42 @@
           },
           {
             "position": 3,
-            "name": "D. Ní Challanain",
+            "name": "Deirdre Ni Challanain",
             "club": "AJAX",
             "time": "99:13",
             "eligible": true
           },
           {
             "position": 4,
-            "name": "A. Savage",
+            "name": "Ann Savage",
             "club": "LVO",
             "time": "104:54",
             "eligible": true
           },
           {
             "position": 5,
-            "name": "C. Bonar-Law",
+            "name": "Catherine Bonar-Law",
             "club": "DUO",
             "time": "106:51",
             "eligible": true
           },
           {
             "position": 6,
-            "name": "P. Murphy",
+            "name": "Patricia Murphy",
             "club": "3ROC",
             "time": "107:08",
             "eligible": true
           },
           {
             "position": 7,
-            "name": "J. Martindale",
+            "name": "Julie Martindale",
             "club": "TO",
             "time": "108:14",
             "eligible": true
           },
           {
             "position": 8,
-            "name": "C. Murtagh",
+            "name": "Catherine Murtagh",
             "club": "Set",
             "time": "111:45",
             "eligible": true
@@ -412,28 +412,28 @@
           },
           {
             "position": null,
-            "name": "A. Bedwell",
+            "name": "Alice Bedwell",
             "club": "UBOC",
             "time": "122:16",
             "eligible": false
           },
           {
             "position": 10,
-            "name": "M. Walsh",
+            "name": "Maire Walsh",
             "club": "AJAX",
             "time": "123:24",
             "eligible": true
           },
           {
             "position": 11,
-            "name": "O. Cooke",
+            "name": "Orla Cooke",
             "club": "AJAX",
             "time": "125:29",
             "eligible": true
           },
           {
             "position": 12,
-            "name": "T. Horan",
+            "name": "Tara Horan",
             "club": "AJAX",
             "time": "128:33",
             "eligible": true

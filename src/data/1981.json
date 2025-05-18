@@ -12,7 +12,7 @@
         "results": [
           {
             "position": null,
-            "name": "A. Bradley",
+            "name": "Alan Bradley",
             "club": "SPOOK",
             "time": "71:50",
             "eligible": false
@@ -26,7 +26,7 @@
           },
           {
             "position": null,
-            "name": "T. Keyes",
+            "name": "Tony Keyes",
             "club": "SUOC",
             "time": "72:45",
             "eligible": false
@@ -47,7 +47,7 @@
           },
           {
             "position": null,
-            "name": "D. Rosen",
+            "name": "David Rosen",
             "club": "LOK",
             "time": "82:13",
             "eligible": false
@@ -61,7 +61,7 @@
           },
           {
             "position": 5,
-            "name": "A. Pickles",
+            "name": "Adrian Pickles",
             "club": "SPOOK",
             "time": "84:05",
             "eligible": true
@@ -75,14 +75,14 @@
           },
           {
             "position": null,
-            "name": "S. ???",
+            "name": "S. Libby",
             "club": "SUOC",
             "time": "90:11",
             "eligible": false
           },
           {
             "position": 6,
-            "name": "P. James",
+            "name": "Peter James",
             "club": "NWOC",
             "time": "90:30",
             "eligible": true
@@ -139,21 +139,21 @@
           },
           {
             "position": 3,
-            "name": "P. Murphy",
+            "name": "Patricia Murphy",
             "club": "3ROC",
             "time": "100:05",
             "eligible": true
           },
           {
             "position": null,
-            "name": "M. Rosen",
+            "name": "Miriam Rosen",
             "club": "LOK",
             "time": "102:12",
             "eligible": false
           },
           {
             "position": 4,
-            "name": "A. Hamilton",
+            "name": "Ann Hamilton",
             "club": "LVO",
             "time": "103:38",
             "eligible": true
