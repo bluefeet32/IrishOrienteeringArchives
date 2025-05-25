@@ -112,9 +112,65 @@ const pointsFromPosition = {
     8: 1,
 };
 
+
+const fetchNavBar = () => {
+    fetch('./templates/navbar.html')
+        .then(res => res.text())
+        .then(html => {
+            const template = document.createElement('template');
+            template.innerHTML = html.trim();
+            const navBarContainer = document.getElementById('navbar-container');
+            if (navBarContainer.children.length === 0) {
+                navBarContainer.appendChild(template.content.cloneNode(true));
+            }
+        });
+};
+
+
+
+const layout = () => {
+    return {
+        init() {
+            fetchNavBar();
+        }
+    };
+};
+
+const PAGES = [
+    {
+        "url": "index.html",
+        "label": "Overview"
+    },
+    {
+        "url": "results.html",
+        "label": "Results"
+    },
+    {
+        "url": "ranking.html",
+        "label": "Rankings"
+    },
+    {
+        "url": "runner_list.html",
+        "label": "Runners"
+    }
+];
+const navbar = () => {
+    return {
+        init() {
+            const pathname = document.location.pathname.split('/');
+            this.activePage = pathname[pathname.length - 1]
+            console.log(this.activePage);
+        },
+        pages: PAGES,
+        activePage: null
+    };
+};
+
 const getResults = () => {
     return {
         async init() {
+            fetchNavBar();
+
             const params = new URLSearchParams(document.location.search);
             this.currentYear = params.get("year");
             this.currentCourse = params.get("course");
@@ -516,15 +572,15 @@ const getRunnerList = () => {
                         for (const [_, resultData] of Object.entries(ageClassData.results)) {
                             const r_name = resultData.name;
                             if (!runners.has(r_name)) {
-                                runners.set(r_name, {"count": 0, "classes": new Set(), "clubs": new Set()})
+                                runners.set(r_name, { "count": 0, "classes": new Set(), "clubs": new Set() });
                             }
-                            var runner = runners.get(r_name)
+                            var runner = runners.get(r_name);
                             runner["count"] += 1;
                             runner["classes"].add(ageClass);
                             if (resultData.club) {
                                 runner["clubs"].add(resultData.club);
                             }
-                            runners.set(r_name, runner)
+                            runners.set(r_name, runner);
                         }
                     }
                 }

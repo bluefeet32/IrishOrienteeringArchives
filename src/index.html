@@ -8,18 +8,11 @@
         <!-- <link rel="stylesheet" href="pepperoni.css"> -->
     </head>
 
-    <body>
-        <div class="header">
-            <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
-        </div>
-        <div class="tabs is-boxed">
-            <ul>
-                <li class="is-active"><a href="index.html">Overview</a></li>
-                <li><a href="results.html">Results</a></li>
-                <li><a href="ranking.html">Rankings</a></li>
-                <li><a href="runner_list.html">Runners</a></li>
-              </ul>
-        </div>
+      <body x-data="layout()">
+        
+
+        <div id="navbar-container"></div>
+        
         <div x-data="getOverview()">
             <table class="table">
                 <thead>
