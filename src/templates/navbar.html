@@ -1,0 +1,15 @@
+<div x-data="navbar()">
+    <div class="header">
+        <h1 class="title is-size-1">IOC <a href="index.html">Results</a> & <a href="ranking.html">Rankings</a></h1>
+    </div>
+
+    <div class="tabs is-boxed">
+        <ul>
+            <template x-for="page in pages" :key="page.url">
+                <li :class="page.url === activePage ? 'is-active' : ''">
+                    <a :href="page.url" x-text="page.label">Overview</a>
+                </li>
+            </template>
+        </ul>
+    </div>
+</div>
