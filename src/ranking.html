@@ -12,12 +12,8 @@
 <body x-data="layout()">
     <div id="navbar-container"></div>
     <div x-data="getRankings()">
-        
-        <div class="spinner-container" x-show="loading" x-transition.opacity>
-            <div class="spinner">
-            </div>
-        </div>
-        <div class="container" x-show="!loading" x-transition.opacity>
+
+        <div class="container add-spinner">
             <div>
                 <h3 class="title is-3" x-text="name"></h3>
                 <div class="tabs is-boxed">

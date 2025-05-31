@@ -55,50 +55,32 @@ function sortCourses(a, b) {
     return (COURSE_SORT_ORDER[a] ?? Number.MAX_VALUE) - (COURSE_SORT_ORDER[b] ?? Number.MAX_VALUE);
 }
 
-function sortRunners(a, b, sortField) {
-    nameA = a[sortField].toUpperCase();
-    nameB = b[sortField].toUpperCase();
-    if (nameA < nameB) {
-        return -1;
-    }
-    if (nameA > nameB) {
-        return 1;
-    }
-    return 0;
+function sortStringIgnoreCase(a, b, fallback = '\uffff') {
+    a = a === '' ? fallback : a;
+    b = b === '' ? fallback : b;
+    return a.localeCompare(b, 'en', { sensitivity: 'base' });
 }
 
-function sortRunnersArrayField(a, b, sortField) {
-    if (a[sortField].length > 0) {
-        nameA = a[sortField][0].toUpperCase();
-    }
-    else {
-        nameA = "zzzzz"
-    }
-    if (b[sortField].length > 0) {
-        nameB = b[sortField][0].toUpperCase();
-    }
-    else {
-        nameB = "zzzzz"
-    }
-    if (nameA < nameB) {
-        return -1;
-    }
-    if (nameA > nameB) {
-        return 1;
-    }
-    return 0;
+function sortRunners(sortField) {
+    return (a, b) => {
+        return sortStringIgnoreCase(a[sortField], b[sortField]);
+
+    };
+
+}
+
+function sortRunnersArrayField(sortField) {
+    return (a, b) => {
+        const nameA = a[sortField]?.[0] ?? "";
+        const nameB = b[sortField]?.[0] ?? "";
+
+        return sortStringIgnoreCase(nameA, nameB);
+    };
+
 }
 
 function sortCount(a, b) {
-    A = a["count"];
-    B = b["count"];
-    if (A < B) {
-        return 1;
-    }
-    if (A > B) {
-        return -1;
-    }
-    return 0;
+    return a['count'] - b["count"];
 }
 
 const pointsFromPosition = {
@@ -113,27 +95,49 @@ const pointsFromPosition = {
 };
 
 
-const fetchNavBar = () => {
-    fetch('./templates/navbar.html')
-        .then(res => res.text())
-        .then(html => {
-            const template = document.createElement('template');
-            template.innerHTML = html.trim();
-            const navBarContainer = document.getElementById('navbar-container');
-            if (navBarContainer.children.length === 0) {
-                navBarContainer.appendChild(template.content.cloneNode(true));
-            }
-        });
-};
 
 
 
 const layout = () => {
     return {
         init() {
-            fetchNavBar();
+            this.fetchAndInjectNavBar();
+            this.injectSpinner();
+        },
+        fetchAndInjectNavBar() {
+            fetch('./templates/navbar.html')
+                .then(res => res.text())
+                .then(html => {
+                    const template = document.createElement('template');
+                    template.innerHTML = html.trim();
+                    const navBarContainer = document.getElementById('navbar-container');
+                    if (navBarContainer.children.length === 0) {
+
+                        navBarContainer.appendChild(template.content.cloneNode(true));
+                    }
+                });
+        },
+        spinnerElement() {
+            const html =  `
+                <div class="spinner-container" x-show="loading" x-transition.opacity>
+                    <div class="spinner"/>
+                </div>
+                  `;
+                const template = document.createElement('template');
+                template.innerHTML = html.trim();
+                return template.content.firstElementChild;
+        },
+        injectSpinner() {
+            const spinnerContainers = document.getElementsByClassName('add-spinner');
+            console.log(spinnerContainers)
+            Array.from(spinnerContainers).forEach(spinnerContainer => {
+                spinnerContainer.parentNode.insertBefore(this.spinnerElement(), spinnerContainer);
+                spinnerContainer.setAttribute('x-show', '!loading');
+                spinnerContainer.setAttribute('x-transition.opacity', "");
+            });
         }
     };
+
 };
 
 const PAGES = [
@@ -158,7 +162,7 @@ const navbar = () => {
     return {
         init() {
             const pathname = document.location.pathname.split('/');
-            this.activePage = pathname[pathname.length - 1]
+            this.activePage = pathname[pathname.length - 1];
             console.log(this.activePage);
         },
         pages: PAGES,
@@ -169,8 +173,6 @@ const navbar = () => {
 const getResults = () => {
     return {
         async init() {
-            fetchNavBar();
-
             const params = new URLSearchParams(document.location.search);
             this.currentYear = params.get("year");
             this.currentCourse = params.get("course");
@@ -544,12 +546,16 @@ const getRunnerList = () => {
     return {
         async init() {
             const params = new URLSearchParams(document.location.search);
-            this.sortHeader = params.get("sortHeader");
+            this.sortHeader = params.get("sortHeader") ?? 'count';
+            this.inverseSort = params.get("inverseSort") ?? true;
 
             await this.loadAllYears();
             this.allRunners = this.getAllRunners();
-            console.log(this.allRunners);
+            this.loading = false;
+
         },
+        loading: true,
+        // inverseSort: true,
         years: [],
         allYears: {},
         allRunners: [],
@@ -576,7 +582,7 @@ const getRunnerList = () => {
                             }
                             var runner = runners.get(r_name);
                             runner["count"] += 1;
-                            runner["classes"].add(ageClass);
+                            runner["classes"].add(ageClass.toUpperCase());
                             if (resultData.club) {
                                 runner["clubs"].add(resultData.club);
                             }
@@ -585,29 +591,64 @@ const getRunnerList = () => {
                     }
                 }
             }
-            const runnersList = Array.from(runners, (name, _) => (
-                { "name": name[0], 
-                  "count": name[1]["count"],
-                  "classes": Array.from(name[1]["classes"]),
-                  "clubs": Array.from(name[1]["clubs"]).sort() }));
-            if (this.sortHeader === "count") {
-                return runnersList.sort((a, b) => sortCount(a, b));
-            }
-            else if (this.sortHeader === "classes") {
-                return runnersList.sort((a, b) => sortRunnersArrayField(a, b, "classes"));
-            }
-            else if (this.sortHeader === "clubs") {
-                return runnersList.sort((a, b) => sortRunnersArrayField(a, b, "clubs"));
-            }
-            return runnersList.sort((a, b) => sortRunners(a, b, "name"));
+            return Array.from(runners, (name, _) => (
+                {
+                    "name": name[0],
+                    "count": name[1]["count"],
+                    "classes": Array.from(name[1]["classes"]),
+                    "clubs": Array.from(name[1]["clubs"]).sort()
+                }));
+
         },
         get runners() {
-            return this.allRunners || [];
+            return this.sortRunnerList(this.allRunners || [], this.sortHeader);
+        },
+        setSortHeader(sortHeader) {
+            if (sortHeader === this.sortHeader) {
+                this.inverseSort = !this.inverseSort;
+            } else if (sortHeader === 'count') {
+                this.inverseSort = true;
+            } else {
+                this.inverseSort = false;
+            }
+            this.sortHeader = sortHeader;
+            this._setUrlParams();
+
+        },
+        sortRunnerList(runners, sortHeader) {
+
+            const sortFunction = this.getSortFunction(sortHeader);
+            runners.sort(sortRunners('name'));
+            runners.sort(sortFunction);
+            if (this.inverseSort) {
+                runners.reverse();
+            }
+            return runners;
+
+        },
+        getSortFunction(sortHeader) {
+            switch (sortHeader) {
+                case "count":
+                    return sortCount;
+                case "classes":
+                case "clubs":
+                    return sortRunnersArrayField(sortHeader);
+                case "name":
+                    return sortRunners(sortHeader);
+                default:
+                    return () => { };
+            }
+        },
+
+        getSortArrow(sortHeader) {
+            if (sortHeader !== this.sortHeader) return "";
+            return this.inverseSort ? '↑' : '↓';
         },
 
         _setUrlParams() {
             const params = new URLSearchParams(document.location.search);
             params.set("sortHeader", this.sortHeader);
+            params.set("inverseSort", this.inverseSort);
             history.replaceState(null, null, "?" + params.toString());
         },
     };
