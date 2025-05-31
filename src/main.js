@@ -55,14 +55,48 @@ function sortCourses(a, b) {
     return (COURSE_SORT_ORDER[a] ?? Number.MAX_VALUE) - (COURSE_SORT_ORDER[b] ?? Number.MAX_VALUE);
 }
 
-function sortNames(a, b) {
-    nameA = a["name"].toUpperCase();
-    nameB = b["name"].toUpperCase();
+function sortRunners(a, b, sortField) {
+    nameA = a[sortField].toUpperCase();
+    nameB = b[sortField].toUpperCase();
     if (nameA < nameB) {
         return -1;
     }
     if (nameA > nameB) {
         return 1;
+    }
+    return 0;
+}
+
+function sortRunnersArrayField(a, b, sortField) {
+    if (a[sortField].length > 0) {
+        nameA = a[sortField][0].toUpperCase();
+    }
+    else {
+        nameA = "zzzzz"
+    }
+    if (b[sortField].length > 0) {
+        nameB = b[sortField][0].toUpperCase();
+    }
+    else {
+        nameB = "zzzzz"
+    }
+    if (nameA < nameB) {
+        return -1;
+    }
+    if (nameA > nameB) {
+        return 1;
+    }
+    return 0;
+}
+
+function sortCount(a, b) {
+    A = a["count"];
+    B = b["count"];
+    if (A < B) {
+        return 1;
+    }
+    if (A > B) {
+        return -1;
     }
     return 0;
 }
@@ -454,6 +488,8 @@ const getRunnerList = () => {
     return {
         async init() {
             const params = new URLSearchParams(document.location.search);
+            this.sortHeader = params.get("sortHeader");
+
             await this.loadAllYears();
             this.allRunners = this.getAllRunners();
             console.log(this.allRunners);
@@ -498,10 +534,25 @@ const getRunnerList = () => {
                   "count": name[1]["count"],
                   "classes": Array.from(name[1]["classes"]),
                   "clubs": Array.from(name[1]["clubs"]).sort() }));
-            return runnersList.sort((a, b) => sortNames(a, b));
+            if (this.sortHeader === "count") {
+                return runnersList.sort((a, b) => sortCount(a, b));
+            }
+            else if (this.sortHeader === "classes") {
+                return runnersList.sort((a, b) => sortRunnersArrayField(a, b, "classes"));
+            }
+            else if (this.sortHeader === "clubs") {
+                return runnersList.sort((a, b) => sortRunnersArrayField(a, b, "clubs"));
+            }
+            return runnersList.sort((a, b) => sortRunners(a, b, "name"));
         },
         get runners() {
             return this.allRunners || [];
+        },
+
+        _setUrlParams() {
+            const params = new URLSearchParams(document.location.search);
+            params.set("sortHeader", this.sortHeader);
+            history.replaceState(null, null, "?" + params.toString());
         },
     };
 };
