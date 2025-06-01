@@ -13,7 +13,7 @@
     <div id="navbar-container"></div>
     <div x-data="getRankings()">
 
-        <div class="container add-spinner">
+        <div class="container uses-spinner">
             <div>
                 <h3 class="title is-3" x-text="name"></h3>
                 <div class="tabs is-boxed">
@@ -52,7 +52,7 @@
                                     <th class="vertical-container">
                                         <span class="vertical" x-show="!currentMaps[year]"
                                             x-text="currentAreas[year]"></span>
-                                        <a class="vertical" x-show="currentMaps[year]" :href="currentMaps[year]"
+                                        <a target="_blank"class="vertical" x-show="currentMaps[year]" :href="currentMaps[year]"
                                             x-text="currentAreas[year]"></a>
                                     </th>
                                 </template>

@@ -118,24 +118,23 @@ const layout = () => {
                 });
         },
         spinnerElement() {
-            const html =  `
+            const html = `
                 <div class="spinner-container" x-show="loading" x-transition.opacity>
                     <div class="spinner"/>
                 </div>
                   `;
-                const template = document.createElement('template');
-                template.innerHTML = html.trim();
-                return template.content.firstElementChild;
+            const template = document.createElement('template');
+            template.innerHTML = html.trim();
+            return template.content.firstElementChild;
         },
         injectSpinner() {
-            const spinnerContainers = document.getElementsByClassName('add-spinner');
-            console.log(spinnerContainers)
+            const spinnerContainers = document.getElementsByClassName('uses-spinner');
             Array.from(spinnerContainers).forEach(spinnerContainer => {
                 spinnerContainer.parentNode.insertBefore(this.spinnerElement(), spinnerContainer);
                 spinnerContainer.setAttribute('x-show', '!loading');
                 spinnerContainer.setAttribute('x-transition.opacity', "");
             });
-        }
+        },
     };
 
 };
