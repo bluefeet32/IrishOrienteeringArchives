@@ -555,7 +555,6 @@ const getRunnerList = () => {
 
         },
         loading: true,
-        // inverseSort: true,
         years: [],
         allYears: {},
         allRunners: [],
