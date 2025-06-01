@@ -238,8 +238,8 @@ const getResults = () => {
         get resultsSource() {
             return this.yearData?.[this.currentCourse]?.results_url || "404.html";
         },
-        async onClickYear(year) {
-            this.currentYear = year;
+        async onClickYear(event) {
+            this.currentYear = event.target.value;
             await this.fetchYearData();
             this._setUrlParams();
         },

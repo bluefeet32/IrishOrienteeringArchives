@@ -1,92 +1,108 @@
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-        <link rel="stylesheet" href="styles.css" />
-        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
+</head>
 
 <body x-data="layout()">
 
     <div id="navbar-container"></div>
 
-    <div class="container">
-        <div x-data="getResults()">
-            <div class="tabs is-boxed">
-                <ul>
-                    <template x-for="year in years" :key="year">
-                        <li :class="currentYear === year ? 'is-active' : ''" @click="onClickYear(year)">
-                            <a x-text="year"></a>
-                        </li>
-                    </template>
-                </ul>
-            </div>
-            <div class="tabs is-boxed">
-                <ul>
-                    <template x-for="course in courses" :key="course">
-                        <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
-                            <a x-text="capitalizeFirstLetter(course)"></a>
-                        </li>
-                    </template>
-                </ul>
-            </div>
-            <div class="tabs is-boxed">
-                <ul>
-                    <template x-for="oClass in classes" :key="oClass">
-                        <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
-                            <a x-text="oClass.toUpperCase()"></a>
-                        </li>
-                    </template>
-                </ul>
-            </div>
-            <div class="header">
-                <a target="_blank" class="button" x-bind:href="mapImage" x-text="area"></a>
-                &nbsp
-                <a target="_blank" class="button" x-bind:href="resultsSource">Original results</a>
-            </div>
-            <div class="header">
-                <span x-html="note"></span>
-                <br /><strong>
-                    &nbsp;&nbsp;
-                    <span x-text="distance"></span> km &nbsp;
-                    <span x-text="climb"></span> m &nbsp;
-                    <span x-text="controls"></span> c &nbsp;
-                </strong>
-            </div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Position</th>
-                        <th>Name</th>
-                        <th>Club</th>
-                        <th>Points</th>
-                        <th>Time</th>
-                        <th>N/C</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template x-for="runner in results" :key="runner.name">
-                        <tr :class="runner.eligible ? '' : 'greyed'">
-                            <td x-text="runner.position"></td>
-                            <td>
-                                <a class="button"
-                                    :href="`runner.html?name=${runner.name}&class=${currentClass}&course=${currentCourse}`"
-                                    x-text="runner.name"></a>
-                            </td>
-                            <td x-text="runner.club"></td>
-                            <td>
-                                <a class="button" :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
-                                    x-text="runner.points ? runner.points : '0'"></a>
+    <div class="">
+        <div class="filtered-content-container" x-data="getResults()">
+            <div class="side-filters">
 
-                            </td>
-                            <td x-text="runner.time"></td>
-                            <td x-text="runner.eligible ? '' : 'x'"></td>
+
+                <div class="select year-select">
+
+                    <select x-on:change="onClickYear">
+                        <template x-for="year in years" :key="year">
+                            <option x-text="year"></option>
+                        </template>
+
+                    </select>
+                </div>
+                <div>
+                    <ul class="button-group">
+                        <template x-for="course in courses" :key="course">
+                            <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
+                                <button :class="currentCourse === course ? 'is-active' : ''" class="button"
+                                    x-text="capitalizeFirstLetter(course)"></button>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="button-group">
+                        <template x-for="oClass in classes" :key="oClass">
+                            <li @click="onClickClass(oClass)">
+                                <button :class="currentClass === oClass ? 'is-active' : ''" class="button"
+                                    x-text="oClass.toUpperCase()"></button>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+                <div class="header">
+
+                </div>
+
+            </div>
+            <div class="results-table-container">
+                <div class="header">
+                    <h2 x-text="area">
+                        </h3>
+                        <a target="_blank" class="button" x-bind:href="mapImage">Map</a>
+                        &nbsp
+                        <a target="_blank" class="button" x-bind:href="resultsSource">Original results</a>
+                        <span x-html="note"></span>
+                        <div>
+                            <strong>
+                                &nbsp;&nbsp;
+                                <span x-text="distance"></span> km &nbsp;
+                                <span x-text="climb"></span> m &nbsp;
+                                <span x-text="controls"></span> c &nbsp;
+                            </strong>
+                        </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Name</th>
+                            <th>Club</th>
+                            <th>Points</th>
+                            <th>Time</th>
+                            <th>N/C</th>
                         </tr>
-                    </template>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        <template x-for="runner in results" :key="runner.name">
+                            <tr :class="runner.eligible ? '' : 'greyed'">
+                                <td x-text="runner.position"></td>
+                                <td>
+                                    <a class="button"
+                                        :href="`runner.html?name=${runner.name}&class=${currentClass}&course=${currentCourse}`"
+                                        x-text="runner.name"></a>
+                                </td>
+                                <td x-text="runner.club"></td>
+                                <td>
+                                    <a class="button"
+                                        :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
+                                        x-text="runner.points ? runner.points : '0'"></a>
+
+                                </td>
+                                <td x-text="runner.time"></td>
+                                <td x-text="runner.eligible ? '' : 'x'"></td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     <script type="text/javascript" src="main.js"></script>
