@@ -4,9 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="styles.css" />
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body x-data="layout()">
@@ -17,17 +23,19 @@
         <div class="filtered-content-container" x-data="getResults()">
             <div class="side-filters">
 
+                <div>
+                    <label>Year</label>
+                    <div class="select year-select">
+                        <select x-on:change="onClickYear">
+                            <template x-for="year in years" :key="year">
+                                <option x-text="year"></option>
+                            </template>
 
-                <div class="select year-select">
-
-                    <select x-on:change="onClickYear">
-                        <template x-for="year in years" :key="year">
-                            <option x-text="year"></option>
-                        </template>
-
-                    </select>
+                        </select>
+                    </div>
                 </div>
                 <div>
+                    <label>Discipline</label>
                     <ul class="button-group">
                         <template x-for="course in courses" :key="course">
                             <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
@@ -38,6 +46,7 @@
                     </ul>
                 </div>
                 <div>
+                    <label>Class</label>
                     <ul class="button-group">
                         <template x-for="oClass in classes" :key="oClass">
                             <li @click="onClickClass(oClass)">
@@ -47,61 +56,68 @@
                         </template>
                     </ul>
                 </div>
-                <div class="header">
-
-                </div>
 
             </div>
-            <div class="results-table-container">
-                <div class="header">
-                    <h2 x-text="area">
-                        </h3>
-                        <a target="_blank" class="button" x-bind:href="mapImage">Map</a>
-                        &nbsp
-                        <a target="_blank" class="button" x-bind:href="resultsSource">Original results</a>
-                        <span x-html="note"></span>
+            <div class="results-table-container ">
+                <div class="header ">
+                    <div class="area-name">
+                        <h2 class="has-text-weight-bold" x-text="area"></h2>
+                        <a target="_blank" class="button underline" x-bind:href="mapImage">Map</a>
+                        <a target="_blank" class="button underline" x-bind:href="resultsSource">Original results</a>
+                    </div>
+                    <div x-html="note"></div>
+                    <div class="course-details">
                         <div>
-                            <strong>
-                                &nbsp;&nbsp;
-                                <span x-text="distance"></span> km &nbsp;
-                                <span x-text="climb"></span> m &nbsp;
-                                <span x-text="controls"></span> c &nbsp;
-                            </strong>
+                            <img class="icon" src="icons/route.svg"></i>
+                            <span x-text="`${distance}km`"></span>
                         </div>
-                </div>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Position</th>
-                            <th>Name</th>
-                            <th>Club</th>
-                            <th>Points</th>
-                            <th>Time</th>
-                            <th>N/C</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <template x-for="runner in results" :key="runner.name">
-                            <tr :class="runner.eligible ? '' : 'greyed'">
-                                <td x-text="runner.position"></td>
-                                <td>
-                                    <a class="button"
-                                        :href="`runner.html?name=${runner.name}&class=${currentClass}&course=${currentCourse}`"
-                                        x-text="runner.name"></a>
-                                </td>
-                                <td x-text="runner.club"></td>
-                                <td>
-                                    <a class="button"
-                                        :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
-                                        x-text="runner.points ? runner.points : '0'"></a>
+                        <div>
+                            <img class="icon" src="icons/mountain.svg"></i>
+                            <span x-text="`${climb}m`"></span>
+                        </div>
+                        <div>
+                            <img class="icon" src="icons/circle.svg"></i>
+                            <span x-text="`${controls}c`"></span>
+                        </div>
 
-                                </td>
-                                <td x-text="runner.time"></td>
-                                <td x-text="runner.eligible ? '' : 'x'"></td>
+
+
+                    </div>
+                </div>
+                <div class="">
+                    <table class="table is-striped is-narrow is-hoverable is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Name</th>
+                                <th>Club</th>
+                                <th>Points</th>
+                                <th>Time</th>
                             </tr>
-                        </template>
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            <template x-for="runner in results" :key="runner.name">
+                                <tr :class="runner.eligible ? '' : 'greyed'">
+                                    <td x-text="runner.position ?? 'N/C'"></td>
+                                    <td>
+                                        <a class="button underline"
+                                            :href="`runner.html?name=${runner.name}&class=${currentClass}&course=${currentCourse}`"
+                                            x-text="runner.name"></a>
+                                    </td>
+                                    <td x-text="runner.club"></td>
+                                    <td>
+                                        <a class="button pill glossy" :class="cssClassFromPosition[runner.position]"
+                                            :href="`ranking.html?class=${currentClass}&course=${currentCourse}`">
+                                            <span class="rank-number"
+                                                x-text="runner.points ? runner.points : '0'"></span></a>
+
+                                    </td>
+                                    <td x-text="runner.time"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

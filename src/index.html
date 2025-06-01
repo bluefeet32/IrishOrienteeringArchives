@@ -36,7 +36,7 @@
                         <template x-for="course in courses" :key="course">
                             <td>
                                 <template x-if="yearData[course]">
-                                    <a class="button" :href="`results.html?course=${course}&year=${yearData.year}`"
+                                    <a class="button pill" :href="`results.html?course=${course}&year=${yearData.year}`"
                                         x-text="yearData[course]"></a>
                                 </template>
                             </td>

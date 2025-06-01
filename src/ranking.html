@@ -45,7 +45,7 @@
                 <div class="table-container">
                     <table class="table is-striped is-hoverable">
                         <thead>
-                            <tr class="area-header" x-show="currentAreas">
+                            <tr class="area-table-header" x-show="currentAreas">
                                 <th class="transparent"></th>
                                 <th class="transparent"></th>
                                 <template x-for="year in years">
@@ -62,7 +62,7 @@
                                 <th class="sticky">Total</th>
                                 <template x-for="displayYear in years">
                                     <th class="sticky">
-                                        <a class="button"
+                                        <a class="button pill"
                                             :href="`results.html?year=${displayYear}&course=${currentCourse}&class=${currentClass}`"
                                             x-text="displayYear">
                                         </a>
