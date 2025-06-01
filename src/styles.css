@@ -173,3 +173,21 @@ thead tr th:first-child {
     font-weight: bold;
     margin-left: 5px;
 }
+
+
+/* NAVBAR */
+.navbar {
+    border-bottom: 1px solid #0d5300;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.navbar .navbar-item {
+    border-radius: 5px;
+    margin: 5px
+
+}
+
+.navbar .navbar-item.is-active {
+    background-color:  #0c5300c0;
+}
