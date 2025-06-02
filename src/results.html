@@ -22,13 +22,12 @@
     <div class="">
         <div class="filtered-content-container" x-data="getResults()">
             <div class="side-filters">
-
                 <div>
-                    <label>Year</label>
+                    <label>Year</label> 
                     <div class="select year-select">
-                        <select x-on:change="onClickYear">
+                        <select @change="onChangeYear" x-model="currentYear">
                             <template x-for="year in years" :key="year">
-                                <option x-text="year"></option>
+                                <option x-bind:selected="year === currentYear" x-text="year"></option>
                             </template>
 
                         </select>

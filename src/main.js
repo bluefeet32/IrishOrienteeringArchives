@@ -194,11 +194,11 @@ const getResults = () => {
             if (!this.currentYear) this.currentYear = this.years[0];
             await this.fetchYearData();
 
-            if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
-            if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
+
             this._setUrlParams();
 
             console.log(this.yearData);
+            console.log('hello');
 
             console.log(this.$refs.areaHeader);
 
@@ -251,7 +251,7 @@ const getResults = () => {
         get resultsSource() {
             return this.yearData?.[this.currentCourse]?.results_url || "404.html";
         },
-        async onClickYear(event) {
+        async onChangeYear(event) {
             this.currentYear = event.target.value;
             await this.fetchYearData();
             this._setUrlParams();
@@ -267,6 +267,8 @@ const getResults = () => {
         },
         async fetchYearData() {
             this.yearData = await (await fetch(`./data/${this.currentYear}.json`)).json();
+            if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
+            if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
         },
         _setUrlParams() {
             const params = new URLSearchParams(document.location.search);

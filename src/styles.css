@@ -113,6 +113,29 @@ h3 {
     gap: 1rem;
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.navbar-logo {
+    height: 32px;
+    /* or 32px for better balance */
+    width: auto;
+}
+
+.navbar-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--green3);
+    /* text-shadow:
+    -1px -1px 0 var(--grey3),
+     1px -1px 0 var(--grey3),
+    -1px  1px 0 var(--grey3),
+     1px  1px 0 var(--grey3), */
+}
+
 .navbar .navbar-item {
     margin: 5px;
     position: relative;
@@ -147,7 +170,6 @@ h3 {
 
 .navbar-item:hover::after {
     background-color: var(--green3);
-    /* your rust-orange */
     transform: scaleX(1);
 }
 
@@ -168,9 +190,26 @@ h3 {
     min-height: calc(100vh - 77px);
     /* border: 2px solid var(--green1); */
     border-top-right-radius: 5px;
+}
+
+.side-filters label {
+    display: inline-block;
+    color: var(--grey3);
+    margin-bottom: 5px;
+}
+
+.select:not(.is-multiple):not(.is-loading):after {
+    border-color: var(--orange1);
+}
+
+.side-filters .year-select>select {
+    width: 350px;
+    border: 1px solid var(--grey2);
+    font-weight: 500;
 
 
 }
+
 
 /* RESULTS TABLE */
 .results-table-container {
@@ -180,8 +219,8 @@ h3 {
     border: 2px solid var(--green0);
 }
 
-.side-filters .year-select>select {
-    width: 350px;
+.table td {
+    vertical-align: middle;
 }
 
 /* BUTTON GROUP */
@@ -195,13 +234,16 @@ h3 {
 .button-group li,
 .button-group button {
     width: 100%;
+    border-left: none;
     border-radius: 0;
     border-color: var(--grey2);
+    height: var(--bulma-control-height);
 }
 
 .button-group li:first-of-type>button {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    border-left: 1px solid var(--grey2);
 }
 
 .button-group li:last-of-type>button {
@@ -232,6 +274,12 @@ h3 {
     border: none;
     box-shadow: none;
     background-color: transparent;
+
+}
+
+td .button.underline {
+
+    padding-left: 0;
 }
 
 
@@ -284,8 +332,11 @@ h3 {
 
 .course-details>div {
     display: flex;
+    gap: 4px
 }
 
+
+/* POINTS */
 .first {
     background-color: var(--gold);
 }
@@ -337,7 +388,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.05));
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
     mix-blend-mode: screen;
     pointer-events: none;
 }
@@ -355,10 +406,6 @@ h3 {
 }
 
 .rank-number {
-    position: relative; /* Ensures it's above ::before */
+    position: relative;
     z-index: 1;
-  }
-
-td {
-    padding-left: 1rem;
 }
