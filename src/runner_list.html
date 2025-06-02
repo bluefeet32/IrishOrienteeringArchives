@@ -2,20 +2,69 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-        <link rel="stylesheet" href="styles.css" />
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Dives+Akuru&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
     </head>
 
     <body x-data="layout()">
-        <div id="navbar-container"></div> 
-        <div x-data="getRunnerList()">
-            <table class="table uses-spinner">
+        <div id="navbar-container"></div>
+        <div class="bordered-table-container" x-data="getRunnerList()">
+            <table class="table is-striped is-narrow is-hoverable is-fullwidth uses-spinner">
                 <thead>
                     <tr>
-                        <th><button class="button" @click="setSortHeader('name')">Name<span class="sort-arrow" x-text="getSortArrow('name')"></span></button></th>
-                        <th><button class="button" @click="setSortHeader('count')">Count<span class="sort-arrow" x-text="getSortArrow('count')"></span></button></th>
-                        <th><button class="button" @click="setSortHeader('classes')">Classes<span class="sort-arrow" x-text="getSortArrow('classes')"></span></button></th>
-                        <th><button class="button" @click="setSortHeader('clubs')">Clubs<span class="sort-arrow" x-text="getSortArrow('clubs')"></span></button></th>
+                        <th>
+                            <button
+                                class="button underline"
+                                :class="getSortArrow('name') && 'active'"
+                                @click="setSortHeader('name')"
+                            >
+                                Name
+                            </button>
+                            <span class="sort-arrow has-text-weight-bold" x-text="getSortArrow('name')"></span>
+                        </th>
+                        <th>
+                            <button
+                                class="button underline"
+                                :class="getSortArrow('count') && 'active'"
+                                @click="setSortHeader('count')"
+                            >
+                                Count<span
+                                    class="sort-arrow has-text-weight-bold"
+                                    x-text="getSortArrow('count')"
+                                ></span>
+                            </button>
+                        </th>
+                        <th>
+                            <button
+                                class="button underline"
+                                :class="getSortArrow('classes') && 'active'"
+                                @click="setSortHeader('classes')"
+                            >
+                                Classes<span
+                                    class="sort-arrow has-text-weight-bold"
+                                    x-text="getSortArrow('classes')"
+                                ></span>
+                            </button>
+                        </th>
+                        <th>
+                            <button
+                                class="button underline"
+                                :class="getSortArrow('clubs') && 'active'"
+                                @click="setSortHeader('clubs')"
+                            >
+                                Clubs<span
+                                    class="sort-arrow has-text-weight-bold"
+                                    x-text="getSortArrow('clubs')"
+                                ></span>
+                            </button>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -23,7 +72,7 @@
                         <tr>
                             <td>
                                 <a
-                                    class="button"
+                                    class="button underline"
                                     :href="`runner.html?name=${runner.name}&class=${runner.classes[0]}`"
                                     x-text="runner.name"
                                 ></a>

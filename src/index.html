@@ -1,52 +1,54 @@
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script src="https://kit.fontawesome.com/bf6c2f5750.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Dives+Akuru&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-</head>
-
-
-<body x-data="layout()">
-
-
-    <div id="navbar-container"></div>
-
-    <div x-data="getOverview()">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th></th>
-                    <template x-for="course in courses" :key="course">
-                        <th>
-                            <p x-text="course"></p>
-                        </th>
-                    </template>
-                </tr>
-            </thead>
-            <tbody>
-                <template x-for="yearData in currentResults" :key="yearData.year">
+    <body x-data="layout()">
+        <div id="navbar-container"></div>
+        <div x-data="getOverview()" class="bordered-table-container">
+            <table class="table is-striped is-hoverable is-fullwidth">
+                <thead>
                     <tr>
-                        <td>
-                            <p x-text="yearData.year"></p>
-                        </td>
+                        <th></th>
                         <template x-for="course in courses" :key="course">
-                            <td>
-                                <template x-if="yearData[course]">
-                                    <a class="button pill" :href="`results.html?course=${course}&year=${yearData.year}`"
-                                        x-text="yearData[course]"></a>
-                                </template>
-                            </td>
+                            <th>
+                                <p x-text="capitalizeFirstLetter(course)"></p>
+                            </th>
                         </template>
                     </tr>
-                </template>
-            </tbody>
-        </table>
-    </div>
-    <script type="text/javascript" src="main.js"></script>
-</body>
-
+                </thead>
+                <tbody>
+                    <template x-for="yearData in currentResults" :key="yearData.year">
+                        <tr>
+                            <td>
+                                <span class="has-text-weight-bold" x-text="yearData.year"></span>
+                            </td>
+                            <template x-for="course in courses" :key="course">
+                                <td>
+                                    <template x-if="yearData[course]">
+                                        <a
+                                            class="button underline"
+                                            :href="`results.html?course=${course}&year=${yearData.year}`"
+                                            x-text="yearData[course]"
+                                        ></a>
+                                    </template>
+                                </td>
+                            </template>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>

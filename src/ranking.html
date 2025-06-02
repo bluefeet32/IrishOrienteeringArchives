@@ -1,96 +1,113 @@
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <!-- <link rel="stylesheet" href="pepperoni.css"> -->
+    </head>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <!-- <link rel="stylesheet" href="pepperoni.css"> -->
-</head>
+    <body x-data="layout()">
+        <div id="navbar-container"></div>
+        <div x-data="getRankings()">
+            <div class="container uses-spinner">
+                <div>
+                    <h3 class="title is-3" x-text="name"></h3>
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <template x-for="oClass in classes" :key="oClass">
+                                <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
+                                    <a x-text="oClass.toUpperCase()"></a>
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <template x-for="course in courses" :key="course">
+                                <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
+                                    <a x-text="capitalizeFirstLetter(course)"></a>
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
 
-<body x-data="layout()">
-    <div id="navbar-container"></div>
-    <div x-data="getRankings()">
-
-        <div class="container uses-spinner">
-            <div>
-                <h3 class="title is-3" x-text="name"></h3>
-                <div class="tabs is-boxed">
-                    <ul>
-                        <template x-for="oClass in classes" :key="oClass">
-                            <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
-                                <a x-text="oClass.toUpperCase()"></a>
-                            </li>
-                        </template>
-                    </ul>
-                </div>
-                <div class="tabs is-boxed">
-                    <ul>
-                        <template x-for="course in courses" :key="course">
-                            <li :class="currentCourse === course ? 'is-active' : ''" @click="onClickCourse(course)">
-                                <a x-text="capitalizeFirstLetter(course)"></a>
-                            </li>
-                        </template>
-                    </ul>
-                </div>
-
-
-                <div class="scroll-arrow-container">
-                    <button @click="onClickScroll('left')"
-                        class="scroll-arrow scroll-left button is-size-4 has-text-weight-bold">&lt;</button>
-                    <button @click="onClickScroll('right')"
-                        class="scroll-arrow scroll-right button is-size-4 has-text-weight-bold">&gt;</button>
-                </div>
-                <div class="table-container">
-                    <table class="table is-striped is-hoverable">
-                        <thead>
-                            <tr class="area-table-header" x-show="currentAreas">
-                                <th class="transparent"></th>
-                                <th class="transparent"></th>
-                                <template x-for="year in years">
-                                    <th class="vertical-container">
-                                        <span class="vertical" x-show="!currentMaps[year]"
-                                            x-text="currentAreas[year]"></span>
-                                        <a target="_blank"class="vertical" x-show="currentMaps[year]" :href="currentMaps[year]"
-                                            x-text="currentAreas[year]"></a>
-                                    </th>
-                                </template>
-                            </tr>
-                            <tr>
-                                <th class="sticky">Name</th>
-                                <th class="sticky">Total</th>
-                                <template x-for="displayYear in years">
-                                    <th class="sticky">
-                                        <a class="button pill"
-                                            :href="`results.html?year=${displayYear}&course=${currentCourse}&class=${currentClass}`"
-                                            x-text="displayYear">
-                                        </a>
-                                    </th>
-                                </template>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <template x-for="result in currentResults" :key="result.name">
-                                <tr>
-                                    <td>
-                                        <a class="button" :href="`runner.html?name=${result.name}`"
-                                            x-text="result.name"></a>
-                                    </td>
-                                    <td x-text="result.total"></td>
+                    <div class="scroll-arrow-container">
+                        <button
+                            @click="onClickScroll('left')"
+                            class="scroll-arrow scroll-left button is-size-4 has-text-weight-bold"
+                        >
+                            &lt;
+                        </button>
+                        <button
+                            @click="onClickScroll('right')"
+                            class="scroll-arrow scroll-right button is-size-4 has-text-weight-bold"
+                        >
+                            &gt;
+                        </button>
+                    </div>
+                    <div class="table-container">
+                        <table class="table is-striped is-hoverable">
+                            <thead>
+                                <tr class="area-table-header" x-show="currentAreas">
+                                    <th class="transparent"></th>
+                                    <th class="transparent"></th>
                                     <template x-for="year in years">
-                                        <td x-text="result[year]"></td>
+                                        <th class="vertical-container">
+                                            <span
+                                                class="vertical"
+                                                x-show="!currentMaps[year]"
+                                                x-text="currentAreas[year]"
+                                            ></span>
+                                            <a
+                                                target="_blank"
+                                                class="vertical"
+                                                x-show="currentMaps[year]"
+                                                :href="currentMaps[year]"
+                                                x-text="currentAreas[year]"
+                                            ></a>
+                                        </th>
                                     </template>
                                 </tr>
-                            </template>
-                        </tbody>
-                    </table>
+                                <tr>
+                                    <th class="sticky">Name</th>
+                                    <th class="sticky">Total</th>
+                                    <template x-for="displayYear in years">
+                                        <th class="sticky">
+                                            <a
+                                                class="button pill"
+                                                :href="`results.html?year=${displayYear}&course=${currentCourse}&class=${currentClass}`"
+                                                x-text="displayYear"
+                                            >
+                                            </a>
+                                        </th>
+                                    </template>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template x-for="result in currentResults" :key="result.name">
+                                    <tr>
+                                        <td>
+                                            <a
+                                                class="button"
+                                                :href="`runner.html?name=${result.name}`"
+                                                x-text="result.name"
+                                            ></a>
+                                        </td>
+                                        <td x-text="result.total"></td>
+                                        <template x-for="year in years">
+                                            <td x-text="result[year]"></td>
+                                        </template>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script type="text/javascript" src="main.js"></script>
-</body>
-
+        <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>
