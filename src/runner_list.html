@@ -26,8 +26,8 @@
                                 @click="setSortHeader('name')"
                             >
                                 Name
+                                <span class="sort-arrow has-text-weight-bold" x-text="getSortArrow('name')"></span>
                             </button>
-                            <span class="sort-arrow has-text-weight-bold" x-text="getSortArrow('name')"></span>
                         </th>
                         <th>
                             <button
@@ -35,10 +35,8 @@
                                 :class="getSortArrow('count') && 'active'"
                                 @click="setSortHeader('count')"
                             >
-                                Count<span
-                                    class="sort-arrow has-text-weight-bold"
-                                    x-text="getSortArrow('count')"
-                                ></span>
+                                Count
+                                <span class="sort-arrow has-text-weight-bold" x-text="getSortArrow('count')"></span>
                             </button>
                         </th>
                         <th>
@@ -47,10 +45,8 @@
                                 :class="getSortArrow('classes') && 'active'"
                                 @click="setSortHeader('classes')"
                             >
-                                Classes<span
-                                    class="sort-arrow has-text-weight-bold"
-                                    x-text="getSortArrow('classes')"
-                                ></span>
+                                Classes
+                                <span class="sort-arrow has-text-weight-bold" x-text="getSortArrow('classes')"></span>
                             </button>
                         </th>
                         <th>
@@ -59,10 +55,8 @@
                                 :class="getSortArrow('clubs') && 'active'"
                                 @click="setSortHeader('clubs')"
                             >
-                                Clubs<span
-                                    class="sort-arrow has-text-weight-bold"
-                                    x-text="getSortArrow('clubs')"
-                                ></span>
+                                Clubs
+                                <span class="sort-arrow has-text-weight-bold" x-text="getSortArrow('clubs')"></span>
                             </button>
                         </th>
                     </tr>
