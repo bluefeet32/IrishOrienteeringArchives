@@ -19,7 +19,7 @@
 
     <div id="navbar-container"></div>
 
-    <div class="">
+    <div class="" x-show="!isActiveMobile">
         <div class="filtered-content-container" x-data="getResults()">
             <div class="side-filters">
                 <div>
@@ -63,6 +63,8 @@
                         <h2 class="has-text-weight-bold" x-text="area"></h2>
                         <a target="_blank" class="button underline" x-bind:href="mapImage">Map</a>
                         <a target="_blank" class="button underline" x-bind:href="resultsSource">Original results</a>
+                    <button class="button">Choose Event</button>
+
                     </div>
                     <div x-html="note"></div>
                     <div class="course-details">
@@ -78,9 +80,6 @@
                             <img class="icon" src="icons/circle.svg"></i>
                             <span x-text="`${controls}c`"></span>
                         </div>
-
-
-
                     </div>
                 </div>
                 <div>

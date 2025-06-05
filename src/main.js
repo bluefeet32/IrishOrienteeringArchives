@@ -125,6 +125,8 @@ const layout = () => {
                 spinnerContainer.setAttribute('x-transition.opacity', '');
             });
         },
+        isActiveMobile: false
+
     };
 };
 
