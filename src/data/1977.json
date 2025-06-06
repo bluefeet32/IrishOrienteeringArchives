@@ -323,5 +323,559 @@
         ]
       }
     }
+  },
+  "relay": {
+    "area": "Unknown",
+    "results_url": "https://docs.google.com/spreadsheets/d/1lH3a6A8_o9QIY-kaZmP7x1ybvvNJ-Gk4/edit?gid=586949501#gid=586949501",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Gerry Byrne",
+            "club": "CO",
+            "time": "56:40",
+            "team": "Curragh A",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Pat Healy",
+            "club": "CO",
+            "time": "55:13",
+            "team": "Curragh A",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "40:28",
+            "team": "Curragh A",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Mike Lunt",
+            "club": "GEN",
+            "time": "50:35",
+            "team": "inGENuity",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Tom McCormack",
+            "club": "GEN",
+            "time": "66:50",
+            "team": "inGENuity",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Paget McCormack",
+            "club": "GEN",
+            "time": "62:4",
+            "team": "inGENuity",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Pat Flanagan",
+            "club": "3ROC",
+            "time": "64:15",
+            "team": "Rocets",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Ted McGrath",
+            "club": "3ROC",
+            "time": "62:57",
+            "team": "Rocets",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "John McCullough",
+            "club": "3ROC",
+            "time": "52:44",
+            "team": "Rocets",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Ian Watson",
+            "club": "LOK",
+            "time": "75:58",
+            "team": "London Guinness Guzzlers",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "I Jackson",
+            "club": "LOK",
+            "time": "55:52",
+            "team": "London Guinness Guzzlers",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Mark Blackstone",
+            "club": "LOK",
+            "time": "57:40",
+            "team": "London Guinness Guzzlers",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Robert Allinson",
+            "club": "LOK",
+            "time": "55:52",
+            "team": "LOK",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Mike Hampton",
+            "club": "LOK",
+            "time": "80:46",
+            "team": "LOK",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Robin Thomas",
+            "club": "LOK",
+            "time": "57:40",
+            "team": "LOK",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "M Elliott",
+            "club": "NM",
+            "time": "56:16",
+            "team": "Northern Moles",
+            "leg": "1",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "K Downing",
+            "club": "NM",
+            "time": "90:5",
+            "team": "Northern Moles",
+            "leg": "2",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "S Robertson",
+            "club": "NM",
+            "time": "60:0",
+            "team": "Northern Moles",
+            "leg": "3",
+            "eligible": false
+          },
+          {
+            "position": 4,
+            "name": "Donal Burke",
+            "club": "MO ",
+            "time": "71:34",
+            "team": "MO A",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "John Meagher",
+            "club": "MO ",
+            "time": "92:28",
+            "team": "MO A",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "B O'Neill",
+            "club": "MO ",
+            "time": "70:45",
+            "team": "MO A",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Eddie Niland",
+            "club": "MAC",
+            "time": "66:3",
+            "team": "Dingos",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "John Murray",
+            "club": "MAC",
+            "time": "85:27",
+            "team": "Dingos",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Des Doyle",
+            "club": "MAC",
+            "time": "84:56",
+            "team": "Dingos",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Ronan Cleary",
+            "club": "3ROC",
+            "time": "67:45",
+            "team": "Punk Roc",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Barry Walsh",
+            "club": "3ROC",
+            "time": "111:15",
+            "team": "Punk Roc",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Alan Wolfe",
+            "club": "3ROC",
+            "time": "65:12",
+            "team": "Punk Roc",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "John Ryan",
+            "club": "SET",
+            "time": "83:43",
+            "team": "SET B",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Simon Stewart",
+            "club": "SET",
+            "time": "95:45",
+            "team": "SET B",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Brian Power",
+            "club": "SET",
+            "time": "75:12",
+            "team": "SET B",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "William Fitzpatrick",
+            "club": "GEN",
+            "time": "110:27",
+            "team": "GENtlemen",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Joe Ryan",
+            "club": "GEN",
+            "time": "98:30",
+            "team": "GENtlemen",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "David Quinn",
+            "club": "GEN",
+            "time": "91:15",
+            "team": "GENtlemen",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Ted Russell",
+            "club": "ECO",
+            "time": "100:50",
+            "team": "ECO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Michael Meehan",
+            "club": "ECO",
+            "time": "155:8",
+            "team": "ECO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Denis Reidy",
+            "club": "ECO",
+            "time": "65:25",
+            "team": "ECO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "P Ahern",
+            "club": "Midleton",
+            "time": "95:46",
+            "team": "Midleton 1",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Joe Kirby",
+            "club": "Midleton",
+            "time": "105:35",
+            "team": "Midleton 1",
+            "leg": "2",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Winifred Delaney",
+            "club": "GEN",
+            "time": "35:48",
+            "team": "GENii",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Diana Large",
+            "club": "GEN",
+            "time": "43:0",
+            "team": "GENii",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Eileen Loughman",
+            "club": "GEN",
+            "time": "39:53",
+            "team": "GENii",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Mary Doyle",
+            "club": "MAC",
+            "time": "51:2",
+            "team": "Wolf Cubs",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Jane Shiel",
+            "club": "MAC",
+            "time": "72:33",
+            "team": "Wolf Cubs",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Monica Turley",
+            "club": "MAC",
+            "time": "35:42",
+            "team": "Wolf Cubs",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Una Cregan",
+            "club": "SET",
+            "time": "42:37",
+            "team": "Setanta Strollers",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "J Flegg",
+            "club": "SET",
+            "time": "85:16",
+            "team": "Setanta Strollers",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Clare Leonard",
+            "club": "SET",
+            "time": "45:12",
+            "team": "Setanta Strollers",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Elizabeth McCarthy",
+            "club": "MO",
+            "time": "51:18",
+            "team": "Fabs",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Julie Martindale",
+            "club": "MO",
+            "time": "54:10",
+            "team": "Fabs",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Fiona McGoldrick",
+            "club": "MO",
+            "time": "80:3",
+            "team": "Fabs",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Maire Walsh",
+            "club": "3ROC",
+            "time": "41:57",
+            "team": "Roc around the clock",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Suzanne Cawley",
+            "club": "3ROC",
+            "time": "101:36",
+            "team": "Roc around the clock",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Brigid Flanagan",
+            "club": "3ROC",
+            "time": "44:12",
+            "team": "Roc around the clock",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Nuala Ward",
+            "club": "3ROC",
+            "time": "72:7",
+            "team": "Pet roc",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Maire NiChiosain",
+            "club": "3ROC",
+            "time": "38:16",
+            "team": "Pet roc",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "F O'Halloran",
+            "club": "3ROC",
+            "time": "105:22",
+            "team": "Pet roc",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "V Davis",
+            "club": "GEN",
+            "time": "84:14",
+            "team": "Gentleness",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Ann McBride",
+            "club": "GEN",
+            "time": "64:14",
+            "team": "Gentleness",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "A McCormack",
+            "club": "GEN",
+            "time": "73:2",
+            "team": "Gentleness",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      }
+    }
   }
 }
