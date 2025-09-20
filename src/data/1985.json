@@ -469,9 +469,9 @@
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
+        "distance": 7.1,
+        "climb": 350,
+        "controls": 16,
         "course_image": null,
         "results": [
           {
