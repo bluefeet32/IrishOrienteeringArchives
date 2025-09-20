@@ -388,6 +388,83 @@
             "club": "CO",
             "time": "259:01",
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "R. Poff",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "S. Walsh",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Tom Cleary",
+            "club": "WEO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Dermot Horgan",
+            "club": "UCGO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Mark Saunders",
+            "club": "UBOC",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Paul McNeilis",
+            "club": "PLO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "K. Davies",
+            "club": "DUO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Brendan Delaney",
+            "club": "ECO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "James Cunnane",
+            "club": "UCCO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Paul Fennel",
+            "club": "",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Denis Deasy",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
           }
         ]
       },
