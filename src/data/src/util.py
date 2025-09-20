@@ -169,6 +169,7 @@ def ParseName(name: str) -> str:
         ("C. Bonar-Law", "Catherine Bonar-Law"),
         ("C. May", "Carey May"),
         ("C. Murtagh", "Catherine Murtagh"),
+        ("C. NicMhuiris", "Catriona Morrish"),
         ("C. Nuttall", "Clare Nuttall"),
         ("D. Large", "Diana Large"),
         ("D. NiChallanian", "Deirdre Ni Challanain"),  ("D. Ní Challanain", "Deirdre Ni Challanain"),
