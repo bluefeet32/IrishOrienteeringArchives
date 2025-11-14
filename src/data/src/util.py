@@ -2,7 +2,7 @@ import json
 import re
 import string
 
-def GetEligibility(name: str, eligibility_data: dict[str, bool], eligibility_file: str = None) -> bool:
+def GetEligibility(name: str, eligibility_data: dict[str, bool], eligibility_file: str = '') -> bool:
     """Determine if a name is eligible based on the eligibility data.
     
     If the name is not present prompt the user to enter the eligibility.
@@ -13,7 +13,7 @@ def GetEligibility(name: str, eligibility_data: dict[str, bool], eligibility_fil
     else:
         user_in = input(f'Is {name} eligible (Y/n)?')
         eligible = not user_in in ['n', 'N']
-        if eligibility_file is not None:
+        if eligibility_file:
             eligibility_data[name] = eligible
             # Rewrite the file because we've added a new entry and having to re-enter all the data is annoying.
             with open(eligibility_file, 'w') as jsonfile:
@@ -207,6 +207,7 @@ def ParseClub(club: str) -> str:
     """Convert a club name to a standard format."""
 
     club_mappings = [
+        ("Aire UK", "AIRE (GBR)"),
         ("Ajax", "AJAX"),
         ("Bishopstown", "BOC"),
         ("Cork O", "CORKO"), ("CorkO", "CORKO"), ("Cork", "CORKO"),
@@ -215,13 +216,15 @@ def ParseClub(club: str) -> str:
         ("Defence Forces", "DFO"),
         ("DrongO", "DRONGO"), ("Drongo", "DRONGO"),
         ("Fingal", "FIN"),
+        ("Fermo", "FERMO"), ("FermO", "FERMO"), ("Fermanagh", "FERMO"),
         ("Great Eastern Navigators", "GEN"),
         ("Kerry", "KERRYO"),
         ("Lagan Valley", "LVO"), ("Lagan-Valley", "LVO"),
-        ("Lee O", "LEEO"), ("LeeO", "LEEO"),
+        ("Lee O", "LEEO"), ("LEE O", "LEEO"), ("LeeO", "LEEO"),
         ("Setanta", "SET"), ("Set", "SET"),
         ("South East", "SEVO"),
         ("Three Rock", "3ROC"), ("3Rock", "3ROC"), ("3Roc", "3ROC"),
+        ("UCC0", "UCCO"),
         ("University College Dublin", "UCDO"),
         ("WatO", "WATO"),
     ]

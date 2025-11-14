@@ -569,7 +569,6 @@
             "position": 3,
             "name": "Ruairi Short",
             "club": "DFO",
-            "club": "DFO",
             "time": "105:27",
             "team": "Defence Forces",
             "leg": "1",
@@ -578,7 +577,6 @@
           {
             "position": 3,
             "name": "Kevin O'Reilly",
-            "club": "DFO",
             "club": "DFO",
             "time": "105:27",
             "team": "Defence Forces",
@@ -902,7 +900,6 @@
           {
             "position": 4,
             "name": "Colleen Robinson",
-            "club": "SET",
             "club": "SET",
             "time": "112:39",
             "team": "Setanta",
