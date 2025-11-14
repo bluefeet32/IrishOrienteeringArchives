@@ -655,12 +655,14 @@
             "position": 3,
             "name": "Ivan Millar",
             "club": "LVO",
+            "club": "LVO",
             "time": "33:16",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Niall McAlinden",
+            "club": "DUO",
             "club": "DUO",
             "time": "34:54",
             "eligible": true
@@ -669,12 +671,14 @@
             "position": 5,
             "name": "Gerard Butler",
             "club": "3ROC",
+            "club": "3ROC",
             "time": "35:34",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Ray Holohan",
+            "club": "DFO",
             "club": "DFO",
             "time": "35:49",
             "eligible": true

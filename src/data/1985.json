@@ -1,121 +1,674 @@
 {
   "long": {
     "area": "Glendalough",
-    "results_url": "",
+    "results_url": "https://drive.google.com/file/d/15_2r0TtdpPkZGXwFk8JplRb_o9_XUlh7/view?usp=sharing",
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
+        "distance": 10.6,
+        "climb": 550,
+        "controls": 22,
         "course_image": null,
         "note": "This was tied after a massive sprint on the run-in by Eoin",
         "results": [
           {
             "position": 1,
             "name": "Eoin Rothery",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "92:41",
             "eligible": true
           },
           {
             "position": 1,
             "name": "Brian Corbett",
-            "club": "CORKO",
-            "time": null,
+            "club": "DUO",
+            "time": "92:41",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Pat Healy",
-            "club": "",
-            "time": null,
+            "club": "CO",
+            "time": "93:27",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Peter James",
-            "club": "",
-            "time": null,
+            "club": "UBOC",
+            "time": "98:09",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Robin Bryson",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "108:04",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Denis Reidy",
-            "club": "",
-            "time": null,
+            "club": "ECO",
+            "time": "108:15",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Peter Kernan",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "108:43",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Colm O'Halloran",
-            "club": "",
-            "time": null,
+            "club": "UCC0",
+            "time": "110:13",
             "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Padraig Higgins",
+            "club": "WEO",
+            "time": "111:56",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Denis Murphy",
+            "club": "ECO",
+            "time": "114:24",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "William McAuliffe",
+            "club": "AJAX",
+            "time": "115:46",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "C. Walton",
+            "club": "HWUOC",
+            "time": "116:38",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Peter Gargan",
+            "club": "AJAX",
+            "time": "117:24",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Declan O'Callaghan",
+            "club": "AJAX",
+            "time": "118:08",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "Martin Walker",
+            "club": "UBOC",
+            "time": "119:26",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Liam O'Brien",
+            "club": "CORKO",
+            "time": "121:09",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "David Blair",
+            "club": "NWOC",
+            "time": "126:18",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "D. Hickey",
+            "club": "ECO",
+            "time": "126:18",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "B. Simpson",
+            "club": "LVO",
+            "time": "132:17",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "Cathal McCarthy",
+            "club": "CORKO",
+            "time": "134:23",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "Paul Smyth",
+            "club": "SET",
+            "time": "134:52",
+            "eligible": true
+          },
+          {
+            "position": 22,
+            "name": "Gabriel Dunne",
+            "club": "THO",
+            "time": "139:10",
+            "eligible": true
+          },
+          {
+            "position": 23,
+            "name": "John De Lacy",
+            "club": "ECO",
+            "time": "139:48",
+            "eligible": true
+          },
+          {
+            "position": 24,
+            "name": "Pat Farrelly",
+            "club": "CO",
+            "time": "140:14",
+            "eligible": true
+          },
+          {
+            "position": 25,
+            "name": "David Calnan",
+            "club": "CORKO",
+            "time": "143:43",
+            "eligible": true
+          },
+          {
+            "position": 26,
+            "name": "Paul Monaghan",
+            "club": "WEO",
+            "time": "144:39",
+            "eligible": true
+          },
+          {
+            "position": 27,
+            "name": "John P. Ryan",
+            "club": "DUO",
+            "time": "146:28",
+            "eligible": true
+          },
+          {
+            "position": 28,
+            "name": "Pat Cadogan",
+            "club": "CORKO",
+            "time": "148:57",
+            "eligible": true
+          },
+          {
+            "position": 29,
+            "name": "Pat Redmond",
+            "club": "SET",
+            "time": "149:04",
+            "eligible": true
+          },
+          {
+            "position": 30,
+            "name": "Sean Morrish",
+            "club": "LEEO",
+            "time": "152:22",
+            "eligible": true
+          },
+          {
+            "position": 31,
+            "name": "Colin Crowe",
+            "club": "3ROC",
+            "time": "153:43",
+            "eligible": true
+          },
+          {
+            "position": 32,
+            "name": "S. McGibbon",
+            "club": "LVO",
+            "time": "154:04",
+            "eligible": true
+          },
+          {
+            "position": 33,
+            "name": "Kieran McDonald",
+            "club": "ECO",
+            "time": "154:39",
+            "eligible": true
+          },
+          {
+            "position": 34,
+            "name": "A. O'Sullivan",
+            "club": "CO",
+            "time": "156:51",
+            "eligible": true
+          },
+          {
+            "position": 35,
+            "name": "Basil Haire",
+            "club": "LVO",
+            "time": "157:15",
+            "eligible": true
+          },
+          {
+            "position": 36,
+            "name": "Raymond O'Shea",
+            "club": "CO",
+            "time": "157:15",
+            "eligible": true
+          },
+          {
+            "position": 37,
+            "name": "D. Camlin",
+            "club": "LVO",
+            "time": "161:30",
+            "eligible": true
+          },
+          {
+            "position": 38,
+            "name": "John Kehoe",
+            "club": "SET",
+            "time": "162:45",
+            "eligible": true
+          },
+          {
+            "position": 39,
+            "name": "Rory Costello",
+            "club": "KO",
+            "time": "169:03",
+            "eligible": true
+          },
+          {
+            "position": 40,
+            "name": "William Kee",
+            "club": "SET",
+            "time": "169:35",
+            "eligible": true
+          },
+          {
+            "position": 41,
+            "name": "Frank O'Leary",
+            "club": "CO",
+            "time": "171:43",
+            "eligible": true
+          },
+          {
+            "position": 42,
+            "name": "Ronan Cleary",
+            "club": "3ROC",
+            "time": "172:59",
+            "eligible": true
+          },
+          {
+            "position": 43,
+            "name": "Brian Keeney",
+            "club": "UCCO",
+            "time": "181:15",
+            "eligible": true
+          },
+          {
+            "position": 44,
+            "name": "M. McInerney",
+            "club": "ECO",
+            "time": "187:32",
+            "eligible": true
+          },
+          {
+            "position": 45,
+            "name": "N. Butterfield",
+            "club": "UCDO",
+            "time": "196:00",
+            "eligible": true
+          },
+          {
+            "position": 46,
+            "name": "David Dunne",
+            "club": "PLO",
+            "time": "196:09",
+            "eligible": true
+          },
+          {
+            "position": 47,
+            "name": "K. Walsh",
+            "club": "SET",
+            "time": "199:40",
+            "eligible": true
+          },
+          {
+            "position": 48,
+            "name": "Brendan O'Higgins",
+            "club": "WEO",
+            "time": "203:44",
+            "eligible": true
+          },
+          {
+            "position": 49,
+            "name": "Tim Horgan",
+            "club": "KO",
+            "time": "206:03",
+            "eligible": true
+          },
+          {
+            "position": 50,
+            "name": "William Quinn",
+            "club": "UCDO",
+            "time": "206:07",
+            "eligible": true
+          },
+          {
+            "position": 51,
+            "name": "George O'Dowd",
+            "club": "ECO",
+            "time": "213:57",
+            "eligible": true
+          },
+          {
+            "position": 52,
+            "name": "M. Meehan",
+            "club": "ECO",
+            "time": "215:01",
+            "eligible": true
+          },
+          {
+            "position": 53,
+            "name": "Andrew Butterfield",
+            "club": "DUO",
+            "time": "230:18",
+            "eligible": true
+          },
+          {
+            "position": 54,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "259:01",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Richard Poff",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "S. Walsh",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Tom Cleary",
+            "club": "WEO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Dermot Horgan",
+            "club": "UCGO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Mark Saunders",
+            "club": "UBOC",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Paul McNeilis",
+            "club": "PLO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "K. Davies",
+            "club": "DUO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Brendan Delaney",
+            "club": "ECO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "James Cunnane",
+            "club": "UCCO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Paul Fennel",
+            "club": "",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Denis Deasy",
+            "club": "SET",
+            "time": "DNF",
+            "eligible": false
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
+        "distance": 7.1,
+        "climb": 350,
+        "controls": 16,
         "course_image": null,
         "results": [
           {
             "position": 1,
-            "name": "Deirdre Ni Challanain",
-            "club": "",
-            "time": null,
+            "name": "Deirdre Ní Challanain",
+            "club": "AJAX",
+            "time": "103:14",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Maura Thornhill",
-            "club": "",
-            "time": null,
+            "club": "GEN",
+            "time": "103:38",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Eileen Loughman",
-            "club": "",
-            "time": null,
+            "club": "GEN",
+            "time": "104:32",
             "eligible": true
           },
           {
             "position": 4,
             "name": "Patricia Murphy",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "106:41",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Roxanne White",
-            "club": "",
-            "time": null,
+            "club": "SET",
+            "time": "115:24",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Dawn Carson",
+            "club": "LVO",
+            "time": "115:43",
             "eligible": true
           },
           {
             "position": 7,
-            "name": "C. NicMhuiris",
-            "club": "",
-            "time": null,
+            "name": "Catriona Morrish",
+            "club": "WEO",
+            "time": "117:47",
             "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Ann Savage",
+            "club": "LVO",
+            "time": "122:54",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Catherine Murtagh",
+            "club": "SET",
+            "time": "129:03",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "Rosalind Roche",
+            "club": "GEN",
+            "time": "136:28",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Julie Martindale",
+            "club": "3ROC",
+            "time": "137:25",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "Mary Healy",
+            "club": "GEN",
+            "time": "144:29",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Michelle Coleman",
+            "club": "AJAX",
+            "time": "147:12",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Ann Masterson",
+            "club": "AJAX",
+            "time": "152:33",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "H. Wood",
+            "club": "DUO",
+            "time": "152:55",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "Heather Johnston",
+            "club": "LVO",
+            "time": "160:31",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "Elizabeth Deane",
+            "club": "CORKO",
+            "time": "163:02",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "Fiona McGoldrick",
+            "club": "Tho",
+            "time": "164:27",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "Miriam Rohan",
+            "club": "LEEO",
+            "time": "164:57",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "Joan Flanagan",
+            "club": "MDOC",
+            "time": "166:40",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "Marie Collison",
+            "club": "Tho",
+            "time": "168:28",
+            "eligible": true
+          },
+          {
+            "position": 22,
+            "name": "Odilla Finlayson",
+            "club": "KO",
+            "time": "188:12",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "S. Quinn",
+            "club": "DUO",
+            "time": "dnf",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Deirdre Walsh",
+            "club": "3ROC",
+            "time": "dnf",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Alice Bedwell",
+            "club": "UBOC",
+            "time": "dnf",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "C. Bonar Law",
+            "club": "GEN",
+            "time": "dnf",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Aileen Hallowes",
+            "club": "3ROC",
+            "time": "dnf",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Frances Daly",
+            "club": "COrkO",
+            "time": "dnf",
+            "eligible": false
           }
         ]
       }
