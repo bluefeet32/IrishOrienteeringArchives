@@ -167,6 +167,9 @@ const navbar = () => {
         init() {
             const pathname = document.location.pathname.split('/');
             this.activePage = pathname[pathname.length - 1];
+            if (this.activePage === "runner.html") {
+                this.activePage = "runner_list.html";
+            }
             console.log(this.activePage);
         },
         pages: PAGES,
