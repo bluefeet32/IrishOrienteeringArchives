@@ -1,13 +1,13 @@
 {
   "long": {
     "area": "Rockmarshall",
-    "results_url": "https://drive.google.com/file/d/1OO96Wecv1HSqtzHDCNEDmscQHseBh9Ar/view?usp=sharing",
+    "results_url": "https://drive.google.com/file/d/1P63LWtY5ZmndOwMItUaGJmuUed4g_5hM/view?usp=sharing",
     "map_url": "",
     "classes": {
       "m21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
+        "distance": 11.5,
+        "climb": 500,
+        "controls": 20,
         "course_image": null,
         "results": [
           {
@@ -34,35 +34,35 @@
           {
             "position": 4,
             "name": "Aonghus O'Cleirigh",
-            "club": "",
+            "club": "CO",
             "time": "104:06",
             "eligible": true
           },
           {
             "position": 5,
             "name": "Pat Lalor",
-            "club": "",
+            "club": "CO",
             "time": "108:58",
             "eligible": true
           },
           {
             "position": 6,
             "name": "Jonathan Warde",
-            "club": "",
+            "club": "FERMO",
             "time": "109:36",
             "eligible": true
           },
           {
             "position": 7,
             "name": "Ernie Wilson",
-            "club": "",
+            "club": "LVO",
             "time": "112:57",
             "eligible": true
           },
           {
             "position": 8,
             "name": "Pat Nash",
-            "club": "",
+            "club": "SO",
             "time": "114:18",
             "eligible": true
           },
@@ -76,16 +76,156 @@
           {
             "position": 10,
             "name": "Phillip Thompson",
-            "club": "",
+            "club": "AJAX",
             "time": "120:13",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "R. O'Shea",
+            "club": "SO",
+            "time": "126:00",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "A. Campbell",
+            "club": "NWOC",
+            "time": "126.36",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "Wilbert Hollinger",
+            "club": "AOK",
+            "time": "126.46",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "Peter Kernan",
+            "club": "3ROC",
+            "time": "129.20",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "A. McGonigle",
+            "club": "NWOC",
+            "time": "127.53",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "D. Blain",
+            "club": "NWOC",
+            "time": "129.44",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "W. McAuliffe",
+            "club": "AJAX",
+            "time": "137.12",
+            "eligible": true
+          },
+          {
+            "position": 18,
+            "name": "T. Eakin",
+            "club": "LVO",
+            "time": "137.59",
+            "eligible": true
+          },
+          {
+            "position": 19,
+            "name": "Bill Simpson",
+            "club": "LVO",
+            "time": "144:35",
+            "eligible": true
+          },
+          {
+            "position": 20,
+            "name": "D. O'Beirne",
+            "club": "3ROC",
+            "time": "147:06",
+            "eligible": true
+          },
+          {
+            "position": 21,
+            "name": "E. Niland",
+            "club": "AJAX",
+            "time": "152.11",
+            "eligible": true
+          },
+          {
+            "position": 22,
+            "name": "F. O'Leary",
+            "club": "ECO",
+            "time": "152.50",
+            "eligible": true
+          },
+          {
+            "position": 23,
+            "name": "P. O'Connell",
+            "club": "UCDO",
+            "time": "154.50",
+            "eligible": true
+          },
+          {
+            "position": 24,
+            "name": "M. Meehan",
+            "club": "ECO",
+            "time": "155.24",
+            "eligible": true
+          },
+          {
+            "position": 25,
+            "name": "Sean Cotter",
+            "club": "CO",
+            "time": "160:00",
+            "eligible": true
+          },
+          {
+            "position": 26,
+            "name": "P.H. Ryan",
+            "club": "GEN",
+            "time": "164.04",
+            "eligible": true
+          },
+          {
+            "position": 27,
+            "name": "P. Butler",
+            "club": "AJAX",
+            "time": "175.46",
+            "eligible": true
+          },
+          {
+            "position": 28,
+            "name": "David Quinn",
+            "club": "GEN",
+            "time": "180.15",
+            "eligible": true
+          },
+          {
+            "position": 29,
+            "name": "T. Caffrey",
+            "club": "SET",
+            "time": "183.00",
+            "eligible": true
+          },
+          {
+            "position": 30,
+            "name": "K. Murphy",
+            "club": "CO",
+            "time": "255:00",
             "eligible": true
           }
         ]
       },
       "w21": {
-        "distance": null,
-        "climb": null,
-        "controls": null,
+        "distance": 8.5,
+        "climb": 300,
+        "controls": 15,
         "course_image": null,
         "results": [
           {
@@ -105,7 +245,7 @@
           {
             "position": 3,
             "name": "Roxanne White",
-            "club": "",
+            "club": "SET",
             "time": "98:40",
             "eligible": true
           },
@@ -119,8 +259,92 @@
           {
             "position": 5,
             "name": "Ann Hamilton",
-            "club": "",
+            "club": "LVO",
             "time": "110:17",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "B. Flanagan",
+            "club": "3ROC",
+            "time": "113.59",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Orla Cooke",
+            "club": "AJAX",
+            "time": "126.36",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "C. Murtagh",
+            "club": "SET",
+            "time": "129.19",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "S. Cawley",
+            "club": "3ROC",
+            "time": "130.18",
+            "eligible": true
+          },
+          {
+            "position": 10,
+            "name": "A. Shiel",
+            "club": "TVOC",
+            "time": "133.19",
+            "eligible": true
+          },
+          {
+            "position": 11,
+            "name": "Patricia Murphy",
+            "club": "MAC",
+            "time": "134.44",
+            "eligible": true
+          },
+          {
+            "position": 12,
+            "name": "M. Walsh",
+            "club": "3ROC",
+            "time": "134.44",
+            "eligible": true
+          },
+          {
+            "position": 13,
+            "name": "F. McColdrick",
+            "club": "THO",
+            "time": "145.50",
+            "eligible": true
+          },
+          {
+            "position": 14,
+            "name": "T. Horan",
+            "club": "AJAX",
+            "time": "146.44",
+            "eligible": true
+          },
+          {
+            "position": 15,
+            "name": "S. Patton",
+            "club": "NWOC",
+            "time": "147.28",
+            "eligible": true
+          },
+          {
+            "position": 16,
+            "name": "A. Masterson",
+            "club": "AJAX",
+            "time": "180.00",
+            "eligible": true
+          },
+          {
+            "position": 17,
+            "name": "P. Murphy",
+            "club": "UCDO",
+            "time": "193.30",
             "eligible": true
           }
         ]
