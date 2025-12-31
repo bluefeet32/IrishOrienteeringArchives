@@ -156,6 +156,10 @@ const PAGES = [
     {
         "url": "runner_list.html",
         "label": "Runners"
+    },
+    {
+        "url": "about.html",
+        "label": "About"
     }
 ];
 const navbar = () => {
