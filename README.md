@@ -1,6 +1,8 @@
 # IrishOrienteeringArchives
 Storage and web presentation of the history of Irish Orienteering Championship winners.
 
+See the data <a href="https://bluefeet32.github.io/IrishOrienteeringArchives/src/">here</a>
+
 # Data
 
 Data was collected from a few sources:
