@@ -41,7 +41,7 @@
           {
             "position": 5,
             "name": "Wally Young",
-            "club": "",
+            "club": "CO",
             "time": null,
             "eligible": true
           },
@@ -62,7 +62,7 @@
           {
             "position": 8,
             "name": "Steven Linton",
-            "club": "",
+            "club": "NWOC",
             "time": null,
             "eligible": true
           }
@@ -98,21 +98,21 @@
           {
             "position": 3,
             "name": "S. Clarke",
-            "club": "",
+            "club": "3ROC",
             "time": null,
             "eligible": true
           },
           {
             "position": 4,
             "name": "Mary Curran",
-            "club": "",
+            "club": "CORKO",
             "time": null,
             "eligible": true
           },
           {
             "position": 5,
             "name": "D. Lewis",
-            "club": "",
+            "club": "AJAX",
             "time": null,
             "eligible": true
           },
@@ -121,6 +121,191 @@
             "name": "M. Macpherson",
             "club": "",
             "time": null,
+            "eligible": true
+          }
+        ]
+      }
+    }
+  }
+  "relay": {
+    "area": "Lough Key",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t35.pdf",
+    "map_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t35.pdf",
+    "classes": {
+      "m21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Pat Farrelly",
+            "club": "CO",
+            "time": "104:30",
+            "team": "CO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Wally Young",
+            "club": "CO",
+            "time": "104:30",
+            "team": "CO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Aonghus O'Cleirigh",
+            "club": "CO",
+            "time": "104:30",
+            "team": "CO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "John McCullough",
+            "club": "3ROC",
+            "time": "110:44",
+            "team": "3ROC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "V. Joyce",
+            "club": "3ROC",
+            "time": "110:44",
+            "team": "3ROC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Angus Tyner",
+            "club": "3ROC",
+            "time": "110:44",
+            "team": "3ROC",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Steven Linton",
+            "club": "NWOC",
+            "time": "113:47",
+            "team": "NWOC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "P. Kidd",
+            "club": "NWOC",
+            "time": "113:47",
+            "team": "NWOC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Peter James",
+            "club": "NWOC",
+            "time": "113:47",
+            "team": "NWOC",
+            "leg": "3",
+            "eligible": true
+          }
+        ]
+      },
+      "w21": {
+        "distance": null,
+        "climb": null,
+        "controls": null,
+        "course_image": null,
+        "results": [
+          {
+            "position": 1,
+            "name": "Una Creagh",
+            "club": "3ROC",
+            "time": "109:18",
+            "team": "3ROC",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "R. Burgess",
+            "club": "3ROC",
+            "time": "109:18",
+            "team": "3ROC",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "S. Clarke",
+            "club": "3ROC",
+            "time": "109:18",
+            "team": "3ROC",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Mary Curran",
+            "club": "CORKO",
+            "time": "139.44",
+            "team": "CORKO",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "R. Whelan",
+            "club": "CORKO",
+            "time": "139.44",
+            "team": "CORKO",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Elizabeth Deane",
+            "club": "CORKO",
+            "time": "139.44",
+            "team": "CORKO",
+            "leg": "3",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Deirdre Ni Challanai",
+            "club": "AJAX",
+            "time": "140:31",
+            "team": "AJAX",
+            "leg": "1",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "D. Lewis",
+            "club": "AJAX",
+            "time": "140:31",
+            "team": "AJAX",
+            "leg": "2",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Michelle Coleman",
+            "club": "AJAX",
+            "time": "140:31",
+            "team": "AJAX",
+            "leg": "3",
             "eligible": true
           }
         ]
