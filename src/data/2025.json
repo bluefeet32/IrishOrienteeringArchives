@@ -959,7 +959,15 @@
         "climb": 0,
         "controls": 18,
         "course_image": "https://www.lvo.routegadget.co.uk/rg2/#566",
+        "note": "Eve Buckely ran W18E on the same course and was not awarded the title."
         "results": [
+          {
+            "position": null,
+            "name": "Eve Buckely",
+            "club": "KERRYO",
+            "time": "31:56",
+            "eligible": false
+          },
           {
             "position": null,
             "name": "Helen Ockenden",
