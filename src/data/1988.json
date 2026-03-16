@@ -73,7 +73,15 @@
         "climb": null,
         "controls": null,
         "course_image": null,
+        "note": "Una Creagh ran on W19 so was not awarded the Irish title.",
         "results": [
+          {
+            "position": null,
+            "name": "Una Creagh",
+            "club": "3ROC",
+            "time": "114:38",
+            "eligible": false
+          },
           {
             "position": null,
             "name": "Alice Bedwell",
@@ -122,11 +130,18 @@
             "club": "",
             "time": null,
             "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Eileen Loughman",
+            "club": "",
+            "time": "DNF",
+            "eligible": null
           }
         ]
       }
     }
-  }
+  },
   "relay": {
     "area": "Lough Key",
     "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t35.pdf",
