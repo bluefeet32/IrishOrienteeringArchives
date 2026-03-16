@@ -1,34 +1,34 @@
 {
   "long": {
     "area": "Slish Wood & Killery",
-    "results_url": "",
-    "map_url": "",
+    "results_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t35.pdf",
+    "map_url": "https://www.orienteering.ie/wp-content/uploads/2013/02/t35.pdf",
     "classes": {
       "m21": {
         "distance": null,
         "climb": null,
-        "controls": null,
+        "controls": 23,
         "course_image": null,
         "results": [
           {
             "position": 1,
             "name": "Aonghus O'Cleirigh",
-            "club": "",
-            "time": null,
+            "club": "CO",
+            "time": "115.14",
             "eligible": true
           },
           {
             "position": 2,
             "name": "V. Joyce",
-            "club": "",
-            "time": null,
+            "club": "3ROC",
+            "time": "119.27",
             "eligible": true
           },
           {
             "position": 3,
             "name": "Bill Edwards",
             "club": "CORKO",
-            "time": null,
+            "time": "119.56",
             "eligible": true
           },
           {
@@ -75,17 +75,24 @@
         "course_image": null,
         "results": [
           {
+            "position": null,
+            "name": "Alice Bedwell",
+            "club": "BOK",
+            "time": "116:13",
+            "eligible": false
+          },
+          {
             "position": 1,
             "name": "Deirdre Ni Challanain",
-            "club": "",
-            "time": null,
+            "club": "AJAX",
+            "time": "116.29",
             "eligible": true
           },
           {
             "position": 2,
             "name": "Catriona Morrish",
-            "club": "",
-            "time": null,
+            "club": "UCGO",
+            "time": "116:48",
             "eligible": true
           },
           {
