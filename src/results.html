@@ -42,7 +42,12 @@
                 </ul>
             </div>
             <div class="header">
-                <a class="button" x-bind:href="mapImage" x-text="area"></a>
+                <!-- <a class="button" x-bind:href="mapImage" x-text="area"></a> -->
+                <span x-text="area"></span>
+                &nbsp
+                <a class="button" x-bind:href="mapImage">Routegadget</a>
+                &nbsp
+                <a class="button" x-bind:href="stableMapImage">Map</a>
                 &nbsp
                 <a class="button" x-bind:href="resultsSource">Original results</a>
             </div>

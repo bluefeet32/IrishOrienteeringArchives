@@ -243,6 +243,9 @@ const getResults = () => {
                 return "404.html";
             return class_info?.course_image || "";
         },
+        get stableMapImage() {
+            return "https://cnocmaps.com/IrishOrienteeringArchives/ioc_maps/" + this.currentYear + "/" + this.currentCourse + "_" + this.currentClass + ".jpg" || "";
+        },
         get resultsSource() {
             return this.yearData?.[this.currentCourse]?.results_url || "404.html";
         },
