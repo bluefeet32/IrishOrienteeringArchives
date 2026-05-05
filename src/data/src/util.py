@@ -87,6 +87,8 @@ def ParseName(name: str) -> str:
         ("Una May", "Una Creagh"),
         ("Gavin Doherty", "Gavan Doherty"),
         ("Elizabeth Deane", "Liz Deane"),
+        ("Dan Mc Donnell", "Dan Mc Donnell"),
+        ("Aine Colwell", "Aine McCann"),
 
         # Old results have names with F. Surname format, we need to convert them to Firstname Surname
         # Men
