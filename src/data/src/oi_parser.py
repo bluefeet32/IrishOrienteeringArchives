@@ -77,23 +77,25 @@ def ParseIndividualResult(race_result: dict, eligibile_data: dict, eligibility_f
         i = 0
         m_pos_modifier = 0
         w_pos_modifier = 0
-        for row in results_reader:
-            if i == 0:
-                fname_idx = row.index('First name')
-                sname_idx = row.index('Surname')
-                time_idx = row.index('Time')
-                club_idx = row.index(club_field)
-                class_idx = row.index('Short')
-                place_idx = row.index('Pl')
-                if 'km' in row:
-                    distance_idx = row.index('km')
-                else:
-                    distance_idx = row.index('Km')
-                climb_idx = row.index('m')
-                controls_idx = row.index('Course controls')
-                classifier_idx = row.index('Classifier')
-                i += 1
+        it = iter(results_reader)
 
+        # First row has the column names, so we can find the indexes of the fields we need
+        row = next(it)
+        fname_idx = row.index('First name')
+        sname_idx = row.index('Surname')
+        time_idx = row.index('Time')
+        club_idx = row.index(club_field)
+        class_idx = row.index('Short')
+        place_idx = row.index('Pl')
+        if 'km' in row:
+            distance_idx = row.index('km')
+        else:
+            distance_idx = row.index('Km')
+        climb_idx = row.index('m')
+        controls_idx = row.index('Course controls')
+        classifier_idx = row.index('Classifier')
+
+        for row in it:
             mens_classes = ['"M21"', '"M21E"', 'M21', 'M21E']
             womens_classes = ['"W21"', '"W21E"', 'W21', 'W21E']
             if race == 'sprint':
