@@ -351,6 +351,109 @@ const getRunner = () => {
 };
 
 
+const getRunnerTable = () => {
+    return {
+        async init() {
+            const params = new URLSearchParams(document.location.search);
+            this.name = params.get("name");
+            // this.currentCourse = params.get("course");
+            this.currentClass = params.get("class");
+
+            await this.loadAllYears();
+            this.allResults = this.formatResults();
+
+            if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
+            if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
+            this._setUrlParams();
+
+            // console.log(this.allResults);
+        },
+        name: "",
+        allYears: {},
+        async loadAllYears() {
+            const years = await (await fetch("./data/years.json")).json();
+            const data = {};
+            for (const year of years) {
+                data[year] = await (await fetch(`./data/${year}.json`)).json();
+            }
+            this.allYears = data;
+        },
+        allResults: {},
+        get classes() {
+            return Object.keys(this.allResults);
+        },
+        get courses() {
+            return ['sprint', 'middle', 'long', 'relay'];
+        },
+        get currentResults() {
+            results =  (this.allResults?.[this.currentClass] || [])?.sort((a, b) => b.year - a.year);
+            return results
+        },
+        get sprintResults() {
+            return (this.allResults?.[this.currentClass]?.['sprint'] || []).sort((a, b) => b.year - a.year);
+        },
+        get middleResults() {
+            return (this.allResults?.[this.currentClass]?.['middle'] || []).sort((a, b) => b.year - a.year);
+        },
+        get longResults() {
+            return (this.allResults?.[this.currentClass]?.['long'] || []).sort((a, b) => b.year - a.year);
+        },
+        get relayResults() {
+            return (this.allResults?.[this.currentClass]?.['relay'] || []).sort((a, b) => b.year - a.year);
+        },
+        get currentYearResults() {
+            return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.year - a.year);
+        },
+        currentClass: "",
+        currentCourse: "",
+        onClickCourse(course) {
+            this.currentCourse = course;
+            this._setUrlParams();
+        },
+        // class is keyword, hence ageClass
+        onClickClass(ageClass) {
+            this.currentClass = ageClass;
+            this._setUrlParams();
+        },
+        formatResults() {
+            const data = {};
+            for (const [year, courses] of Object.entries(this.allYears)) {
+                for (const [course, courseData] of Object.entries(courses)) {
+                    for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
+                        const result = ageClassData.results.find((runner) => runner.name === this.name);
+                        if (result) {
+                            if (!data.hasOwnProperty(ageClass)) data[ageClass] = [];
+                        }
+                    }
+                }
+            }
+            for (const ageClass in data) {
+                for (const [year, courses] of Object.entries(this.allYears)) {
+                    yearResult = {'year': year};
+                    for (const [course, courseData] of Object.entries(courses)) {
+                        ageClassData = courseData.classes?.[ageClass];
+                        const result = ageClassData.results.find((runner) => runner.name === this.name);
+                        if (result) {
+                            yearResult[course] = result.position;
+                        }
+                    }
+                    if (Object.keys(yearResult).length > 1) {
+                        data[ageClass].push(yearResult);
+                    }
+                }
+            }
+            return data;
+        },
+        _setUrlParams() {
+            const params = new URLSearchParams(document.location.search);
+            params.set("name", this.name);
+            params.set("class", this.currentClass);
+            history.replaceState(null, null, "?" + params.toString());
+        },
+    };
+};
+
+
 const getRankings = () => {
     return {
         async init() {
