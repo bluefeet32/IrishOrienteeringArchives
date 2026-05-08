@@ -46,9 +46,10 @@
                                     x-text="result.year"
                                 ></a>
                             </td>
-                            <td x-text="result.sprint"></td>
-                            <td x-text="result.middle"></td>
-                            <td x-text="result.long"></td>
+                            <td x-text="`${result.sprint} ${result.sprint_time_diff}`"></td>
+                            <td x-text="`${result.middle} ${result.middle_time_diff}`"></td>
+                            <td x-text="`${result.long} ${result.long_time_diff}`"></td>
+                             <!-- Relay time diff makes less sense because we only have the individual times -->
                             <td x-text="result.relay"></td>
                         </tr>
                     </template>

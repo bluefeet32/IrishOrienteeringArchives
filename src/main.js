@@ -416,14 +416,22 @@ const getRunnerTable = () => {
             this._setUrlParams();
         },
         formatResults() {
-            const data = {};
+            const data = {}; // will populate as data[ageClass][course] = [{year, position, time, area, map}, ...] 
+            const winnerData = {};
             for (const [year, courses] of Object.entries(this.allYears)) {
                 for (const [course, courseData] of Object.entries(courses)) {
                     for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
                         const result = ageClassData.results.find((runner) => runner.name === this.name);
+                        const winner = ageClassData.results.find((runner) => runner.position === 1);
+                         if (winner) {
+                            if (!winnerData.hasOwnProperty(year)) winnerData[year] = {};
+                            if (!winnerData[year].hasOwnProperty(ageClass)) winnerData[year][ageClass] = {};
+                            if (!winnerData[year][ageClass].hasOwnProperty(course)) winnerData[year][ageClass][course] = winner.time;
+                         }
                         if (result) {
                             if (!data.hasOwnProperty(ageClass)) data[ageClass] = [];
                         }
+                        // console.log(winnerData);
                     }
                 }
             }
@@ -434,15 +442,57 @@ const getRunnerTable = () => {
                         ageClassData = courseData.classes?.[ageClass];
                         const result = ageClassData.results.find((runner) => runner.name === this.name);
                         if (result) {
-                            yearResult[course] = result.position;
+                            yearResult[course] = result.position != null ? result.position : "DQ";
+                            if (result.time != null && winnerData?.[year]?.[ageClass]?.[course] != null) {
+                                runner_time = this._getRunnerTime(result.time);
+                                winner_time = this._getRunnerTime(winnerData?.[year]?.[ageClass]?.[course]);
+    
+                                difference = this._timeDiffToString(runner_time - winner_time);
+                            } else {
+                            difference = ""
+                            }
+                            yearResult[course + "_time_diff"] = `${difference}`;
                         }
                     }
                     if (Object.keys(yearResult).length > 1) {
+                        if (yearResult['sprint'] === undefined) {
+                            yearResult['sprint'] = "---";
+                            yearResult['sprint_time_diff'] = "";
+                        }
+                        if (yearResult['middle'] === undefined) {
+                            yearResult['middle'] = "---";
+                            yearResult['middle_time_diff'] = "";
+                        }
+                        if (yearResult['long'] === undefined) {
+                            yearResult['long'] = "---";
+                            yearResult['long_time_diff'] = "";
+                        }
+                        if (yearResult['relay'] === undefined) {
+                            yearResult['relay'] = "---";
+                            yearResult['relay_time_diff'] = "";
+                        }
                         data[ageClass].push(yearResult);
                     }
                 }
             }
             return data;
+        },
+        // Our times are all in the format "MMM:SS"
+        _getRunnerTime(time) {
+            console.log(time);
+            timeParts = time.split(":").map(part => parseInt(part));
+            hours = Math.floor(timeParts[0] / 60);
+            minutes = timeParts[0] % 60;
+            seconds = timeParts[1];
+            time_to_parse = String(hours).padStart(2, '0') + ":" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
+            return new Date("1970-01-01T" + time_to_parse);
+        },
+        _timeDiffToString(difference) {
+            if (difference === undefined || isNaN(difference)) return "";
+            differenceSeconds = Math.round(difference / 1000);
+            minutes = Math.floor(differenceSeconds / 60);
+            seconds = differenceSeconds % 60;
+            return "(+" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0') + ")";
         },
         _setUrlParams() {
             const params = new URLSearchParams(document.location.search);
@@ -470,9 +520,9 @@ const getRunnerTable = () => {
                 copy_text += `
         <tr>
             <td>${result.year}</td>
-            <td>${result.sprint ?? "---"}</td>
-            <td>${result.middle ?? "---"}</td>
-            <td>${result.long ?? "---"}</td>
+            <td>${result.sprint ?? "---"} ${result.sprint_time_diff ?? ""}</td>
+            <td>${result.middle ?? "---"} ${result.middle_time_diff ?? ""}</td>
+            <td>${result.long ?? "---"} ${result.long_time_diff ?? ""}</td>
             <td>${result.relay ?? "---"}</td>
         </tr>`;
             }
