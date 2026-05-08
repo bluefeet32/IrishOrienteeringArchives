@@ -431,7 +431,6 @@ const getRunnerTable = () => {
                         if (result) {
                             if (!data.hasOwnProperty(ageClass)) data[ageClass] = [];
                         }
-                        // console.log(winnerData);
                     }
                 }
             }
@@ -479,7 +478,6 @@ const getRunnerTable = () => {
         },
         // Our times are all in the format "MMM:SS"
         _getRunnerTime(time) {
-            console.log(time);
             timeParts = time.split(":").map(part => parseInt(part));
             hours = Math.floor(timeParts[0] / 60);
             minutes = timeParts[0] % 60;
