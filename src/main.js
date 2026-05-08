@@ -450,6 +450,36 @@ const getRunnerTable = () => {
             params.set("class", this.currentClass);
             history.replaceState(null, null, "?" + params.toString());
         },
+        onClickCopy() {
+            let copy_text = `
+<table class="table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Sprint</th>
+            <th>Middle</th>
+            <th>Long</th>
+            <th>Relay</th>
+        </tr>
+    </thead>
+    <tbody>
+            `;
+            results = this.currentResults;
+            for (const result of results) {
+                console.log(result);
+                copy_text += `
+        <tr>
+            <td>${result.year}</td>
+            <td>${result.sprint ?? "---"}</td>
+            <td>${result.middle ?? "---"}</td>
+            <td>${result.long ?? "---"}</td>
+            <td>${result.relay ?? "---"}</td>
+        </tr>`;
+            }
+            copy_text += `\n    </tbody>\n</table>`;
+            navigator.clipboard.writeText(copy_text);
+            alert("Copied HTML of table to clipboard");
+        },
     };
 };
 

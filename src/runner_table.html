@@ -20,7 +20,14 @@
                     </template>
                 </ul>
             </div>
-            <table class="table">
+            <div>
+                 <a
+                    class="button"
+                    @click="onClickCopy()"
+                >copy table</a>
+            </div>
+
+            <table class="table" id="runner-table">
                 <thead>
                     <tr>
                         <th>Year</th>
