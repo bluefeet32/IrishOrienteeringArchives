@@ -389,27 +389,7 @@ const getRunnerTable = () => {
             results =  (this.allResults?.[this.currentClass] || [])?.sort((a, b) => b.year - a.year);
             return results
         },
-        get sprintResults() {
-            return (this.allResults?.[this.currentClass]?.['sprint'] || []).sort((a, b) => b.year - a.year);
-        },
-        get middleResults() {
-            return (this.allResults?.[this.currentClass]?.['middle'] || []).sort((a, b) => b.year - a.year);
-        },
-        get longResults() {
-            return (this.allResults?.[this.currentClass]?.['long'] || []).sort((a, b) => b.year - a.year);
-        },
-        get relayResults() {
-            return (this.allResults?.[this.currentClass]?.['relay'] || []).sort((a, b) => b.year - a.year);
-        },
-        get currentYearResults() {
-            return (this.allResults?.[this.currentClass]?.[this.currentCourse] || []).sort((a, b) => b.year - a.year);
-        },
         currentClass: "",
-        currentCourse: "",
-        onClickCourse(course) {
-            this.currentCourse = course;
-            this._setUrlParams();
-        },
         // class is keyword, hence ageClass
         onClickClass(ageClass) {
             this.currentClass = ageClass;
