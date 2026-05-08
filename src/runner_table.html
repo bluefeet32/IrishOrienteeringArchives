@@ -50,20 +50,20 @@
                             <td x-text="result.year"></td>
                             <td><a
                                 class="button"
-                                :href="`results.html?year=${result.year}&class=sprint&course=${currentCourse}`"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=sprint`"
                                 x-text="`${result.sprint} ${result.sprint_time_diff}`"></td>
                             <td><a
                                 class="button"
-                                :href="`results.html?year=${result.year}&class=middle&course=${currentCourse}`"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=middle`"
                                 x-text="`${result.middle} ${result.middle_time_diff}`"></td>
                             <td><a
                                 class="button"
-                                :href="`results.html?year=${result.year}&class=long&course=${currentCourse}`"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=long`"
                                 x-text="`${result.long} ${result.long_time_diff}`"></td>
                              <!-- Relay time diff makes less sense because we only have the individual times -->
                             <td><a
                                 class="button"
-                                :href="`results.html?year=${result.year}&class=relay&course=${currentCourse}`"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=relay`"
                                 x-text="result.relay"></td>
                         </tr>
                     </template>
