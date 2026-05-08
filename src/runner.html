@@ -37,52 +37,54 @@
                         >Overview Table</a></li>
                 </ul>
             </div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Year</th>
-                        <th>Area</th>
-                        <th>Position</th>
-                        <th>Name</th>
-                        <th>Club</th>
-                        <th>Points</th>
-                        <th>Time</th>
-                        <th>N/C</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template x-for="result in currentResults" :key="result.year">
-                        <tr :class="result.eligible ? '' : 'greyed'">
-                            <td>
-                                <a
-                                    class="button"
-                                    :href="`results.html?year=${result.year}&class=${currentClass}&course=${currentCourse}`"
-                                    x-text="result.year"
-                                ></a>
-                            </td>
-                            <td>
-                                <a
-                                    class="button"
-                                    :href="result.map"
-                                    x-text="result.area"
-                                ></a>
-                            </td>
-                            <td x-text="result.position"></td>
-                            <td x-text="result.name"></td>
-                            <td x-text="result.club"></td>
-                            <td>
-                                <a
-                                    class="button"
-                                    :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
-                                    x-text="result.points"
-                                ></a>
-                            </td>
-                            <td x-text="result.time"></td>
-                            <td x-text="result.eligible ? '' : 'x'"></td>
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Area</th>
+                            <th>Position</th>
+                            <th>Name</th>
+                            <th>Club</th>
+                            <th>Points</th>
+                            <th>Time</th>
+                            <th>N/C</th>
                         </tr>
-                    </template>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        <template x-for="result in currentResults" :key="result.year">
+                            <tr :class="result.eligible ? '' : 'greyed'">
+                                <td>
+                                    <a
+                                        class="button"
+                                        :href="`results.html?year=${result.year}&class=${currentClass}&course=${currentCourse}`"
+                                        x-text="result.year"
+                                    ></a>
+                                </td>
+                                <td>
+                                    <a
+                                        class="button"
+                                        :href="result.map"
+                                        x-text="result.area"
+                                    ></a>
+                                </td>
+                                <td x-text="result.position"></td>
+                                <td x-text="result.name"></td>
+                                <td x-text="result.club"></td>
+                                <td>
+                                    <a
+                                        class="button"
+                                        :href="`ranking.html?class=${currentClass}&course=${currentCourse}`"
+                                        x-text="result.points"
+                                    ></a>
+                                </td>
+                                <td x-text="result.time"></td>
+                                <td x-text="result.eligible ? '' : 'x'"></td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <script type="text/javascript" src="main.js"></script>
     </body>

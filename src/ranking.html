@@ -42,7 +42,7 @@
                     <button @click="onClickScroll('right')"
                         class="scroll-arrow scroll-right button is-size-4 has-text-weight-bold">&gt;</button>
                 </div>
-                <div class="table-container">
+                <div class="table-container" :class="currentAreas ? 'has-area-header' : ''">
                     <table class="table is-striped is-hoverable">
                         <thead>
                             <tr class="area-header" x-show="currentAreas">
