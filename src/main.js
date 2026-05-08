@@ -395,6 +395,18 @@ const getRunnerTable = () => {
             this.currentClass = ageClass;
             this._setUrlParams();
         },
+        _getOrdinal(n) {
+            if (n % 10 == 1 && n % 100 != 11) {
+                ord = 'st';
+            } else if (n % 10 == 2 && n % 100 != 12) {
+                ord = 'nd';
+            } else if (n % 10 == 3 && n % 100 != 13) {
+                ord = 'rd';
+            } else {
+                ord = 'th';
+            }
+            return ord;
+        },
         formatResults() {
             const data = {}; // will populate as data[ageClass][course] = [{year, position, time, area, map}, ...] 
             const winnerData = {};
@@ -421,7 +433,7 @@ const getRunnerTable = () => {
                         ageClassData = courseData.classes?.[ageClass];
                         const result = ageClassData.results.find((runner) => runner.name === this.name);
                         if (result) {
-                            yearResult[course] = result.position != null ? result.position : "DQ";
+                            yearResult[course] = result.position != null ? result.position + this._getOrdinal(result.position) : "DQ";
                             if (result.time != null && winnerData?.[year]?.[ageClass]?.[course] != null) {
                                 runner_time = this._getRunnerTime(result.time);
                                 winner_time = this._getRunnerTime(winnerData?.[year]?.[ageClass]?.[course]);
