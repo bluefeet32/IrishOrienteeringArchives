@@ -479,17 +479,9 @@ const getRunnerTable = () => {
             history.replaceState(null, null, "?" + params.toString());
         },
         onClickCopy() {
-            let copy_text = document.getElementById("runner-table").outerHTML;
-            // This copies the table verbatim from the code
-            // We want to remove the Alpine elements and internal links as these won't work.
-            const stripLinkHTMLTags = str => str.replace(/<(\/|)(a|template)[^>]*>/g, '');
-            const stripXText = str => str.replace(/ x-text[^>]*/g, '');
-            const stripComments = str => str.replace(/<!--[\s\S]*?-->/g, '');
-            const stripBlankLines = str => str.replace(/^\s*[\r\n]/gm, '');
-            copy_text = stripLinkHTMLTags(copy_text);
-            copy_text = stripXText(copy_text);
-            copy_text = stripComments(copy_text);
-            copy_text = stripBlankLines(copy_text);
+            let copy_text = document.getElementById('runner-table').outerHTML.replace(
+                /(\s(x-|:).*?\".*?\")|(<\/?template.*?>)|(<\!--.*?-->)/g, '').replaceAll(
+                    'href="', 'href="https://bluefeet32.github.io/IrishOrienteeringArchives/src/')
             navigator.clipboard.writeText(copy_text);
             alert("Copied HTML of table to clipboard" + copy_text);
         },
