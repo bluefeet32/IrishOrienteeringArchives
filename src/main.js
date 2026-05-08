@@ -479,34 +479,19 @@ const getRunnerTable = () => {
             history.replaceState(null, null, "?" + params.toString());
         },
         onClickCopy() {
-            let copy_text = `
-<table class="table">
-    <thead>
-        <tr>
-            <th>Year</th>
-            <th>Sprint</th>
-            <th>Middle</th>
-            <th>Long</th>
-            <th>Relay</th>
-        </tr>
-    </thead>
-    <tbody>
-            `;
-            results = this.currentResults;
-            for (const result of results) {
-                console.log(result);
-                copy_text += `
-        <tr>
-            <td>${result.year}</td>
-            <td>${result.sprint ?? "---"} ${result.sprint_time_diff ?? ""}</td>
-            <td>${result.middle ?? "---"} ${result.middle_time_diff ?? ""}</td>
-            <td>${result.long ?? "---"} ${result.long_time_diff ?? ""}</td>
-            <td>${result.relay ?? "---"}</td>
-        </tr>`;
-            }
-            copy_text += `\n    </tbody>\n</table>`;
+            let copy_text = document.getElementById("runner-table").outerHTML;
+            // This copies the table verbatim from the code
+            // We want to remove the Alpine elements and internal links as these won't work.
+            const stripLinkHTMLTags = str => str.replace(/<(\/|)(a|template)[^>]*>/g, '');
+            const stripXText = str => str.replace(/ x-text[^>]*/g, '');
+            const stripComments = str => str.replace(/<!--[\s\S]*?-->/g, '');
+            const stripBlankLines = str => str.replace(/^\s*[\r\n]/gm, '');
+            copy_text = stripLinkHTMLTags(copy_text);
+            copy_text = stripXText(copy_text);
+            copy_text = stripComments(copy_text);
+            copy_text = stripBlankLines(copy_text);
             navigator.clipboard.writeText(copy_text);
-            alert("Copied HTML of table to clipboard");
+            alert("Copied HTML of table to clipboard" + copy_text);
         },
     };
 };
