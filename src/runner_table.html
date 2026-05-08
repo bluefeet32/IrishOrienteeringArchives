@@ -36,11 +36,16 @@
             </div>
 
             <table class="table" id="runner-table">
+                <style>
+                    #runner-table th, #runner-table td {
+                        text-align: center;
+                    }
+                </style>
                 <thead>
                     <tr>
                         <th>Year</th>
                         <template x-for="course in courses" :key="course">
-                        <th x-text="capitalizeFirstLetter(course)"></th>
+                            <th x-text="capitalizeFirstLetter(course)"></th>
                         </template>
                     </tr>
                 </thead>
@@ -51,15 +56,15 @@
                             <td><a
                                 class="button"
                                 :href="`results.html?year=${result.year}&class=${currentClass}&course=sprint`"
-                                x-text="`${result.sprint} ${result.sprint_time_diff}`"></td>
+                                x-text="`${result.sprint}${result.sprint_time_diff}`"></td>
                             <td><a
                                 class="button"
                                 :href="`results.html?year=${result.year}&class=${currentClass}&course=middle`"
-                                x-text="`${result.middle} ${result.middle_time_diff}`"></td>
+                                x-text="`${result.middle}${result.middle_time_diff}`"></td>
                             <td><a
                                 class="button"
                                 :href="`results.html?year=${result.year}&class=${currentClass}&course=long`"
-                                x-text="`${result.long} ${result.long_time_diff}`"></td>
+                                x-text="`${result.long}${result.long_time_diff}`"></td>
                              <!-- Relay time diff makes less sense because we only have the individual times -->
                             <td><a
                                 class="button"

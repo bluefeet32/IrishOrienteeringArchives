@@ -441,7 +441,7 @@ const getRunnerTable = () => {
                             } else {
                             difference = ""
                             }
-                            yearResult[course + "_time_diff"] = ` ${difference}`;
+                            yearResult[course + "_time_diff"] = `${difference}`;
                         }
                     }
                     if (Object.keys(yearResult).length > 1) {
@@ -465,6 +465,7 @@ const getRunnerTable = () => {
                     }
                 }
             }
+            console.log(data);
             return data;
         },
         // Our times are all in the format "MMM:SS"
@@ -482,7 +483,7 @@ const getRunnerTable = () => {
             differenceSeconds = Math.round(difference / 1000);
             minutes = Math.floor(differenceSeconds / 60);
             seconds = differenceSeconds % 60;
-            return "(+" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0') + ")";
+            return " (+" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0') + ")";
         },
         _setUrlParams() {
             const params = new URLSearchParams(document.location.search);
@@ -492,8 +493,9 @@ const getRunnerTable = () => {
         },
         onClickCopy() {
             let copy_text = document.getElementById('runner-table').outerHTML.replace(
-                /(\s(x-|:).*?\".*?\")|(<\/?template.*?>)|(<\!--.*?-->)/g, '').replaceAll(
+                /(\s(x-|:).*?\".*?\")|(<\!--.*?-->)/g, '').replaceAll(
                     'href="', 'href="https://bluefeet32.github.io/IrishOrienteeringArchives/src/')
+            copy_text = copy_text.replaceAll(/<template>[\s\S]*?<\/template>/gm, '');
             navigator.clipboard.writeText(copy_text);
             alert("Copied HTML of table to clipboard" + copy_text);
         },
