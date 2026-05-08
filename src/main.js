@@ -408,7 +408,7 @@ const getRunnerTable = () => {
             return ord;
         },
         formatResults() {
-            const data = {}; // will populate as data[ageClass][course] = [{year, position, time, area, map}, ...] 
+            const data = {}; // will populate as data[ageClass][course] = [{year, ...}, ...] 
             const winnerData = {};
             for (const [year, courses] of Object.entries(this.allYears)) {
                 for (const [course, courseData] of Object.entries(courses)) {
@@ -437,12 +437,11 @@ const getRunnerTable = () => {
                             if (result.time != null && winnerData?.[year]?.[ageClass]?.[course] != null) {
                                 runner_time = this._getRunnerTime(result.time);
                                 winner_time = this._getRunnerTime(winnerData?.[year]?.[ageClass]?.[course]);
-    
                                 difference = this._timeDiffToString(runner_time - winner_time);
                             } else {
                             difference = ""
                             }
-                            yearResult[course + "_time_diff"] = `${difference}`;
+                            yearResult[course + "_time_diff"] = ` ${difference}`;
                         }
                     }
                     if (Object.keys(yearResult).length > 1) {
@@ -479,6 +478,7 @@ const getRunnerTable = () => {
         },
         _timeDiffToString(difference) {
             if (difference === undefined || isNaN(difference)) return "";
+            if (difference === 0) return "";
             differenceSeconds = Math.round(difference / 1000);
             minutes = Math.floor(differenceSeconds / 60);
             seconds = differenceSeconds % 60;
