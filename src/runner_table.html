@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+
+    <body x-data="layout()">
+        <div id="navbar-container"></div>
+
+        <div x-data="getRunnerTable()">
+            <h3 class="title is-3" x-text="name"></h3>
+            <div class="tabs is-boxed">
+                <ul>
+                    <template x-for="oClass in classes" :key="oClass">
+                        <li :class="currentClass === oClass ? 'is-active' : ''" @click="onClickClass(oClass)">
+                            <a x-text="oClass.toUpperCase()"></a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <div class="tabs is-boxed">
+                <ul>
+                    <li><a :href="`runner.html?name=${name}&class=${currentClass}`"
+                        >Detailed Results</a></li>
+                    <li><a :href="`runner_table.html?name=${name}&class=${currentClass}`"
+                        >Overview Table</a></li>
+                </ul>
+            </div>
+            <div>
+                <a
+                    class="button"
+                    @click="onClickCopy()"
+                >copy HTML table</a>
+            </div>
+
+            <table class="table" id="runner-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <template x-for="course in courses" :key="course">
+                        <th x-text="capitalizeFirstLetter(course)"></th>
+                        </template>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template x-for="result in currentResults" :key="result.year">
+                        <tr>
+                            <td x-text="result.year"></td>
+                            <td><a
+                                class="button"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=sprint`"
+                                x-text="`${result.sprint} ${result.sprint_time_diff}`"></td>
+                            <td><a
+                                class="button"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=middle`"
+                                x-text="`${result.middle} ${result.middle_time_diff}`"></td>
+                            <td><a
+                                class="button"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=long`"
+                                x-text="`${result.long} ${result.long_time_diff}`"></td>
+                             <!-- Relay time diff makes less sense because we only have the individual times -->
+                            <td><a
+                                class="button"
+                                :href="`results.html?year=${result.year}&class=${currentClass}&course=relay`"
+                                x-text="result.relay"></td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

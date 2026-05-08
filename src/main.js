@@ -351,6 +351,167 @@ const getRunner = () => {
 };
 
 
+const getRunnerTable = () => {
+    return {
+        async init() {
+            const params = new URLSearchParams(document.location.search);
+            this.name = params.get("name");
+            // this.currentCourse = params.get("course");
+            this.currentClass = params.get("class");
+
+            await this.loadAllYears();
+            this.allResults = this.formatResults();
+
+            if (!this.currentClass || !this.classes.includes(this.currentClass)) this.currentClass = this.classes[0];
+            if (!this.currentCourse || !this.courses.includes(this.currentCourse)) this.currentCourse = this.courses[0];
+            this._setUrlParams();
+
+            // console.log(this.allResults);
+        },
+        name: "",
+        allYears: {},
+        async loadAllYears() {
+            const years = await (await fetch("./data/years.json")).json();
+            const data = {};
+            for (const year of years) {
+                data[year] = await (await fetch(`./data/${year}.json`)).json();
+            }
+            this.allYears = data;
+        },
+        allResults: {},
+        get classes() {
+            return Object.keys(this.allResults);
+        },
+        get courses() {
+            return ['sprint', 'middle', 'long', 'relay'];
+        },
+        get currentResults() {
+            results =  (this.allResults?.[this.currentClass] || [])?.sort((a, b) => b.year - a.year);
+            return results
+        },
+        currentClass: "",
+        // class is keyword, hence ageClass
+        onClickClass(ageClass) {
+            this.currentClass = ageClass;
+            this._setUrlParams();
+        },
+        formatResults() {
+            const data = {}; // will populate as data[ageClass][course] = [{year, position, time, area, map}, ...] 
+            const winnerData = {};
+            for (const [year, courses] of Object.entries(this.allYears)) {
+                for (const [course, courseData] of Object.entries(courses)) {
+                    for (const [ageClass, ageClassData] of Object.entries(courseData.classes)) {
+                        const result = ageClassData.results.find((runner) => runner.name === this.name);
+                        const winner = ageClassData.results.find((runner) => runner.position === 1);
+                         if (winner) {
+                            if (!winnerData.hasOwnProperty(year)) winnerData[year] = {};
+                            if (!winnerData[year].hasOwnProperty(ageClass)) winnerData[year][ageClass] = {};
+                            if (!winnerData[year][ageClass].hasOwnProperty(course)) winnerData[year][ageClass][course] = winner.time;
+                         }
+                        if (result) {
+                            if (!data.hasOwnProperty(ageClass)) data[ageClass] = [];
+                        }
+                    }
+                }
+            }
+            for (const ageClass in data) {
+                for (const [year, courses] of Object.entries(this.allYears)) {
+                    yearResult = {'year': year};
+                    for (const [course, courseData] of Object.entries(courses)) {
+                        ageClassData = courseData.classes?.[ageClass];
+                        const result = ageClassData.results.find((runner) => runner.name === this.name);
+                        if (result) {
+                            yearResult[course] = result.position != null ? result.position : "DQ";
+                            if (result.time != null && winnerData?.[year]?.[ageClass]?.[course] != null) {
+                                runner_time = this._getRunnerTime(result.time);
+                                winner_time = this._getRunnerTime(winnerData?.[year]?.[ageClass]?.[course]);
+    
+                                difference = this._timeDiffToString(runner_time - winner_time);
+                            } else {
+                            difference = ""
+                            }
+                            yearResult[course + "_time_diff"] = `${difference}`;
+                        }
+                    }
+                    if (Object.keys(yearResult).length > 1) {
+                        if (yearResult['sprint'] === undefined) {
+                            yearResult['sprint'] = "---";
+                            yearResult['sprint_time_diff'] = "";
+                        }
+                        if (yearResult['middle'] === undefined) {
+                            yearResult['middle'] = "---";
+                            yearResult['middle_time_diff'] = "";
+                        }
+                        if (yearResult['long'] === undefined) {
+                            yearResult['long'] = "---";
+                            yearResult['long_time_diff'] = "";
+                        }
+                        if (yearResult['relay'] === undefined) {
+                            yearResult['relay'] = "---";
+                            yearResult['relay_time_diff'] = "";
+                        }
+                        data[ageClass].push(yearResult);
+                    }
+                }
+            }
+            return data;
+        },
+        // Our times are all in the format "MMM:SS"
+        _getRunnerTime(time) {
+            timeParts = time.split(":").map(part => parseInt(part));
+            hours = Math.floor(timeParts[0] / 60);
+            minutes = timeParts[0] % 60;
+            seconds = timeParts[1];
+            time_to_parse = String(hours).padStart(2, '0') + ":" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0');
+            return new Date("1970-01-01T" + time_to_parse);
+        },
+        _timeDiffToString(difference) {
+            if (difference === undefined || isNaN(difference)) return "";
+            differenceSeconds = Math.round(difference / 1000);
+            minutes = Math.floor(differenceSeconds / 60);
+            seconds = differenceSeconds % 60;
+            return "(+" + String(minutes).padStart(2, '0') + ":" + String(seconds).padStart(2, '0') + ")";
+        },
+        _setUrlParams() {
+            const params = new URLSearchParams(document.location.search);
+            params.set("name", this.name);
+            params.set("class", this.currentClass);
+            history.replaceState(null, null, "?" + params.toString());
+        },
+        onClickCopy() {
+            let copy_text = `
+<table class="table">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Sprint</th>
+            <th>Middle</th>
+            <th>Long</th>
+            <th>Relay</th>
+        </tr>
+    </thead>
+    <tbody>
+            `;
+            results = this.currentResults;
+            for (const result of results) {
+                console.log(result);
+                copy_text += `
+        <tr>
+            <td>${result.year}</td>
+            <td>${result.sprint ?? "---"} ${result.sprint_time_diff ?? ""}</td>
+            <td>${result.middle ?? "---"} ${result.middle_time_diff ?? ""}</td>
+            <td>${result.long ?? "---"} ${result.long_time_diff ?? ""}</td>
+            <td>${result.relay ?? "---"}</td>
+        </tr>`;
+            }
+            copy_text += `\n    </tbody>\n</table>`;
+            navigator.clipboard.writeText(copy_text);
+            alert("Copied HTML of table to clipboard");
+        },
+    };
+};
+
+
 const getRankings = () => {
     return {
         async init() {

@@ -29,6 +29,14 @@
                     </template>
                 </ul>
             </div>
+            <div class="tabs is-boxed">
+                <ul>
+                    <li><a :href="`runner.html?name=${name}&class=${currentClass}`"
+                        >Detailed Results</a></li>
+                    <li><a :href="`runner_table.html?name=${name}&class=${currentClass}`"
+                        >Overview Table</a></li>
+                </ul>
+            </div>
             <table class="table">
                 <thead>
                     <tr>
