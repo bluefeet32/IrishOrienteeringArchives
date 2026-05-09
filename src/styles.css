@@ -178,7 +178,7 @@ button.button:hover {
 .table-container {
     position: relative;
     max-width: 100%;
-    max-height: min(72vh, 820px);
+    max-height: 85vh;
     margin: 1rem 0 1.4rem;
     overflow: auto;
     overscroll-behavior: contain;
