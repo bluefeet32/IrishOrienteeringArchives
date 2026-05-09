@@ -1,0 +1,352 @@
+[
+  {
+    "year": "2026",
+    "sprint": "University of Limerick",
+    "middle": "Caher",
+    "long": "",
+    "relay": ""
+  },
+  {
+    "year": "2025",
+    "sprint": "UU Coleraine",
+    "middle": "Magilligan North",
+    "long": "Magilligan Strand",
+    "relay": "Lower Drummans"
+  },
+  {
+    "year": "2024",
+    "sprint": "Maynooth University",
+    "middle": "Aughrane Wood",
+    "long": "Slieve Bawn",
+    "relay": "Strokestown House"
+  },
+  {
+    "year": "2023",
+    "sprint": "Glending",
+    "middle": "Stranahely",
+    "long": "Devil's Glen",
+    "relay": "Tottenham Estate"
+  },
+  {
+    "year": "2022",
+    "sprint": "Muckross House Estate",
+    "middle": "Cappanalea",
+    "long": "Crohane Lake",
+    "relay": "Knockreer House Estate"
+  },
+  {
+    "year": "2021",
+    "sprint": "",
+    "middle": "",
+    "long": "Covid",
+    "relay": ""
+  },
+  {
+    "year": "2020",
+    "sprint": "",
+    "middle": "",
+    "long": "Covid",
+    "relay": ""
+  },
+  {
+    "year": "2019",
+    "sprint": "Florence Court Estate",
+    "middle": "Castle Archdale",
+    "long": "Cavan Burren Park",
+    "relay": "Parkanaur Forest Park"
+  },
+  {
+    "year": "2018",
+    "sprint": "IT Sligo",
+    "middle": "Barnesmore West",
+    "long": "Tawnawully",
+    "relay": "Finner Sand Dunes"
+  },
+  {
+    "year": "2017",
+    "sprint": "Dublin City University",
+    "middle": "Leim Oirthear",
+    "long": "Sruth an Iolra",
+    "relay": "Derreighter"
+  },
+  {
+    "year": "2016",
+    "sprint": "WIT Main Campus",
+    "middle": "Coumshingaun",
+    "long": "Mahon Falls",
+    "relay": "Towers"
+  },
+  {
+    "year": "2015",
+    "sprint": "Laurelhill Sportszone",
+    "middle": "Magilligan Strand",
+    "long": "Slieve Croob",
+    "relay": "Hillsborough Forest"
+  },
+  {
+    "year": "2014",
+    "sprint": "Maynooth",
+    "middle": "Camaderry",
+    "long": "Lough Firrib",
+    "relay": "Glenreemore Valley"
+  },
+  {
+    "year": "2013",
+    "sprint": "",
+    "middle": "Cnoc Mham na mBo",
+    "long": "Lough an Cogair",
+    "relay": "Leim Oirthair"
+  },
+  {
+    "year": "2012",
+    "sprint": "",
+    "middle": "Castlegregory Sand Dunes",
+    "long": "Inch",
+    "relay": "Maharees"
+  },
+  {
+    "year": "2011",
+    "sprint": "",
+    "middle": "Glendoo Ridge East",
+    "long": "Brockagh",
+    "relay": "Glendoo Ridge West"
+  },
+  {
+    "year": "2010",
+    "sprint": "UU Coleraine",
+    "middle": "",
+    "long": "Magilligan Strand",
+    "relay": "Lower Drummans"
+  },
+  {
+    "year": "2009",
+    "sprint": "Ross Island",
+    "middle": "Benson Hill",
+    "long": "Tawnawully",
+    "relay": "Croaghmeenare"
+  },
+  {
+    "year": "2008",
+    "sprint": "",
+    "middle": "Bere Island",
+    "long": "Bere Island",
+    "relay": "Bere Island"
+  },
+  {
+    "year": "2007",
+    "sprint": "",
+    "middle": "Crossmurrin",
+    "long": "Conagher & Callow Hill",
+    "relay": "John F. Kennedy Arboretum"
+  },
+  {
+    "year": "2006",
+    "sprint": "Belvedere",
+    "middle": "Foxes Rock",
+    "long": "Slieve Foye – Carlingford",
+    "relay": "Carlingford"
+  },
+  {
+    "year": "2005",
+    "sprint": "",
+    "middle": "Inishbofin",
+    "long": "Inishbofin",
+    "relay": "Inishbofin"
+  },
+  {
+    "year": "2004",
+    "sprint": "",
+    "middle": "Banna Strand",
+    "long": "Inch",
+    "relay": "Castlegregory"
+  },
+  {
+    "year": "2003",
+    "sprint": "",
+    "middle": "",
+    "long": "Slievenagore",
+    "relay": "Castleward"
+  },
+  {
+    "year": "2002",
+    "sprint": "",
+    "middle": "",
+    "long": "Scarr",
+    "relay": "Phoenix Park"
+  },
+  {
+    "year": "2001",
+    "sprint": "",
+    "middle": "",
+    "long": "Mullaghmeen",
+    "relay": ""
+  },
+  {
+    "year": "2000",
+    "sprint": "",
+    "middle": "",
+    "long": "Bawnreagh",
+    "relay": "Charleville Estate"
+  },
+  {
+    "year": "1999",
+    "sprint": "",
+    "middle": "",
+    "long": "Crohane",
+    "relay": ""
+  },
+  {
+    "year": "1998",
+    "sprint": "",
+    "middle": "",
+    "long": "Slieve Gullion",
+    "relay": ""
+  },
+  {
+    "year": "1997",
+    "sprint": "",
+    "middle": "",
+    "long": "Glendalough",
+    "relay": ""
+  },
+  {
+    "year": "1996",
+    "sprint": "",
+    "middle": "",
+    "long": "Woodford",
+    "relay": "Portumna Forest Park"
+  },
+  {
+    "year": "1995",
+    "sprint": "",
+    "middle": "",
+    "long": "The Black Lakes",
+    "relay": ""
+  },
+  {
+    "year": "1994",
+    "sprint": "",
+    "middle": "",
+    "long": "The Burren",
+    "relay": ""
+  },
+  {
+    "year": "1993",
+    "sprint": "",
+    "middle": "",
+    "long": "Carlingford",
+    "relay": ""
+  },
+  {
+    "year": "1992",
+    "sprint": "",
+    "middle": "",
+    "long": "Corr na Mona",
+    "relay": ""
+  },
+  {
+    "year": "1991",
+    "sprint": "",
+    "middle": "",
+    "long": "Rossadrehid",
+    "relay": ""
+  },
+  {
+    "year": "1990",
+    "sprint": "",
+    "middle": "",
+    "long": "Binevenagh",
+    "relay": ""
+  },
+  {
+    "year": "1989",
+    "sprint": "",
+    "middle": "",
+    "long": "Ravensdale Wood",
+    "relay": ""
+  },
+  {
+    "year": "1988",
+    "sprint": "",
+    "middle": "",
+    "long": "Slish Wood & Killery",
+    "relay": "Lough Key"
+  },
+  {
+    "year": "1987",
+    "sprint": "",
+    "middle": "",
+    "long": "Glengarriff",
+    "relay": ""
+  },
+  {
+    "year": "1986",
+    "sprint": "",
+    "middle": "",
+    "long": "Slieve Croob",
+    "relay": ""
+  },
+  {
+    "year": "1985",
+    "sprint": "",
+    "middle": "",
+    "long": "Glendalough",
+    "relay": ""
+  },
+  {
+    "year": "1984",
+    "sprint": "",
+    "middle": "",
+    "long": "Killary",
+    "relay": "Killary"
+  },
+  {
+    "year": "1983",
+    "sprint": "",
+    "middle": "",
+    "long": "Ballyhouirgan",
+    "relay": ""
+  },
+  {
+    "year": "1981",
+    "sprint": "",
+    "middle": "",
+    "long": "Curraghcloe",
+    "relay": ""
+  },
+  {
+    "year": "1980",
+    "sprint": "",
+    "middle": "",
+    "long": "Rockmarshall",
+    "relay": ""
+  },
+  {
+    "year": "1978",
+    "sprint": "",
+    "middle": "",
+    "long": "Glendav",
+    "relay": ""
+  },
+  {
+    "year": "1977",
+    "sprint": "",
+    "middle": "",
+    "long": "Kinnity (Castle Bernard)",
+    "relay": "Unknown"
+  },
+  {
+    "year": "1976",
+    "sprint": "",
+    "middle": "",
+    "long": "Glen of Imaal",
+    "relay": ""
+  },
+  {
+    "year": "1975",
+    "sprint": "",
+    "middle": "",
+    "long": "Trooperstown",
+    "relay": "Kilmurry"
+  }
+]
