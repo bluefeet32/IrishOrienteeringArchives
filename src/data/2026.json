@@ -519,7 +519,7 @@
           },
           {
             "position": 8,
-            "name": "Aoife O’Sullivan",
+            "name": "Aoife Oï¿½Sullivan",
             "club": "UCDO",
             "time": "85:48",
             "eligible": true
@@ -565,6 +565,297 @@
             "club": "WRE",
             "time": "DNF",
             "eligible": false
+          }
+        ]
+      }
+    }
+  },
+  "long": {
+    "area": "Rosskerrig",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=23427",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": 12.3,
+        "climb": 550,
+        "controls": 20,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Colm Moran",
+            "club": "3ROC",
+            "time": "121:58",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niall McCarthy",
+            "club": "BOC",
+            "time": "122:08",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Liam Cotter",
+            "club": "KERRYO",
+            "time": "128:03",
+            "eligible": true
+          },
+          {
+            "position": 4,
+            "name": "Daire O'Brien",
+            "club": "KERRYO",
+            "time": "134:01",
+            "eligible": true
+          },
+          {
+            "position": 5,
+            "name": "Ruairi Short",
+            "club": "CNOC",
+            "time": "143:21",
+            "eligible": true
+          },
+          {
+            "position": 6,
+            "name": "Marcus Pinker",
+            "club": "CORKO",
+            "time": "145:32",
+            "eligible": true
+          },
+          {
+            "position": 7,
+            "name": "Valdas Tilunas",
+            "club": "3ROC",
+            "time": "163:20",
+            "eligible": true
+          },
+          {
+            "position": 8,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "CORKO",
+            "time": "164:30",
+            "eligible": true
+          },
+          {
+            "position": 9,
+            "name": "Cormac Watson",
+            "club": "IND",
+            "time": "187:21",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "James Haynes",
+            "club": "3ROC",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": 10,
+            "name": "Shane Lynch",
+            "club": "CORKO",
+            "time": "141:40",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Fionn O'Callaghan",
+            "club": "BOC",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 7.99,
+        "climb": 300,
+        "controls": 18,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Clodagh Moran",
+            "club": "3ROC",
+            "time": "110:07",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niamh Corbett",
+            "club": "CORKO",
+            "time": "110:59",
+            "eligible": true
+          },
+          {
+            "position": 3,
+            "name": "Niamh O'Boyle",
+            "club": "CNOC",
+            "time": "112:28",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Aoife Begley",
+            "club": "IND",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Aoife McCavana",
+            "club": "GEN",
+            "time": "DNF",
+            "eligible": false
+          }
+        ]
+      }
+    }
+  },
+  "relay": {
+    "area": "Rossnacaheragh",
+    "results_url": "https://www.orienteering.ie/result2/?oaction=moreResult&id=23424",
+    "map_url": "",
+    "classes": {
+      "m21": {
+        "distance": 4.8,
+        "climb": 190,
+        "controls": 22,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "James Haynes",
+            "club": "3ROC",
+            "time": "44:32",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Valdas Tilunas",
+            "club": "3ROC",
+            "time": "43:43",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Colm Moran",
+            "club": "3ROC",
+            "time": "36:42",
+            "eligible": true
+          },
+          {
+            "position": null,
+            "name": "Liam Cotter",
+            "club": "KERRYO",
+            "time": "44:23",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Eve Buckley",
+            "club": "KERRYO",
+            "time": "42:18",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Daire O'Brien",
+            "club": "KERRYO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Josh O'Sullivan-Hourihan",
+            "club": "CORKO",
+            "time": "44:12",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Cillin Corbett",
+            "club": "CORKO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Shane Lynch",
+            "club": "CORKO",
+            "time": "38:30",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Fionn O'Callaghan",
+            "club": "CORKO",
+            "time": "63:57",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Naji Naji",
+            "club": "CORKO",
+            "time": "DNF",
+            "eligible": false
+          },
+          {
+            "position": null,
+            "name": "Blank 0",
+            "club": "CORKO",
+            "time": "",
+            "eligible": false
+          }
+        ]
+      },
+      "w21": {
+        "distance": 4.1,
+        "climb": 155,
+        "controls": 18,
+        "course_image": "",
+        "results": [
+          {
+            "position": 1,
+            "name": "Aoife McCavana",
+            "club": "GEN",
+            "time": "459:19",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Niamh Browne",
+            "club": "GEN",
+            "time": "40:53",
+            "eligible": true
+          },
+          {
+            "position": 1,
+            "name": "Fionnuala Rowe",
+            "club": "GEN",
+            "time": "48:21",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Niamh Corbett",
+            "club": "CORKO",
+            "time": "42:28",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Maru O'Brien",
+            "club": "CORKO",
+            "time": "62:53",
+            "eligible": true
+          },
+          {
+            "position": 2,
+            "name": "Ailbhe Creedon",
+            "club": "CORKO",
+            "time": "61:29",
+            "eligible": true
           }
         ]
       }
