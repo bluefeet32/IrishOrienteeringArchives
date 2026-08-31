@@ -35,45 +35,47 @@
                 >copy HTML table</a>
             </div>
 
-            <table class="table" id="runner-table">
-                <style>
-                    #runner-table th, #runner-table td {
-                        text-align: center;
-                    }
-                </style>
-                <thead>
-                    <tr>
-                        <th>Year</th>
-                        <template x-for="course in courses" :key="course">
-                            <th x-text="capitalizeFirstLetter(course)"></th>
-                        </template>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template x-for="result in currentResults" :key="result.year">
+            <div class="table-container">
+                <table class="table" id="runner-table">
+                    <style>
+                        #runner-table th, #runner-table td {
+                            text-align: center;
+                        }
+                    </style>
+                    <thead>
                         <tr>
-                            <td x-text="result.year"></td>
-                            <td><a
-                                class="button"
-                                :href="`results.html?year=${result.year}&class=${currentClass}&course=sprint`"
-                                x-text="`${result.sprint}${result.sprint_time_diff}`"></td>
-                            <td><a
-                                class="button"
-                                :href="`results.html?year=${result.year}&class=${currentClass}&course=middle`"
-                                x-text="`${result.middle}${result.middle_time_diff}`"></td>
-                            <td><a
-                                class="button"
-                                :href="`results.html?year=${result.year}&class=${currentClass}&course=long`"
-                                x-text="`${result.long}${result.long_time_diff}`"></td>
-                             <!-- Relay time diff makes less sense because we only have the individual times -->
-                            <td><a
-                                class="button"
-                                :href="`results.html?year=${result.year}&class=${currentClass}&course=relay`"
-                                x-text="result.relay"></td>
+                            <th>Year</th>
+                            <template x-for="course in courses" :key="course">
+                                <th x-text="capitalizeFirstLetter(course)"></th>
+                            </template>
                         </tr>
-                    </template>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        <template x-for="result in currentResults" :key="result.year">
+                            <tr>
+                                <td x-text="result.year"></td>
+                                <td><a
+                                    class="button"
+                                    :href="`results.html?year=${result.year}&class=${currentClass}&course=sprint`"
+                                    x-text="`${result.sprint}${result.sprint_time_diff}`"></a></td>
+                                <td><a
+                                    class="button"
+                                    :href="`results.html?year=${result.year}&class=${currentClass}&course=middle`"
+                                    x-text="`${result.middle}${result.middle_time_diff}`"></a></td>
+                                <td><a
+                                    class="button"
+                                    :href="`results.html?year=${result.year}&class=${currentClass}&course=long`"
+                                    x-text="`${result.long}${result.long_time_diff}`"></a></td>
+                                 <!-- Relay time diff makes less sense because we only have the individual times -->
+                                <td><a
+                                    class="button"
+                                    :href="`results.html?year=${result.year}&class=${currentClass}&course=relay`"
+                                    x-text="result.relay"></a></td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <script type="text/javascript" src="main.js"></script>
     </body>

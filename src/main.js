@@ -575,7 +575,7 @@ const getRankings = () => {
             else if (direction === 'right') scrollAmount = scrollAmount;
             else return;
 
-            document.querySelector('body').scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            document.querySelector('.table-container')?.scrollBy({ left: scrollAmount, behavior: 'smooth' });
         },
         addRankedResult(course, resultData, year, points) {
             const result = Object.values(course).find((runner) => runner.name === resultData.name);

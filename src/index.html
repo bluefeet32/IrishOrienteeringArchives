@@ -16,35 +16,37 @@
     <div id="navbar-container"></div>
 
     <div x-data="getOverview()">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th></th>
-                    <template x-for="course in courses" :key="course">
-                        <th>
-                            <p x-text="course"></p>
-                        </th>
-                    </template>
-                </tr>
-            </thead>
-            <tbody>
-                <template x-for="yearData in currentResults" :key="yearData.year">
+        <div class="table-container">
+            <table class="table">
+                <thead>
                     <tr>
-                        <td>
-                            <p x-text="yearData.year"></p>
-                        </td>
+                        <th></th>
                         <template x-for="course in courses" :key="course">
-                            <td>
-                                <template x-if="yearData[course]">
-                                    <a class="button" :href="`results.html?course=${course}&year=${yearData.year}`"
-                                        x-text="yearData[course]"></a>
-                                </template>
-                            </td>
+                            <th>
+                                <p x-text="course"></p>
+                            </th>
                         </template>
                     </tr>
-                </template>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    <template x-for="yearData in currentResults" :key="yearData.year">
+                        <tr>
+                            <td>
+                                <p x-text="yearData.year"></p>
+                            </td>
+                            <template x-for="course in courses" :key="course">
+                                <td>
+                                    <template x-if="yearData[course]">
+                                        <a class="button" :href="`results.html?course=${course}&year=${yearData.year}`"
+                                            x-text="yearData[course]"></a>
+                                    </template>
+                                </td>
+                            </template>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
     </div>
     <script type="text/javascript" src="main.js"></script>
 </body>
