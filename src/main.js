@@ -497,7 +497,7 @@ const getRunnerTable = () => {
                     'href="', 'href="https://bluefeet32.github.io/IrishOrienteeringArchives/src/')
             copy_text = copy_text.replaceAll(/<template>[\s\S]*?<\/template>/gm, '');
             copy_text = copy_text.replaceAll(/\n/g, '');
-            copy_text = copy_text.replaceAll(/\r/g, '');
+            copy_text = copy_text.replaceAll(/\r\n/g, '');
             navigator.clipboard.writeText(copy_text);
             alert("Copied HTML of table to clipboard" + copy_text);
         },
