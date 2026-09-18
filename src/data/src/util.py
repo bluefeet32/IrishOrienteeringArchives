@@ -46,6 +46,7 @@ def ParseName(name: str) -> str:
         ("&#237;", "i"), ("&#243;", "o"), ("&#250;", "u"), ("&#241;", "n"), 
         # Common Typos
         ("' ", "'"),  # e.g. Fix O' Boyle -> O'Boyle
+        ("’", "'"),  # use consistent apostrophe
         ("Mcc", "McC"),  # e.g. Fix Mccann -> McCann
         ("O' ", "O'"),  # e.g. Fix O' Boyle -> O'Boyle
         # Known common misspellings
